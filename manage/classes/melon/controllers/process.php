@@ -44,14 +44,10 @@
 			
 			file_put_contents(\MHS\Env::APP_INSTALL_DIR . "/incl/". $this::EXTRAS_FILE_BR, $text);
 
-		}
-		
-		
-		
-		function processChunk($chunk){
-			
-			//---- setup
-			$this->template->reset();
+
+
+
+
 			
 			$this->LBL = new \MHS\TxtProcessor\LineByLine();
 			$LBL = $this->LBL;
