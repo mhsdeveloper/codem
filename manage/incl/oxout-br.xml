@@ -1,26 +1,3 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc>
-<titleStmt>
-<title/><author>Patricia Kalayjian</author></titleStmt>
-<editionStmt>
-<edition><date>2018-03-02</date></edition></editionStmt>
-<publicationStmt>
-<p>unknown</p>
-</publicationStmt>
-<sourceDesc>
-<p>Converted from a Word document</p>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<appInfo>
-<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0"><label>DOCX to TEI</label></application></appInfo>
-</encodingDesc>
-<revisionDesc>
-<listChange>
-<change><date>2018-04-13T13:47:38Z</date><name>Patricia Kalayjian</name></change></listChange>
-</revisionDesc>
-</teiHeader><text>
-<body>
-<p>{{DOC}}</p>
 <p>1818-Nov-30</p>
 <p>CMS to Robert Sedgwick I</p>
 <p>{{DATELINE}} Stockbridge Nov 30<hi rend="superscript">th</hi> Monday Eve’g. </p>
@@ -33,11 +10,9 @@
 <p>	Cynthia is here and sends her love to you remember me aff’y to all, and tell Theodore and Egbert we all wish very much they were to join us at our Thanksgiving-- God bless you all my dear Robert --Believe me as ever </p>
 <p>{{SIGNED}} thine CMS </p>
 <p>{{PS}}  How are Harry’s eyes? </p>
-<p>{{ADDRESS}Robert Sedgwick Esq’<lb/>Law Building 	Nassau Street<lb/>New York<lb/>For’d by <lb/>Mr. Olmstead</p>
+<p>{{ADDRESS}}Robert Sedgwick Esq’<lb/>Law Building 	Nassau Street<lb/>New York<lb/>For’d by <lb/>Mr. Olmstead</p>
 <p>{{NOTE}} At left CMS drew a caricature of Crazy Sue which depicts Sue with very wild hair [could this be how to handle marginalia?] – a good story</p>
+<p>{{NOTE}} This is another note about something.</p>
 <p>{{SOURCE}}<lb/>Document type.<lb/>Repository.<lb/>Collection.</p>
-<p>{{INSERTIONS}}</p>
+<p>{{INSERTION}}</p>
 <p>Larger insertions in separate paragraphs here.</p>
-</body>
-</text>
-</TEI>
