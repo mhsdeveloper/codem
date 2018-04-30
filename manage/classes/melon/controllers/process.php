@@ -30,7 +30,9 @@
 			$M->text($text);
 			
 			$M->prepOxFile();
-			
+
+			file_put_contents(\MHS\Env::APP_INSTALL_DIR . "/incl/". $this::EXTRAS_FILE_BR, $M->text());
+
 			$M->separateDocParts();
 	
 	
@@ -41,12 +43,11 @@
 			
 			//single doc
 			else {
-				$M->processBody();
+				$M->processDocument();
 			}
 
 
 
-			file_put_contents(\MHS\Env::APP_INSTALL_DIR . "/incl/". $this::EXTRAS_FILE_BR, $M->text());
 		}
 	
 		

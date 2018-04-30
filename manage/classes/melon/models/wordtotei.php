@@ -68,35 +68,31 @@ die("WordToTei->chunkByChunk() not yet implemented");
 		}
 		
 		
+
+		public function gleanMetadata(){
+			
+			$this->parseDate($this->deleteParagraphContaining("{{DATELINE}}"));
+			
+		}
 		
+
+
 		/* this also accepts a string input (coming from chunkByChunk), but
 		 * when $text === false, it uses full teiDocMain as text
 		 */
-		public	function processBody($text = false){
+		public	function processDocument($text = false){
 				
 			if($text === false) $text = $this->teiDocMain;
 			
 			$this->setText($text);
 
-	
-			//first glean some metadata we need
-			
-			
+			$this->gleanMetadata();
+
 			//add document beginning
-			$this->appendText("<div type=\"doc\">\n");
+			$this->appendText("<div type=\"doc\">{{HEAD}}\n{{BIBL}}\n<div type=\"docbody\">\n{{OPENER}}");
 			
 			//---- more detailed line-by-line processing
 			$this->forEachLine(function($line){
-				
-				//rest of the body lines and sections
-/*				if($line->contains("{{DATELINE}}")) $this->LBL->newSection("<dateline>", "</dateline>");
-				else if($line->contains("{{SALUTE}}")) {
-					$this->LBL->newSection("<salute>", "</salute>");
-					$this->LBL->appendOutput($line);
-					$this->LBL->closeSection();
-					return;
-				}
-*/
 
 				if($line->contains("{{SIGNED}}")) $this->newSection("<closer>", "</closer>");
 				else if($line->contains("{{PS}}")) $this->newSection("<postscript>", "</postscript>");
@@ -113,8 +109,12 @@ die("WordToTei->chunkByChunk() not yet implemented");
 			$this->closeSection();
 			
 			//close document
-			$this->appendText("</div><!-- //document -->\n");
+			$this->appendText("</div>\n</div><!-- //document -->\n");
 
+			//swap in pre-gathered metadata
+			
+			
+			
 			print $this->getOutput();
 		}
 	
@@ -123,7 +123,7 @@ die("WordToTei->chunkByChunk() not yet implemented");
 
 
 
-		private function parseDate($line){
+		private function parseDate($matchArray){
 			preg_match("/^<p>(.+)<\/p>$/", $line->text, $matches);
 			
 			if(!isset($matches[1])) return;
