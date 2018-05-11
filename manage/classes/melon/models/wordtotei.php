@@ -71,7 +71,7 @@ die("WordToTei->chunkByChunk() not yet implemented");
 
 		public function gleanMetadata(){
 
-			$this->parseDate($this->findString("{{DATELINE}}")->inParagraph()->remove()->getMatches());
+			$this->parseDate($this->findString("{{NOTE}}")->inParagraph()->remove()->getMatches());
 			$this->parseDate($this->findString("{{DATELINE}}")->inParagraph()->unwrap()->getMatches());
 
 		}
@@ -127,31 +127,6 @@ die("WordToTei->chunkByChunk() not yet implemented");
 
 
 		private function parseDate($matchArray){
-			preg_match("/^<p>(.+)<\/p>$/", $line->text, $matches);
-
-			if(!isset($matches[1])) return;
-
-			//separate
-			$parts = explode("-", $matches[1]);
-
-			//day
-			if(!isset($parts[2])) $day = "00";
-			else {
-				$day = $parts[2];
-			}
-
-			//month
-			if(!isset($parts[1])) $month = "00";
-			else {
-				if(!is_numeric($parts[1][0])) {
-
-				}
-			}
-
-			$this->LBL->appendText("\n");
-
-			$this->lineCount++;
-			return;
 		}
 
 
