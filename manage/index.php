@@ -40,8 +40,14 @@
 	 * ROUTING
 	 *********************************************/
 
+	$mvc->route("/convert/upload", "Melon\Controllers\Convert@upload");
 
-	$mvc->route("/process", "\Melon\Controllers\Process");
+	$mvc->route("/convert/process", "Melon\Controllers\Convert@process");
+
+
+	$mvc->route("/convert", "\Melon\Controllers\Convert");
+	
+	
 
 
 

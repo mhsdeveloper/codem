@@ -5,7 +5,7 @@
 
 
 
-	class WordToTei extends \MHS\TxtProcessor\LineByLine {
+	class OxToTei extends \MHS\TxtProcessor\LineByLine {
 
 		private $teiHeader = "";
 

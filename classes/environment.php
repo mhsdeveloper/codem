@@ -29,8 +29,15 @@
 		const NAME_VIEW_URL_PREFIX = "/publications/melon/index.php/";
 
 
+		//relative URL for uploading files for converting from Word to TEI
+		const CONVERT_UPLOAD_URL = "index.php/convert/upload";
+		
+		//relative URL to process docx
+		const CONVERT_PROCESS_URL = "index.php/convert/process";
 
-
+		// full path to upload dir 
+		const CONVERT_UPLOAD_DIR = "/var/www/html/publications/melon/manage/uploads/";
+		
 		//relative URL for the ajax call to post a file to upload
 		const SOURCE_UPLOAD_URL = "index.php/upload-source";
 

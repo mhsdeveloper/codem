@@ -1,0 +1,46 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc>
+<titleStmt>
+<title/><author>Patricia Kalayjian</author></titleStmt>
+<editionStmt>
+<edition><date>2018-03-02</date></edition></editionStmt>
+<publicationStmt>
+<p>unknown</p>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0"><label>DOCX to TEI</label></application></appInfo>
+</encodingDesc>
+<revisionDesc>
+<listChange>
+<change><date>2018-04-19T16:45:49Z</date><name>Patricia Kalayjian</name></change></listChange>
+</revisionDesc>
+</teiHeader><text>
+<body>
+<p>{{TRANSCRIBER}}</p>
+<p>{{TRANSCRIPTION-DATE}}</p>
+<p>{{EDITOR}}</p>
+<p>{{EDITION}}</p>
+<p>1818-Nov-30</p>
+<p>CMS to Robert Sedgwick I</p>
+<p>{{DATELINE}} Stockbridge Nov 30<hi rend="superscript">th</hi> Monday Eve’g. </p>
+<p>{{SALUTE}} Dear  Bob, </p>
+<p>	I wish you were all to be here to part {{DAMAGE}} in our good cheer--, and to make for us truly a festival of the spirit -- -- In our fervent thanksgiving we shall remember the dear Brothers and Sister, whose love blesseth us all the year, and whose health and prosperity are among the most valued of our heavenly Father’s gifts. The thought of you may cost me a tear—but there will be no bitterness in it --</p>
+<p>Bitterness is, like winter,<lb/>Not sweet. But Bittersweet<lb/>Tastes great a la mode.</p>
+<p>	Your last letter surprised me a little, -- There is a {{ILL}} promised to those that ‘wait’ you know, and I expect to realize it, for I shall be perfectly passive -- {{PB}} Sister Frances is still in Albany -- I expect her down tomorrow {{BLANK}}.</p>
+<p>	It should not be “small things” dear Robert that render a woman worthy of you.</p>
+<p>	Aunt was sitting in her kitchen, when Sue{{1}} came in. Fortune was frying some liver for his supper—Sue took up a fork in her ‘sans ceremo1ie’ manner and would have shared with him. Fortune who didn’t know her and only knew she was crazy {{INS}} snatched the fork from her ^words here^ and told he would stick it into her if she did not keep her distance. At this, with the <hi rend="strikethrough">quickness of a Maniac</hi> great speed she seized a [hammer?] and raising her arm as if to knock his brains out said ‘Are you ready to die—He had just been present at the slaughter of the Colion.' {{PB}}</p>
+<p>	Cynthia is here and sends her love to you remember me aff’y to all, and tell Theodore and Egbert we all wish very much they were to join us at our Thanksgiving-- God bless you all my dear Robert --Believe me as ever </p>
+<p>{{SIGNED}} thine CMS </p>
+<p>{{PS}}  How are Harry’s eyes? </p>
+<p>{{ADDRESS}}Robert Sedgwick Esq’<lb/>Law Building 	Nassau Street<lb/>New York<lb/>For’d by <lb/>Mr. Olmstead</p>
+<p>{{SOURCE}}<lb/>Document type.<lb/>Repository.<lb/>Collection.</p>
+<p>{{NOTE}} At left CMS drew a caricature of Crazy Sue which depicts Sue with very wild hair [could this be how to handle marginalia?] – a good story</p>
+<p>{{INSERTION}}</p>
+<p>Larger insertions in separate paragraphs here.</p>
+</body>
+</text>
+</TEI>
