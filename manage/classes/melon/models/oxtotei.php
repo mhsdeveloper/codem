@@ -30,15 +30,19 @@
 		public function prepOxFile(){
 					//---- prep OX output
 
-			// add line breaks
+			// add line breaks at specific tags
 			$endTags = [ "Desc>", "Stmt>", "Info>", "Change>", "text>", "body>", "</p>"];
 			$endTagsModded = [ "Desc>\n", "Stmt>\n", "Info>\n", "Change>\n", "text>\n", "body>\n", "</p>\n"];
 
 			$this->text = str_replace($endTags, $endTagsModded, $this->text);
 
 			//remove unnecessary strings
-			$remove = [' rend="Normal"'];
-			$this->text = str_replace($remove, "", $this->text);
+			$this->text = preg_replace('/ rend="Normal"/', "", $this->text);
+			
+			//remove unnecessary style tags
+			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
+
+
 		}
 
 
@@ -71,8 +75,7 @@ die("WordToTei->chunkByChunk() not yet implemented");
 
 		public function gleanMetadata(){
 
-			$this->parseDate($this->findString("{{NOTE}}")->inParagraph()->remove()->getMatches());
-			$this->parseDate($this->findString("{{DATELINE}}")->inParagraph()->unwrap()->getMatches());
+
 
 		}
 
@@ -83,6 +86,16 @@ die("WordToTei->chunkByChunk() not yet implemented");
 		 */
 		public	function processDocument($text = false){
 
+/*
+ 
+ 			$this->findString("{{NOTE}}")->inParagraphs()->rewrapWith("note")->remove();
+
+			$this->findString("{{DATELINE}}")->inParagraphs()->rewrapWith("dateline")->remove(); //->rewrapWith("dateline");
+
+
+ */
+			
+			
 			if($text === false) $text = $this->teiDocMain;
 
 			$this->setText($text);
@@ -91,26 +104,29 @@ die("WordToTei->chunkByChunk() not yet implemented");
 
 			//add document beginning with placeholders to pop in metadata once we find it
 			$this->appendText("<div type=\"doc\">{{HEAD}}\n{{BIBL}}\n<div type=\"docbody\">\n{{OPENER}}");
-
+			
+			
 			//---- more detailed line-by-line processing
 			$this->forEachLine(function($line){
 
-				if($line->contains("{{SIGNED}}")) $this->newSection("<closer>", "</closer>");
-				else if($line->contains("{{PS}}")) $this->newSection("<postscript>", "</postscript>");
+				if($line->contains("{{SIGNED}}")) {
+					$this->newSection("<closer>", "</closer>")->appendOutput($line, \MHS\TxtProcessor\Line::KEEP_PATTERN);
+					return;
+				}
 				else if($line->contains("{{ADDRESS}}")) $this->newSection("<div type=\"addr\">", "</div>");
 				else if($line->contains("{{SOURCE}}")) $this->newSection("<div type=\"source\">", "</div>");
 				else if($line->contains("{{NOTE}}")) $this->newSection("<div type=\"note\">", "</div>");
 				else if($line->contains("{{INSERTION}}")) $this->newSection("<div type=\"insertion\">", "</div>");
 
-				//add line to output
-				$line->trimLeading(); //remove the matching pattern
-
 				$this->appendOutput($line);
-
 			});
+
 			//close any sections
 			$this->closeSection();
 
+			//some global replaces
+			
+			
 			//close document
 			$this->appendText("</div>\n</div><!-- //document -->\n");
 
@@ -127,6 +143,9 @@ die("WordToTei->chunkByChunk() not yet implemented");
 
 
 		private function parseDate($matchArray){
+
+print_r($matchArray);
+
 		}
 
 

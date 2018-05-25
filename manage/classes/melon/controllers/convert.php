@@ -63,23 +63,23 @@
 				return $this->ajaxError("Word to Ox script could not read $filename.");
 			}
 			
-print_r($Ox->process());
+			if(false === $Ox->process()){
+				return $this->ajaxError("Unable to process your Word file with Oxgarage.");
+			}
+			
+			$fullpath = $Ox->getFullOutputPath();
+	
+			
+			$T = new \Melon\Models\OxToTei();
+			
+			$text = file_get_contents($fullpath);
 
-exit();
 			
+			$T->text($text);
 			
-			
-			$M = new \Melon\Models\OxToTei();
-			
-			
+			$T->prepOxFile();
 
-			$M->text($text);
-			
-			$M->prepOxFile();
-
-//			file_put_contents(\MHS\Env::APP_INSTALL_DIR . "/incl/". $this::EXTRAS_FILE_BR, $M->text());
-
-			$M->separateDocParts();
+			$T->separateDocParts();
 	
 	
 			//if we have chunks, that is, more than one document
@@ -89,7 +89,7 @@ exit();
 			
 			//single doc
 			else {
-				$M->processDocument();
+				$T->processDocument();
 			}
 
 		}

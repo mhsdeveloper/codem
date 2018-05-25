@@ -44,12 +44,22 @@
 			
 			$parts = pathinfo($this->filename);
 			
-			$this->outputFilename = $parts['dirname'] . "/" . $parts['filename'] . ".xml";
+			$this->outputFilenameOnly = $parts['filename'] . ".xml";
+			
+			$this->outputFilename = $parts['dirname'] . "/" . $this->outputFilenameOnly;
 
 			return true;
 		}
 		
 		
+		public function getFullOutputPath(){
+			return $this->outputFilename;
+		}
+		
+		
+		public function getFilenameOnly(){
+			return $this->outputFilenameOnly;
+		}
 			
 		
 		
@@ -58,7 +68,14 @@
 
 			$this->buildURL();
 
-			return $this->curl_me();
+			$output = $this->curl_me();
+			
+			//let's check for xml content
+			if(strpos($output, '<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>') !== false){
+				return true;
+			}
+			
+			//bad Oxgarage output
 			
 		}
 		
@@ -88,14 +105,8 @@
 					"file[0]" => new \cURLFile($this->filename)
 				)
 			);
-					//	  'upload' => '@' . realpath($this->filename)
 
-
-//			curl_setopt($ch, CURLOPT_HEADER, false);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-			//Pass our file handle to cURL.
-//			curl_setopt($ch, CURLOPT_FILE, $fp);
- 
 
 			$data = curl_exec($ch);
 
