@@ -12,6 +12,8 @@
 	class WordToOx {
 	
 		
+		private $idRoot = "NOID";
+		
 		
 		const MIME = "application/octet-stream";
 		
@@ -46,6 +48,8 @@
 			
 			$this->outputFilenameOnly = $parts['filename'] . ".xml";
 			
+			$this->idRoot = $parts['filename'];
+			
 			$this->outputFilename = $parts['dirname'] . "/" . $this->outputFilenameOnly;
 
 			return true;
@@ -61,6 +65,10 @@
 			return $this->outputFilenameOnly;
 		}
 			
+		
+		public function getIdRoot(){
+			return $this->idRoot;
+		}
 		
 		
 		

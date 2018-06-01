@@ -68,12 +68,15 @@
 			}
 			
 			$fullpath = $Ox->getFullOutputPath();
+			
+			$idRoot = $Ox->getIdRoot();
 	
 			
 			$T = new \Melon\Models\OxToTei();
 			
 			$text = file_get_contents($fullpath);
 
+			$T->setIdRoot($idRoot);
 			
 			$T->text($text);
 			
