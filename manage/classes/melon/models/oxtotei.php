@@ -65,7 +65,9 @@
 			//remove unnecessary style tags
 			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
 
-
+			//remove HI tags
+			$this->text = preg_replace('/<hi.*>/U', "", $this->text);
+			$this->text = str_replace("</hi>", "", $this->text);
 		}
 
 
@@ -145,8 +147,6 @@ die("WordToTei->chunkByChunk() not yet implemented");
 			});
 			
 			
-			print_r($this->metadata);
-//			die();
 
 			$this->docID = $this->idRoot;
 		}

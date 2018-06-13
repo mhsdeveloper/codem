@@ -37,11 +37,6 @@
 		
 		public function setFile($filename){
 			
-			//must be docx
-			if(mime_content_type($filename) != $this::MIME) {
-				return $error;			
-			}
-
 			$this->filename = $filename;
 			
 			$parts = pathinfo($this->filename);

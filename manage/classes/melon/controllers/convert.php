@@ -76,11 +76,13 @@
 			
 			$text = file_get_contents($fullpath);
 
+			
 			$T->setIdRoot($idRoot);
 			
 			$T->text($text);
 			
 			$T->prepOxFile();
+print $T->text();
 
 			$T->separateDocParts();
 	
