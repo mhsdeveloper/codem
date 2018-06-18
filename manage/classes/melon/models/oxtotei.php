@@ -7,7 +7,7 @@
 
 	class OxToTei extends \MHS\TxtProcessor\LineByLine {
 
-		private $teiHeader = "";
+		public $teiHeader = "";
 
 		private $teiDocMain = "";
 
@@ -22,6 +22,7 @@
 		private $docID = "NOID";
 		
 		private $metadata = [
+			"document-id" => "",
 			"transcriber" => "",
 			"transcription-date" => "",
 			"editor" => "",
@@ -60,7 +61,7 @@
 			$this->text = str_replace($endTags, $endTagsModded, $this->text);
 
 			//remove unnecessary strings
-			$this->text = preg_replace('/ rend="Normal"/', "", $this->text);
+			$this->text = preg_replace('/ rend=".*"/U', "", $this->text);
 			
 			//remove unnecessary style tags
 			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
@@ -86,15 +87,39 @@
 		}
 
 
-
-
-
 		public function chunkByChunk(){
+			
+			//first expand {{DOC}} placeholder
+			$this->teiDocMain = str_replace("{{DOC}}", "{{DOC}}**DOCLINE**", $this->teiDocMain);
 
-			$this->chunks = explode("<p>{{DOC}}</p>\n", $this->teiDocMain);
+			//KEEP IN MIND there's a paragraph surrounding the {{DOC}} and the following ID			
+			$this->chunks = explode("<p>{{DOC}}", $this->teiDocMain);
 
-die("WordToTei->chunkByChunk() not yet implemented");
+			//zero our text holder so we can add chunks as they are done
+			$this->teiDocMain = "";
+			
+			foreach($this->chunks as $chunk){
+				
+				//skip leading or trailing empty doc
+				if(strlen($chunk) < 10) continue;
+				
+				$chunk = $this->processDocument($chunk);
+				
+				$this->teiDocMain .= $chunk;
+			}
 		}
+
+		
+		
+		
+		
+		public function rejoinParts(){
+			$this->text = $this->teiHeader . $this->teiDocMain . $this->teiDocEnding;
+			
+			return $this->text;
+		}
+		
+
 
 
 
@@ -110,9 +135,13 @@ die("WordToTei->chunkByChunk() not yet implemented");
 			
 			
 			$this->forEachLine(function($line){
-				
+				//llook for doc id
+				if($line->begins("**DOCLINE**")) {
+					$this->metadata['document-id'] = $line->trimLeading()->trimTrailingP()->getText();
+				}
+					
 				//lines beginning with {{  are our header metadata (transcriber, etc)
-				if($line->begins("<p>{{")){
+				elseif($line->begins("<p>{{")){
 					
 					if($line->contains("{{TRANSCRIBER}}")) $this->metadata['transcriber'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{TRANSCRIPTION-DATE}}")) $this->metadata['transcription-date'] = $line->trimLeading()->trimTrailingP()->getText();
@@ -146,15 +175,20 @@ die("WordToTei->chunkByChunk() not yet implemented");
 				}
 			});
 			
-			
 
 			$this->docID = $this->idRoot;
 		}
 
 
 
+
 		/* this also accepts a string input (coming from chunkByChunk), but
 		 * when $text === false, it uses full teiDocMain as text
+		 * 
+		 * so when NOT passing in $text, we operate on ->teiDocMain, and keep
+		 * that updated.
+		 * 
+		 * When passing in Text, we keep teiDocMain separate
 		 */
 		public	function processDocument($text = false){
 
@@ -164,14 +198,18 @@ die("WordToTei->chunkByChunk() not yet implemented");
 
 			$this->gleanMetadata();
 
+
 			//add document beginning with placeholders to pop in metadata once we find it
+			if(!empty($this->metadata['document-id'])) {
+				$this->docID = $this->metadata['document-id'];
+			}
 			$this->appendOutput("<div type=\"doc\" xml:id=\"" . $this->docID . "\">\n{{HEAD}}\n{{BIBL}}\n<div type=\"docbody\">\n");
 			
 			
 			//---- more detailed line-by-line processing
 			$this->forEachLine(function($line){
 
-				if($line->contains("{{SIGNED}}")) {
+				if(0 && $line->contains("{{SIGNED}}")) {
 					$this->newSection("<closer>", "</closer>")->append($line, \MHS\TxtProcessor\Line::KEEP_PATTERN);
 					return;
 				}
@@ -179,6 +217,7 @@ die("WordToTei->chunkByChunk() not yet implemented");
 				else if($line->contains("{{SOURCE}}")) $this->newSection("<div type=\"source\">", "</div>");
 				else if($line->contains("{{NOTE}}")) $this->newSection("<note type=\"fn\">", "</note>");
 				else if($line->contains("{{INSERTION}}")) $this->newSection("<div type=\"insertion\">", "</div>");
+				else if($line->contains("{{CLOSE}}")) $this->newSection("<closer>", "</closer>");
 
 				$this->append($line);
 			});
@@ -225,8 +264,15 @@ die("WordToTei->chunkByChunk() not yet implemented");
 			//remove the paragraphs with the metadata
 			$this->findRegex('<div type="docbody">.*<opener>', 's')->replaceWith("<div type=\"docbody\">\n<opener>");
 
-			
-			print $this->getText();
+
+			//to finish, look at first arg: if we had passed in text, then pass back. otherwise write it back to teiDocMain
+			if($text === false) {
+				$this->teiDocMain = $this->text;
+				return;
+			}
+
+			//we had passing in a text arg, so return new text
+			return $this->text;
 		}
 
 

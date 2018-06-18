@@ -41,6 +41,12 @@
 			
 			$parts = pathinfo($this->filename);
 			
+			if($parts['extension'] != "docx") {
+				$this->error("Please upload a MS Word file with a docx extensions");
+				return false;
+			}
+			
+			
 			$this->outputFilenameOnly = $parts['filename'] . ".xml";
 			
 			$this->idRoot = $parts['filename'];

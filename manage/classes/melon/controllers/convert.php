@@ -75,27 +75,28 @@
 			$T = new \Melon\Models\OxToTei();
 			
 			$text = file_get_contents($fullpath);
-
-			
+		
 			$T->setIdRoot($idRoot);
 			
 			$T->text($text);
 			
 			$T->prepOxFile();
-print $T->text();
 
 			$T->separateDocParts();
-	
+
 	
 			//if we have chunks, that is, more than one document
 			if(strpos($text, '{{DOC}}')) {
-				
+				$T->chunkByChunk();
+				$T->rejoinParts();
 			}
 			
 			//single doc
 			else {
 				$T->processDocument();
 			}
+			
+			print $T->text();
 
 		}
 
