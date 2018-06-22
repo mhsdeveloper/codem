@@ -1,0 +1,29 @@
+
+
+Melon UX/UI discussion
+
+
+
+Seward
+https://sewardproject.org/letters-by-sender
+++++ links to bios
+---- ajax expanding is awkard, needs labeling
+
+
+https://whitmanarchive.org/biography/correspondence/tei/loc.00572.html
+--- bad typography: which part is the text?
+
+
+
+http://schenkerdocumentsonline.org/documents/correspondence/OJ-9-3_3.html
++++ tagging hints
+--- typography
+
+
+http://digitalaustinpapers.org/document?id=APB1974
+---- typography (font!!)
+++++ sidebar alphabet nav http://digitalaustinpapers.org/browse?browseBy=author
+~~~~ other metrics on search results http://digitalaustinpapers.org/search?query=food&sort=date
+
+
+http://www.josephsmithpapers.org
