@@ -34,8 +34,6 @@
 		
 		
 		
-		
-		
 
 		public function text($text = false){
 			if(false == $text) return $this->text;
@@ -124,8 +122,6 @@
 
 
 		public function gleanMetadata(){
-
-			//these are all properties so that anon function can get 'em
 			
 			//which line of actual content are we at?
 			$this->contentLineCount = 0;
@@ -144,7 +140,11 @@
 				elseif($line->begins("<p>{{")){
 					
 					if($line->contains("{{TRANSCRIBER}}")) $this->metadata['transcriber'] = $line->trimLeading()->trimTrailingP()->getText();
-					else if($line->contains("{{TRANSCRIPTION-DATE}}")) $this->metadata['transcription-date'] = $line->trimLeading()->trimTrailingP()->getText();
+					else if($line->contains("{{TRANSCRIPTION-DATE}}")) {
+						
+						$tempdate = $line->trimLeading()->trimTrailingP()->getText();
+						$this->metadata['transcription-date'] = $this->parseDate($tempdate);
+					}
 					else if($line->contains("{{EDITOR}}")) $this->metadata['editor'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{EDITION}}")) $this->metadata['edition'] = $line->trimLeading()->trimTrailingP()->getText();
 					
@@ -191,8 +191,15 @@
 		 * When passing in Text, we keep teiDocMain separate
 		 */
 		public	function processDocument($text = false){
+			
+			$this->noDocBackYet = true;
+			
+			$noTextArg = false;
 
-			if($text === false) $text = $this->teiDocMain;
+			if($text === false) {
+				$noTextArg = true;
+				$text = $this->teiDocMain;
+			}
 
 			$this->setText($text);
 
@@ -209,17 +216,22 @@
 			//---- more detailed line-by-line processing
 			$this->forEachLine(function($line){
 
-				if(0 && $line->contains("{{SIGNED}}")) {
-					$this->newSection("<closer>", "</closer>")->append($line, \MHS\TxtProcessor\Line::KEEP_PATTERN);
-					return;
+				if($line->contains("{{ADDRESS}}")) $this->newSection("<div type=\"addr\">", "</div>");
+				else if($line->contains("{{SOURCE}}")) {
+					$this->newSection("<div type=\"source\">", "</div>");
 				}
-				else if($line->contains("{{ADDRESS}}")) $this->newSection("<div type=\"addr\">", "</div>");
-				else if($line->contains("{{SOURCE}}")) $this->newSection("<div type=\"source\">", "</div>");
-				else if($line->contains("{{NOTE}}")) $this->newSection("<note type=\"fn\">", "</note>");
-				else if($line->contains("{{INSERTION}}")) $this->newSection("<div type=\"insertion\">", "</div>");
-				else if($line->contains("{{CLOSE}}")) $this->newSection("<closer>", "</closer>");
+				else if($line->contains("{{NOTE}}")) {
+					$this->newSection("<note type=\"fn\">", "</note>");
+				}
+				else if($line->contains("{{INSERTION}}")) {
+					$this->newSection("<div type=\"insertion\">", "</div>");
+				}
+				else if($line->contains("{{CLOSE}}")) {
+					$this->newSection("<closer>", "</closer>");
+				}
 
-				$this->append($line);
+				//add the line if not empty
+				if(!strpos($line->text, "}}</p>")) $this->append($line);
 			});
 
 			//close any sections
@@ -266,7 +278,7 @@
 
 
 			//to finish, look at first arg: if we had passed in text, then pass back. otherwise write it back to teiDocMain
-			if($text === false) {
+			if($noTextArg) {
 				$this->teiDocMain = $this->text;
 				return;
 			}
@@ -367,9 +379,12 @@
 			$text .= "\t<date type=\"creation\" when=\"" . $this->metadata['date'] . "\"/>\n";
 			$text .= "\t<author>" . $this->metadata['author'] . "</author>\n";
 			$text .= "\t<name type=\"recip\">" . $this->metadata['recipient'] . "</name>\n";
+			$text .= "\t<name type=\"transcriber\">" . $this->metadata['transcriber'] . "</name>\n";
+			$text .= "\t<date type=\"transcription\" when=\"" . $this->metadata['transcription-date'] . "\"/>\n";
 			$text .= "</bibl>";
 			
 			$this->findString("{{BIBL}}")->replaceWith($text);
 		}
+		
 
 	}

@@ -84,6 +84,9 @@
 
 			$T->separateDocParts();
 
+//so we can see OX output post fixes but still WET			
+//file_put_contents($fullpath, $T->text());
+
 	
 			//if we have chunks, that is, more than one document
 			if(strpos($text, '{{DOC}}')) {
@@ -94,10 +97,17 @@
 			//single doc
 			else {
 				$T->processDocument();
+				$T->rejoinParts();
 			}
 			
-			print $T->text();
-
+			//save
+			file_put_contents($fullpath, $T->text());
+			
+			$this->response["message"] = "Ready to download TEI";
+			$this->response['status'] = "download";
+			$this->response['filename'] = str_replace($_SERVER['DOCUMENT_ROOT'], "", $fullpath);
+			
+			$this->ajaxResponse();
 		}
 
 

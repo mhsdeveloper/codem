@@ -4,6 +4,25 @@ Melon UX/UI discussion
 
 
 
+
+++++ POINT OUT FEATURES OF OUR SIZE
+
+
+http://www.josephsmithpapers.org
+
+
+----  No very direct list of recipients, names
+
+++++ browse by doc type categories: need config or UI for mapping @type at doc-level to display names
+++++ doc viewer and nav
+++++ transcriptions: show lb even when very narrow, otherwise hide's and just does the break
+                                popups for names with brief bio info
+++++ related materials:
+     need a way to assign additional HTML nodes/content to views; or have lists from metadata as plugin to WP/SilverStripe
+
+
+
+
 Seward
 https://sewardproject.org/letters-by-sender
 ++++ links to bios
@@ -25,5 +44,3 @@ http://digitalaustinpapers.org/document?id=APB1974
 ++++ sidebar alphabet nav http://digitalaustinpapers.org/browse?browseBy=author
 ~~~~ other metrics on search results http://digitalaustinpapers.org/search?query=food&sort=date
 
-
-http://www.josephsmithpapers.org

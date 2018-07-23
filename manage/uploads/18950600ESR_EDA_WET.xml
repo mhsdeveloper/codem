@@ -1,0 +1,54 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc>
+<titleStmt>
+<title/><author>Serenity Sutherland</author></titleStmt>
+<editionStmt>
+<edition><date>2018-06-08</date></edition></editionStmt>
+<publicationStmt>
+<p>unknown</p>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0"><label>DOCX to TEI</label></application></appInfo>
+</encodingDesc>
+<revisionDesc>
+<listChange>
+<change><date>2018-07-20T19:42:24Z</date><name>Serenity Sutherland</name></change></listChange>
+</revisionDesc>
+</teiHeader><text>
+<body>
+<div type="doc" xml:id="18950600ESR_EDA">
+<head>ESR to EDA</head>
+<bibl>
+	<date type="creation" when="1895-06-00"/>
+	<author>ESR</author>
+	<name type="recip">EDA</name>
+	<name type="transcriber">Serenity Sutherland</name>
+	<date type="transcription" when="2017-06-06"/>
+</bibl>
+<div type="docbody">
+<opener>
+<dateline>Boston</dateline>
+<salute>My dear Mr. Atkinson</salute>
+</opener>
+<p>I will send to Mr Jesse what papers I have on hand. As my Franklin Inst Lecture the American Home, Domestic Science for College Women &amp; a set of the Rumford Kitchen leaflets, Home Sanitation &amp;c. Chicago University. If you have some copies of some of your addresses like that at Northampton &amp; the one you gave in Washington two or three years ago, they will be useful. He should of course get the science of nutrition &amp; Atwaters Farmers Bulletin &amp; this last one on the methods &amp; results of investigation of Food is really quite the best thin in English. He will probably find these in his Agric Coll Library.  </p>
+<p>There is hope when such men will take it up. I think I must write him a note of encouragement. Thank you for letting me see the letter. Miss Goss has gone to the Clark Thread Co. at Neward. They have been open only a week when they fed 65 at lunch for 15 cents for a 3 course lunch. If this really succeeds it will mean more than anything else we have done for the food of the working man. They have already asked for lessons on the food to be given at the Girls Club. Miss Goss says she likes the new oven very much. By the way you have never sent me the name of the maker. I want to order one for the office of the magazine 485 Tremont St up stairs. </p>
+<p>I was glad to see by last nights paper that you approved of Atlanta. I enjoyed it extremely and come home quite rested only to plunge deep into work. But our special interests are really growing. They are like my bulbs which I have planted &amp; watered &amp; set away in the cold &amp; dark to make roots &amp; I must forget them for 20 days for if I probe them &amp; hurry them they will not give me good flowers, let alone they are bound to come up all right &amp; repay me in Feb. But nothing will make them bloom in Dec while the sun is South of the line. So with our projects. I have at least learned to plant &amp; then neglect &amp; go at something else. I hope to see you before long.</p>
+</div>
+<closer><p> Sincerely yours,</p>
+<signed>Ellen H. Richards</signed>
+</closer>
+<div type="source"><p>Massachusetts Historical Society</p>
+<p>Edward Atkinson Papers</p>
+<p>Ellen Richards Correspondence, 1890-1901</p>
+<p>Carton 12, Folder 63</p>
+
+</div>
+</div>
+</div><!-- //document -->
+</body>
+</text>
+</TEI>
