@@ -344,7 +344,7 @@
 			
 			//DAY
 			if(isset($parts[2])){
-				if(strlen($parts[2]) < 3 and is_numeric($parts[1])) {
+				if(strlen($parts[2]) < 3 and is_numeric($parts[2])) {
 					$day = $parts[2];
 					
 					//fix single digitas
