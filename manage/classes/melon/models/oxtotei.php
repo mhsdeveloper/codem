@@ -304,38 +304,54 @@
 			$year = "0000";
 			$month = $day = "00";
 			
-			foreach($parts as $part){
+			//YEAR
+			if(isset($parts[0])) {	
+				if(strlen($parts[0]) == 4 and is_numeric($parts[0])) $year = $parts[0];
+			}
+
 				
-				//year
-				if(strlen($part) == 4 and is_numeric($part)) $year = $part;
+			//month
+			if(isset($parts[1])){
 				
-				//day
-				else if(strlen($part) < 3 and is_numeric($part)) {
-					$day = $part;
-					
-					//fix single digitas
-					if(strlen($part) == 1) $day = "0" . $day;
+				$rawmo = $parts[1];
+				
+				if(strlen($rawmo) == 2){
+					$month = $rawmo;
 				}
 				
-				//month
-				else if(strlen($part) > 2){
-					
+				if(strlen($rawmo) > 2){
 					//match month
-					if(stripos($part, "jan") !== false) $month = "01";
-					else if(stripos($part, "feb") !== false) $month = "02";
-					else if(stripos($part, "mar") !== false) $month = "03";
-					else if(stripos($part, "apr") !== false) $month = "04";
-					else if(stripos($part, "may") !== false) $month = "05";
-					else if(stripos($part, "jun") !== false) $month = "06";
-					else if(stripos($part, "jul") !== false) $month = "07";
-					else if(stripos($part, "aug") !== false) $month = "08";
-					else if(stripos($part, "sep") !== false) $month = "09";
-					else if(stripos($part, "oct") !== false) $month = "10";
-					else if(stripos($part, "nov") !== false) $month = "11";
-					else if(stripos($part, "dec") !== false) $month = "12";
+					if(stripos($rawmo, "jan") !== false) $month = "01";
+					else if(stripos($rawmo, "feb") !== false) $month = "02";
+					else if(stripos($rawmo, "mar") !== false) $month = "03";
+					else if(stripos($rawmo, "apr") !== false) $month = "04";
+					else if(stripos($rawmo, "may") !== false) $month = "05";
+					else if(stripos($rawmo, "jun") !== false) $month = "06";
+					else if(stripos($rawmo, "jul") !== false) $month = "07";
+					else if(stripos($rawmo, "aug") !== false) $month = "08";
+					else if(stripos($rawmo, "sep") !== false) $month = "09";
+					else if(stripos($rawmo, "oct") !== false) $month = "10";
+					else if(stripos($rawmo, "nov") !== false) $month = "11";
+					else if(stripos($rawmo, "dec") !== false) $month = "12";
+				}
+				
+				if(strlen($rawmo) == 1){
+					$month = "0" . $rawmo;
 				}
 				
 			}
+
+			
+			//DAY
+			if(isset($parts[2])){
+				if(strlen($parts[2]) < 3 and is_numeric($parts[1])) {
+					$day = $parts[2];
+					
+					//fix single digitas
+					if(strlen($day) == 1) $day = "0" . $day;
+				}
+			}
+		
 			
 			return $year . "-" . $month . "-" . $day;
 
