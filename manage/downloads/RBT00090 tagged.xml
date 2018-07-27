@@ -16,35 +16,42 @@
 </encodingDesc>
 <revisionDesc>
 <listChange>
-<change><date>2018-07-23T13:51:48Z</date><name>David Ramsey</name></change></listChange>
+<change><date>2018-07-27T12:45:46Z</date><name>David Ramsey</name></change></listChange>
 </revisionDesc>
 </teiHeader><text>
 <body>
-<div type="doc" xml:id="RBT00090">
-<head>To [Amos Kendall?]</head>
+<div type="doc" xml:id="RBT00090 tagged">
 <bibl>
-	<date type="creation" when="1832-07-23"/>
-	<author>To [Amos Kendall?]</author>
-	<name type="recip"></name>
-	<name type="transcriber">Ayla Green</name>
-	<date type="transcription" when="2014-11-21"/>
+	<date type="creation" when=""/>
+	<name type="transcriber"></name>
+	<date type="transcription" when=""/>
 </bibl>
 <div type="docbody">
+{{HEAD}}
+<p rend="Normal" style="text-align:left; text-align:left;">{{DOC}}**DOCLINE** RBT00090</p>
+<p rend="Normal" style="text-align:left; text-align:left;">{{TRANSCRIBER}} Ayla Green</p>
+<p rend="Normal" style="text-align:left; text-align:left;">{{TRANSCRIPTION-DATE}}2014-11-21</p>
+<p rend="Normal" style="text-align:left; text-align:left;">{{DATE}}1832-JULY-23</p>
+<p rend="Normal" style="text-align:left; text-align:left;">{{AUTHORS}}RBT</p>
+<p rend="Normal" style="text-align:left; text-align:left;">{{HEAD}}To [Amos Kendall?]</p>
 <opener>
 <dateline>Washington July 23. 1832</dateline>
 <salute>	My Dear Sir</salute>
 </opener>
-<p>	I received here your letter directed to Annapolis &amp; also the one directed to this place &amp; after thanking you for your attention to my concerns I must express the great pleasure I feel on finding that the veto message meets your approbation. It has been well received every where except by those who are interested in maintaining the great &amp; corrupting monopoly which it has effectually &amp; permanently put down. - I had intended as it is a measure of great interest to have written a series of numbers maintaining the constitutional points assented in it - and which can be con - clusively maintained notwithstanding Mr. Webster’s arguments to the contrary - But my plan is broken up - and Mrs. Taney’s health continues as infirm &amp; doubtful that I must <pb n="2"/>	travel on her account - &amp; shall set out on Wednesday to wander among the mountains without any certain place to fix on as the end of my journey -</p>
-<p>	The President left here this morning for Tennessee - in good health &amp; spirits - He will be away until October. -</p>
-<p>	The passage you mention in the message I think you will find when taken with the context, will not admit the contradiction which the opposition have attempted to give it. - The ex - pressions are used to justify himself for not stating his views in detail of what kind of a Bank might be constitutionally established - and certainly not by way of claiming a right to previous consultation - nor by way of complaint because it was not done. - What will the stockholders think of the management of their President? He has been very ambitious of bringing the institution into the political arena in order it would seem to apprise the Government (lined out) of its strength. - And he has done for it what perhaps those who were opposed to it could not have done - <pb n="3"/>He has ensured its certain &amp; inevitable destruction. - So far as the refusal to renew its charter is to be considered as its destruction. He will find that Pennsylvania will go as firmly with the President as ever -</p>
-<closer><p>	In haste Dr. Sir truly yours</p>
-<signed><anchor xml:id="gjdgxs"/>	R. B. Taney</signed>
+<p rend="Normal" style="text-align:left; ">	I received here your letter directed to Annapolis &amp; also the one directed to this place &amp; after thanking you for your attention to my concerns I must express {{COMMENT: not sure what to do with that superscript??}} the great pleasure I feel on finding that the veto message meets your approbation. It has been well received every where except by those who are interested in maintaining the great &amp; corrupting monopoly which it has effectually &amp; permanently put down. - I had intended as it is a measure of great interest to have written a series of numbers maintaining the constitutional points assented in it - and which can be con - clusively maintained notwithstanding Mr. Webster’s arguments to the contrary - But my plan is broken up - and Mrs. Taney’s health continues as infirm &amp; doubtful that I must <pb n="2"/> travel on her account - &amp; shall set out on Wednesday to wander among the mountains without any certain place to fix on as the end of my journey -</p>
+<p rend="Normal" style="text-align:left; ">	The President left here this morning for Tennessee - in good health &amp; spirits - He will be away until October. -</p>
+<p rend="Normal" style="text-align:left; ">	The passage you mention in the message I think you will find when taken with the context, will not admit the contradiction which the opposition have attempted to give it. - The ex - pressions are used to justify himself for not stating his views in detail of what kind of a Bank might be constitutionally established - and certainly not by way of claiming a right to previous consultation - nor by way of complaint because it was not done. - What will the stockholders think of the management of their President? He has been very ambitious of bringing the institution into the political arena in order it would seem to apprise the Government (lined out) of its strength. - And he has done for it what perhaps those who were opposed to it could not have done - <pb n="3"/>He has ensured its certain &amp; inevitable destruction. - So far as the refusal to renew its charter is to be considered as its destruction. He will find that Pennsylvania will go as firmly with the President as ever -</p>
+<closer>In haste Dr. Sir truly yours	In haste Dr. Sir truly yours
+<signed><anchor xml:id="gjdgxs"/>R. B. Taney</signed>
 </closer>
-<div type="source"><p> ALS</p>
-<p>DLC</p>
-<p>(MMC 2191, Folder 3)</p>
+</div>
+<div type="docback">
+<div type="source"><p rend="Normal" style="text-align:left; "> ALS</p>
+<p rend="Normal" style="text-align:left; ">DLC</p>
+<p rend="Normal" style="text-align:left; ">(MMC 2191, Folder 3)</p>
 
 </div>
+
 </div>
 </div><!-- //document -->
 </body>

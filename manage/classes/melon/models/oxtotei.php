@@ -27,9 +27,10 @@
 			"transcription-date" => "",
 			"editor" => "",
 			"edition" => "",
-			"author" => "",
+			"authors" => "",
 			"recipient" => "",
-			"date" => ""
+			"date" => "",
+			"head" => ""
 		];
 		
 		
@@ -52,21 +53,23 @@
 		public function prepOxFile(){
 					//---- prep OX output
 
-			// add line breaks at specific tags
+			// add line breaks at specific tags, both open and close, except for p
 			$endTags = [ "Desc>", "Stmt>", "Info>", "Change>", "text>", "body>", "</p>"];
 			$endTagsModded = [ "Desc>\n", "Stmt>\n", "Info>\n", "Change>\n", "text>\n", "body>\n", "</p>\n"];
 
 			$this->text = str_replace($endTags, $endTagsModded, $this->text);
 
-			//remove unnecessary strings
+			//remove unnecessary @rend
 			$this->text = preg_replace('/ rend=".*"/U', "", $this->text);
 			
-			//remove unnecessary style tags
+			//remove unnecessary @style
 			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
 
 			//remove HI tags
 			$this->text = preg_replace('/<hi.*>/U', "", $this->text);
 			$this->text = str_replace("</hi>", "", $this->text);
+			
+			
 		}
 
 
@@ -141,40 +144,23 @@
 					
 					if($line->contains("{{TRANSCRIBER}}")) $this->metadata['transcriber'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{TRANSCRIPTION-DATE}}")) {
-						
 						$tempdate = $line->trimLeading()->trimTrailingP()->getText();
 						$this->metadata['transcription-date'] = $this->parseDate($tempdate);
 					}
 					else if($line->contains("{{EDITOR}}")) $this->metadata['editor'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{EDITION}}")) $this->metadata['edition'] = $line->trimLeading()->trimTrailingP()->getText();
-					
-				}
+					else if($line->contains("{{AUTHORS}}")) $this->metadata['authors'] = $line->trimLeading()->trimTrailingP()->getText();
+					else if($line->contains("{{HEAD}}")) $this->metadata['head'] = $line->trimLeading()->trimTrailingP()->getText();
+					else if($line->contains("{{DATE}}")) {
+						$tempdate = $line->trimLeading()->trimTrailingP()->getText();
+						$this->metadata['date'] = $this->parseDate($tempdate);
+					}
 				
-				else {
-					if(strlen($line->text) < 4) return;	
-					if($this->contentLineCount > 2) {
-						$this->break = true;
-						return;
-					}
-					$this->contentLineCount++;
-					
-					
-					$innerLine = str_replace(["<p>", "</p>"], "", $line->text);
-					
-					//look for year
-					if(!$this->foundDate and is_numeric(substr($innerLine, 0, 4))){
-						$this->metadata['date'] = $this->parseDate($innerLine);
-						$this->foundDate = true;
-					}
-					
-					//look for author: first 2 lines, not date, not <p>{{ MUST be author accoding to our rules
-					else if(!$this->foundHeader){
-						$this->parseHeading($innerLine);
-						$this->foundHeader = true;						
-					}
 				}
 			});
 			
+			//reconcile what we've found for the head
+			$this->parseHead();
 
 			$this->docID = $this->idRoot;
 		}
@@ -190,9 +176,7 @@
 		 * 
 		 * When passing in Text, we keep teiDocMain separate
 		 */
-		public	function processDocument($text = false){
-			
-			$this->noDocBackYet = true;
+		public function processDocument($text = false){
 			
 			$noTextArg = false;
 
@@ -210,14 +194,28 @@
 			if(!empty($this->metadata['document-id'])) {
 				$this->docID = $this->metadata['document-id'];
 			}
-			$this->appendOutput("<div type=\"doc\" xml:id=\"" . $this->docID . "\">\n{{HEAD}}\n{{BIBL}}\n<div type=\"docbody\">\n");
-			
+			$this->appendOutput("<div type=\"doc\" xml:id=\"" . $this->docID . "\">\n{{BIBL}}\n");
+			$this->newSection("<div type=\"docbody\">",""); //no closing tag because we'll need to nest other sections
+			$this->appendOutput("\n{{HEAD}}\n");
 			
 			//---- more detailed line-by-line processing
 			$this->forEachLine(function($line){
 
 				if($line->contains("{{ADDRESS}}")) $this->newSection("<div type=\"addr\">", "</div>");
+				else if($line->contains("{{CLOSE}}")) {
+					$this->newSection("<closer>", "</closer>");
+					$this->appendOutput($line->trimLeading()->trimTrailingP()->getText());
+				}
+				else if($line->contains("{{PS}}")) {
+					$this->newSection("<postscript>", "</postscript>");
+				}
 				else if($line->contains("{{SOURCE}}")) {
+					//close any sections
+					$this->closeSection();
+					//close docbody
+					$this->appendOutput("</div>\n");
+					//here we sneak in the docback div
+					$this->newSection("<div type=\"docback\">\n", ""); //again, no closing tag since we need to next other sections
 					$this->newSection("<div type=\"source\">", "</div>");
 				}
 				else if($line->contains("{{NOTE}}")) {
@@ -226,35 +224,34 @@
 				else if($line->contains("{{INSERTION}}")) {
 					$this->newSection("<div type=\"insertion\">", "</div>");
 				}
-				else if($line->contains("{{CLOSE}}")) {
-					$this->newSection("<closer>", "</closer>");
-				}
 
-				//add the line if not empty
-				if(!strpos($line->text, "}}</p>")) $this->append($line);
+				//add the line
+				$this->append($line);
 			});
 
 			//close any sections
 			$this->closeSection();
 
-			//close document
-			$this->appendOutput("</div>\n</div><!-- //document -->\n");
+			//close document; closes the docback and the doc
+			$this->appendOutput("\n</div>\n</div><!-- //document -->\n");
 
 
 			//rest of processes operate directly on text, so copy output back to text
 			$this->updateText();
 			
-			
-			//some paragraph replacements, single line, not sectional
+			//some paragraph replacements, single line or string, not sectional
 			$this->findString("{{SALUTE}}")->inParagraphs()->rewrapWith("salute")->remove();
 			$this->findString("{{DATELINE}}")->inParagraphs()->rewrapWith("dateline")->remove(); 
 			$this->findString("{{SIGNED}}")->inParagraphs()->rewrapWith("signed")->remove();
-			$this->findString("{{PS}}")->inParagraphs()->rewrapWith("postscript")->remove();
+//			$this->findString("{{PS}}")->inParagraphs()->wrapWith("postscript")->remove();
 
 			$this->findString("{{ILL}}")->replaceWith("<unclear/>");
 			$this->findString("{{DAMAGE}}")->replaceWith("<damage/>");
 			$this->findString("{{BLANK}}")->replaceWith("<space/>");
+			$this->findString("<p>{{BLANK-BLOCK}}</p>")->replaceWith("<space type=\"block\"/>");
 			$this->findString("{{INS}}")->replaceWith("<add></add>");
+			$this->findString("[")->replaceWith("<supplied>");
+			$this->findString("]")->replaceWith("</supplied>");
 
 			
 			//wrap the dateline/salute elements in <opener>
@@ -262,9 +259,10 @@
 			$this->findString("</salute>")->replaceWith("</salute>\n</opener>");
 			
 
-			//interate over pagebreacks
+			//interate over repeatables
 			$this->replaceEach("{{PB}}", function($i){ return '<pb n="' . ($i + 2) . '"/>';	});
-			$this->replaceEach("<note ", function($i){ return '<note xml:id="' . $this->docID . "-fn-" . ($i + 1) . '">';	});
+			$this->replaceEach("{{N}}", function($i){ return '<ptr n="' . ($i + 1) . '" target="' . $this->docID . "-fn-" . ($i + 1) .  '"/>';	});
+			$this->replaceEach("<note ", function($i){ return '<note xml:id="' . $this->docID . "-fn-" . ($i + 1) . '" ';	});
 
 			//swap in pre-gathered metadata
 			$this->placeHead();
@@ -274,7 +272,7 @@
 			//final clean up
 			
 			//remove the paragraphs with the metadata
-			$this->findRegex('<div type="docbody">.*<opener>', 's')->replaceWith("<div type=\"docbody\">\n<opener>");
+			$this->findRegex('</head>.*<opener>', 's')->replaceWith("</head>\n<opener>");
 
 
 			//to finish, look at first arg: if we had passed in text, then pass back. otherwise write it back to teiDocMain
@@ -293,13 +291,11 @@
 
 
 		private function parseDate($text){
-			
 			//if we have dashes, split on those
 			if(strpos($text, "-") !== false) $del = "-";
 			else $del = " ";
 			
 			$parts = explode($del, $text);
-			
 			
 			$year = "0000";
 			$month = $day = "00";
@@ -308,7 +304,6 @@
 			if(isset($parts[0])) {	
 				if(strlen($parts[0]) == 4 and is_numeric($parts[0])) $year = $parts[0];
 			}
-
 				
 			//month
 			if(isset($parts[1])){
@@ -337,16 +332,13 @@
 				
 				if(strlen($rawmo) == 1){
 					$month = "0" . $rawmo;
-				}
-				
+				}				
 			}
 
-			
 			//DAY
 			if(isset($parts[2])){
 				if(strlen($parts[2]) < 3 and is_numeric($parts[2])) {
 					$day = $parts[2];
-					
 					//fix single digitas
 					if(strlen($day) == 1) $day = "0" . $day;
 				}
@@ -354,20 +346,29 @@
 		
 			
 			return $year . "-" . $month . "-" . $day;
-
 		}
 
 		
 		
 		
-		private function parseHeading($text){
+		
+		private function parseHead(){
+
+			//authors specified, so we can just use the head as is
+			if(!empty($this->metadata['authors'])) return;
+
+			//if authors not specified in WET, parse head instead
+
+			//discover any " to " grammar
+			if(stripos($this->metadata['head'], "to ") === 0) $separator = "to ";
+			else if(stripos($this->metadata['head'], " to ") !== false) $separator = " to ";
+			else return;
 			
-			if(strpos($text, " to ") !== false) {
-				$parts = explode(" to ", $text);
+			if(strpos($this->metadata['head'], $separator) !== false) {
+				$parts = explode($separator, $this->metadata['head']);
 				$this->metadata['author'] = trim($parts[0]);
 				$this->metadata['recipient'] = trim($parts[1]);
-			}
-			else $this->metadata['author'] = trim($text);
+			}			
 			
 		}
 
@@ -375,14 +376,7 @@
 		
 		
 		private function placeHead(){
-			
-			$text = "<head>" . $this->metadata['author'];
-			
-			if(!empty($this->metadata['recipient'])){
-				$text .= " to " . $this->metadata['recipient'];
-			}
-			
-			$text .= "</head>";
+			$text = "<head>" . $this->metadata['head'] . "</head>";
 			
 			$this->findString("{{HEAD}}")->replaceWith($text);
 		}
@@ -393,8 +387,15 @@
 			
 			$text = "<bibl>\n";
 			$text .= "\t<date type=\"creation\" when=\"" . $this->metadata['date'] . "\"/>\n";
-			$text .= "\t<author>" . $this->metadata['author'] . "</author>\n";
-			$text .= "\t<name type=\"recip\">" . $this->metadata['recipient'] . "</name>\n";
+			
+			if(!empty($this->metadata['authors'])) {
+				$aset = explode(";", $this->metadata['authors']);
+				foreach($aset as $author){
+					$text .= "\t<author>" . trim($author) . "</author>\n";
+				}
+			}
+			
+			if(!empty($this->metadata['recipient'])) $text .= "\t<name type=\"recip\">" . $this->metadata['recipient'] . "</name>\n";
 			$text .= "\t<name type=\"transcriber\">" . $this->metadata['transcriber'] . "</name>\n";
 			$text .= "\t<date type=\"transcription\" when=\"" . $this->metadata['transcription-date'] . "\"/>\n";
 			$text .= "</bibl>";

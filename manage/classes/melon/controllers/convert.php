@@ -83,10 +83,6 @@
 			$T->prepOxFile();
 
 			$T->separateDocParts();
-
-//so we can see OX output post fixes but still WET			
-//file_put_contents($fullpath, $T->text());
-
 	
 			//if we have chunks, that is, more than one document
 			if(strpos($text, '{{DOC}}')) {
