@@ -3,6 +3,6 @@
 *.cache*
 *.sass-cache*
 /contributors*
-/nbproject/*
+/nbproject*
 /downloads/*
 /uploads/*
