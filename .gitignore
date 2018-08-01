@@ -2,3 +2,7 @@
 .DS_Store
 *.cache*
 *.sass-cache*
+/contributors*
+/nbproject/*
+/downloads/*
+/uploads/*

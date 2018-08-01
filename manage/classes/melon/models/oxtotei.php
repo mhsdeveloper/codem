@@ -18,9 +18,9 @@
 
 
 		private $idRoot = "NOID";
-		
+
 		private $docID = "NOID";
-		
+
 		private $metadata = [
 			"document-id" => "",
 			"transcriber" => "",
@@ -32,9 +32,9 @@
 			"date" => "",
 			"head" => ""
 		];
-		
-		
-		
+
+
+
 
 		public function text($text = false){
 			if(false == $text) return $this->text;
@@ -42,11 +42,11 @@
 		}
 
 
-		
+
 		public function setIdRoot($id){
 			$this->idRoot = $id;
 		}
-		
+
 
 
 
@@ -61,15 +61,17 @@
 
 			//remove unnecessary @rend
 			$this->text = preg_replace('/ rend=".*"/U', "", $this->text);
-			
+
 			//remove unnecessary @style
 			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
 
 			//remove HI tags
 			$this->text = preg_replace('/<hi.*>/U', "", $this->text);
 			$this->text = str_replace("</hi>", "", $this->text);
-			
-			
+
+			//add our application tags
+			$app = '</application>' . "\n" . '<application ident="MHS-WET" version="0.1a"><label>MHS-WET</label></application>';
+			$this->text = str_replace("</application>", $app, $this->text);
 		}
 
 
@@ -89,59 +91,59 @@
 
 
 		public function chunkByChunk(){
-			
+
 			//first expand {{DOC}} placeholder
 			$this->teiDocMain = str_replace("{{DOC}}", "{{DOC}}**DOCLINE**", $this->teiDocMain);
 
-			//KEEP IN MIND there's a paragraph surrounding the {{DOC}} and the following ID			
+			//KEEP IN MIND there's a paragraph surrounding the {{DOC}} and the following ID
 			$this->chunks = explode("<p>{{DOC}}", $this->teiDocMain);
 
 			//zero our text holder so we can add chunks as they are done
 			$this->teiDocMain = "";
-			
+
 			foreach($this->chunks as $chunk){
-				
+
 				//skip leading or trailing empty doc
 				if(strlen($chunk) < 10) continue;
-				
+
 				$chunk = $this->processDocument($chunk);
-				
+
 				$this->teiDocMain .= $chunk;
 			}
 		}
 
-		
-		
-		
-		
+
+
+
+
 		public function rejoinParts(){
 			$this->text = $this->teiHeader . $this->teiDocMain . $this->teiDocEnding;
-			
+
 			return $this->text;
 		}
-		
+
 
 
 
 
 		public function gleanMetadata(){
-			
+
 			//which line of actual content are we at?
 			$this->contentLineCount = 0;
-			
+
 			$this->foundDate = false;
 			$this->foundHeader = false;
-			
-			
+
+
 			$this->forEachLine(function($line){
 				//llook for doc id
 				if($line->begins("**DOCLINE**")) {
 					$this->metadata['document-id'] = $line->trimLeading()->trimTrailingP()->getText();
 				}
-					
+
 				//lines beginning with {{  are our header metadata (transcriber, etc)
 				elseif($line->begins("<p>{{")){
-					
+
 					if($line->contains("{{TRANSCRIBER}}")) $this->metadata['transcriber'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{TRANSCRIPTION-DATE}}")) {
 						$tempdate = $line->trimLeading()->trimTrailingP()->getText();
@@ -149,16 +151,16 @@
 					}
 					else if($line->contains("{{EDITOR}}")) $this->metadata['editor'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{EDITION}}")) $this->metadata['edition'] = $line->trimLeading()->trimTrailingP()->getText();
-					else if($line->contains("{{AUTHORS}}")) $this->metadata['authors'] = $line->trimLeading()->trimTrailingP()->getText();
+					else if($line->contains("{{AUTHOR}}")) $this->metadata['authors'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{HEAD}}")) $this->metadata['head'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{DATE}}")) {
 						$tempdate = $line->trimLeading()->trimTrailingP()->getText();
 						$this->metadata['date'] = $this->parseDate($tempdate);
 					}
-				
+
 				}
 			});
-			
+
 			//reconcile what we've found for the head
 			$this->parseHead();
 
@@ -170,14 +172,14 @@
 
 		/* this also accepts a string input (coming from chunkByChunk), but
 		 * when $text === false, it uses full teiDocMain as text
-		 * 
+		 *
 		 * so when NOT passing in $text, we operate on ->teiDocMain, and keep
 		 * that updated.
-		 * 
+		 *
 		 * When passing in Text, we keep teiDocMain separate
 		 */
 		public function processDocument($text = false){
-			
+
 			$noTextArg = false;
 
 			if($text === false) {
@@ -197,18 +199,29 @@
 			$this->appendOutput("<div type=\"doc\" xml:id=\"" . $this->docID . "\">\n{{BIBL}}\n");
 			$this->newSection("<div type=\"docbody\">",""); //no closing tag because we'll need to nest other sections
 			$this->appendOutput("\n{{HEAD}}\n");
-			
+
 			//---- more detailed line-by-line processing
 			$this->forEachLine(function($line){
 
-				if($line->contains("{{ADDRESS}}")) $this->newSection("<div type=\"addr\">", "</div>");
-				else if($line->contains("{{CLOSE}}")) {
+				if($line->contains("{{CLOSE}}")) {
 					$this->newSection("<closer>", "</closer>");
 					$this->appendOutput($line->trimLeading()->trimTrailingP()->getText());
 				}
+
 				else if($line->contains("{{PS}}")) {
 					$this->newSection("<postscript>", "</postscript>");
 				}
+
+				else if($line->contains("{{ADDRESS}}")) $this->newSection("<address>", "</address>", "addrLine");
+
+				else if($line->contains("{{INSERTION}}")) {
+					$this->newSection("<seg type=\"insertion\">", "</seg>");
+				}
+
+				else if($line->contains("{{ENDORSEMENT}}")) {
+					$this->newSection("<seg type=\"endorsement\">", "</seg>");
+				}
+
 				else if($line->contains("{{SOURCE}}")) {
 					//close any sections
 					$this->closeSection();
@@ -218,12 +231,11 @@
 					$this->newSection("<div type=\"docback\">\n", ""); //again, no closing tag since we need to next other sections
 					$this->newSection("<div type=\"source\">", "</div>");
 				}
+
 				else if($line->contains("{{NOTE}}")) {
 					$this->newSection("<note type=\"fn\">", "</note>");
 				}
-				else if($line->contains("{{INSERTION}}")) {
-					$this->newSection("<div type=\"insertion\">", "</div>");
-				}
+
 
 				//add the line
 				$this->append($line);
@@ -238,10 +250,10 @@
 
 			//rest of processes operate directly on text, so copy output back to text
 			$this->updateText();
-			
+
 			//some paragraph replacements, single line or string, not sectional
 			$this->findString("{{SALUTE}}")->inParagraphs()->rewrapWith("salute")->remove();
-			$this->findString("{{DATELINE}}")->inParagraphs()->rewrapWith("dateline")->remove(); 
+			$this->findString("{{DATELINE}}")->inParagraphs()->rewrapWith("dateline")->remove();
 			$this->findString("{{SIGNED}}")->inParagraphs()->rewrapWith("signed")->remove();
 //			$this->findString("{{PS}}")->inParagraphs()->wrapWith("postscript")->remove();
 
@@ -253,11 +265,11 @@
 			$this->findString("[")->replaceWith("<supplied>");
 			$this->findString("]")->replaceWith("</supplied>");
 
-			
+
 			//wrap the dateline/salute elements in <opener>
 			$this->findString("<dateline>")->replaceWith("<opener>\n<dateline>");
 			$this->findString("</salute>")->replaceWith("</salute>\n</opener>");
-			
+
 
 			//interate over repeatables
 			$this->replaceEach("{{PB}}", function($i){ return '<pb n="' . ($i + 2) . '"/>';	});
@@ -266,11 +278,11 @@
 
 			//swap in pre-gathered metadata
 			$this->placeHead();
-			
+
 			$this->placeBibl();
 
 			//final clean up
-			
+
 			//remove the paragraphs with the metadata
 			$this->findRegex('</head>.*<opener>', 's')->replaceWith("</head>\n<opener>");
 
@@ -294,26 +306,26 @@
 			//if we have dashes, split on those
 			if(strpos($text, "-") !== false) $del = "-";
 			else $del = " ";
-			
+
 			$parts = explode($del, $text);
-			
+
 			$year = "0000";
 			$month = $day = "00";
-			
+
 			//YEAR
-			if(isset($parts[0])) {	
+			if(isset($parts[0])) {
 				if(strlen($parts[0]) == 4 and is_numeric($parts[0])) $year = $parts[0];
 			}
-				
+
 			//month
 			if(isset($parts[1])){
-				
+
 				$rawmo = $parts[1];
-				
+
 				if(strlen($rawmo) == 2){
 					$month = $rawmo;
 				}
-				
+
 				if(strlen($rawmo) > 2){
 					//match month
 					if(stripos($rawmo, "jan") !== false) $month = "01";
@@ -329,10 +341,10 @@
 					else if(stripos($rawmo, "nov") !== false) $month = "11";
 					else if(stripos($rawmo, "dec") !== false) $month = "12";
 				}
-				
+
 				if(strlen($rawmo) == 1){
 					$month = "0" . $rawmo;
-				}				
+				}
 			}
 
 			//DAY
@@ -343,15 +355,15 @@
 					if(strlen($day) == 1) $day = "0" . $day;
 				}
 			}
-		
-			
+
+
 			return $year . "-" . $month . "-" . $day;
 		}
 
-		
-		
-		
-		
+
+
+
+
 		private function parseHead(){
 
 			//authors specified, so we can just use the head as is
@@ -363,45 +375,45 @@
 			if(stripos($this->metadata['head'], "to ") === 0) $separator = "to ";
 			else if(stripos($this->metadata['head'], " to ") !== false) $separator = " to ";
 			else return;
-			
+
 			if(strpos($this->metadata['head'], $separator) !== false) {
 				$parts = explode($separator, $this->metadata['head']);
 				$this->metadata['author'] = trim($parts[0]);
 				$this->metadata['recipient'] = trim($parts[1]);
-			}			
-			
+			}
+
 		}
 
-		
-		
-		
+
+
+
 		private function placeHead(){
 			$text = "<head>" . $this->metadata['head'] . "</head>";
-			
+
 			$this->findString("{{HEAD}}")->replaceWith($text);
 		}
-		
-		
-		
+
+
+
 		private function placeBibl(){
-			
+
 			$text = "<bibl>\n";
 			$text .= "\t<date type=\"creation\" when=\"" . $this->metadata['date'] . "\"/>\n";
-			
+
 			if(!empty($this->metadata['authors'])) {
 				$aset = explode(";", $this->metadata['authors']);
 				foreach($aset as $author){
 					$text .= "\t<author>" . trim($author) . "</author>\n";
 				}
 			}
-			
+
 			if(!empty($this->metadata['recipient'])) $text .= "\t<name type=\"recip\">" . $this->metadata['recipient'] . "</name>\n";
 			$text .= "\t<name type=\"transcriber\">" . $this->metadata['transcriber'] . "</name>\n";
 			$text .= "\t<date type=\"transcription\" when=\"" . $this->metadata['transcription-date'] . "\"/>\n";
 			$text .= "</bibl>";
-			
+
 			$this->findString("{{BIBL}}")->replaceWith($text);
 		}
-		
+
 
 	}
