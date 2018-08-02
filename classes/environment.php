@@ -12,14 +12,13 @@
 		//this is the installation location of the backend prep and management
 		const APP_INSTALL_DIR = "/var/www/html/publications/melon/manage/";
 
-
 		//URL above domain to backend prep and management
 		const APP_INSTALL_URL = "/publications/melon/manage/";
 
 		//this is the installation location of the public delivery of the diary
 		const LIVE_INSTALL_DIR = "/var/www/html/publications/melon/";
 
-		//URL above domain for the mainc public app
+		//URL above domain for the main public app
 		const LIVE_INSTALL_URL = "/publications/melon/";
 
 		//URL prefix (followed by doc ID) for static URL to document view
@@ -66,7 +65,6 @@
 		
 		
 		//Views
-
 		const ERROR_VIEW = "error.php";
 
 		
