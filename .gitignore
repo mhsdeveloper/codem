@@ -1,7 +1,7 @@
-.DS_Store
+*.DS_Store
 *.cache*
 *.sass-cache*
-contributors
-nbproject
-manage/downloads
-manage/uploads
+contributors/
+nbproject/
+manage/downloads/
+manage/uploads/
