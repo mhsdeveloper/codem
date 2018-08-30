@@ -11,17 +11,17 @@
 	require "autoloader.php";
 
 
-	$classLoader = new SplClassLoader('MHS', '/var/www/incl/classes');
+	$classLoader = new SplClassLoader('MHS', SERVER_WWW_ROOT . 'incl/classes');
 	$classLoader->register();
 
-	$fogLoader = new SplClassLoader('Foghorn', '/var/www/html/database/foghorn/classes');
+	$fogLoader = new SplClassLoader('Foghorn', SERVER_WWW_ROOT . 'html/database/foghorn/classes');
 	$fogLoader->register();
 
-	$pubsLoader = new SplClassLoader('Publications', '/var/www/html/publications/lib/classes');
+	$pubsLoader = new SplClassLoader('Publications', SERVER_WWW_ROOT . 'html/publications/lib/classes');
 	$pubsLoader->register();
 
 	//this project's classes
-	$projectLoader = new SplClassLoader('Melon', '/var/www/html/publications/melon/manage/classes');
+	$projectLoader = new SplClassLoader('Melon', SERVER_WWW_ROOT . 'html/publications/melon/manage/classes');
 	$projectLoader->register();
 
 

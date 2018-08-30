@@ -56,18 +56,11 @@
 			// add line breaks at specific tags, both open and close, except for p
 			$endTags = [ "Desc>", "Stmt>", "Info>", "Change>", "text>", "body>", "</p>"];
 			$endTagsModded = [ "Desc>\n", "Stmt>\n", "Info>\n", "Change>\n", "text>\n", "body>\n", "</p>\n"];
-
 			$this->text = str_replace($endTags, $endTagsModded, $this->text);
 
+			//make all <p> simply <p>
 			//remove unnecessary @rend
-			$this->text = preg_replace('/ rend=".*"/U', "", $this->text);
-
-			//remove unnecessary @style
-			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
-
-			//remove HI tags
-			$this->text = preg_replace('/<hi.*>/U', "", $this->text);
-			$this->text = str_replace("</hi>", "", $this->text);
+			$this->text = preg_replace('/<p .*>/U', "<p>", $this->text);
 
 			//add our application tags
 			$app = '</application>' . "\n" . '<application ident="MHS-WET" version="0.1a"><label>MHS-WET</label></application>';
@@ -212,14 +205,15 @@
 					$this->newSection("<postscript>", "</postscript>");
 				}
 
-				else if($line->contains("{{ADDRESS}}")) $this->newSection("<address>", "</address>", "addrLine");
-
+				else if($line->contains("{{ADDRESS}}")) {
+					$this->newSection("<div type=\"address\">", "</div>", "p");
+				}
 				else if($line->contains("{{INSERTION}}")) {
-					$this->newSection("<seg type=\"insertion\">", "</seg>");
+					$this->newSection("<div type=\"insertion\">", "</div>");
 				}
 
 				else if($line->contains("{{ENDORSEMENT}}")) {
-					$this->newSection("<seg type=\"endorsement\">", "</seg>");
+					$this->newSection("<div type=\"endorsement\">", "</div>");
 				}
 
 				else if($line->contains("{{SOURCE}}")) {
@@ -261,9 +255,10 @@
 			$this->findString("{{DAMAGE}}")->replaceWith("<damage/>");
 			$this->findString("{{BLANK}}")->replaceWith("<space/>");
 			$this->findString("<p>{{BLANK-BLOCK}}</p>")->replaceWith("<space type=\"block\"/>");
-			$this->findString("{{INS}}")->replaceWith("<add></add>");
 			$this->findString("[")->replaceWith("<supplied>");
 			$this->findString("]")->replaceWith("</supplied>");
+			$this->findString("^:")->replaceWith("<add>");
+			$this->findString("^")->replaceWith("</add>");
 
 
 			//wrap the dateline/salute elements in <opener>
@@ -275,6 +270,20 @@
 			$this->replaceEach("{{PB}}", function($i){ return '<pb n="' . ($i + 2) . '"/>';	});
 			$this->replaceEach("{{N}}", function($i){ return '<ptr n="' . ($i + 1) . '" target="' . $this->docID . "-fn-" . ($i + 1) .  '"/>';	});
 			$this->replaceEach("<note ", function($i){ return '<note xml:id="' . $this->docID . "-fn-" . ($i + 1) . '" ';	});
+			$this->replaceEach("{{INS}}", function($i){ return '<ptr n="' . ($i + 1) . '" target="' . $this->docID . "-ins-" . ($i + 1) .  '"/>';	});
+			$this->replaceEach("<div type=\"insertion\">", function($i){ return '<div type="insertion" xml:id="' . $this->docID . "-ins-" . ($i + 1) .  '">';	});
+
+			//remove HI tags
+			$this->text = preg_replace('/<hi.*>/U', "", $this->text);
+			$this->text = str_replace("</hi>", "", $this->text);
+
+
+			//remove unnecessary @rend
+			$this->text = preg_replace('/ rend=".*"/U', "", $this->text);
+
+			//remove unnecessary @style
+			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
+
 
 			//swap in pre-gathered metadata
 			$this->placeHead();

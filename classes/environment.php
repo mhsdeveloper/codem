@@ -10,13 +10,13 @@
 		const DEBUGGING_MODE_ON = false;
 
 		//this is the installation location of the backend prep and management
-		const APP_INSTALL_DIR = "/var/www/html/publications/melon/manage/";
+		const APP_INSTALL_DIR = SERVER_WWW_ROOT . "html/publications/melon/manage/";
 
 		//URL above domain to backend prep and management
 		const APP_INSTALL_URL = "/publications/melon/manage/";
 
 		//this is the installation location of the public delivery of the diary
-		const LIVE_INSTALL_DIR = "/var/www/html/publications/melon/";
+		const LIVE_INSTALL_DIR = SERVER_WWW_ROOT . "html/publications/melon/";
 
 		//URL above domain for the main public app
 		const LIVE_INSTALL_URL = "/publications/melon/";
@@ -30,13 +30,13 @@
 
 		//relative URL for uploading files for converting from Word to TEI
 		const CONVERT_UPLOAD_URL = "index.php/convert/upload";
-		
+
 		//relative URL to process docx
 		const CONVERT_PROCESS_URL = "index.php/convert/process";
 
-		// full path to upload dir 
-		const CONVERT_UPLOAD_DIR = "/var/www/html/publications/melon/manage/uploads/";
-		
+		// full path to upload dir
+		const CONVERT_UPLOAD_DIR = SERVER_WWW_ROOT . "html/publications/melon/manage/uploads/";
+
 		//relative URL for the ajax call to post a file to upload
 		const SOURCE_UPLOAD_URL = "index.php/upload-source";
 
@@ -50,45 +50,45 @@
 		const LOGFILE_SUBFOLDER = "logs/";
 
 		//full path to XSLT file for processing source on upload
-		const XSLT_FILE = "/var/www/html/publications/lib/xsl/prep/mhs-tagging-comp.xsl";
+		const XSLT_FILE = SERVER_WWW_ROOT . "html/publications/lib/xsl/prep/mhs-tagging-comp.xsl";
 
 		//full path to the XML source
-		const SOURCE_FOLDER = "/var/www/html/publications/melon/xml/";
+		const SOURCE_FOLDER = SERVER_WWW_ROOT . "html/publications/melon/xml/";
 
 		//This is the storage path, full path, to where metadata is kept.
-		const STORAGE_PATH = "/var/www/html/publications/melon/metadata/";
+		const STORAGE_PATH = SERVER_WWW_ROOT . "html/publications/melon/metadata/";
 
 
 		//PATH to the metadata folder
-		const META_PATH = "/var/www/html/publications/melon/xml/meta/";
-		
-		
-		
+		const META_PATH = SERVER_WWW_ROOT . "html/publications/melon/xml/meta/";
+
+
+
 		//Views
 		const ERROR_VIEW = "error.php";
 
-		
+
 		//the prefix that precedes the ID in link hrefs
 		const DOC_LINK_PREFIX = "/publications/melon/index.php/view/";
-	
+
 		//this tells which segment in the URL holds the doc Link id. the first segment after the router
 		// is 1, so for example in this URL: project/index.php/view/VOL01d234 the ID is segment 2
 		const DOC_LINK_URL_SEGMENT = 2;
 
 		//prefix for URL's to display of short title definitions
 		const SHORT_TITLE_LINK_PREFIX = "/publications/melon/index.php/lists/";
-	
+
 		const SHORT_TITLE_LISTS_PATH = "/publications/melon/xml/lists/";
 
-		
+
 
 
 		const JAVA_BIN = "java";
-		
-		//full path to the SAXON jar that supports xslt2.0
-		const SAXON_JAR = "/var/www/scripts-offline/saxon8.jar";
 
-			
+		//full path to the SAXON jar that supports xslt2.0
+		const SAXON_JAR = SERVER_WWW_ROOT . "scripts-offline/saxon8.jar";
+
+
 
 
 

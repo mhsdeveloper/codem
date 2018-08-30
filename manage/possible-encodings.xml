@@ -1,0 +1,119 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+				<author>Patricia Kalayjian</author>
+			</titleStmt>
+			<editionStmt>
+				<edition><date>2018-04-11</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<p>unknown</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Converted from a Word document</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+					<label>DOCX to TEI</label>
+				</application>
+				<application ident="MHS-WET" version="0.1a">
+					<label>MHS-WET</label>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<revisionDesc>
+			<listChange>
+				<change><date>2018-07-31T17:57:46Z</date><name>Patricia Kalayjian</name></change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="doc" xml:id="JIL2018-12-03">
+				<bibl>
+					<date type="creation" when="1818-11-30"/>
+					<author>smith-jim-1701</author>
+					<author>smith-harry-1725</author>
+					<name type="transcriber">Jill Isa Scriber</name>
+					<date type="transcription" when="2018-12-03"/>
+				</bibl>
+				<div type="docbody">
+					<head>JS; JS2 to RSI</head>
+					<opener>
+						<dateline>Stockbridge Nov 30th Monday Eve’g.</dateline>
+						<salute>Dear Bob, </salute>
+					</opener>
+					<p> I wish you were all to be here to take <damage/> in our good cheer, and to
+						make for us truly a festival of the spirit<ptr n="1"
+							target="JIL2018-12-03-fn-1"/> -- In our fervent thanksgiving we shall
+						remember the dear Brothers and Sister, whose love blesseth us all the year,
+						and whose health and prosperity are among the most valued of our heavenly
+						Father’s gifts. The thought of you may cost me a tear—but there will be no
+						bitterness in it --</p>
+					<p>Bitterness is, like winter,<lb/>Not sweet. But Bittersweet<lb/>Tastes great a
+						la mode.</p>
+					<p>Your last letter surprised me a little, -- There is a <unclear/> promised to
+						those that ‘wait’ you know, and I expect to realize it, for I shall be
+						perfectly passive -- <pb n="2"/> Sister Frances is still in Albany -- I
+						expect her down tomorrow <space/>.</p>
+					<p> It should not be “small things” dear Robert that render a woman worthy of
+						you.</p>
+					<space type="block"/>
+					<p> Aunt was sitting in her kitchen, when Sue<ptr n="2"
+						target="JIL2018-12-03-fn-2"/> came in. <persRef ref="smith-jill-1801">Fortune</persRef> was frying some liver for
+						his supper—Sue took up a fork in her ‘sans ceremo1ie’ manner and would have
+						shared with him. Fortune who didn’t know her and only knew she was crazy
+						<add/> snatched the fork from her and told he would stick it
+						into her if she did not keep her distance. At this, with the quickness of a
+						Maniac great speed she seized a <supplied>hammer?</supplied> and raising her
+						arm as if to knock his brains out said ‘Are you ready to die—He had just
+						been present at the slaughter of the Colion.' <pb n="3"/></p>
+					<p> Cynthia is here and sends her love to you remember me aff’y to all, and tell
+						Theodore and Egbert we all wish very much they were to join us at our
+						Thanksgiving-- God bless you all my dear Robert --Believe me as ever </p>
+					<closer>your ever faithful servant, your ever faithful servant, <signed>thine
+							Jim</signed>
+					</closer>
+					<postscript>
+						<p> How are Harry’s eyes? </p>
+					</postscript>
+				</div>
+				<div type="insertions">
+					<div type="insertion" xml:id="JIL2018-12-03-ins-1"><p>text</p></div>
+					<div type="insertion" xml:id="JIL2018-12-03-ins-2"><p>text</p></div>
+				</div>
+				<div type="docback">
+					
+					<note type="source">
+						<p><lb/>Document type.<lb/>Repository.<lb/>Collection.</p>
+						<p>Condition.</p>
+						
+						<note type="endorsement">
+							<p>Endorse by pl</p>
+						</note>
+						
+						<note type="notation">
+							<p>Endorse by pl</p>
+						</note>
+						
+						<note type="address">
+						</note>				
+					</note>
+					
+					<note xml:id="JIL2018-12-03-fn-1" type="fn"><p>There is some ill-founded
+							speculation that this might refer to an actual festival focusing on
+							tarot cards, mystic minerals, and other nonsense.</p>
+					</note>
+					<note xml:id="JIL2018-12-03-fn-2" type="fn"><p> At left CMS drew a caricature of
+							Crazy Sue which depicts Sue with very wild hair.</p>
+					</note>
+				</div>
+			</div>
+			<!-- //document -->
+		</body>
+	</text>
+</TEI>
