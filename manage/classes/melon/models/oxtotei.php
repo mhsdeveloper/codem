@@ -200,20 +200,17 @@
 					$this->newSection("<closer>", "</closer>");
 					$this->appendOutput($line->trimLeading()->trimTrailingP()->getText());
 				}
-
 				else if($line->contains("{{PS}}")) {
 					$this->newSection("<postscript>", "</postscript>");
 				}
-
 				else if($line->contains("{{ADDRESS}}")) {
-					$this->newSection("<div type=\"address\">", "</div>", "p");
+					$this->newSection("<note type=\"address\">", "</note>", "p");
 				}
 				else if($line->contains("{{INSERTION}}")) {
 					$this->newSection("<div type=\"insertion\">", "</div>");
 				}
-
 				else if($line->contains("{{ENDORSEMENT}}")) {
-					$this->newSection("<div type=\"endorsement\">", "</div>");
+					$this->newSection("<note type=\"endorsement\">", "</note>");
 				}
 
 				else if($line->contains("{{SOURCE}}")) {
@@ -223,7 +220,7 @@
 					$this->appendOutput("</div>\n");
 					//here we sneak in the docback div
 					$this->newSection("<div type=\"docback\">\n", ""); //again, no closing tag since we need to next other sections
-					$this->newSection("<div type=\"source\">", "</div>");
+					$this->newSection("note type=\"source\">", "</note>");
 				}
 
 				else if($line->contains("{{NOTE}}")) {
@@ -240,8 +237,6 @@
 
 			//close document; closes the docback and the doc
 			$this->appendOutput("\n</div>\n</div><!-- //document -->\n");
-
-
 			//rest of processes operate directly on text, so copy output back to text
 			$this->updateText();
 
@@ -290,6 +285,9 @@
 
 			$this->placeBibl();
 
+			//move insertions to correct location between docbody and docback
+			$insertionStrings =
+
 			//final clean up
 
 			//remove the paragraphs with the metadata
@@ -302,7 +300,7 @@
 				return;
 			}
 
-			//we had passing in a text arg, so return new text
+			//we had passed in a text arg, so return new text
 			return $this->text;
 		}
 
