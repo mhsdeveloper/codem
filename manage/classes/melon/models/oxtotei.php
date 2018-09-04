@@ -220,7 +220,7 @@
 					$this->appendOutput("</div>\n");
 					//here we sneak in the docback div
 					$this->newSection("<div type=\"docback\">\n", ""); //again, no closing tag since we need to next other sections
-					$this->newSection("note type=\"source\">", "</note>");
+					$this->newSection("<note type=\"source\">", "</note>");
 				}
 
 				else if($line->contains("{{NOTE}}")) {
