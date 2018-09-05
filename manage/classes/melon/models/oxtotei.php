@@ -263,9 +263,9 @@
 
 			//interate over repeatables
 			$this->replaceEach("{{PB}}", function($i){ return '<pb n="' . ($i + 2) . '"/>';	});
-			$this->replaceEach("{{N}}", function($i){ return '<ptr n="' . ($i + 1) . '" target="' . $this->docID . "-fn-" . ($i + 1) .  '"/>';	});
+			$this->replaceEach("{{N}}", function($i){ return '<ptr type="noteRef" n="' . ($i + 1) . '" target="' . $this->docID . "-fn-" . ($i + 1) .  '"/>';	});
 			$this->replaceEach("<note ", function($i){ return '<note xml:id="' . $this->docID . "-fn-" . ($i + 1) . '" ';	});
-			$this->replaceEach("{{INS}}", function($i){ return '<ptr n="' . ($i + 1) . '" target="' . $this->docID . "-ins-" . ($i + 1) .  '"/>';	});
+			$this->replaceEach("{{INS}}", function($i){ return '<ptr type="insRef" n="' . ($i + 1) . '" target="' . $this->docID . "-ins-" . ($i + 1) .  '"/>';	});
 			$this->replaceEach("<div type=\"insertion\">", function($i){ return '<div type="insertion" xml:id="' . $this->docID . "-ins-" . ($i + 1) .  '">';	});
 
 			//remove HI tags
@@ -274,7 +274,7 @@
 
 
 			//remove unnecessary @rend
-			$this->text = preg_replace('/ rend=".*"/U', "", $this->text);
+			//$this->text = preg_replace('/ rend=".*"/U', "", $this->text);
 
 			//remove unnecessary @style
 			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
