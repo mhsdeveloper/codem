@@ -269,8 +269,8 @@
 			$this->replaceEach("<div type=\"insertion\">", function($i){ return '<div type="insertion" xml:id="' . $this->docID . "-ins-" . ($i + 1) .  '">';	});
 
 			//remove HI tags
-			$this->text = preg_replace('/<hi.*>/U', "", $this->text);
-			$this->text = str_replace("</hi>", "", $this->text);
+//			$this->text = preg_replace('/<hi.*>/sU', "", $this->text);
+//			$this->text = str_replace("</hi>", "", $this->text);
 
 
 			//remove unnecessary @rend
@@ -287,8 +287,14 @@
 
 			//move insertions to correct location between docbody and docback
 			preg_match_all('#<div type="insertion".*</div>#sU', $this->text, $matches);
+			$insertions = implode("\n", $matches);
+			//remove $insertions
+			foreach($matches as $ins){
+				$this->text = str_replace($ins, "", $this->text);
+			}
+			//place insertions
+			$this->text = str_replace('<div type="docback"', $insertions . '<div type="docback"', $this->text);
 
-			print_r($matches);
 
 			//final clean up
 
