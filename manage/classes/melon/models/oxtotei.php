@@ -302,6 +302,8 @@
 			//final clean up
 
 			//any remaining {{ becomes comments
+			//first comments that folks unwittingly put on separate lines
+			$this->text = str_replace(["<p>{{", "}}</p>"], ["<!--", "-->"], $this->text);
 			$this->text = str_replace(["{{", "}}"], ["<!--", "-->"], $this->text);
 
 
