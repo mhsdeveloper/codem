@@ -212,6 +212,9 @@
 				else if($line->contains("{{ENDORSEMENT}}")) {
 					$this->newSection("<note type=\"endorsement\">", "</note>");
 				}
+				else if($line->contains("{{notation}}")) {
+					$this->newSection("<note type=\"notation\">", "</note>");
+				}
 
 				else if($line->contains("{{SOURCE}}")) {
 					//close any sections
@@ -274,7 +277,7 @@
 
 
 			//remove unnecessary @rend
-			//$this->text = preg_replace('/ rend=".*"/U', "", $this->text);
+			$this->text = preg_replace('/<p rend=".*"/U', "<p", $this->text);
 
 			//remove unnecessary @style
 			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
@@ -297,6 +300,10 @@
 
 
 			//final clean up
+
+			//any remaining {{ becomes comments
+			$this->text = str_replace(["{{", "}}"], ["<!--", "-->"], $this->text);
+
 
 			//remove the paragraphs with the metadata
 			$this->findRegex('</head>.*<opener>', 's')->replaceWith("</head>\n<opener>");
