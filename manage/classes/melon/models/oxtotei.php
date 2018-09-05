@@ -212,7 +212,7 @@
 				else if($line->contains("{{ENDORSEMENT}}")) {
 					$this->newSection("<note type=\"endorsement\">", "</note>");
 				}
-				else if($line->contains("{{notation}}")) {
+				else if($line->contains("{{NOTATION}}")) {
 					$this->newSection("<note type=\"notation\">", "</note>");
 				}
 
