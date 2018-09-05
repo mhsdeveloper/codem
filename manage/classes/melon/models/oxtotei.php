@@ -287,10 +287,7 @@
 
 			//move insertions to correct location between docbody and docback
 			preg_match_all('#<div type="insertion".*</div>#sU', $this->text, $matches);
-			$insertions = implode("\n", $matches);
-
-			print_r($matches);
-
+			$insertions = implode("\n", $matches[0]);
 			//remove $insertions
 			foreach($matches as $ins){
 				$this->text = str_replace($ins, "", $this->text);
