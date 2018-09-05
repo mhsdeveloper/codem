@@ -286,7 +286,9 @@
 			$this->placeBibl();
 
 			//move insertions to correct location between docbody and docback
-			$insertionStrings =
+			preg_match('/<div type="insertion">.*</div>/U', $this->text, $matches);
+
+			print_r($matches);
 
 			//final clean up
 
