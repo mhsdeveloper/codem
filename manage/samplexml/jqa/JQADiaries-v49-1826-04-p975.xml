@@ -523,7 +523,7 @@
 			<table>
 				<row>
 					<cell>[Wh]ite. Jos: M</cell>
-					<cell rows="2" rendition="#bracket-left" rendition="bracket-right">Visits</cell>
+					<cell rows="2" rendition="#bracket-left #bracket-right">Visits</cell>
 				</row>
 				<row>
 					<cell>[De]lavan D<hi rend="superscript">r</hi></cell>
@@ -722,7 +722,7 @@
 			<table>
 				<row>
 					<cell>Robbins— A.</cell>
-					<cell rows="3" rendition="#bracket-left" rendition="#bracket-right">Visitors.</cell>
+					<cell rows="3" rendition="#bracket-left #bracket-right">Visitors.</cell>
 				</row>
 				<row>
 					<cell>His Son</cell>
@@ -780,7 +780,7 @@
 			<table>
 				<row>
 					<cell>Southard S.N.</cell>
-					<cell rows="3" rendition="#bracket-left" rendition="#bracket-right">Visits—</cell>
+					<cell rows="3" rendition="#bracket-left #bracket-right">Visits—</cell>
 				</row>
 				<row>
 					<cell>[Wa]ll— Gen<hi rend="superscript">l.</hi></cell>
@@ -797,7 +797,7 @@
 			<table>
 				<row>
 					<cell>Everett</cell>
-					<cell rows="3" rendition="#bracket-left" rendition="#bracket-right">With M’Lane’s and Buchanan’s Amendments to the Res<hi rend="superscript">n.</hi> of expediency for appropriations,
+					<cell rows="3" rendition="#bracket-left #bracket-right">With M’Lane’s and Buchanan’s Amendments to the Res<hi rend="superscript">n.</hi> of expediency for appropriations,
 						for the Panama Mission.</cell>
 				</row>
 				<row>
@@ -854,7 +854,7 @@
 			<table>
 				<row>
 					<cell>Chase</cell>
-					<cell rows="2" rendition="#bracket-left" rendition="#bracket-right">With 2 Enrolled Bills— signed</cell>
+					<cell rows="2" rendition="#bracket-left #bracket-right">With 2 Enrolled Bills— signed</cell>
 				</row>
 				<row>
 					<cell>Garnsey</cell>
@@ -1309,7 +1309,7 @@
 			<table>
 				<row>
 					<cell>Van Rensselaer</cell>
-					<cell rows="3" rendition="#bracket-left" rendition="#bracket-right">Gamble a Major in the Marine Corps applies for brevet promotion.</cell>
+					<cell rows="3" rendition="#bracket-left #bracket-right">Gamble a Major in the Marine Corps applies for brevet promotion.</cell>
 				</row>
 				<row>
 					<cell>Gamble</cell>
@@ -1485,11 +1485,11 @@
 						<cell role="num">50</cell>
 					</row>
 					<row>
-						<cel lrole="name" >[Jeffers]onville Indiana</cell>
+						<cell role="name" >[Jeffers]onville Indiana</cell>
 						<cell role="num">1</cell>
 					</row>
 					<row>
-						<cellrole="name">[Kas]kaskia Illinois</cell>
+						<cell role="name">[Kas]kaskia Illinois</cell>
 						<cell role="num">1</cell>
 					</row>
 					<row>

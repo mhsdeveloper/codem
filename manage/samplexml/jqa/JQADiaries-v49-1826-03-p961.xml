@@ -992,11 +992,11 @@
 					<row role="head">Land-grants</row>
 					<row>
 						<cell role="name">S<hi rend="superscript">t.</hi> Louis— Missouri</cell>
-						<cell role-"num">1</cell>
+						<cell role="num">1</cell>
 					</row>
 					<row>
 						<cell role="name">Jeffersonville— Indiana</cell>
-						<cell role-"num">1</cell>
+						<cell role="num">1</cell>
 					</row>
 					<row>
 						<cell></cell>
@@ -1129,7 +1129,7 @@
 				</row>
 				<row>
 					<cell></cell>
-					<cellrole="name">Southard S.N.</cell>
+					<cell role="name">Southard S.N.</cell>
 					<cell></cell>
 				</row>
 				<row>
@@ -1486,7 +1486,7 @@
 				<table>
 					<row>
 						<cell>Noble and</cell>
-						<cell rows="2"rendition="#bracket-right">Midshipman from Mediterranean. Island of Volo.</cell>
+						<cell rows="2" rendition="#bracket-right">Midshipman from Mediterranean. Island of Volo.</cell>
 					</row>
 					<row>
 						<cell>His Son</cell>
