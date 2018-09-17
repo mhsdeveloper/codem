@@ -199,6 +199,7 @@
 				if($line->contains("{{CLOSE}}")) {
 					$this->newSection("<closer>", "</closer>");
 					$this->appendOutput($line->trimLeading()->trimTrailingP()->getText());
+					return;
 				}
 				else if($line->contains("{{PS}}")) {
 					$this->newSection("<postscript>", "</postscript>");
