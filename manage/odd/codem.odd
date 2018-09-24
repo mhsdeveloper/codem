@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE"
+     xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -32,132 +34,6 @@
          <schemaSpec ident="codem" start="TEI teiCorpus div">
 	   <desc>Scehema intended to support at least JQA</desc>
             <moduleRef key="tei"/>
-            <!--Checking module msdescription-->
-            <classRef key="model.physDescPart"/>
-            <!--Checking module namesdates-->
-            <classRef key="model.persNamePart"/>
-            <!--Checking module dictionaries-->
-            <classRef key="att.lexicographic"/>
-            <classRef key="model.entryLike"/>
-            <classRef key="model.formPart"/>
-            <classRef key="model.gramPart"/>
-            <classRef key="model.lexicalRefinement"/>
-            <classRef key="model.morphLike"/>
-            <classRef key="model.ptrLike.form"/>
-            <classSpec ident="att.lexicographic" type="atts" mode="change">
-               <attList>
-                  <attDef ident="expand" mode="delete"/>
-                  <attDef ident="norm" mode="delete"/>
-                  <attDef ident="split" mode="delete"/>
-                  <attDef ident="value" mode="delete"/>
-                  <attDef ident="orig" mode="delete"/>
-                  <attDef ident="location" mode="delete"/>
-                  <attDef ident="mergedIn" mode="delete"/>
-                  <attDef ident="opt" mode="delete"/>
-               </attList>
-            </classSpec>
-            <!--Checking module tagdocs-->
-            <classRef key="att.combinable"/>
-            <classRef key="att.identified"/>
-            <classRef key="model.contentPart"/>
-            <classSpec ident="att.combinable" type="atts" mode="change">
-               <attList>
-                  <attDef ident="mode" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.identified" type="atts" mode="change">
-               <attList>
-                  <attDef ident="ident" mode="delete"/>
-                  <attDef ident="predeclare" mode="delete"/>
-                  <attDef ident="module" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.ascribed.directed" type="atts" mode="change">
-               <attList>
-                  <attDef ident="toWhom" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.dimensions" type="atts" mode="change">
-               <attList>
-                  <attDef ident="unit" mode="delete"/>
-                  <attDef ident="quantity" mode="delete"/>
-                  <attDef ident="extent" mode="delete"/>
-                  <attDef ident="precision" mode="delete"/>
-                  <attDef ident="scope" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.damaged" type="atts" mode="change">
-               <attList>
-                  <attDef ident="agent" mode="delete"/>
-                  <attDef ident="degree" mode="delete"/>
-                  <attDef ident="group" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.datable.w3c" type="atts" mode="change">
-               <attList>
-                  <attDef ident="notBefore" mode="delete"/>
-                  <attDef ident="notAfter" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.datable" type="atts" mode="change">
-               <attList>
-                  <attDef ident="calendar" mode="delete"/>
-                  <attDef ident="period" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.divLike" type="atts" mode="change">
-               <attList>
-                  <attDef ident="org" mode="delete"/>
-                  <attDef ident="sample" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.media" type="atts" mode="change">
-               <attList>
-                  <attDef ident="width" mode="delete"/>
-                  <attDef ident="height" mode="delete"/>
-                  <attDef ident="scale" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.naming" type="atts" mode="change">
-               <attList>
-                  <attDef ident="nymRef" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.typed" type="atts" mode="change">
-               <attList>
-                  <attDef ident="subtype" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.pointing.group" type="atts" mode="change">
-               <attList>
-                  <attDef ident="domains" mode="delete"/>
-                  <attDef ident="targFunc" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.segLike" type="atts" mode="change">
-               <attList>
-                  <attDef ident="function" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.timed" type="atts" mode="change">
-               <attList>
-                  <attDef ident="start" mode="delete"/>
-                  <attDef ident="end" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.transcriptional" type="atts" mode="change">
-               <attList>
-                  <attDef ident="status" mode="delete"/>
-                  <attDef ident="cause" mode="delete"/>
-                  <attDef ident="seq" mode="delete"/>
-               </attList>
-            </classSpec>
-            <classSpec ident="att.personal" type="atts" mode="change">
-               <attList>
-                  <attDef ident="full" mode="delete"/>
-                  <attDef ident="sort" mode="delete"/>
-               </attList>
-            </classSpec>
             <!--Checking module core-->
             <moduleRef key="core" include="p hi date list item head pb cb author editor bibl"/>
             <elementSpec ident="date" mode="change">
@@ -227,8 +103,15 @@
                      <valList mode="add" type="closed">
                         <valItem ident="docbody"/>
                         <valItem ident="entry"/>
+			<valItem ident="month"/>
                      </valList>
                   </attDef>
+		  <attDef ident="startingOnPage" mode="add" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+		    <datatype><dataRef key="teidata.count"/></datatype>
+		  </attDef>
+		  <attDef ident="volume" mode="add" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+		    <datatype><dataRef key="teidata.count"/></datatype>
+		  </attDef>
                </attList>
             </elementSpec>
             <!--Checking module figures-->
