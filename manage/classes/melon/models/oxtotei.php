@@ -63,7 +63,7 @@
 			$this->text = preg_replace('/<p .*>/U', "<p>", $this->text);
 
 			//add our application tags
-			$app = '</application>' . "\n" . '<application ident="MHS-WET" version="0.1a"><label>MHS-WET</label></application>';
+			$app = '</application>' . "\n" . '<application ident="MHS-WETVAC" version="0.1a"><label>MHS-WETVAC</label></application>';
 			$this->text = str_replace("</application>", $app, $this->text);
 		}
 
@@ -261,9 +261,17 @@
 
 
 			//wrap the dateline/salute elements in <opener>
-			$this->findString("<dateline>")->replaceWith("<opener>\n<dateline>");
-			$this->findString("</salute>")->replaceWith("</salute>\n</opener>");
-
+			//dateline will be first, so if we have it, wrap <opener>
+			if($this->hasString("<dateline>")) {
+				$this->findString("<dateline>")->replaceWith("<opener>\n<dateline>");
+				//might have <salute, but not necessarily 
+				if($this->hasString("</salute>")) $this->findString("</salute>")->replaceWith("</salute>\n</opener>");
+				else $this->findString("</dateline>")->replaceWith("</dateline>\n</opener>");
+			}
+			else if($this->hasString("<salute>")){
+				$this->findString("<salute>")->replaceWith("<opener>\n<salute>");
+				$this->findString("</salute>")->replaceWith("</salute>\n</opener>");
+			}
 
 			//interate over repeatables
 			$this->replaceEach("{{PB}}", function($i){ return '<pb n="' . ($i + 2) . '"/>';	});
@@ -303,14 +311,16 @@
 			//final clean up
 
 			//any remaining {{ becomes comments
-			//first comments that folks unwittingly put on separate lines
+			//first, comments that folks unwittingly put on separate lines
 			$this->text = str_replace(["<p>{{", "}}</p>"], ["<!--", "-->"], $this->text);
 			$this->text = str_replace(["{{", "}}"], ["<!--", "-->"], $this->text);
-
 
 			//remove the paragraphs with the metadata
 			$this->findRegex('</head>.*<opener>', 's')->replaceWith("</head>\n<opener>");
 
+			//more fixes 
+			//paragraphs with leading spaces
+			$this->text = str_replace("<p> ", "<p>", $this->text);
 
 			//to finish, look at first arg: if we had passed in text, then pass back. otherwise write it back to teiDocMain
 			if($noTextArg) {

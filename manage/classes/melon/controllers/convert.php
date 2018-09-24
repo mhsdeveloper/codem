@@ -74,7 +74,7 @@
 
 			$text = file_get_contents($fullpath);
 
-file_put_contents($fullpath . "ox.xml", $text);
+file_put_contents($fullpath . "-ox.xml", $text);
 			
 
 			$T->setIdRoot($idRoot);
