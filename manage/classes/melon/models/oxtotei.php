@@ -71,7 +71,7 @@
 
 
 			//add our application tags
-			$app = '</application>' . "\n" . '<application ident="MHS-WETVAC" version="0.1a"><label>MHS-WETVAC</label></application>';
+			$app = '</application>' . "\n" . '<application ident="MHS-WETVAC" version="' . \MHS\Env::VERSION . '"><label>MHS-WETVAC</label></application>';
 			$this->text = str_replace("</application>", $app, $this->text);
 		}
 
