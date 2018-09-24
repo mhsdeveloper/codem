@@ -320,7 +320,8 @@
 
 			//more fixes 
 			//paragraphs with leading spaces
-			$this->text = str_replace("<p> ", "<p>", $this->text);
+			$this->text = preg_replace("<p>\s+", "<p>", $this->text);
+			$this->text = str_replace(" </hi>", "</hi> ", $this->text);
 
 			//to finish, look at first arg: if we had passed in text, then pass back. otherwise write it back to teiDocMain
 			if($noTextArg) {
