@@ -1,0 +1,94 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+				<author>Joseph Zavoral</author>
+			</titleStmt>
+			<editionStmt>
+				<edition><date>2018-06-08</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<p>unknown</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Converted from a Word document</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+					<label>DOCX to TEI</label>
+				</application>
+				<application ident="MHS-WETVAC" version="0.1b">
+					<label>MHS-WETVAC</label>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<revisionDesc>
+			<listChange>
+				<change><date>2018-09-24T18:29:22Z</date><name>Joseph Zavoral</name></change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="doc" xml:id="RBT00091">
+				<bibl>
+					<date type="creation" when="1832-08-28"/>
+					<author>RBT</author>
+					<name type="transcriber">Joseph Zavoral</name>
+					<date type="transcription" when="2015-06-04"/>
+				</bibl>
+				<div type="docbody">
+					<head>To [Thomas Ellicott?]</head>
+					<opener>
+						<dateline>Frederick County Augt 28. 1832</dateline>
+						<salute>My Dear Sir</salute>
+					</opener>
+					<p>I am glad to hear you have been so well employed &amp; hope to receive the
+						communication you promise at an early day. - Any thing you may direct to me
+						to Bruceville Frede - rick County will come safe. I have in the hope of
+						benefitting Mrs. Taney’s health taken a small farm house, which is within a
+						mile and a half of Bruceville, &amp; shall probably continue where I now am
+						until Some time in October. She is I hope recovering - but it is very slowly
+						- &amp; the symptoms are not always favourable.</p>
+					<p>When you write again, do me the favour to say whether Mr. Jno. Ridgely has
+						deposited any money to my credit in your Bank within the last six or eight
+						weeks. - I have not <pb n="2"/> yet received the dividends due me in July -
+						Please have them passed to my credit.</p>
+					<p>I ought not perhaps to mingle Bank matters with other concerns. - So as I do
+						not choose to have my letters to you used as vouchers for Bank transactions
+						- if it is necessary to give an order to transfer my dividends to my acc.
+						have the goodness to let me know &amp; I will Send it in proper form.</p>
+					<p>The elections in Kentucky &amp; Missouri show that the President &amp;
+						directors of the Bank of the U. States are not likely to gain much by the
+						conflict which they have taken to much pains to produce. - The days of the
+						Bank are now numbered &amp; the country saved from its corrupting influence,
+						provided the public attention is kept fixed upon the subject &amp;
+						continually enlightened by communications from those who understand it. -
+						Have you made up your mind as to the scheme of a national Bank or Banks,
+						which could discharge with commerce the duties of fiscal agents and have no
+						power or privacy beyond what is necessary to perform this duty? - Is any
+						such national Bank necessary? <pb n="3"/>Cannot the duties be performed by
+						the state Banks? - Upon these points I am most anxious to see your notions.
+						- They are great national questions which no one can decide but one who is
+						like yourself familiar with banking &amp; commercial operations, and who has
+						the courage to form his opinions upon his own experience &amp; observations,
+						&amp; does not slavishly adopt the theories which others have put forward. </p>
+					<closer>With best wishes I am Dr. Sir truly your friend<signed> R. B.
+							Taney</signed>
+					</closer>
+				</div>
+				<div type="docback">
+					<note type="source"><p> ALS</p>
+						<p>DLC</p>
+						<p>(MMC 2191, Folder 3)</p>
+					</note>
+
+				</div>
+			</div>
+			<!-- //document -->
+		</body>
+	</text>
+</TEI>

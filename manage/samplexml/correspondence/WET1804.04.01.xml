@@ -1,0 +1,125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+				<author>Patricia Kalayjian</author>
+			</titleStmt>
+			<editionStmt>
+				<edition><date>2018-08-19</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<p>unknown</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Converted from a Word document</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+					<label>DOCX to TEI</label>
+				</application>
+				<application ident="MHS-WETVAC" version="0.1b">
+					<label>MHS-WETVAC</label>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<revisionDesc>
+			<listChange>
+				<change><date>2018-09-24T18:07:28Z</date><name>Patricia Kalayjian</name></change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="doc" xml:id="CMS1804-04-01">
+				<bibl>
+					<date type="creation" when="1804-04-01"/>
+					<author>Catharine Maria Sedgwick</author>
+					<name type="transcriber">Pat Kalayjian</name>
+					<date type="transcription" when="2018-08-19"/>
+				</bibl>
+				<div type="docbody">
+					<head>Catharine Maria Sedgwick to Theodore Sedgwick I</head>
+					<opener>
+						<dateline>Stockbridge 1<hi rend="superscript">st</hi> April 1804 </dateline>
+						<salute>Dear Papa</salute>
+					</opener>
+					<p>Mama <add>has</add> received your letter &amp; you will easily believe me,
+						when I tell you that she was very much rejoiced, for we have been not a
+						little anxious about you. Mama has I think been much better since you left
+						home, than she was previous to it. We are all looking for the time, &amp;
+						anticipating the pleasure which your arrival will give us. &amp; indeed it
+						is almost the only topic we have <add>for conversation</add>. Stockbridge is
+						<unclear/> barren of incidents to call forth either wonder, admiration, or
+						disgust. I sincerely believe there has nothing happened since your
+						departure, that has affected as much, or appeared of half the importance, as
+						some wounds which old Bose has received; &amp; though we feared they would
+						prove mortal: he is apparently in a state of convalescence; but I yet have
+						my doubts whether the poor animal will survive to see his dear Master.</p>
+					<p>Harry wrote us last week, and in his letter gave us an account of a rebellion
+						that there has lately been in their class-- --. It seems one of the class
+						was accused by the authority, of absenting himself from meeting in the
+						afternoon -- He denied the charge-- but the President thinking <pb n="2"/>
+						he had sufficient evidence to convict him, ordered him to appear at prayers
+						to receive his punishment; but being advised by some turbulent members of
+						the class not to obey his commands, he didnot attend prayers: The authority
+						after consulting some time the next day rusticated him -- In the evening
+						almost every member of the class retired to their rooms, and notwithstanding
+						the tutors <supplied>interposed</supplied> they continued all the evening to
+						make a most tremendous noise. The next day there were three sent home. Harry
+						was not one of the rebels, he doesnot mention whether Robert was or not.
+						Mama wishes you would be so kind as to purchase her the Bishops of London
+						Lectures, delivered in Lent. I believe his name is Bieby Porteus<ptr
+							type="noteRef" n="1" target="CMS1804-04-01-fn-1"/>. Mama thinks she
+						shall want two pieces of <add>fine</add> Linen. Aunt Dwight has returned;
+						and offers her kind remembrance. Our dear Charles has gone to Lenox. George
+						is as good a boy as ever, &amp; sends his love to his <hi rend="underline"
+							>dear</hi> Grandpapa. Joh has behaved extremely well -- I wish I could
+						say as much of Cato. -- -- M<hi rend="superscript">rs</hi> Allen is dead,
+						&amp; M<hi rend="superscript">rs</hi>
+						<unclear/> is but just alive. -- -- I should not have delayed so long to
+						write you, but I have been sick ever since you left us. <pb n="3"/></p>
+					<p>2<hi rend="superscript">nd</hi> April </p>
+					<p>The town meeting is over -- the Jacobins have carried the day -- -- they have
+						a majority of 7 for Governor, 10 for lieutenant Governor &amp; Senator --
+							M<hi rend="superscript">r</hi> Williams says there were at least 30
+						people there whose faces he never saw before, and who he verily believes, if
+						they were turned <add>out</add> of the house; and the doors have been shut
+						upon them; they never would have found the way <add>home</add> for they were
+						led there by our <hi rend="underline">wise</hi> &amp; <hi rend="underline"
+							>great</hi> men. . . . But their most diabolical act was endeavoring to
+						lessen D<hi rend="superscript">r</hi> West,s salary; <unclear/> fortunately
+						they didnot succeed -- -- -- Thus you see my dear Papa I have become quite a
+						politician; but I have <supplied>written</supplied> this merely for your
+						information. -- --</p>
+					<closer>Yours affectionately,<signed>C M Sedgwick <pb n="4"/></signed>
+					</closer>
+				</div>
+				<div type="docback">
+					<note type="source"><p><lb/>Document type. Letter</p>
+						<p>Repository. Massachusetts Historical Society</p>
+						<p>Collection. Catharine Maria Sedgwick I</p>
+						<p>Condition. Some areas difficult to read because of ink bleed through;
+							worn edges; tear.</p>
+					</note>
+					<note type="address"><p> </p>
+						<p>Hon<hi rend="superscript">ble</hi> Theodore Sedgwick </p>
+						<p>Boston</p>
+					</note>
+					<note type="notation"><p> Stockbridge April 3<hi rend="superscript">rd:</hi>
+							Stockbridge is stamped; date is handwritten. (Postal Service.)</p>
+					</note>
+					<note type="notation"><p> Catharine M. Sedgwick/to her father 1804 (Dewey)</p>
+					</note>
+					<note xml:id="CMS1804-04-01-fn-1"><p> Beilby Porteus (8 May 1731 – 13 May 1809);
+							Bishop of London, 1787-1809. Noted abolitionist.</p>
+					</note>
+
+				</div>
+			</div>
+			<!-- //document -->
+		</body>
+	</text>
+</TEI>

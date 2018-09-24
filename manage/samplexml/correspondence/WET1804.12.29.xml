@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc>
+<titleStmt>
+<title/><author>Patricia Kalayjian</author></titleStmt>
+<editionStmt>
+<edition><date>2018-08-15</date></edition></editionStmt>
+<publicationStmt>
+<p>unknown</p>
+</publicationStmt>
+<sourceDesc>
+<p>Converted from a Word document</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<appInfo>
+<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0"><label>DOCX to TEI</label></application>
+<application ident="MHS-WETVAC" version="0.1b"><label>MHS-WETVAC</label></application></appInfo>
+</encodingDesc>
+<revisionDesc>
+<listChange>
+<change><date>2018-09-24T16:33:36Z</date><name>Patricia Kalayjian</name></change></listChange>
+</revisionDesc>
+</teiHeader><text>
+<body>
+<div type="doc" xml:id="CMS1804-12-29">
+<bibl>
+	<date type="creation" when="1804-12-29"/>
+	<author>Catharine Maria Sedgwick</author>
+	<name type="transcriber">Pat Kalayjian</name>
+	<date type="transcription" when="2018-08-15"/>
+</bibl>
+<div type="docbody">
+<head>Catharine Maria Sedgwick to Theodore Sedgwick I</head>
+<opener>
+<dateline>Boston, Saturday 29<hi rend="superscript">th</hi> Dec<hi rend="superscript">r</hi> <supplied>1803</supplied> <ptr type="noteRef" n="1" target="CMS1804-12-29-fn-1"/> </dateline>
+</opener>
+<p>I received my dear Papa your letter by T<hi rend="superscript">e</hi> <supplied>Theodore II</supplied> <!--COMMENT: how do we, or do we at all, expand initials that refer to an individual?--> but unfortunately was out when he called; since then your letter by the Mail has arrived -- The last gave me more pleasure than anything else probably <add>could,</add> for it assured me of Mama’s returning health -- since her last illness, I have felt more anxious than ever to be with <hi rend="strikethrough">yo</hi> her --  While you my dear Father are; <unclear/> I am confident she wants nothing -- every comfort, and every gratification, is administered to her from the right source --.  I think her indisposition must have proceded from a cold, for the sharp air of in the hall, has always evidently affected her.</p>
+<p>You say dear Papa you have been to Albany, <pb n="2"/> that you found our dear Eliza composed and cheerful -- surely her fortitude is wonderful; her resignation -- is something more than human, -- -- something heavenly – Pamela <ptr type="noteRef" n="2" target="CMS1804-12-29-fn-2"/> was a most lovely child. I am sensible her anguish at the moment must have exceeded every thing-- We have surely a great example before us in our invaluable Parents, Eliza has profited by it -- that we all may is my most constant prayer. -- -- I am pleased to hear that M<hi rend="superscript">rs</hi> Bell <ptr type="noteRef" n="3" target="CMS1804-12-29-fn-3"/> remembers me with affection. I think I shall rarely meet with a woman who so exactly suits my taste as she does, &amp; who is entitled from her exalted mind, manners, and morals, to respect, admiration, &amp; love from all who know her -- Nothing (I think) could be of more service to, &amp; certainly nothing more gratify me <add><unclear/></add> than to be in a situation where I could again <pb n="3"/> receive instruction from her. I shall my dear Papa always <hi rend="underline">aim</hi> (at least) to do as you wish me, with respect to consulting the ladies you mention; and <hi rend="underline">always</hi> “implicitly” follow their advice -- -- -- M<hi rend="superscript">rs</hi> <supplied>Jay</supplied> <!--COMMENT: I thought this would be Mrs. John Jay, but she died in 1802 and he didn’t remarry; I haven’t identified the other people mentioned either--> I have not yet seen, which by the by I have a little wondered at -- M<hi rend="superscript">r</hi> &amp; M<hi rend="superscript">rs</hi> Q have both been very attentive &amp; kind to me. M<hi rend="superscript">rs</hi> <supplied>T</supplied> you know always is --Your little favorite M<hi rend="superscript">rs</hi> W Sullivan has been particularly attentive to me -- -- -- -- You inquire of me how my French progresses upon this I can answer you with a good conscience. I hardly find time to attend to any thing else. I am very fond of it &amp; it is <hi rend="underline">my opinion</hi> that I come on very well -- -- My best love to Mama -- &amp; all my friends <hi rend="underline">near</hi> &amp; <hi rend="underline">dear</hi>. </p>
+<closer>Believe me my dear Father your affectionate child<signed>CMS <!--4--></signed>
+</closer>
+</div>
+<div type="docback">
+<note type="source"><p><lb/>Document type. Letter</p>
+<p>Repository. Massachusetts Historical society</p>
+<p>Collection. Sedgwick Family Papers, TSIA Box 2, Folder 23</p>
+<p>Condition. Wax blot</p>
+</note>
+<note type="address"><p></p>
+<p>Hon<hi rend="superscript">ble</hi> Judge Sedgwick</p>
+<p>Stockbridge</p>
+</note>
+<note type="notation"><p> Sent via Boston.</p>
+</note>
+<note type="notation"><p> “1804” is a later correction or clarification of the date.</p>
+</note>
+<note xml:id="CMS1804-12-29-fn-1" ><p> CMS appears to have written 1803, but this date is belied by the death date of Pamela Dwight Pomeroy; see below.</p>
+</note>
+<note xml:id="CMS1804-12-29-fn-2" ><p> Pamela Dwight Pomeroy, b. February 22, 1803; d. November 30, 1804. Fourth child of Eliza Sedgwick Pomeroy and Thaddeus Pomeroy.</p>
+</note>
+<note xml:id="CMS1804-12-29-fn-3" ><p> CMS attended Mrs. Bell’s school in Albany in 1803.</p>
+
+</note>
+
+</div>
+</div><!-- //document -->
+</body>
+</text>
+</TEI>

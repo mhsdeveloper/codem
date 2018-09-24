@@ -1,0 +1,96 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+				<author>Serenity Sutherland</author>
+			</titleStmt>
+			<editionStmt>
+				<edition><date>2018-09-13</date></edition>
+			</editionStmt>
+			<publicationStmt>
+				<p>unknown</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Converted from a Word document</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+					<label>DOCX to TEI</label>
+				</application>
+				<application ident="MHS-WETVAC" version="0.1b">
+					<label>MHS-WETVAC</label>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<revisionDesc>
+			<listChange>
+				<change><date>2018-09-24T18:33:57Z</date><name>Serenity Sutherland</name></change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="doc" xml:id="l_18900929ESR_EDA">
+				<bibl>
+					<date type="creation" when="1890-06-25"/>
+					<name type="recip">EDA</name>
+					<name type="transcriber">Serenity Sutherland</name>
+					<date type="transcription" when="2017-09-01"/>
+				</bibl>
+				<div type="docbody">
+					<head>ESR to EDA</head>
+					<opener>
+						<dateline>Sept 29 1890</dateline>
+						<salute>Dear Mr. Atkinson,</salute>
+					</opener>
+					<p>I will answer some of your questions soon - just now the inroad of new &amp;
+						old students is overwhelming &amp; I have no brains left after planning
+						courses for all sorts of people.</p>
+					<p>I copied your letter &amp; sent to Mrs Abel &amp; here is an extract from
+						hers received in the same mail. The food question will be the question
+						inside of five years &amp; you may well be proud of having been a
+						pioneer</p>
+					<closer>Very truly<signed>Ellen H. Richards</signed>
+					</closer>
+
+					<note xml:id="l_18900929ESR_EDA-fn-1"><p> Written in Ellen Richards’s Hand,
+							copied from Mrs. Abel’s Letter--><lb/>Extract from Mrs Abel</p>
+						<p>Letter of Sept 14.</p>
+						<p>Appropos of a letter that has come to me asking for anything that will
+							tell our readers how they can obtain more nutritious and less expensive
+							food my husband offers this suggestion, That many classes of Americans
+							must learn to spend more rather than less proportionally to other
+							outgoes on proper nourishment especially for skillful preparation and
+							variety, that there is too general a feeling that if hunger is satisfied
+							for the time that is all sufficient and all saved beyond what is clear
+							gain. He feels sure that explains many cases of defficient vigor and
+							that in our artificial and <pb n="2"/> brain and nerve wearing life we cannot afford to despise
+							high art in cookery and even the many course dinner and on these grounds
+							he defends wine and beer at meals. He has met a great many Americans in
+							the last year and he thinks most of them look underfed. Some who were
+							going to take the Constantinople trip and were buying no end of trinkets
+							were horrified at spending more than a mark for dinner. He took one of
+							them in hand and made him feed up as you did Miss Palmer and with the
+							best results especially in the quality of his work.</p>
+					</note>
+				</div>
+				<div type="insertion" xml:id="l_18900929ESR_EDA-ins-1">
+					<p/>
+				</div>
+				<div type="docback">
+					<note type="source"><p/>
+						<p>Massachusetts Historical Society</p>
+						<p>Edward Atkinson Papers</p>
+						<p>Ellen Richards Correspondence, 1890-1901</p>
+						<p>Carton 12, Folder 61</p>
+					</note>
+
+				</div>
+			</div>
+			<!-- //document -->
+		</body>
+	</text>
+</TEI>
