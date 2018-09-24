@@ -7,7 +7,7 @@
 	class Env extends \Publications\Environment {
 
 		
-		const VERSION = ".1b";
+		const VERSION = "0.1b";
 
 
 		const DEBUGGING_MODE_ON = false;
