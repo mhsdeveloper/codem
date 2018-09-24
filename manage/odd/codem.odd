@@ -3,33 +3,35 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="short">oddbyexample</title>
-            <title>ODD by Example customization</title>
+            <title type="short">CODEM</title>
+            <title>Cooperative for Digital Editions at the
+	    Masschusetts Historical Society</title>
          </titleStmt>
          <publicationStmt>
-            <p>Unpublished first draft </p>
+	   <publisher>MHS</publisher>
+	   <availability>
+	     <licence>Available under the terms of the <ref
+	     target="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+	     Commons Attribution-ShareAlike 4.0 International
+	     license</ref>.</licence>
+	   </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Derived from <ref target="http://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 5 files in ./</p>
+	   <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+	<change who="#sbauman.emt" when="2018-09-13">Created with
+	<name type="pgm">oddbyexample</name> using the current release
+	version of P5 and the 5 example files in
+	codem/manage/samplexml/jqa/*.xml</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <schemaSpec ident="oddbyexample" start="TEI ">
+         <schemaSpec ident="codem" start="TEI teiCorpus div">
+	   <desc>Scehema intended to support at least JQA</desc>
             <moduleRef key="tei"/>
-            <!--Checking module textcrit-->
-            <classRef key="att.textCritical"/>
-            <classRef key="model.rdgLike"/>
-            <classRef key="model.rdgPart"/>
-            <classSpec ident="att.textCritical" type="atts" mode="change">
-               <attList>
-                  <attDef ident="type" mode="delete"/>
-                  <attDef ident="cause" mode="delete"/>
-                  <attDef ident="varSeq" mode="delete"/>
-                  <attDef ident="require" mode="delete"/>
-               </attList>
-            </classSpec>
             <!--Checking module msdescription-->
             <classRef key="model.physDescPart"/>
             <!--Checking module namesdates-->
