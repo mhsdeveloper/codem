@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
         <?oxygen RNGSchema="http://www.masshist.org/publications/pub/schema/djqa-prep-2016.rng" type="xml"?>
         <?xml-stylesheet type="text/css" href="DJQA-authorViewMaybe.css"?>
-<div type="month" volume="49" startingOnPage="988">
+<div type="month" volume="49" mhs:startingOnPage="988"
+     xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" xmlns="http://www.tei-c.org/ns/1.0">
 	<bibl n="metadata">
 		<date from="1826-05-01" to="1826-05-31"/>
 	</bibl>
@@ -148,7 +149,7 @@
 				<row>
 					<cell>Clay— S.S.—</cell>
 					<cell rows="2" rendition="#bracket-right">Panama Mission; to go immediately— Blythe aProfessor at Transylvania— Visitor at
-						West-Point</cell>
+						West-Point</cell></row>
 					<row>
 						<cell>Blythe. D<hi rend="superscript">r</hi></cell>
 				</row>
@@ -351,7 +352,7 @@
 			</table>
 			<row>
 				<cell>Clay S.S.</cell>
-				<cell rows="4" rendition="#bracket-left" rendition="#bracket-right">Cabinet Meeting— Slave Indemnity Comm<hi rend="superscript">ns</hi> Question of Interest— English wish to break up Commission— Brevets on Brevets—</cell>
+				<cell rows="4" rendition="#bracket-left #bracket-right">Cabinet Meeting— Slave Indemnity Comm<hi rend="superscript">ns</hi> Question of Interest— English wish to break up Commission— Brevets on Brevets—</cell>
 			</row>
 			<row>
 				<cell>Rush S.T.</cell>
@@ -537,7 +538,7 @@
 					</row>
 					<row>
 						<cell role="name">Fort Wayne, Indiana</cell>
-						<cellrole="num" >38</cell>
+						<cell role="num" >38</cell>
 					</row>
 					<row>
 						<cell></cell>
@@ -546,7 +547,7 @@
 				</table>
 				<cb/>
 				<table>
-					<row cols="2>
+					<row cols="2">
 						<cell role="name">Message to S.U.S.—</cell>
 						<cell role="num">42</cell>
 					</row>
@@ -1117,7 +1118,7 @@
 			<table>
 				<row>
 					<cell>Clay</cell>
-					<cell rows="4" rendition="#bracket-left" rendition="#bracket-right">Cabinet Meeting— Discussion upon Applications for Brevets— Gallant Conduct— Ten years— Gen<hi rend="superscript">l.</hi>
+					<cell rows="4" rendition="#bracket-left #bracket-right">Cabinet Meeting— Discussion upon Applications for Brevets— Gallant Conduct— Ten years— Gen<hi rend="superscript">l.</hi>
 						Scott’s recommendations— Principles to be settled. Whole Subject postponed till next Session of Congress.</cell>
 				</row>
 				<row>
@@ -1334,7 +1335,7 @@
 			<table>
 				<row>
 					<cell>Clay. S.S.</cell>
-					<cell rows="3" rendition="#bracket-left" rendition="#bracket-right">Called in the afternoon</cell>
+					<cell rows="3" rendition="#bracket-left #bracket-right">Called in the afternoon</cell>
 				</row>
 				<row>
 					<cell>Rush S.T</cell>

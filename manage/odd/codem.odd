@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE"
+     xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="short">CODEM</title>
+            <title>Cooperative for Digital Editions at the
+	    Masschusetts Historical Society</title>
+         </titleStmt>
+         <publicationStmt>
+	   <publisher>MHS</publisher>
+	   <availability>
+	     <licence>Available under the terms of the <ref
+	     target="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+	     Commons Attribution-ShareAlike 4.0 International
+	     license</ref>.</licence>
+	   </availability>
+         </publicationStmt>
+         <sourceDesc>
+	   <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+	<change who="#sbauman.emt" when="2018-09-13">Created with
+	<name type="pgm">oddbyexample</name> using the current release
+	version of P5 and the 5 example files in
+	codem/manage/samplexml/jqa/*.xml</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <schemaSpec ident="codem" start="TEI teiCorpus div">
+	   <desc>Scehema intended to support at least JQA</desc>
+            <moduleRef key="tei"/>
+            <!--Checking module core-->
+            <moduleRef key="core" include="p hi date list item head pb cb author editor bibl"/>
+            <elementSpec ident="date" mode="change">
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="creation"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="list" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="head" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="pb" mode="change">
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="ms"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="cb" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="author" mode="change">
+               <attList>
+                  <attDef ident="role" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="bibl" mode="change">
+               <attList>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <!--Checking module header-->
+            <!--Checking module verse-->
+            <!--Checking module transcr-->
+            <!--Checking module linking-->
+            <!--Checking module analysis-->
+            <!--Checking module textstructure-->
+            <moduleRef key="textstructure" include="TEI div dateline"/>
+            <elementSpec ident="TEI" mode="change">
+               <attList>
+                  <attDef ident="version" mode="delete"/>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="month"/>
+                     </valList>
+                  </attDef>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="div" mode="change">
+               <attList>
+                  <attDef ident="type" mode="change">
+                     <valList mode="add" type="closed">
+                        <valItem ident="docbody"/>
+                        <valItem ident="entry"/>
+			<valItem ident="month"/>
+                     </valList>
+                  </attDef>
+		  <attDef ident="startingOnPage" mode="add" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+		    <datatype><dataRef key="teidata.count"/></datatype>
+		  </attDef>
+		  <attDef ident="volume" mode="add" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+		    <datatype><dataRef key="teidata.count"/></datatype>
+		  </attDef>
+               </attList>
+            </elementSpec>
+            <!--Checking module figures-->
+            <moduleRef key="figures" include="table row cell"/>
+            <elementSpec ident="table" mode="change">
+               <attList>
+                  <attDef ident="rows" mode="delete"/>
+                  <attDef ident="type" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="row" mode="change">
+               <attList>
+                  <attDef ident="rows" mode="delete"/>
+               </attList>
+            </elementSpec>
+            <elementSpec ident="cell" mode="change">
+               <attList>
+                  <attDef ident="cols" mode="delete"/>
+               </attList>
+            </elementSpec>
+         </schemaSpec>
+      </body>
+   </text>
+</TEI>
