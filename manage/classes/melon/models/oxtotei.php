@@ -61,6 +61,14 @@
 			//make all <p> simply <p>
 			//remove unnecessary @rend
 			$this->text = preg_replace('/<p .*>/U', "<p>", $this->text);
+			
+			//remove these 
+			$this->text = str_replace(' xml:space="preserve"', "", $this->text);
+			//more fixes 
+			//paragraphs with leading spaces
+			$this->text = preg_replace("/<p>\s+/", "<p>", $this->text);
+			$this->text = str_replace(" </hi>", "</hi> ", $this->text);
+
 
 			//add our application tags
 			$app = '</application>' . "\n" . '<application ident="MHS-WETVAC" version="0.1a"><label>MHS-WETVAC</label></application>';
@@ -286,7 +294,7 @@
 
 
 			//remove unnecessary @rend
-			$this->text = preg_replace('/<p rend=".*"/U', "<p", $this->text);
+//			$this->text = preg_replace('/<p rend=".*"/U', "<p", $this->text);
 
 			//remove unnecessary @style
 			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
@@ -317,11 +325,6 @@
 
 			//remove the paragraphs with the metadata
 			$this->findRegex('</head>.*<opener>', 's')->replaceWith("</head>\n<opener>");
-
-			//more fixes 
-			//paragraphs with leading spaces
-			$this->text = preg_replace("/<p>\s+/", "<p>", $this->text);
-			$this->text = str_replace(" </hi>", "</hi> ", $this->text);
 
 			//to finish, look at first arg: if we had passed in text, then pass back. otherwise write it back to teiDocMain
 			if($noTextArg) {
