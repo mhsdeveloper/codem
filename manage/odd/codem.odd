@@ -23,6 +23,20 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change who="#sbauman.emt" when="2018-10-02">
+	Add new <gi>persRef</gi>.
+      </change>
+      <change who="#sbauman.emt" when="2018-09-14">
+	<list>
+	  <item>Minor tweaks to metadata, etc</item>
+	  <item>Deleted lots of pointless stuff</item>
+	  <item>Added <val>month</val> to <att>type</att> of
+	  <gi>div</gi> (dunno why it wasn't already there)</item>
+	  <item>Added MHS placeholder namespace</item>
+	  <item>Added <att>mhs:startingOnPage</att> and
+	  <att>mhs:volume</att> of <gi>div</gi></item>
+	</list>
+      </change>
       <change who="#sbauman.emt" when="2018-09-13">Created with <name
       type="pgm">oddbyexample</name> using the current release version
       of P5 and the 5 example files in
@@ -31,10 +45,35 @@
   </teiHeader>
   <text>
     <body>
+      <head>Cooperative for Digital Editions at the
+	Masschusetts Historical Society Encoding Language</head>
+	<p>We use a highly constrained TEI customization with a few
+	extensions.</p>
+	<specGrp xml:id="personReferenceElement">
+	  <elementSpec ident="persRef" mode="add" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+	    <equiv filter="./codem2tei.xslt"/>
+	    <gloss>person reference</gloss>
+	    <desc>contains a reference (typically a non-name reference) to a person or person group</desc>
+	    <classes>
+	      <memberOf key="att.global"/>
+	      <memberOf key="att.naming"/>
+	      <memberOf key="model.nameLike"/>
+	      <memberOf key="att.typed"/>
+	    </classes>
+	    <content>
+	      <macroRef key="macro.phraseSeq"/>
+	    </content>
+	    <!-- Waiting for examples -->
+	  </elementSpec>
+	</specGrp>
+    </body>
+    <back>
       <schemaSpec ident="codem" start="TEI teiCorpus div">
-	<desc>Scehema intended to support at least JQA</desc>
+	<desc>Scehema intended to support at least jqa/ &amp;
+	correspondence/</desc>
 	<moduleRef key="tei"/>
-	<!--Checking module core-->
+
+	<!-- core module -->
 	<moduleRef key="core" include="label ptr ref note add unclear lb pb p hi date list item head pb cb name author editor bibl title"/>
 	<elementSpec ident="date" mode="change">
 	  <attList>
@@ -81,14 +120,16 @@
 	    <attDef ident="type" mode="delete"/>
 	  </attList>
 	</elementSpec>
-	<!--Checking module header-->
+	<!-- header module -->
 	<moduleRef key="header" include="appInfo application teiHeader fileDesc titleStmt publicationStmt respStmt availability sourceDesc revisionDesc change editionStmt edition encodingDesc"/>
-	<!--Checking module verse-->
-	<!--Checking module transcr-->
+	<!-- namesdates module -->
+	<specGrpRef target="#personReferenceElement"/>
+	<!-- verse module -->
+	<!-- transcr module -->
 	<moduleRef key="transcr" include="supplied"/>
-	<!--Checking module linking-->
-	<!--Checking module analysis-->
-	<!--Checking module textstructure-->
+	<!-- linking module -->
+	<!-- analysis module -->
+	<!-- textstructure module -->
 	<moduleRef key="textstructure" include="TEI text front body back div salute signed dateline opener closer"/>
 	<elementSpec ident="TEI" mode="change">
 	  <attList>
@@ -120,7 +161,7 @@
 	    </attDef>
 	  </attList>
 	</elementSpec>
-	<!--Checking module figures-->
+	<!-- figures module -->
 	<moduleRef key="figures" include="table row cell"/>
 	<elementSpec ident="table" mode="change">
 	  <attList>
@@ -139,6 +180,6 @@
 	  </attList>
 	</elementSpec>
       </schemaSpec>
-    </body>
+    </back>
   </text>
 </TEI>
