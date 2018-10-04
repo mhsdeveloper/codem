@@ -289,7 +289,7 @@
 			$this->replaceEach("<div type=\"insertion\">", function($i){ return '<div type="insertion" xml:id="' . $this->docID . "-ins-" . ($i + 1) .  '">';	});
 
 			//remove HI tags
-//			$this->text = preg_replace('/<hi.*>/sU', "", $this->text);
+			$this->text = preg_replace('/<hi.*>/sU', "", $this->text);
 //			$this->text = str_replace("</hi>", "", $this->text);
 
 
