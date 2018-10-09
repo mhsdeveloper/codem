@@ -66,13 +66,18 @@
 			}
 
 			$fullpath = $Ox->getFullOutputPath();
-
 			$idRoot = $Ox->getIdRoot();
+			$text = file_get_contents($fullpath);
 
+			$Prep = new \Melon\Models\OxPrep();
+			
+			if(false == $Prep->runTransform($text)){
+				$error = $Prep->errorMsg;
+				return $this->ajaxError("XSLT post-processing the Oxgarage output failed for this reason: " . $error);
+			}
 
 			$T = new \Melon\Models\OxToTei();
 
-			$text = file_get_contents($fullpath);
 
 file_put_contents($fullpath . "-ox.xml", $text);
 			

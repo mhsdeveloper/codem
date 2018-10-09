@@ -66,6 +66,8 @@
 		const META_PATH = SERVER_WWW_ROOT . "html/publications/melon/xml/meta/";
 
 
+		//XSLT for OX->TEI processing post OX pre WET
+		const PRE_WET_XSLT = SERVER_WWW_ROOT . "html/publications/lib/xsl/prep/ox-cleanup.xsl";
 
 		//Views
 		const ERROR_VIEW = "error.php";
