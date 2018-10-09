@@ -28,8 +28,10 @@
 			}
 			
 			if(false == $this->transform()){
-				
+				return false;
 			}
+			
+			return true;
 		}
 	
 		
