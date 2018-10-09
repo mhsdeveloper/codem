@@ -22,7 +22,7 @@
 				return false;
 			}
 			
-			if(false == $this->loadXSLT(\MHS:Env::PRE_WET_XSLT)) {
+			if(false == $this->loadXSLT(\MHS\Env::PRE_WET_XSLT)) {
 				$this->errorMsg = "Error loading the PRE_WET_XSLT";
 				return false;
 			}
