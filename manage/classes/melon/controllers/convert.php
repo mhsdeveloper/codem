@@ -50,7 +50,6 @@
 
 			$fullpath = \MHS\Env::CONVERT_UPLOAD_DIR . $filename;
 
-
 			if(!is_readable($fullpath)){
 				return $this->ajaxError("Unable to read $filename in upload dir");
 			}
@@ -67,31 +66,23 @@
 
 			$fullpath = $Ox->getFullOutputPath();
 			$idRoot = $Ox->getIdRoot();
-			$text = file_get_contents($fullpath);
+			$this->text = file_get_contents($fullpath);
 
-			$Prep = new \Melon\Models\OxPrep();
+			$this->runPreWETxslt();
 			
-			if(false == $Prep->runTransform($text)){
-				$error = $Prep->errorMsg;
-				return $this->ajaxError("XSLT post-processing the Oxgarage output failed for this reason: " . $error);
-			}
+//file_put_contents($fullpath . "-ox.xml", $this->text);
 			
-			$text = $Prep->getOutput();
-			
-file_put_contents($fullpath . "-ox.xml", $text);
-			
-
 			$T = new \Melon\Models\OxToTei();
 			$T->setIdRoot($idRoot);
 
-			$T->text($text);
+			$T->text($this->text);
 
 			$T->prepOxFile();
 
 			$T->separateDocParts();
 
 			//if we have chunks, that is, more than one document
-			if(strpos($text, '{{DOC}}')) {
+			if(strpos($this->text, '{{DOC}}')) {
 				$T->chunkByChunk();
 				$T->rejoinParts();
 			}
@@ -102,14 +93,55 @@ file_put_contents($fullpath . "-ox.xml", $text);
 				$T->rejoinParts();
 			}
 
+			$this->text = $T->text();
+			
+			$this->runPostWETxslt();
+
 			//save
-			file_put_contents($fullpath, $T->text());
+			file_put_contents($fullpath, $this->text);
 
 			$this->response["message"] = "Ready to download TEI";
 			$this->response['status'] = "download";
 			$this->response['filename'] = str_replace($_SERVER['DOCUMENT_ROOT'], "", $fullpath);
 
 			$this->ajaxResponse();
+		}
+		
+		
+		
+		
+		private function runPreWETxslt(){
+			$Prep = new \Melon\Models\OxPrep();
+			
+			if(false == $Prep->loadXSLT(\MHS\Env::PRE_WET_XSLT)){
+				$error = $Prep->errorMsg;
+				return $this->ajaxError("Error loading the PRE_WET_XSLT: " . \MHS\Env::PRE_WET_XSLT );
+			}
+
+			if(false == $Prep->runTransform($this->text)){
+				$error = $Prep->errorMsg;
+				return $this->ajaxError("XSLT post-processing the Oxgarage output failed for this reason: " . $error);
+			}
+			
+			$this->text = $Prep->getOutput();
+		}
+
+
+
+		private function runPostWETxslt(){
+			$Prep = new \Melon\Models\OxPrep();
+			
+			if(false == $Prep->loadXSLT(\MHS\Env::POST_WET_XSLT)){
+				$error = $Prep->errorMsg;
+				return $this->ajaxError("Error loading the POST_WET_XSLT: " . \MHS\Env::POST_WET_XSLT );
+			}
+
+			if(false == $Prep->runTransform($this->text)){
+				$error = $Prep->errorMsg;
+				return $this->ajaxError("XSLT post-processing the WET output failed for this reason: " . $error);
+			}
+			
+			$this->text = $Prep->getOutput();
 		}
 
 

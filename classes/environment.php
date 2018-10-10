@@ -68,6 +68,8 @@
 
 		//XSLT for OX->TEI processing post OX pre WET
 		const PRE_WET_XSLT = SERVER_WWW_ROOT . "html/publications/lib/xsl/prep/ox-cleanup.xsl";
+		//for after WET
+		const POST_WET_XSLT = SERVER_WWW_ROOT . "html/publications/lib/xsl/prep/ox-cleanup-post.xsl";
 
 		//Views
 		const ERROR_VIEW = "error.php";

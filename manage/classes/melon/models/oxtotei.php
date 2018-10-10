@@ -54,8 +54,8 @@
 					//---- prep OX output
 
 			// add line breaks at specific tags, both open and close, except for p
-			$endTags = [ "Desc>", "Stmt>", "Info>", "Change>", "text>", "body>", "</p>"];
-			$endTagsModded = [ "Desc>\n", "Stmt>\n", "Info>\n", "Change>\n", "text>\n", "body>\n", "</p>\n"];
+			$endTags = [ "Desc>", "Stmt>", "Info>", "Change>", "text>", "body>", "</p>", "<lb/>"];
+			$endTagsModded = [ "Desc>\n", "Stmt>\n", "Info>\n", "Change>\n", "text>\n", "body>\n", "</p>\n", "<lb/>\n"];
 			$this->text = str_replace($endTags, $endTagsModded, $this->text);
 
 			//remove these 
@@ -129,15 +129,18 @@
 
 			$this->forEachLine(function($line){
 				//llook for doc id
-				if($line->begins("**DOCLINE**")) {
+				if($line->contains("**DOCLINE**")) {
 					$this->metadata['document-id'] = $line->trimLeading()->trimTrailingP()->getText();
 				}
 
 				//lines beginning with {{  are our header metadata (transcriber, etc)
-				elseif($line->begins("<p>{{")){
-
+				elseif($line->contains("<p>{{")){
 					if($line->contains("{{TRANSCRIBER}}")) $this->metadata['transcriber'] = $line->trimLeading()->trimTrailingP()->getText();
 					else if($line->contains("{{TRANSCRIPTION-DATE}}")) {
+						$tempdate = $line->trimLeading()->trimTrailingP()->getText();
+						$this->metadata['transcription-date'] = $this->parseDate($tempdate);
+					}
+					else if($line->contains("{{TRANSCRIPTION DATE}}")) {
 						$tempdate = $line->trimLeading()->trimTrailingP()->getText();
 						$this->metadata['transcription-date'] = $this->parseDate($tempdate);
 					}
@@ -182,7 +185,6 @@
 			$this->setText($text);
 
 			$this->gleanMetadata();
-
 
 			//add document beginning with placeholders to pop in metadata once we find it
 			if(!empty($this->metadata['document-id'])) {
@@ -296,6 +298,8 @@
 
 
 			//final clean up
+			//PB with numbering
+			$this->text = preg_replace('/(\{\{PB)\s+([0-9]+)(\}\})/', '<pb n="$2"/>', $this->text);
 
 			//any remaining {{ becomes comments
 			$this->text = str_replace(["{{", "}}"], ["<!--", "-->"], $this->text);
@@ -319,6 +323,7 @@
 
 
 		private function parseDate($text){
+
 			//if we have dashes, split on those
 			if(strpos($text, "-") !== false) $del = "-";
 			else $del = " ";
@@ -330,7 +335,7 @@
 
 			//YEAR
 			if(isset($parts[0])) {
-				if(strlen($parts[0]) == 4 and is_numeric($parts[0])) $year = $parts[0];
+				if(strlen($parts[0])) $year = $parts[0];
 			}
 
 			//month
@@ -342,7 +347,7 @@
 					$month = $rawmo;
 				}
 
-				if(strlen($rawmo) > 2){
+				else if(strlen($rawmo) > 2){
 					//match month
 					if(stripos($rawmo, "jan") !== false) $month = "01";
 					else if(stripos($rawmo, "feb") !== false) $month = "02";
@@ -358,7 +363,7 @@
 					else if(stripos($rawmo, "dec") !== false) $month = "12";
 				}
 
-				if(strlen($rawmo) == 1){
+				else if(strlen($rawmo) == 1){
 					$month = "0" . $rawmo;
 				}
 			}

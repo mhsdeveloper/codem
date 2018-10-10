@@ -13,7 +13,7 @@
 			
 			$(this.p).animate({
 				opacity: 1,
-				top: 0,
+				top: 80,
 				left: 0
 			}, 
 			mommy.dur * Math.random() + mommy.minDur, 
@@ -109,18 +109,92 @@
 		}
 		else {
 			nozzle.style.backgroundImage = "url(" + installDIR + "../images/wetvac-animation1.png)";
+			
+			DB.open();
+			DB.title.textContent = "Processing";
+
 		}
 	}
 
 
+	var DB;
+	
 	window.addEventListener("DOMContentLoaded", function(){
+
+		DB = new DialogBox();
+		DB.init(convertConfig.dialogBoxID);
+
+
+		var Uploader = new PubToolsUploader();
+
+		Uploader.responseHandler = function(resObj, e){
+			DB.content.innerHTML = "Processing " + resObj.filename + ".<br/><br/>\n";
+			startTime = new Date().getTime();
+			run();
+
+			if (typeof resObj.errors !== "undefined"){
+				if(typeof resObj.errors == "string") var li = resObj.errors;
+				else var li = resObj.errors.join("</li>\n<li>");
+
+				li = "<li>" + li + "</li>\n";
+				DB.open(li, e);
+				DB.title.textContent = "Error";
+			} else {
+				
+				if(typeof resObj.filename == "undefined") {
+					DB.open("Error, no filename returned; cannot continue.", e);
+					DB.title.textContent = "Error";
+					return;
+				}
+				
+//				DB.open("Uploaded " + resObj.filename + "<br/>Now processing...", e);
+//				DB.title.textContent = "Processing";
+				
+				var f = resObj.filename;
+				
+				callConverter(f,e);
+			}
+		}
+
+
+		function callConverter(f, e){
+			$.ajax({
+				dataType: "json",
+				method: "get",
+				data: {filename: f},
+				url: convertConfig.processURL,
+				success: function(json){
+
+					if(json.status == "download"){
+
+						DB.content.innerHTML += " done.<br/>";
+
+						var link = '<a href="' + json.filename + '" download >Click to download TEI XML file</a>';
+						
+						DB.content.innerHTML += "<br/>" + link;
+						DB.title.textContent = "Download TEI file";
+					} else if(typeof json.errors != "undefined") {
+						
+						DB.content.innerHTML += " error.<br/>Sorry there was an error: " + json.errors;
+					}
+				}
+			});
+		}
+
+	
+		Uploader.init(document.getElementById(convertConfig.dragdropBoxID));
+
+		
+		
+		
+		
 		jQuery.easing.def = "easeInCubic";
 		
 		var m = new Mommy();
 		
 		m.parent = document.getElementById("particlePoint");
 		
-		var c = 100;
+		var c = 350;
 		var p;
 		
 		for(var i=0; i<c; i++){
@@ -130,8 +204,6 @@
 		
 		nozzle = document.getElementById("Nozzle");
 		document.getElementById("filedrag").addEventListener("click", function(){
-			startTime = new Date().getTime();
-			run();
 		});
 	});
 	

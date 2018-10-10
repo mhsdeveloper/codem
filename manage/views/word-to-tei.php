@@ -46,7 +46,7 @@
 		border-radius: 87px;
 		height: 100px;
 		background: black;
-		box-shadow: inset 2px -11px 20px 20px rgb(88, 88, 88);
+		z-index: 10;
 	}
 	
 	.dragDropBox2.hover {
@@ -69,6 +69,7 @@
 		position: absolute;
 		left: 64%;
 		top: 87%;
+		z-index: 1;
 	}
 	
 	.DialogBox {
