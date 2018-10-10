@@ -75,13 +75,13 @@
 				$error = $Prep->errorMsg;
 				return $this->ajaxError("XSLT post-processing the Oxgarage output failed for this reason: " . $error);
 			}
-
-			$T = new \Melon\Models\OxToTei();
-
-
+			
+			$text = $Prep->getOutput();
+			
 file_put_contents($fullpath . "-ox.xml", $text);
 			
 
+			$T = new \Melon\Models\OxToTei();
 			$T->setIdRoot($idRoot);
 
 			$T->text($text);

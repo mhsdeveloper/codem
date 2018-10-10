@@ -69,4 +69,8 @@
 			else return true;
 		}
 		
+		
+		public function getOutput(){
+			return $this->output;
+		}
 	}

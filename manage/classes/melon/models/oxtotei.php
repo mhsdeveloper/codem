@@ -58,17 +58,8 @@
 			$endTagsModded = [ "Desc>\n", "Stmt>\n", "Info>\n", "Change>\n", "text>\n", "body>\n", "</p>\n"];
 			$this->text = str_replace($endTags, $endTagsModded, $this->text);
 
-			//make all <p> simply <p>
-			//remove unnecessary @rend
-			$this->text = preg_replace('/<p .*>/U', "<p>", $this->text);
-			
 			//remove these 
 			$this->text = str_replace(' xml:space="preserve"', "", $this->text);
-			//more fixes 
-			//paragraphs with leading spaces
-			$this->text = preg_replace("/<p>\s+/", "<p>", $this->text);
-			$this->text = str_replace(" </hi>", "</hi> ", $this->text);
-
 
 			//add our application tags
 			$app = '</application>' . "\n" . '<application ident="MHS-WETVAC" version="' . \MHS\Env::VERSION . '"><label>MHS-WETVAC</label></application>';
@@ -288,18 +279,6 @@
 			$this->replaceEach("{{INS}}", function($i){ return '<ptr type="insRef" n="' . ($i + 1) . '" target="' . $this->docID . "-ins-" . ($i + 1) .  '"/>';	});
 			$this->replaceEach("<div type=\"insertion\">", function($i){ return '<div type="insertion" xml:id="' . $this->docID . "-ins-" . ($i + 1) .  '">';	});
 
-			//remove HI tags
-			$this->text = preg_replace('/<hi.*>/sU', "", $this->text);
-//			$this->text = str_replace("</hi>", "", $this->text);
-
-
-			//remove unnecessary @rend
-//			$this->text = preg_replace('/<p rend=".*"/U', "<p", $this->text);
-
-			//remove unnecessary @style
-			$this->text = preg_replace('/ style=".*"/U', "", $this->text);
-
-
 			//swap in pre-gathered metadata
 			$this->placeHead();
 
@@ -319,8 +298,6 @@
 			//final clean up
 
 			//any remaining {{ becomes comments
-			//first, comments that folks unwittingly put on separate lines
-			$this->text = str_replace(["<p>{{", "}}</p>"], ["<!--", "-->"], $this->text);
 			$this->text = str_replace(["{{", "}}"], ["<!--", "-->"], $this->text);
 
 			//remove the paragraphs with the metadata

@@ -19,7 +19,7 @@
 		
 		
 	
-		function __construct($server = "http://localhost:8080", $querystring = false){
+		function __construct($server = "http://10.1.1.10:8080", $querystring = false){
 			
 			$this->server = $server;
 			

@@ -1,88 +1,18 @@
 <?php  include("manage-head.php");?>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/publications/lib/views/convert-head.php");?>
 <script>
-
+	var installDIR = "<? echo \MHS\Env::APP_INSTALL_URL;?>";
 	var convertConfig = {
 			"processURL": "<? echo \MHS\Env::APP_INSTALL_URL;?><? echo \MHS\Env::CONVERT_PROCESS_URL;?>",
 			"dragdropBoxID": "filedrag",
 			"dialogBoxID": "actionbox"
 	};
-
-
-	function Particle(mommy){
-		var me = this;
-		this.p = document.createElement("div");
-		this.p.className = mommy.particleClass;
-		mommy.parent.appendChild(this.p);
-		
-		this.start = function(left, top){
-			this.p.style.opacity = "0";
-			this.p.style.left = left + "px";
-			this.p.style.top = top + "px";
-			
-			$(this.p).animate({
-				opacity: 1,
-				top: 0,
-				left: 0
-			}, 
-			mommy.dur * Math.random() + mommy.minDur, 
-			function(){
-				mommy.restart(me);
-			});
-		}	
-	}
-
-	function Mommy(){
-		
-		this.dur = 800
-		this.minDur = 500
-		this.leftOffset = 50;
-		this.topOffset = 0;
-		this.width = 600;
-		this.height = 400;
-		this.particleClass = "particle";
-		
-		this.parent = null;
-		
-		this.spawn = function(parentEl, number){
-			this.parent = parentEl;
-		}
-		
-		this.restart = function(who){
-			var w = Math.random() * this.width - this.width * .5;
-			var t = Math.random() * this.height;
-			who.start(w,t);
-		}
-	}
-
-
-
-	window.addEventListener("DOMContentLoaded", function(){
-		jQuery.easing.def = "easeInCubic";
-		
-		var m = new Mommy();
-		
-		m.parent = document.getElementById("particlePoint");
-		
-		var c = 100;
-		var p;
-		
-		for(var i=0; i<c; i++){
-			var p = new Particle(m);
-			m.restart(p);
-		}
-		
-	});
-	
-	
-
-
 </script>
-
+<script src="<? echo \MHS\Env::APP_INSTALL_URL;?>js/vacuum.js"></script>
 <style>
 
 	body {
-		background: #f1f1f1;
+		background: #ffffff;
 	}
 	
 	h1 {
@@ -97,7 +27,7 @@
 
 	.wetvac .nozzle {
 		position: relative;
-		background: url(<? echo\MHS\Env::APP_INSTALL_URL;?>images/wetvac.jpg) no-repeat;
+		background: url(<? echo \MHS\Env::APP_INSTALL_URL;?>../images/wetvac-animation1.png) no-repeat;
 		background-size: contain;
 		height: 331px;
 		width: 752px;
@@ -141,6 +71,19 @@
 		top: 87%;
 	}
 	
+	.DialogBox {
+		left: 192px !important;
+	    top: 56% !important;
+		border-radius: 98px;
+	    padding: 40px;
+	    text-align: center;
+		background: white;
+	}
+
+	.DialogBox .toolbar {
+		display: none;
+	}
+	
 </style>
 
 <script src="<? echo \MHS\Env::APP_INSTALL_URL;?>views/jquery.easing.1.3.js"></script>
@@ -154,7 +97,7 @@
 		</div>
 
 		<div class="wetvac">
-			<div class="nozzle">
+			<div class="nozzle" id="Nozzle">
 				<div id="filedrag" class="dragDropBox2"
 					data-status-element-id="xmllist"
 					data-post-url="<? echo \MHS\Env::APP_INSTALL_URL;?><? echo \MHS\Env::CONVERT_UPLOAD_URL;?>"
