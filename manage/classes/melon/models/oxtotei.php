@@ -50,25 +50,6 @@
 
 
 
-		public function prepOxFile(){
-					//---- prep OX output
-
-			// add line breaks at specific tags, both open and close, except for p
-			$endTags = [ "Desc>", "Stmt>", "Info>", "Change>", "text>", "body>", "</p>", "<lb/>"];
-			$endTagsModded = [ "Desc>\n", "Stmt>\n", "Info>\n", "Change>\n", "text>\n", "body>\n", "</p>\n", "<lb/>\n"];
-			$this->text = str_replace($endTags, $endTagsModded, $this->text);
-
-			//remove these 
-			$this->text = str_replace(' xml:space="preserve"', "", $this->text);
-
-			//add our application tags
-			$app = '</application>' . "\n" . '<application ident="MHS-WETVAC" version="' . \MHS\Env::VERSION . '"><label>MHS-WETVAC</label></application>';
-			$this->text = str_replace("</application>", $app, $this->text);
-		}
-
-
-
-
 		public function separateDocParts(){
 			$parts1 = explode("<body>\n", $this->text);
 
@@ -199,8 +180,8 @@
 
 				if($line->contains("{{CLOSE}}")) {
 					$this->newSection("<closer>", "</closer>");
-					$this->appendOutput($line->trimLeading()->trimTrailingP()->getText());
-					return;
+					//$this->appendOutput($line->trimLeading()->trimTrailingP()->getText());
+					//return;
 				}
 				else if($line->contains("{{PS}}")) {
 					$this->newSection("<postscript>", "</postscript>");
@@ -249,7 +230,6 @@
 			$this->findString("{{SALUTE}}")->inParagraphs()->rewrapWith("salute")->remove();
 			$this->findString("{{DATELINE}}")->inParagraphs()->rewrapWith("dateline")->remove();
 			$this->findString("{{SIGNED}}")->inParagraphs()->rewrapWith("signed")->remove();
-//			$this->findString("{{PS}}")->inParagraphs()->wrapWith("postscript")->remove();
 
 			$this->findString("{{ILL}}")->replaceWith("<unclear/>");
 			$this->findString("{{DAMAGE}}")->replaceWith("<damage/>");
@@ -257,6 +237,8 @@
 			$this->findString("<p>{{BLANK-BLOCK}}</p>")->replaceWith("<space type=\"block\"/>");
 			$this->findString("[")->replaceWith("<supplied>");
 			$this->findString("]")->replaceWith("</supplied>");
+			$this->findString(" ^")->replaceWith("<add>");
+			$this->findString("^ ")->replaceWith("</add>");
 			$this->findString("^:")->replaceWith("<add>");
 			$this->findString("^")->replaceWith("</add>");
 
@@ -276,8 +258,9 @@
 
 			//interate over repeatables
 			$this->replaceEach("{{PB}}", function($i){ return '<pb n="' . ($i + 2) . '"/>';	});
-			$this->replaceEach("{{N}}", function($i){ return '<ptr type="noteRef" n="' . ($i + 1) . '" target="' . $this->docID . "-fn-" . ($i + 1) .  '"/>';	});
-			$this->replaceEach('<note type="fn"', function($i){ return '<note xml:id="' . $this->docID . "-fn-" . ($i + 1) . '" ';	});
+			$this->replaceEach("{{N}}", function($i){ return '<ptr type="noteRef"/>';});
+//			$this->replaceEach("{{N}}", function($i){ return '<ptr type="noteRef" n="' . ($i + 1) . '" target="' . $this->docID . "-fn-" . ($i + 1) .  '"/>';	});
+//			$this->replaceEach('<note type="fn"', function($i){ return '<note type="fn" xml:id="' . $this->docID . "-fn-" . ($i + 1) . '" ';	});
 			$this->replaceEach("{{INS}}", function($i){ return '<ptr type="insRef" n="' . ($i + 1) . '" target="' . $this->docID . "-ins-" . ($i + 1) .  '"/>';	});
 			$this->replaceEach("<div type=\"insertion\">", function($i){ return '<div type="insertion" xml:id="' . $this->docID . "-ins-" . ($i + 1) .  '">';	});
 
@@ -436,5 +419,21 @@
 			$this->findString("{{BIBL}}")->replaceWith($text);
 		}
 
+
+		public function numberNotes(){
+			//first number the ptrs 
+			$noteNo = 0;
+			$this->text = preg_replace_callback('/<ptr type="noteRef"/', function($match) use (&$noteNo) {
+				$noteNo++;
+				return '<ptr type="noteRef" target="'. $this->docID . '-fn-' . $noteNo   .'"'; 
+			}, $this->text);
+
+			//now the notes
+			$noteNo = 0;
+			$this->text = preg_replace_callback('/<note type="fn"/', function($match) use (&$noteNo) {
+				$noteNo++;
+				return '<note type="fn" xml:id="'. $this->docID . '-fn-' . $noteNo   .'"'; 
+			}, $this->text);
+		}
 
 	}

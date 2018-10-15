@@ -88,7 +88,6 @@
 </style>
 
 <script src="<? echo \MHS\Env::APP_INSTALL_URL;?>views/jquery.easing.1.3.js"></script>
-
 </head>
 <body>
 	<div class="masterc">
@@ -114,6 +113,7 @@
 			<iframe id="autoDownload" src=""></iframe>
 		</div>
 	</div>
+
 
 </body>
 </html>

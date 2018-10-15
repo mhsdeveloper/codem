@@ -68,16 +68,16 @@
 			$idRoot = $Ox->getIdRoot();
 			$this->text = file_get_contents($fullpath);
 
+file_put_contents($fullpath . "-ox.xml", $this->text);
+
 			$this->runPreWETxslt();
 			
-//file_put_contents($fullpath . "-ox.xml", $this->text);
+file_put_contents($fullpath . "-ox-prewet.xml", $this->text);
 			
 			$T = new \Melon\Models\OxToTei();
 			$T->setIdRoot($idRoot);
 
 			$T->text($this->text);
-
-			$T->prepOxFile();
 
 			$T->separateDocParts();
 
@@ -94,8 +94,18 @@
 			}
 
 			$this->text = $T->text();
+
+file_put_contents($fullpath . "-ox-postwet.xml", $this->text);
 			
 			$this->runPostWETxslt();
+
+			//send text back to model
+			$T->text($this->text);
+			$T->numberNotes();
+
+			//and get FINAL version from model 
+			$this->text = $T->text();
+			$this->finalFormatting();
 
 			//save
 			file_put_contents($fullpath, $this->text);
@@ -142,6 +152,33 @@
 			}
 			
 			$this->text = $Prep->getOutput();
+		}
+
+
+
+		
+
+
+
+		public function finalFormatting(){
+
+			// add line breaks at specific tags, both open and close, except for p
+			$endTags = [ "Desc>", "Stmt>", "Info>", "Change>", "text>", "body>", "</p>", "<lb/>"];
+			$endTagsModded = [ "Desc>\n", "Stmt>\n", "Info>\n", "Change>\n", "text>\n", "body>\n", "</p>\n", "<lb/>\n"];
+			$this->text = str_replace($endTags, $endTagsModded, $this->text);
+
+			//remove these 
+			$this->text = str_replace(' xml:space="preserve"', "", $this->text);
+
+			//simple replacements
+			$this->text = str_replace(["<p><lb/>", "<p/>"], ["<p>", ""], $this->text);
+
+			//clean spaces after <p>
+			$this->text = preg_replace("/<p>\s+/", "<p>", $this->text);
+			
+			//add our application tags
+			$app = '</application>' . "\n" . '<application ident="MHS-WETVAC" version="' . \MHS\Env::VERSION . '"><label>MHS-WETVAC</label></application>';
+			$this->text = str_replace("</application>", $app, $this->text);
 		}
 
 
