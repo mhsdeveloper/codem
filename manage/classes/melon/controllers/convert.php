@@ -7,24 +7,17 @@
 
 
 
-	class Convert {
-
-		private $response = [];
-
-
+	class Convert extends Controller {
 
 		
 		function index(){
-
 			$this->_mvc->render("word-to-tei.php");
-
 		}
 
 
 		
 		
 		function upload(){
-
 			$this->uploader = new \MHS\Uploader();
 			$this->uploader->addAllowedFileType(".docx");
 			$this->uploader->setDestFolder(\MHS\Env::CONVERT_UPLOAD_DIR);
@@ -34,10 +27,9 @@
 				return $this->ajaxError($this->uploader->getError());
 			}
 
-			$filename = $this->uploader->getFilename();
+			$filename = $this->uploader->getFilename();		
 
 			$this->response = ["filename" => $filename, "message" => "Uploaded $filename."];
-
 			$this->ajaxResponse();
 		}
 
@@ -180,29 +172,5 @@ file_put_contents($fullpath . "-ox-postwet.xml", $this->text);
 			$app = '</application>' . "\n" . '<application ident="MHS-WETVAC" version="' . \MHS\Env::VERSION . '"><label>MHS-WETVAC</label></application>';
 			$this->text = str_replace("</application>", $app, $this->text);
 		}
-
-
-
-
-		private function ajaxError($msg){
-			$this->response['errors'] = $msg;
-			$this->ajaxResponse();
-			return;
-		}
-
-
-
-
-		public function ajaxResponse(){
-
-			$output = json_encode($this->response);
-			header('Content-Type: application/json');
-			print $output;
-
-		}
-
-
-
-
 
 	} //class
