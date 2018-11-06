@@ -1,11 +1,9 @@
 Issues
 ------
-* **WELL-FORMEDNESS**! (Sorry for yelling.)
-* There are 2 <tt>"jqadiaries-v49-1826-06-26"</tt> IDs
-* What should new namespace needed for CODEM components be? (All involved _must_ use same namespace.)
+* What should new namespace needed for CODEM components be? Let's go with <tt>mhs: at http://www.masshist.org/ns/1.0</tt>
 * Do you plan to use `mhs:` or `codem:` or something else as the prefix? (We can each use whatever we want, but it’s easier to talk amongst ourselves if we use the same.)
-* Are `@mhs:startingOnPage` values alwyas positive integers?
-* Are `@mhs:volume` values always positive integers?
+* Are `@mhs:startingOnPage` values alwyas positive integers? Let's keep this loose alphanumeric
+* Are `@mhs:volume` values always positive integers? ditto
 
 Syds-Notes-to-self
 ------------------
