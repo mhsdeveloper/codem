@@ -1,9 +1,12 @@
 Issues
 ------
-* What should new namespace needed for CODEM components be? Let's go with <tt>mhs: at http://www.masshist.org/ns/1.0</tt>
-* Do you plan to use `mhs:` or `codem:` or something else as the prefix? (We can each use whatever we want, but it’s easier to talk amongst ourselves if we use the same.)
-* Are `@mhs:startingOnPage` values alwyas positive integers? Let's keep this loose alphanumeric
-* Are `@mhs:volume` values always positive integers? ditto
+* **Q:** What should new namespace needed for CODEM components be?
+  **A:** Let's go with <tt>mhs: at http://www.masshist.org/ns/1.0</tt>
+* **Q:** Do you plan to use `mhs:` or `codem:` or something else as the prefix? (We can each use whatever we want, but it’s easier to talk amongst ourselves if we use the same.)
+* **Q:** Are `@mhs:startingOnPage` values alwyas positive integers?
+  **A:** Let's keep this loose alphanumeric
+* **Q:** Are `@mhs:volume` values always positive integers?
+  **A:** ditto
 
 Syds-Notes-to-self
 ------------------

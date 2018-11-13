@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div type="month" volume="49" startingOnPage="961">
+<div type="month" mhs:volume="49" mhs:startingOnPage="961" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0">
 	<bibl n="metadata">
 		<date from="1826-03-01" to="1826-03-31"/>
 	</bibl>

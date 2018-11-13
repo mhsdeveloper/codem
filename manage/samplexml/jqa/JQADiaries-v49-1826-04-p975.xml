@@ -1,4 +1,4 @@
-<div type="month" volume="49" startingOnPage="975">
+<div type="month" mhs:volume="49" mhs:startingOnPage="975" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0">
 	<bibl n="metadata">
 		<date from="1826-04-01" to="1826-04-30"/>
 	</bibl>
