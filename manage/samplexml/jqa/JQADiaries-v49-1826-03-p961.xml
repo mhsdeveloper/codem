@@ -985,7 +985,7 @@
 			</list>
 			<pb type="ms" n="968"/>
 			<list>
-				<p><mhs:persRef ref="southard-samuel">Southard—</mhs:persRef> S.N.</p>
+				<item><mhs:persRef ref="southard-samuel">Southard—</mhs:persRef> S.N.</item>
 				<item><mhs:persRef ref="white-joseph">White. Jos. M—</mhs:persRef>
 					<mhs:persRef ref="macon-edgar">Macon</mhs:persRef> &amp; <mhs:persRef ref="smith-joseph2"
 						>Jos. L. Smith</mhs:persRef></item>

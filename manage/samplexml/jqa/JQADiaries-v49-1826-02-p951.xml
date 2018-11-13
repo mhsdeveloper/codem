@@ -269,24 +269,27 @@
                         <list>
                             
                         <item>Elgar— on Davidson’s deeds &amp;c—</item>
-                            <list rendition="#bracket-right">
-                                    <item>Cook D. P.</item>
-                                    <item>Breeze.</item>
-                            </list>
+			<item>
+			  <list rendition="#bracket-right">
+			    <item>Cook D. P.</item>
+			    <item>Breeze.</item>
+			  </list>
+			</item>
                         <item>Smith— S.— Discrim<hi rend="superscript">g.</hi> duties— Maryland claim
                             of int<hi rend="superscript">n.</hi> Panama</item>
                         <item>Brent. D.— Panama—</item>
                         <item>Johnson— judge</item>
                         <item>Brent. D.— M<hi rend="superscript">r</hi> Clay’s opinion</item>
-
-                        <list rendition="#bracket-left">
-                            <item>Cass.</item>
-                            <item>Hendricks</item>
-                            <item>Wing</item>
-                            <item>Connor</item>
-                            <item>Tipton</item>
-                            <item>Le Gros.</item>
-                       </list>
+			<item>
+			  <list rendition="#bracket-left">
+			    <item>Cass.</item>
+			    <item>Hendricks</item>
+			    <item>Wing</item>
+			    <item>Connor</item>
+			    <item>Tipton</item>
+			    <item>Le Gros.</item>
+			  </list>
+			</item>
                         <item>Hay— G.— Internal Imp<hi rend="superscript">ts</hi></item>
                         <item>Brown. Gen<hi rend="superscript">l</hi>— Bissell’s case— N.Y. Delegation.
                             Drawing room.</item>
