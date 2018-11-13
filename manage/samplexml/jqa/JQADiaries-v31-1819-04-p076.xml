@@ -21,10 +21,10 @@
 
 		<div type="docbody">
 <dateline type="heading">April 1819.</dateline>
-			<p><dateline>1. VI. Thursday.</dateline> <persRef ref="forbes-john">J. M. Forbes</persRef> came into the Office this
-				morning, to supply the place of <persRef ref="purviance-john">Purviance</persRef> during his absence. I have offered him the
-				situation, for the want of something better and more suitable for him— <persRef ref="lewis-unknown">Commodore
-				Lewis</persRef>, as he is called, came to the Office to enquire what had been the <persRef key="monroe-james">President’s</persRef>
+			<p><dateline>1. VI. Thursday.</dateline> <mhs:persRef ref="forbes-john">J. M. Forbes</mhs:persRef> came into the Office this
+				morning, to supply the place of <mhs:persRef ref="purviance-john">Purviance</mhs:persRef> during his absence. I have offered him the
+				situation, for the want of something better and more suitable for him— <mhs:persRef ref="lewis-unknown">Commodore
+				Lewis</mhs:persRef>, as he is called, came to the Office to enquire what had been the <mhs:persRef key="monroe-james">President’s</mhs:persRef>
 				determination upon the question of his accounts— I communicated it to him,
 				unpalatable as I knew it must be to him— This giving of negative answers, for the
 				President, is among the most painful parts of my duties. I told him that the
@@ -35,20 +35,20 @@
 				Government an order, not then to proceed— I assured him this was a fact entirely
 				new, and had not been stated before. I advised him to make a statement of it to the
 				President, and to support it by evidence, in which case I was sure the President
-				would reconsider his decision. With this he departed in no wise satisfied. <persRef ref="myers-john">M<hi
-					rend="superscript">r</hi> John Myers</persRef> of Baltimore called at the Office and told
+				would reconsider his decision. With this he departed in no wise satisfied. <mhs:persRef ref="myers-john">M<hi
+					rend="superscript">r</hi> John Myers</mhs:persRef> of Baltimore called at the Office and told
 				me that he wished to be considered a candidate for an appointment as one of the
-				Commissioners under the Treaty; with Spain— He is the son of <persRef ref="myers-moses">M<hi rend="superscript"
-					>r</hi> Myers</persRef> a merchant of Norfolk in Virginia, whom I first knew at Amsterdam
+				Commissioners under the Treaty; with Spain— He is the son of <mhs:persRef ref="myers-moses">M<hi rend="superscript"
+					>r</hi> Myers</mhs:persRef> a merchant of Norfolk in Virginia, whom I first knew at Amsterdam
 				in Spring of the year 1783. The next time that I met him was as a fellow traveller
 				from New York to Boston, in September 1801. when his son this same John Myers, then
 				as he says a boy of fourteen, was with him— He reminded me of this incident and of
-				their having at the same period dined in company with me at <persRef ref="smith-william">M<hi rend="superscript"
-					>r</hi> William Smith’s</persRef>. I well recollected having at that time met his father,
+				their having at the same period dined in company with me at <mhs:persRef ref="smith-william">M<hi rend="superscript"
+					>r</hi> William Smith’s</mhs:persRef>. I well recollected having at that time met his father,
 				but not that he had been with him— But on recurring to my Journal of the time, I
 				find his statement correct. He says he was in the army during the late War, and has
 				now a commercial establishment at Baltimore in connection with that of his father at
-				Norfolk— <persRef key="smith-william-steuben">W. S. Smith</persRef> came to consult me further upon his affairs, and the situation
+				Norfolk— <mhs:persRef key="smith-william-steuben">W. S. Smith</mhs:persRef> came to consult me further upon his affairs, and the situation
 				of his father’s Estate and debts—an inextricable snarl— My eyes still threaten an
 				inflammation so that I was not able to write this Evening.</p>
 		</div>
@@ -70,9 +70,9 @@
 
 		<div type="docbody">
 
-			<p><dateline>2. VI:</dateline> Going to my Office this morning I met <persRef ref="wirt-william">M<hi
-					rend="superscript">r</hi> Wirt</persRef> the Attorney General, who told me he was coming
-				there to meet <persRef key="crawford-william-harris">M<hi rend="superscript">r.</hi> Crawford</persRef> and me at one O’Clock, and
+			<p><dateline>2. VI:</dateline> Going to my Office this morning I met <mhs:persRef ref="wirt-william">M<hi
+					rend="superscript">r</hi> Wirt</mhs:persRef> the Attorney General, who told me he was coming
+				there to meet <mhs:persRef key="crawford-william-harris">M<hi rend="superscript">r.</hi> Crawford</mhs:persRef> and me at one O’Clock, and
 				they accordingly came. We first examined a question which has arisen, under the
 				Slave trade Act of the last Session of Congress. It authorizes the President to send
 				to Africa the Slaves that may be taken by our armed vessels, and brought into the
@@ -84,8 +84,8 @@
 				and of the State of Georgia before the Law of Congress of the last Session— Crawford
 				thought that this last Act was retrospective; and that under it, the President might
 				send to Africa the Slaves thus advertised for sale, although they were imported
-				before the passage of the Act— The <persRef key="monroe-james">President</persRef> before he left the City directed me to
-				write accordingly to the <persRef ref="rabun-william">Governor</persRef> and the <persRef ref="habersham-richard">District Attorney of Georgia</persRef>— But being
+				before the passage of the Act— The <mhs:persRef key="monroe-james">President</mhs:persRef> before he left the City directed me to
+				write accordingly to the <mhs:persRef ref="rabun-william">Governor</mhs:persRef> and the <mhs:persRef ref="habersham-richard">District Attorney of Georgia</mhs:persRef>— But being
 				upon examination of the Act myself convinced that this course of proceeding would
 				not be warranted by it, I postponed writing the Letter and this day submitted the
 				act and the question to joint consideration. M<hi rend="superscript">r</hi> Wirt had
@@ -97,10 +97,10 @@
 				do by a late Law of the State of Georgia. As to the suspended Articles of the
 				Convention with Great-Britain, Crawford brought with him the statements of our trade
 				with the British West-Indies in the years 1816. 17. and 18. the results of which are
-				not materially different from those of the years 1802. 3. and 4. sent by <persRef ref="gallatin-albert">M<hi
-					rend="superscript">r</hi> Gallatin</persRef>— After much discussion, without any settled
-				diversity of opinion, we agreed that I should instruct <persRef ref="rush-richard">M<hi rend="superscript"
-					>r</hi> Rush</persRef> to propose to accept the limitation of both the lists of Articles
+				not materially different from those of the years 1802. 3. and 4. sent by <mhs:persRef ref="gallatin-albert">M<hi
+					rend="superscript">r</hi> Gallatin</mhs:persRef>— After much discussion, without any settled
+				diversity of opinion, we agreed that I should instruct <mhs:persRef ref="rush-richard">M<hi rend="superscript"
+					>r</hi> Rush</mhs:persRef> to propose to accept the limitation of both the lists of Articles
 				as proposed by the British Plenipotentiaries; upon condition that the duties upon
 				imported Articles shall not be higher upon importations direct from the United
 				States, than upon those made indirectly through the North-American Colonies. We do
@@ -109,7 +109,7 @@
 				only terms to which we can safely agree— Crawford said that the effect of our
 				counteracting system, could not be fairly tried, until we should cut off the
 				intercourse with Bermuda, and the Bahamas, which he thought should have been done
-				last Winter. <persRef ref="bailey-john">M<hi rend="superscript">r</hi> Bailey</persRef> spent part of the Evening with
+				last Winter. <mhs:persRef ref="bailey-john">M<hi rend="superscript">r</hi> Bailey</mhs:persRef> spent part of the Evening with
 				us. I am yet unable to write by Candle-light.</p>
 		</div>
 	</div>
@@ -128,9 +128,9 @@
 
 		<div type="docbody">
 
-			<p><dateline>3. VI:</dateline> <persRef ref="anderson-joseph">M<hi rend="superscript">r</hi> Anderson</persRef>, the Comptroller
-				of the Treasury called on me this morning; concerning an Account of postage for <persRef ref="thornton-william">D<hi
-					rend="superscript">r</hi> Thornton</persRef> Superintendent of the Patent-Office— This
+			<p><dateline>3. VI:</dateline> <mhs:persRef ref="anderson-joseph">M<hi rend="superscript">r</hi> Anderson</mhs:persRef>, the Comptroller
+				of the Treasury called on me this morning; concerning an Account of postage for <mhs:persRef ref="thornton-william">D<hi
+					rend="superscript">r</hi> Thornton</mhs:persRef> Superintendent of the Patent-Office— This
 				Office, is made by Law totally dependent upon the Department of State. But the D<hi
 					rend="superscript">r.</hi> among his projects for making it a separate
 				Department, has encouraged persons having business relating to Patents to correspond
@@ -144,17 +144,17 @@
 				now a large accumulation of them. M<hi rend="superscript">r.</hi> Anderson came to
 				tell me that the Doctor was very troublesome about these Letters, and he knew not
 				what to do with him. I said the Letters must all be sent to the Department, and
-				opened there: upon which I would authorize the Postage to be paid. <persRef ref="myers-john">M<hi
-					rend="superscript">r</hi> John Myers</persRef> of Baltimore called again at the Office,
-				being about to return home— I received a Letter from <persRef ref="adams-thomas">my brother</persRef> at Quincy; he has
+				opened there: upon which I would authorize the Postage to be paid. <mhs:persRef ref="myers-john">M<hi
+					rend="superscript">r</hi> John Myers</mhs:persRef> of Baltimore called again at the Office,
+				being about to return home— I received a Letter from <mhs:persRef ref="adams-thomas">my brother</mhs:persRef> at Quincy; he has
 				removed with his family into my father’s house; to reside with him— He says my
-				<persRef ref="adams-john">father</persRef> is unwell, and I am under great concern for his health; since his
-				irreparable, and inexpressible bereavement— <persRef key="adams-louisa-catherine">My wife</persRef> had a large tea-party this
+				<mhs:persRef ref="adams-john">father</mhs:persRef> is unwell, and I am under great concern for his health; since his
+				irreparable, and inexpressible bereavement— <mhs:persRef key="adams-louisa-catherine">My wife</mhs:persRef> had a large tea-party this
 				Evening; but as there was scarcely any music, and no other occupation, it was dull—
-				<persRef ref="gales-joseph">Gales</persRef>, the Editor of the National Intelligencer spoke of a pamphlet circulated by
-				<persRef ref="scott-winfield">General Scott</persRef>, containing his correspondence with <persRef ref="jackson-andrew">General Jackson</persRef>, which sprung from
+				<mhs:persRef ref="gales-joseph">Gales</mhs:persRef>, the Editor of the National Intelligencer spoke of a pamphlet circulated by
+				<mhs:persRef ref="scott-winfield">General Scott</mhs:persRef>, containing his correspondence with <mhs:persRef ref="jackson-andrew">General Jackson</mhs:persRef>, which sprung from
 				an anonymous Letter received by Jackson, whence a quarrel has arisen between them.
-				The day before the President went away, <persRef ref="calhoun-john">Calhoun</persRef> had received a Letter from Scott,
+				The day before the President went away, <mhs:persRef ref="calhoun-john">Calhoun</mhs:persRef> had received a Letter from Scott,
 				signifying to him his intention to effect the publishing this correspondence in a
 				pamphlet in defiance or by an evasion of an order from the War Department of 21.
 				February 1818 which prohibited newspaper publications of quarrels between Officers
@@ -165,7 +165,7 @@
 				replied, persevering in his determination. I received by this day’s mail, a copy of
 				the printed pamphlet, and many others were received here— In the management of this
 				controversy, Jackson maintains the Achillean temper—“Impiger, Iracundus,
-				inexorabilis acer,”—as if he had sat to <persRef ref="homer">Homer</persRef> for his picture— Scott exhibits an
+				inexorabilis acer,”—as if he had sat to <mhs:persRef ref="homer">Homer</mhs:persRef> for his picture— Scott exhibits an
 				unnatural mixture of the Soldier and the <unclear>a</unclear>ttorney—quibbling about Law, and his
 				rights as a Citizen—taking ground for refusing to fight Jackson in a duel, and
 				shrinking from it when taken— Pleading religious scruples, and then explaining that
@@ -183,7 +183,7 @@
 				copy and circulate his Letters; and that he Scott cannot even procure franks to
 				relieve him from the expence of Postage— Yet as if he had not enemy enough in
 				Jackson, he hurls de gaieté de coeur, a feeble lance of surmizes and suspicions, at
-				<persRef ref="clinton-dewitt">de Witt Clinton</persRef>, whom he suspects of having produced the quarrel, by an anonymous
+				<mhs:persRef ref="clinton-dewitt">de Witt Clinton</mhs:persRef>, whom he suspects of having produced the quarrel, by an anonymous
 				Letter to Jackson— The whole pamphlet is weak and inconsiderate.</p>
 		</div>
 	</div>
@@ -199,26 +199,26 @@
 
 		<div type="docbody">
 
-			<p><dateline>4. VI:</dateline> I walked over to Georgetown, and called upon <persRef ref="brown-katherine">M<hi
-					rend="superscript">rs</hi> Katherine Brown</persRef> from whom I received a few days since
-				a Letter, recommending her <persRef ref="brown-unknown2">Son</persRef> for an Office as a Clerk in any of the Departments—
+			<p><dateline>4. VI:</dateline> I walked over to Georgetown, and called upon <mhs:persRef ref="brown-katherine">M<hi
+					rend="superscript">rs</hi> Katherine Brown</mhs:persRef> from whom I received a few days since
+				a Letter, recommending her <mhs:persRef ref="brown-unknown2">Son</mhs:persRef> for an Office as a Clerk in any of the Departments—
 				There was an intimation in the Letter that she thought I had not treated her kindly;
 				which must have arisen solely from my having neglected to visit her since I have
 				resided in Washington— It has been unintentional, but the reproach was not without
 				foundation— She was among the friends of my early youth, towards whom I ought not
 				now to have so long omitted the courtesies of social life; by an occasional visit.
-				She has however been more than once invited by <persRef key="adams-louisa-catherine">my wife</persRef> to evening parties at our
+				She has however been more than once invited by <mhs:persRef key="adams-louisa-catherine">my wife</mhs:persRef> to evening parties at our
 				house— I this day found her residence, at Georgetown— She was at dinner, with her
-				<persRef ref="unknown10">mother</persRef>, and another person— To avoid interrupting them I told her I would with
+				<mhs:persRef ref="unknown10">mother</mhs:persRef>, and another person— To avoid interrupting them I told her I would with
 				pleasure serve her Son, and promised to call again and see her before long—
-				Returning homeward, I stopped at <persRef ref="frye-nathaniel">M<hi rend="superscript">r</hi> Frye’s</persRef>, where M<hi
-					rend="superscript">rs</hi> Adams soon afterwards came in with <persRef ref="hellen-mary">Mary Hellen</persRef>. Frye
-				spoke to me of certain transactions between <persRef ref="johnson-richard">Col<hi rend="superscript">l.</hi> R. M.
-				Johnson</persRef> late member of Congress from Kentucky, which I heard with surprize and
-				sorrow— A letter from <persRef ref="pope-john">M<hi rend="superscript">r</hi> John Pope</persRef> of Frankfort to M<hi
+				Returning homeward, I stopped at <mhs:persRef ref="frye-nathaniel">M<hi rend="superscript">r</hi> Frye’s</mhs:persRef>, where M<hi
+					rend="superscript">rs</hi> Adams soon afterwards came in with <mhs:persRef ref="hellen-mary">Mary Hellen</mhs:persRef>. Frye
+				spoke to me of certain transactions between <mhs:persRef ref="johnson-richard">Col<hi rend="superscript">l.</hi> R. M.
+				Johnson</mhs:persRef> late member of Congress from Kentucky, which I heard with surprize and
+				sorrow— A letter from <mhs:persRef ref="pope-john">M<hi rend="superscript">r</hi> John Pope</mhs:persRef> of Frankfort to M<hi
 					rend="superscript">rs</hi> Adams had given me the first hint of Johnsons
 				pecuniary embarrassments and enormous speculations— From Frye’s account Johnson did
-				obtain last year money irregularly from the Paymaster General <persRef ref="brent-robert">Robert Brent</persRef>; and
+				obtain last year money irregularly from the Paymaster General <mhs:persRef ref="brent-robert">Robert Brent</mhs:persRef>; and
 				attempted to do the same of Frye this year, but without success. Johnson has been
 				many years one of the most distinguished members from Kentucky, and was expected to
 				be the next Governor of that State— These transactions when known, must demolish
@@ -243,10 +243,10 @@
 
 		<div type="docbody">
 
-			<p><dateline>5. VI:</dateline> <persRef key="crawford-william-harris">M<hi rend="superscript">r</hi> Crawford</persRef> sent me a Message
+			<p><dateline>5. VI:</dateline> <mhs:persRef key="crawford-william-harris">M<hi rend="superscript">r</hi> Crawford</mhs:persRef> sent me a Message
 				this morning, requesting me to call at his Office— He there read me Letters from
-				<persRef ref="cheves-langdon">M<hi rend="superscript">r</hi> Cheves</persRef>, President of the Bank of the United
-				States, and from <persRef ref="smith-samuel2">General S. Smith</persRef> of Baltimore, representing the distressed state of
+				<mhs:persRef ref="cheves-langdon">M<hi rend="superscript">r</hi> Cheves</mhs:persRef>, President of the Bank of the United
+				States, and from <mhs:persRef ref="smith-samuel2">General S. Smith</mhs:persRef> of Baltimore, representing the distressed state of
 				the Bank, and of the commerce of the Country generally— The Bank is so drained of
 				its specie, that it is hardly conceivable they can go to the month of June without
 				stopping payment. The measure which Cheves now represents as indispensable is the
@@ -275,8 +275,8 @@
 				half-million at a time, writes to Crawford to alarm him for the army establishment,
 				which he urges will certainly be reduced at the next Session of Congress; an event
 				which is highly probable— I spoke to M<hi rend="superscript">r</hi> Crawford on the
-				subject of the suit against <persRef ref="copeland-unknown">Copeland</persRef>, concerning which <persRef ref="degrand-peter">Degrand</persRef> has written to me,
-				and I called upon the Comptroller, <persRef ref="anderson-joseph">Anderson</persRef> and shewed him Degrand’s last Letter to
+				subject of the suit against <mhs:persRef ref="copeland-unknown">Copeland</mhs:persRef>, concerning which <mhs:persRef ref="degrand-peter">Degrand</mhs:persRef> has written to me,
+				and I called upon the Comptroller, <mhs:persRef ref="anderson-joseph">Anderson</mhs:persRef> and shewed him Degrand’s last Letter to
 				me on the subject— I received another heavy mail; with numerous despatches and
 				Letters. But have so far recovered my eye-sight that I am able again to write in the
 				Evening.</p>
@@ -297,42 +297,42 @@
 
 		<div type="docbody">
 
-			<p><dateline>6. V:45.</dateline> At the Office this morning, I had visitors; a <persRef ref="leamy-john">M<hi
-				rend="superscript">r</hi> Leamy</persRef> of Philadelphia, son to one of the <persRef ref="leamy-unknown">owners</persRef> of a
-				vessel taken nearly two years since by the Venezuelan <persRef ref="brion-luis">Admiral Brion</persRef>; and for the
-				reclamation of which <persRef ref="irvine-baptis">B. Irvine</persRef> was sent out. He came to enquire what prospect there
+			<p><dateline>6. V:45.</dateline> At the Office this morning, I had visitors; a <mhs:persRef ref="leamy-john">M<hi
+				rend="superscript">r</hi> Leamy</mhs:persRef> of Philadelphia, son to one of the <mhs:persRef ref="leamy-unknown">owners</mhs:persRef> of a
+				vessel taken nearly two years since by the Venezuelan <mhs:persRef ref="brion-luis">Admiral Brion</mhs:persRef>; and for the
+				reclamation of which <mhs:persRef ref="irvine-baptis">B. Irvine</mhs:persRef> was sent out. He came to enquire what prospect there
 				was of success, but I could not give him any encouragement. The claim, upon Irvine’s
 				Reports is absolutely desperate; and although Irvine upon leaving Angostura, to
 				return to the United States renewed the claim, there was no prospect that it would
 				be admitted, and I told M<hi rend="superscript">r</hi> Leamy, that the only
 				remaining resource of the owners of the vessel would be an application to Congress.
-					<persRef key="bagot-charles">M<hi rend="superscript">r</hi> Bagot</persRef> came to read me an extract of a Letter that
+					<mhs:persRef key="bagot-charles">M<hi rend="superscript">r</hi> Bagot</mhs:persRef> came to read me an extract of a Letter that
 				he had received from the British naval commanding Officer in the West-Indies, as
 				informing him of an act of piracy committed by a picaroon from S<hi
 					rend="superscript">t.</hi> Domingo, upon an American Vessel. Bagot told me also
-				that he had received a Letter from <persRef ref="castlereagh-robert">Lord Castlereagh</persRef>, with instructions precisely
-				coinciding with what I had mentioned to him as having been reported by <persRef ref="rush-richard">M<hi
-					rend="superscript">r</hi> Rush</persRef>, to have passed at an interview between him and
-				that Minister, in relation to the execution of <persRef ref="arbuthnot-alexander">Arbuthnott</persRef> and <persRef ref="ambrister-robert">Armbrister</persRef>. M<hi
+				that he had received a Letter from <mhs:persRef ref="castlereagh-robert">Lord Castlereagh</mhs:persRef>, with instructions precisely
+				coinciding with what I had mentioned to him as having been reported by <mhs:persRef ref="rush-richard">M<hi
+					rend="superscript">r</hi> Rush</mhs:persRef>, to have passed at an interview between him and
+				that Minister, in relation to the execution of <mhs:persRef ref="arbuthnot-alexander">Arbuthnott</mhs:persRef> and <mhs:persRef ref="ambrister-robert">Armbrister</mhs:persRef>. M<hi
 					rend="superscript">r</hi> Bagot informed me that he intended in a week or ten
 				days to leave the City; expecting to embark at Annapolis, and that a day or two
-				before his departure he should come and present <persRef ref="antrobus-gibbs">M<hi rend="superscript">r</hi>
-					Antrobus</persRef> as the Charge d’Affaires during his absence. <persRef ref="lee-william">W. Lee</persRef> came to shew me a
-				Letter from <persRef ref="hunt-s">S. Hunt</persRef> dated at Liverpool; mentioning my Letter to <persRef ref="erving-george">G. W. Erving</persRef> of 28.
+				before his departure he should come and present <mhs:persRef ref="antrobus-gibbs">M<hi rend="superscript">r</hi>
+					Antrobus</mhs:persRef> as the Charge d’Affaires during his absence. <mhs:persRef ref="lee-william">W. Lee</mhs:persRef> came to shew me a
+				Letter from <mhs:persRef ref="hunt-s">S. Hunt</mhs:persRef> dated at Liverpool; mentioning my Letter to <mhs:persRef ref="erving-george">G. W. Erving</mhs:persRef> of 28.
 				November, which was published in the London Courier of 27. January— This Evening, we
-				had visitors at the house, <persRef key="hyde-de-neuville-jean">M<hi rend="superscript">r</hi> Hyde de Neuville</persRef> with
-				<persRef ref="bourqueney-francois">Bourqueney</persRef>; and <persRef ref="forbes-john">Forbes</persRef> with <persRef ref="appleton-john">J. J. Appleton</persRef>— I was called away to settle an affair
-				with <persRef ref="hickey-william">M<hi rend="superscript">r</hi> Hickey</persRef> an Agent of <persRef ref="boyd-george">George Boyd</persRef>—who married my
-				<persRef key="adams-louisa-catherine">wife’s</persRef> Sister <persRef ref="boyd-harriet">Harriet</persRef>— Boyd had an Office as first Clerk for Pensions, in the War
+				had visitors at the house, <mhs:persRef key="hyde-de-neuville-jean">M<hi rend="superscript">r</hi> Hyde de Neuville</mhs:persRef> with
+				<mhs:persRef ref="bourqueney-francois">Bourqueney</mhs:persRef>; and <mhs:persRef ref="forbes-john">Forbes</mhs:persRef> with <mhs:persRef ref="appleton-john">J. J. Appleton</mhs:persRef>— I was called away to settle an affair
+				with <mhs:persRef ref="hickey-william">M<hi rend="superscript">r</hi> Hickey</mhs:persRef> an Agent of <mhs:persRef ref="boyd-george">George Boyd</mhs:persRef>—who married my
+				<mhs:persRef key="adams-louisa-catherine">wife’s</mhs:persRef> Sister <mhs:persRef ref="boyd-harriet">Harriet</mhs:persRef>— Boyd had an Office as first Clerk for Pensions, in the War
 				Department— Last Fall, he resigned that place—sold his house to his
-				Successor<space>    </space><persRef ref="edwards-james">Edwards</persRef>; removed his family into Virginia; and in the Winter received
+				Successor<space>    </space><mhs:persRef ref="edwards-james">Edwards</mhs:persRef>; removed his family into Virginia; and in the Winter received
 				an Appointment, as Agent for Indian affairs at Michillimackinac. But he had
 				exhausted his funds so that he could not proceed to his Post without raising a
 				supply— He had received, in part payment for his house a Note for upwards of 900
 				Dollars, payable, without interest 3. March 1820. signed by Edwards, and endorsed by
-				<persRef ref="caldwell-elias">E. B. Caldwell</persRef>, and <persRef ref="seaton-william">W.<space>    </space>Seaton</persRef>. To raise the money, Boyd had sent this Note to
+				<mhs:persRef ref="caldwell-elias">E. B. Caldwell</mhs:persRef>, and <mhs:persRef ref="seaton-william">W.<space>    </space>Seaton</mhs:persRef>. To raise the money, Boyd had sent this Note to
 				Hickey to dispose of it, at a discount of twenty per Cent. Hickey after taking great
-				pains without success had given it up in despair— George Boyds eldest Son <persRef ref="boyd-john">John</persRef> was
+				pains without success had given it up in despair— George Boyds eldest Son <mhs:persRef ref="boyd-john">John</mhs:persRef> was
 				here, returning to his father from a School in Pennsylvania— I was informed that
 				unless Boyd could raise this money he would not be able to repair to his Post and
 				must resign his Place— I therefore sent for Hickey, and took the note deducting from
@@ -354,30 +354,30 @@
 
 		<div type="docbody">
 
-			<p><dateline>7. VI:30.</dateline> <persRef ref="boyd-john">John Boyd</persRef> went off at six this morning to return to
-				his <persRef ref="boyd-george">father</persRef>— <persRef ref="rodgers-john">Commodore Rogers</persRef> came to the Office, and mentioned complaints received
+			<p><dateline>7. VI:30.</dateline> <mhs:persRef ref="boyd-john">John Boyd</mhs:persRef> went off at six this morning to return to
+				his <mhs:persRef ref="boyd-george">father</mhs:persRef>— <mhs:persRef ref="rodgers-john">Commodore Rogers</mhs:persRef> came to the Office, and mentioned complaints received
 				of piratical depredations committed upon many of our Citizens and their property;
 				and we had some conversation with regard to the armed vessels which may be employed
 				for the protection of our Commerce— And then falling upon other general topics.
-				Rogers mentioned that the Portrait of <persRef ref="ferdinand-vii">Ferdinand the seventh</persRef> in <persRef ref="onis-luis">Onis’s</persRef> drawing room,
+				Rogers mentioned that the Portrait of <mhs:persRef ref="ferdinand-vii">Ferdinand the seventh</mhs:persRef> in <mhs:persRef ref="onis-luis">Onis’s</mhs:persRef> drawing room,
 				resembled Onis himself so much that it had often been taken for him. He said he had
 				always thought it strongly like him; and could account for it, since he had been
-				told by a Spaniard that Onis was reputed to be a natural Son of <persRef ref="charles-iii">Charles the
-					Third</persRef>—Ferdinand’s Grandfather— <persRef ref="edwards-e">M<hi rend="superscript">r</hi> E. Edwards</persRef> came to
-				enquire about some Letter from a patentee to <persRef ref="thornton-william">D<hi rend="superscript">r</hi>
-				Thornton</persRef>, lying unopened at the Post-Office, because <pb type="ms" n="80"/>the
+				told by a Spaniard that Onis was reputed to be a natural Son of <mhs:persRef ref="charles-iii">Charles the
+					Third</mhs:persRef>—Ferdinand’s Grandfather— <mhs:persRef ref="edwards-e">M<hi rend="superscript">r</hi> E. Edwards</mhs:persRef> came to
+				enquire about some Letter from a patentee to <mhs:persRef ref="thornton-william">D<hi rend="superscript">r</hi>
+				Thornton</mhs:persRef>, lying unopened at the Post-Office, because <pb type="ms" n="80"/>the
 				Postage has not been paid upon it— The Letter he said contained money, and the
 				patentee having received no answer was afraid it had miscarried and had written to
 				him of enquire about it— I told Edwards that he must write to his friend the
 				patentee and inform him that he must pay the Postage upon his Letter, for not having
 				addressed it as he should have done to the Secretary of State— Just as I was about
-				leaving the Office, to return home the Messenger <persRef ref="joseph">Joseph</persRef><space>    </space>told me there was a fire
+				leaving the Office, to return home the Messenger <mhs:persRef ref="joseph">Joseph</mhs:persRef><space>    </space>told me there was a fire
 				at the seven buildings— I immediately went there, and found the fire was at some
 				wooden or frame houses back of those buildings and in the next Street. Three or four
 				small houses were already nearly burnt down; and the wind blowing fresh in the
 				direction from the adjoining houses, the fire extended no further— There was a great
 				want of good Engines, and of water—few pumps in the neighbourhood; and two or three
-				of them exhausted— It was passed seven O’Clock, when I got home to dinner— My <persRef key="adams-louisa-catherine">wife</persRef>
+				of them exhausted— It was passed seven O’Clock, when I got home to dinner— My <mhs:persRef key="adams-louisa-catherine">wife</mhs:persRef>
 				was ill this Evening.</p>
 		</div>
 	</div>
@@ -399,11 +399,11 @@
 
 		<div type="docbody">
 
-			<p><dateline>8. V:30.</dateline> <persRef ref="brent-daniel">M<hi rend="superscript">r</hi> D. Brent</persRef> and <persRef ref="forbes-john">M<hi
-					rend="superscript">r</hi> Forbes</persRef> were absent from the Office. The Portuguese
-				Minister, Abbé or Chevalier <persRef ref="correa-joseph">Correa de Serra</persRef>, came to the Office and took leave for
+			<p><dateline>8. V:30.</dateline> <mhs:persRef ref="brent-daniel">M<hi rend="superscript">r</hi> D. Brent</mhs:persRef> and <mhs:persRef ref="forbes-john">M<hi
+					rend="superscript">r</hi> Forbes</mhs:persRef> were absent from the Office. The Portuguese
+				Minister, Abbé or Chevalier <mhs:persRef ref="correa-joseph">Correa de Serra</mhs:persRef>, came to the Office and took leave for
 				the Summer— He is going to spend the first part of it, at Philadelphia. He had some
-				time since recommended to me to read <persRef ref="romans-barnard">Barnard Romans’s</persRef> Book upon Florida, which he
+				time since recommended to me to read <mhs:persRef ref="romans-barnard">Barnard Romans’s</mhs:persRef> Book upon Florida, which he
 				says is in the Library of Congress: and he had somewhat mysteriously hinted to me,
 				that he had an observation of some importance to make to me on the subject. He this
 				day told me it was that by two excellent Sea Ports in Islands on the Coast of
@@ -412,7 +412,7 @@
 				States would have the complete military command of the Passes into the Gulph of
 				Mexico; and consequently of the whole gulph itself— We found Biscayno upon the maps
 				at the Office; but Tabona was not laid down upon them by name— The Abbe told me
-				there was a very large map of Florida, taken by order of the <persRef ref="hill-wills">Earl of Hillsborough</persRef>,
+				there was a very large map of Florida, taken by order of the <mhs:persRef ref="hill-wills">Earl of Hillsborough</mhs:persRef>,
 				while it was in possession of the English— He added that Europe would not so much as
 				have a suspicion of the acquisition of Power, obtained by the United States in this
 				late Treaty with Spain— In his opinion it was the complement both to the Treaty of
@@ -421,22 +421,22 @@
 				Science, of brilliant wit, and of inexhaustible powers of Conversation— He is so
 				much of a philosopher, as to have incurred the vindictive pursuit of the
 				Inquisition, and to have obtained the Friendship and Patronage of my old friend
-				<persRef ref="barca-antonio">Araujo</persRef>, the late Count de Barca, by whom he was appointed to the mission here. He is
+				<mhs:persRef ref="barca-antonio">Araujo</mhs:persRef>, the late Count de Barca, by whom he was appointed to the mission here. He is
 				insinuating and fascinating in his manners and deportment, and though 68 years of
 				age, as lively as if he were but twenty-five— His temper however is not remarkable
 				for equanimity— It is quick, sensitive, fractious, hasty, and when excited,
 				obstinate— Yet he is timid, and easily cast down— An attack upon him last Spring in
 				some of our newspapers, drove him almost into a fit of melancholy madness; and he
 				hurried off to Norfolk where lived the only physician in whom he had confidence— He
-				lived that Winter with <persRef ref="walsh-robert">Robert Walsh</persRef>, and the general rumour is that they parted not
+				lived that Winter with <mhs:persRef ref="walsh-robert">Robert Walsh</mhs:persRef>, and the general rumour is that they parted not
 				so good friends as they had met. The Abbes diplomatic ability consists principally
 				in affecting to be any thing but a diplomat— He introduces himself as a familiar
 				acquaintance to talk literature and philosophy; as a domestic inmate to gossip over
-				a cup of tea— <persRef key="monroe-james">M<hi rend="superscript">r</hi> Monroe</persRef> saw through this; but having no
+				a cup of tea— <mhs:persRef key="monroe-james">M<hi rend="superscript">r</hi> Monroe</mhs:persRef> saw through this; but having no
 				relish for literature and philosophy; and no time to listen and laugh at jokes, he
 				always kept the abbe, as it was and is his principle to keep all the foreign
-				Ministers—at arms length. <persRef ref="madison-james">M<hi rend="superscript">r</hi> Madison</persRef> and <persRef ref="jefferson-thomas">M<hi
-					rend="superscript">r</hi> Jefferson</persRef> always received and encouraged the abbe’s
+				Ministers—at arms length. <mhs:persRef ref="madison-james">M<hi rend="superscript">r</hi> Madison</mhs:persRef> and <mhs:persRef ref="jefferson-thomas">M<hi
+					rend="superscript">r</hi> Jefferson</mhs:persRef> always received and encouraged the abbe’s
 				social visits, and I have done the same; always avoiding any distinction between him
 				and any others of the foreign Ministers— There is one difference in the
 				correspondence of all the foreign Ministers here from that which is usual in Europe—
@@ -446,20 +446,20 @@
 				dignified— It is negotiation in Court dress, Bag wig, sword by side, chapeau de
 				bras, white silk Stockings, and Patent shoe-buckles. Letters in the first person are
 				Negotiation in Frock Coat Pantaloons, Half-Boots and a round Hat. Another difference
-				is that we here always use our own language. <persRef ref="onis-luis">Onis</persRef> in return always writes even to
-				the most trivial note of Compliment, in Spanish— <persRef key="bagot-charles">Bagot</persRef> of course writes in English,
+				is that we here always use our own language. <mhs:persRef ref="onis-luis">Onis</mhs:persRef> in return always writes even to
+				the most trivial note of Compliment, in Spanish— <mhs:persRef key="bagot-charles">Bagot</mhs:persRef> of course writes in English,
 				and the other foreign Ministers excepting Correa, write in French— He always writes
 				in English, and writing it, though well for a foreigner very incorrectly, if as may
 				very probably happen, any part of his correspondence should be communicated to
 				Congress and published, it will subject him to mortification— I was employed great
 				part of this <pb type="ms" n="81"/>day in revising for publication in the National
-				Intelligencer, a translation made by <persRef ref="brent-robert">Robert Brent jun<hi rend="superscript">r.</hi></persRef>
+				Intelligencer, a translation made by <mhs:persRef ref="brent-robert">Robert Brent jun<hi rend="superscript">r.</hi></mhs:persRef>
 				of a Spanish Royal Order of 14. January last, prescribing capital punishment without
 				remission, against all foreigners taken in arms, with the South-American Insurgents,
 				or furnishing to them warlike supplies— An order upon which comment will be
 				necessary. There was a fire again in the day-time, which was burning at the
 				Navy-yard, as I came home; and by which three or four houses on the New-Jersey
-				avenue were burnt— My <persRef key="adams-louisa-catherine">wife</persRef> continued quite unwell the whole day—</p>
+				avenue were burnt— My <mhs:persRef key="adams-louisa-catherine">wife</mhs:persRef> continued quite unwell the whole day—</p>
 		</div>
 	</div>
 
@@ -479,20 +479,20 @@
 
 		<div type="docbody">
 
-			<p><dateline>9. VI:15.</dateline> Good-Friday. The <persRef ref="onis-luis">Chevalier de Onis</persRef> the Spanish
+			<p><dateline>9. VI:15.</dateline> Good-Friday. The <mhs:persRef ref="onis-luis">Chevalier de Onis</mhs:persRef> the Spanish
 				Minister came and took leave at my house. He is going to spend a fortnight or three
 				weeks at Philadelphia: thence to New-York, and embarks in May with his family
 				intending to return to Spain. I told him that I had heard there were Americans
-				interested in the annulled grants to <persRef ref="alagon-unknown">Alagon</persRef>, <persRef ref="punonrostro">Puñon-Rostro</persRef> and <persRef ref="vargas-pedro">Vargas</persRef>— He said he
-				believed <persRef ref="hackley-richard">M<hi rend="superscript">r</hi> Hackley</persRef> and <persRef ref="meade-richard">M<hi rend="superscript">r</hi>
-				Meade</persRef> were interested. They had applied to the Duke of Alagon to purchase one third
+				interested in the annulled grants to <mhs:persRef ref="alagon-unknown">Alagon</mhs:persRef>, <mhs:persRef ref="punonrostro">Puñon-Rostro</mhs:persRef> and <mhs:persRef ref="vargas-pedro">Vargas</mhs:persRef>— He said he
+				believed <mhs:persRef ref="hackley-richard">M<hi rend="superscript">r</hi> Hackley</mhs:persRef> and <mhs:persRef ref="meade-richard">M<hi rend="superscript">r</hi>
+				Meade</mhs:persRef> were interested. They had applied to the Duke of Alagon to purchase one third
 				of his grants, but he had refused selling—they had been more successful with the
-				others— I asked him whether he had any reason to suppose the <persRef ref="casairujo-carlos">Marquis of Casa Yrujo</persRef>
+				others— I asked him whether he had any reason to suppose the <mhs:persRef ref="casairujo-carlos">Marquis of Casa Yrujo</mhs:persRef>
 				was interested in the grants— He said he did not know— He should not be surprized if
 				he had— The Marquis he knew had an old grant in West-Florida—the part of which we
 				are already in possession; but his grant was of 1804 or 1805. For myself said Onis,
 				I never would have any thing to do with them— A denial again, more explicit even
-				than the last— I suspend my judgment. I spoke of the <persRef ref="ferdinand-vii">King’s</persRef> order of 14 January.
+				than the last— I suspend my judgment. I spoke of the <mhs:persRef ref="ferdinand-vii">King’s</mhs:persRef> order of 14 January.
 				declaring death irremissible for the punishment of foreigners joining the
 				South-American Insurgents; and told him I hoped he would get it revoked. He said he
 				should be glad if he could— Not that there could be any question as to the
@@ -501,15 +501,15 @@
 				few who could suffer under it; and it might provoke to retaliation. He said he had
 				Letters from Madrid to the 15<hi rend="superscript">th. </hi>of February, which
 				mentioned nothing of the removal actual or intended of Casa Yrujo. He spoke of the
-				Death of <persRef ref="charles-iv">Charles the fourth</persRef>, which happened only a fortnight after that of his <persRef ref="marialouisa">wife</persRef>—
+				Death of <mhs:persRef ref="charles-iv">Charles the fourth</mhs:persRef>, which happened only a fortnight after that of his <mhs:persRef ref="marialouisa">wife</mhs:persRef>—
 				His grief at the loss of her brought on a fit of the Gout which killed him— A most
 				extraordinary example said Onis, of the ascendancy which a wicked and worthless
 				woman can acquire and maintain over a weak good hearted man— That woman, said Onis,
-				and her <persRef ref="godoy-manuel">Prince of the Peace</persRef>, were the cause of all the misfortunes of Spain. They
+				and her <mhs:persRef ref="godoy-manuel">Prince of the Peace</mhs:persRef>, were the cause of all the misfortunes of Spain. They
 				brought things to such a pass that the king actually, voluntarily, and most
 				sincerely abdicated the crown; and yet she afterwards prevailed upon him to sign a
 				declaration that this abdication had been extorted from him by compulsion— Onis goes
-				to Spain to take his daughter <persRef ref="heredia-narcissa">Madame de Heredia</persRef> to her <persRef ref="heredia-unknown">husband</persRef>; for according to the
+				to Spain to take his daughter <mhs:persRef ref="heredia-narcissa">Madame de Heredia</mhs:persRef> to her <mhs:persRef ref="heredia-unknown">husband</mhs:persRef>; for according to the
 				Spanish custom she was married by proxy and has never seen her husband since she has
 				borne his name— He was formerly here as a Secretary to the Legation, but went to
 				Spain before the marriage, and has never returned. Onis says he has also private
@@ -521,17 +521,17 @@
 				indeed than any others in which I ever was engaged— The review of them is an
 				inexhaustible source of gratitude, mingled with some portion of self-humiliation—
 				Onis spoke again to day of the conduct of the Spanish commanding Officers in
-				Florida; and said that he gave up entirely <persRef ref="luengo-francisco">Luengo</persRef>, who had certainly been culpable;
-				but <persRef ref="masot-jose">Mazot</persRef>, the Governor of Pensacola, he thought had done nothing more than his
-				duty, and would have deserved to be shot if he had not resisted <persRef ref="jackson-andrew">Jackson</persRef>, as he did—
+				Florida; and said that he gave up entirely <mhs:persRef ref="luengo-francisco">Luengo</mhs:persRef>, who had certainly been culpable;
+				but <mhs:persRef ref="masot-jose">Mazot</mhs:persRef>, the Governor of Pensacola, he thought had done nothing more than his
+				duty, and would have deserved to be shot if he had not resisted <mhs:persRef ref="jackson-andrew">Jackson</mhs:persRef>, as he did—
 				And he was sorry to say the poor man had been so much overcome by his misfortunes
 				that he had lost his senses and gone mad. The troops who took possession of
 				Pensacola on the 8<hi rend="superscript">th. </hi>of February last were commanded by
 				a Major General.— Onis leaves the City on Sunday Morning— As I was going to my
-				Office I met <persRef key="hyde-de-neuville-jean">M<hi rend="superscript">r</hi> Hyde de Neuville</persRef>; and reminded him of
-				his promise to shew me the Memorial of the <persRef ref="desousaholstein-pedro">Portuguese Minister</persRef> to the Congress at
-				Aix La Chapelle, upon the piracies, he renewed his promise to bring it to me— <persRef ref="thornton-william">D<hi
-					rend="superscript">r</hi> Thornton</persRef> came to me at the Office again about the
+				Office I met <mhs:persRef key="hyde-de-neuville-jean">M<hi rend="superscript">r</hi> Hyde de Neuville</mhs:persRef>; and reminded him of
+				his promise to shew me the Memorial of the <mhs:persRef ref="desousaholstein-pedro">Portuguese Minister</mhs:persRef> to the Congress at
+				Aix La Chapelle, upon the piracies, he renewed his promise to bring it to me— <mhs:persRef ref="thornton-william">D<hi
+					rend="superscript">r</hi> Thornton</mhs:persRef> came to me at the Office again about the
 				postage of his Letters— I proposed to him to give notice in the Newspapers that all
 				Letters relating to Patents must be directed to the <pb type="ms" n="82"/>Secretary
 				of State; but he thought that would have the appearance to the Public of a want of
@@ -541,16 +541,16 @@
 				Register of Letters received; after which they should be sent back to him and the
 				postage paid— The whole of this affair is an example how petty abuses imperceptibly
 				creep into public institutions— There were this day three fires in the City. One,
-				early in the Morning, almost next door to <persRef ref="frye-nathaniel">M<hi rend="superscript">r</hi> Frye’s</persRef>—the
+				early in the Morning, almost next door to <mhs:persRef ref="frye-nathaniel">M<hi rend="superscript">r</hi> Frye’s</mhs:persRef>—the
 				Second again at the Navy-yard about Noon, and the third at the Corner of F. and
 					13<hi rend="superscript">th. </hi>Streets where four large brick dwelling houses
 				were consumed— I was at the last before returning home to dinner; all these fires
 				first caught in Stables, and have excited a general alarm of having been kindled by
 				incendiaries. Not one of the dwelling houses in F. Street would have been burnt, but
-				for their shingle roofs— <persRef ref="anderson-joseph">M<hi rend="superscript">r</hi> Anderson</persRef> and <persRef ref="anderson-alexander">two of</persRef> <persRef ref="anderson-william">his Sons</persRef>
-				got into a troublesome quarrel, with <persRef ref="coyle-john">M<hi rend="superscript">r</hi> Coyle</persRef>, President
-				of a Fire Company. <persRef ref="smith-william-steuben;smith-catherine-johnson">M<hi rend="superscript">r</hi> and M<hi rend="superscript"
-					>rs</hi> W. S. Smith</persRef> spent the Evening here.</p>
+				for their shingle roofs— <mhs:persRef ref="anderson-joseph">M<hi rend="superscript">r</hi> Anderson</mhs:persRef> and <mhs:persRef ref="anderson-alexander">two of</mhs:persRef> <mhs:persRef ref="anderson-william">his Sons</mhs:persRef>
+				got into a troublesome quarrel, with <mhs:persRef ref="coyle-john">M<hi rend="superscript">r</hi> Coyle</mhs:persRef>, President
+				of a Fire Company. <mhs:persRef ref="smith-william-steuben;smith-catherine-johnson">M<hi rend="superscript">r</hi> and M<hi rend="superscript"
+					>rs</hi> W. S. Smith</mhs:persRef> spent the Evening here.</p>
 		</div>
 	</div>
 
@@ -567,17 +567,17 @@
 
 			<p><dateline>10. VII:</dateline> I have had almost every day this week, such a multitude
 				of Letters and despatches by the Mail, that it has consumed all my Office hours to
-				read them— <persRef ref="young-moses">M<hi rend="superscript">r</hi> Young</persRef> one of the Clerks in the Office
+				read them— <mhs:persRef ref="young-moses">M<hi rend="superscript">r</hi> Young</mhs:persRef> one of the Clerks in the Office
 				applies for leave of absence for some weeks to go upon private business of his own
-				to Augusta in Georgia— This morning I made a draught of a Letter to <persRef ref="glenn-elias">E. Glenn</persRef>,
+				to Augusta in Georgia— This morning I made a draught of a Letter to <mhs:persRef ref="glenn-elias">E. Glenn</mhs:persRef>,
 				District Attorney at Baltimore, upon the piratical vessels fitted out there— As I
-				was going home to dinner I overtook and walked with <persRef ref="thornton-william">D<hi rend="superscript">r</hi>
-					Thornton</persRef>, who was going to attend a Town Meeting at <persRef ref="davis-unknown">Davis’s</persRef> Hotel— It was held on
+				was going home to dinner I overtook and walked with <mhs:persRef ref="thornton-william">D<hi rend="superscript">r</hi>
+					Thornton</mhs:persRef>, who was going to attend a Town Meeting at <mhs:persRef ref="davis-unknown">Davis’s</mhs:persRef> Hotel— It was held on
 				account of these frequent fires; and several Resolutions of precaution were adopted—
 				One particularly for establishing a nightly Patrol— It is remarkable that at the
 				same time that these fires have been happening here; there have been several at
-				Philadelphia; and one at Norfolk by which upwards of fifty houses were burnt. <persRef ref="hellen-thomas">Thomas
-					Hellen</persRef>, and <persRef ref="buchanan-robert">Robert Buchanan</persRef> dined with us and <persRef ref="frye-nathaniel">M<hi rend="superscript">r</hi> Frye</persRef>
+				Philadelphia; and one at Norfolk by which upwards of fifty houses were burnt. <mhs:persRef ref="hellen-thomas">Thomas
+					Hellen</mhs:persRef>, and <mhs:persRef ref="buchanan-robert">Robert Buchanan</mhs:persRef> dined with us and <mhs:persRef ref="frye-nathaniel">M<hi rend="superscript">r</hi> Frye</mhs:persRef>
 				was here in the Evening.</p>
 		</div>
 	</div>
@@ -607,21 +607,21 @@
 				always hurried, have consumed at least half the time which I devoted by anticipation
 				to this work. Thus last Evening I did not write a line, and this morning before I
 				had finished my page, came the hour for paying a visit which has been long delayed.
-				I went with my <persRef key="adams-louisa-catherine">wife</persRef> to see <persRef ref="clark-susanna">M<hi rend="superscript">rs.</hi> Susan B. Clarke</persRef>, my
-				brother <persRef ref="adams-charles">Charles’s</persRef> eldest daughter, who less than two years since married<space>    </space><persRef ref="clark-charles">Clarke</persRef>,
+				I went with my <mhs:persRef key="adams-louisa-catherine">wife</mhs:persRef> to see <mhs:persRef ref="clark-susanna">M<hi rend="superscript">rs.</hi> Susan B. Clarke</mhs:persRef>, my
+				brother <mhs:persRef ref="adams-charles">Charles’s</mhs:persRef> eldest daughter, who less than two years since married<space>    </space><mhs:persRef ref="clark-charles">Clarke</mhs:persRef>,
 				a Lieutenant in the Navy. He went in the Franklin to the Mediterranean; but being in
 				a consumption returned to this Country last December, and came with his wife to the
-				house of a <persRef ref="french-m">M<hi rend="superscript">rs</hi> French</persRef>, a cousin of his, a widow, living
+				house of a <mhs:persRef ref="french-m">M<hi rend="superscript">rs</hi> French</mhs:persRef>, a cousin of his, a widow, living
 				about four miles beyond Georgetown— He has been almost ever since his arrival
-				confined to his bed, with no prospect of recovery. We found his wife, <persRef ref="unknown11">his Sister</persRef>,
+				confined to his bed, with no prospect of recovery. We found his wife, <mhs:persRef ref="unknown11">his Sister</mhs:persRef>,
 				and M<hi rend="superscript">rs</hi> French much distressed, the symptoms of his
 				disease having, the last two days become extremely severe, and boding an almost
 				immediate dissolution. M<hi rend="superscript">rs</hi> French said they did not
-				expect he would live over the day. A <persRef ref="luffborough-unknown">M<hi rend="superscript">rs</hi> Luffborough</persRef>, an
+				expect he would live over the day. A <mhs:persRef ref="luffborough-unknown">M<hi rend="superscript">rs</hi> Luffborough</mhs:persRef>, an
 				elderly woman residing in the neighbourhood was with them, and they had sent this
-				morning for <persRef key="smith-william-steuben">W. S. Smith</persRef> to come and be with him in his last Moments— As we returned
-				home, M<hi rend="superscript">rs</hi> Adams went to see <persRef key="smith-catherine-johnson">M<hi rend="superscript"
-					>rs</hi> W. S. Smith</persRef>, who is herself quite unwell; and I walked home. The day
+				morning for <mhs:persRef key="smith-william-steuben">W. S. Smith</mhs:persRef> to come and be with him in his last Moments— As we returned
+				home, M<hi rend="superscript">rs</hi> Adams went to see <mhs:persRef key="smith-catherine-johnson">M<hi rend="superscript"
+					>rs</hi> W. S. Smith</mhs:persRef>, who is herself quite unwell; and I walked home. The day
 				was rainy, notwithstanding which there was another fire; and a house partly burnt
 				down upon the Capitol Hill. Great part of this Evening was employed in writing.</p>
 		</div>
@@ -642,17 +642,17 @@
 
 		<div type="docbody">
 
-			<p><dateline>12. VI:15.</dateline> My Son <persRef ref="adams-george">George’s</persRef> Birth-day. He was born with the
+			<p><dateline>12. VI:15.</dateline> My Son <mhs:persRef ref="adams-george">George’s</mhs:persRef> Birth-day. He was born with the
 				century, and this day completes his eighteenth and commences his nineteenth year. As
-				I was going out this morning I met at my door <persRef ref="bourqueney-francois">M<hi rend="superscript">r</hi>
-				Bourqueney</persRef>, one of the young Men attached to the French Legation, who came to inform
-				me that he was going immediately to France, as a Messenger with despatches from <persRef key="hyde-de-neuville-jean">M<hi
-					rend="superscript">r</hi> Hyde de Neuville</persRef>, and to offer to take mine— He turned
+				I was going out this morning I met at my door <mhs:persRef ref="bourqueney-francois">M<hi rend="superscript">r</hi>
+				Bourqueney</mhs:persRef>, one of the young Men attached to the French Legation, who came to inform
+				me that he was going immediately to France, as a Messenger with despatches from <mhs:persRef key="hyde-de-neuville-jean">M<hi
+					rend="superscript">r</hi> Hyde de Neuville</mhs:persRef>, and to offer to take mine— He turned
 				and walked with me as far as M<hi rend="superscript">r</hi> de Neuville’s house, on
 				the way to my Office. De Neuville afterwards himself come to the Office, and brought
-				me the Note of <persRef ref="desousaholstein-pedro">Count Palmella</persRef> the Portuguese Minister, to the Congress at Aix la
+				me the Note of <mhs:persRef ref="desousaholstein-pedro">Count Palmella</mhs:persRef> the Portuguese Minister, to the Congress at Aix la
 				Chapelle, on the piratical privateers. He left it with me, and gave me permission to
-				have a copy of it taken— I read to him the Letter that I had written to <persRef ref="glenn-elias">Glenn</persRef> the
+				have a copy of it taken— I read to him the Letter that I had written to <mhs:persRef ref="glenn-elias">Glenn</mhs:persRef> the
 				district Attorney at Baltimore, directing him to examine the Evidence, and commence
 				Prosecutions in every case where it will be sufficient for conviction. He declared
 				himself entirely satisfied with this, but asked me to write him an answer to his
@@ -664,8 +664,8 @@
 				any question upon that Article, in relation to the grants— Particularly to state
 				with detail the Evidence, which he has repeatedly told me, that he had from Onis
 				during the negotiation, that the Spanish Government itself knew, the grants were
-				null and void. And he told me he should be glad, if I would write to <persRef ref="gallatin-albert">M<hi
-					rend="superscript">r</hi> Gallatin</persRef> concerning it; that if necessary he might
+				null and void. And he told me he should be glad, if I would write to <mhs:persRef ref="gallatin-albert">M<hi
+					rend="superscript">r</hi> Gallatin</mhs:persRef> concerning it; that if necessary he might
 				consult with the French Government about it— I promised him that I would. De
 				Neuville’s great earnestness upon this affair may be ascribed to various motives,
 				some highly honourable and generous—other more partaking of those virtues that begin
@@ -687,11 +687,11 @@
 				disinterested portion of them predominate in a scale adjusted by the standard of
 				their comparative excellence— De Neuville is not a profound or gigantic Genius; but
 				he is a fair and honourable man. He says he does not expect to go for France,
-				himself, before July— <persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</persRef> spent the Evening with
-				her <persRef key="smith-catherine-johnson">Sister Smith</persRef>, at <persRef ref="fletcher-noah">M<hi rend="superscript">r</hi> Fletcher’s</persRef>, opposite <persRef ref="calhoun-john">Calhoun’s</persRef>;
+				himself, before July— <mhs:persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</mhs:persRef> spent the Evening with
+				her <mhs:persRef key="smith-catherine-johnson">Sister Smith</mhs:persRef>, at <mhs:persRef ref="fletcher-noah">M<hi rend="superscript">r</hi> Fletcher’s</mhs:persRef>, opposite <mhs:persRef ref="calhoun-john">Calhoun’s</mhs:persRef>;
 				where they now reside. M<hi rend="superscript">rs</hi> Smith is yet unwell, and
-				<persRef key="smith-william-steuben">Smith</persRef> remains at <persRef ref="french-m">M<hi rend="superscript">rs</hi> French’s</persRef> with <persRef ref="clark-charles">Clarke</persRef>— M<hi
-					rend="superscript">rs</hi> Adams sent <persRef ref="giusta-antoine">Antoine</persRef> there this Evening, to enquire if
+				<mhs:persRef key="smith-william-steuben">Smith</mhs:persRef> remains at <mhs:persRef ref="french-m">M<hi rend="superscript">rs</hi> French’s</mhs:persRef> with <mhs:persRef ref="clark-charles">Clarke</mhs:persRef>— M<hi
+					rend="superscript">rs</hi> Adams sent <mhs:persRef ref="giusta-antoine">Antoine</mhs:persRef> there this Evening, to enquire if
 				he could be of any service—but he was not wanted and came back late— There was
 				another alarm of fire this day.</p>
 		</div>
@@ -712,10 +712,10 @@
 
 		<div type="docbody">
 
-			<p><dateline>13. VI:</dateline> <persRef ref="hay-george">M<hi rend="superscript">r</hi> George Hay</persRef> came to the
-				Office, and brought with him a copy of the correspondence between <persRef ref="scott-winfield">General Scott</persRef> and
-				the <persRef ref="calhoun-john">Secretary at War</persRef>, immediately before Scott’s publication of his correspondence
-				with <persRef ref="jackson-andrew">General Jackson</persRef>. M<hi rend="superscript">r.</hi> Hay said the <persRef key="monroe-james">President</persRef> had
+			<p><dateline>13. VI:</dateline> <mhs:persRef ref="hay-george">M<hi rend="superscript">r</hi> George Hay</mhs:persRef> came to the
+				Office, and brought with him a copy of the correspondence between <mhs:persRef ref="scott-winfield">General Scott</mhs:persRef> and
+				the <mhs:persRef ref="calhoun-john">Secretary at War</mhs:persRef>, immediately before Scott’s publication of his correspondence
+				with <mhs:persRef ref="jackson-andrew">General Jackson</mhs:persRef>. M<hi rend="superscript">r.</hi> Hay said the <mhs:persRef key="monroe-james">President</mhs:persRef> had
 				been greatly concerned at this publication—chiefly from regard for Scott himself;
 				and an apprehension that it would injure his reputation. The very day before he left
 				this City, the President had written a private Letter to General Scott, earnestly
@@ -733,7 +733,7 @@
 				although holding a Commission as a Military Officer, he had the same right as any
 				private citizen, to utter his opinions of praise or blame upon the measures of his
 				superior Officer, of the War Department and of the President— His charge too against
-				the <persRef ref="clinton-dewitt">Governor of New-York</persRef>, avowedly upon mere suspicion, and by his own statement,
+				the <mhs:persRef ref="clinton-dewitt">Governor of New-York</mhs:persRef>, avowedly upon mere suspicion, and by his own statement,
 				resting upon evidence excessively slender, was altogether unjustifiable, and by
 				Clinton’s flat and positive denial, puts Scott himself in the most awkward
 				predicament possible—that of having himself violated the confidence of private
@@ -757,7 +757,7 @@
 				notice to him of any thing appearing from Scott’s publication— M<hi
 					rend="superscript">r</hi> Hay said this entirely concurred with what he had
 				already written to the President. He thought Scott had irretrievably disgraced
-				himself. Both Clinton and <persRef ref="pell-unknown">Pell</persRef> had treated him with inexpressible contempt yet he
+				himself. Both Clinton and <mhs:persRef ref="pell-unknown">Pell</mhs:persRef> had treated him with inexpressible contempt yet he
 				could not call out either of them; and if he did neither of them would be obliged to
 				fight him— The truth was, Scott’s vanity was leading him to his ruin. He could not
 				bear to see Jackson engrossing so much of the public notice, not only of this
@@ -768,9 +768,9 @@
 				criticism— It was no Declaration at-all— He says he <hi rend="italic">thinks
 					proper</hi> to declare, but does not declare. However, as the President was very
 				anxious on this subject, he wished I would write him a line by to-morrow’s mail, and
-				give him my opinion concerning it— I promised him I would. <persRef ref="homans-benjamin">B. Homans</persRef> the chief Clerk
-				of the Navy Department, came to ask permission to send to <persRef ref="prince-james">Ja<hi rend="superscript"
-					>s.</hi> Prince</persRef> Marshal for the District of Massachusetts a copy of the Petition
+				give him my opinion concerning it— I promised him I would. <mhs:persRef ref="homans-benjamin">B. Homans</mhs:persRef> the chief Clerk
+				of the Navy Department, came to ask permission to send to <mhs:persRef ref="prince-james">Ja<hi rend="superscript"
+					>s.</hi> Prince</mhs:persRef> Marshal for the District of Massachusetts a copy of the Petition
 				for a reprieve to the Pirates lately executed at Boston— It seems the Petitioners,
 				some of whom are clergymen, complain that the Marshal denied them access to the men;
 				and they have complained of it to the Public in a late number of the Panoplist, a
@@ -782,14 +782,14 @@
 				nor any allusion to his having denied the Petitioners access to the Prisoners. It
 				was merely a Petition for a reprieve, upon religious motives—highly respectable in
 				themselves, though as I had thought on that occasion injudiciously applied—
-				<persRef ref="bourqueney-francois">Bourqueney</persRef> came and took leave— He goes at five to-morrow Morning, to embark at
-				New-York. I wrote a hasty despatch to <persRef ref="gallatin-albert">M<hi rend="superscript">r</hi> Gallatin</persRef> to
+				<mhs:persRef ref="bourqueney-francois">Bourqueney</mhs:persRef> came and took leave— He goes at five to-morrow Morning, to embark at
+				New-York. I wrote a hasty despatch to <mhs:persRef ref="gallatin-albert">M<hi rend="superscript">r</hi> Gallatin</mhs:persRef> to
 				send by him, and taking a Press Copy, had the draught itself sent; there being not
-				time to have the copy made this Evening. I passed the Evening with <persRef key="adams-louisa-catherine">M<hi
-					rend="superscript">rs</hi> Adams</persRef> and <persRef ref="hellen-mary">Mary Hellen</persRef> at <persRef key="smith-catherine-johnson">M<hi rend="superscript"
-						>rs</hi> Smith’s</persRef>. She received as we went in a Note from <persRef ref="huntt-henry">D<hi rend="superscript"
-							>r</hi> Huntt</persRef> informing her that Smith would remain at <persRef ref="french-m">M<hi rend="superscript"
-								>rs</hi> French’s</persRef>; as <persRef ref="clark-charles">M<hi rend="superscript">r</hi> Clarke</persRef> would probably not
+				time to have the copy made this Evening. I passed the Evening with <mhs:persRef key="adams-louisa-catherine">M<hi
+					rend="superscript">rs</hi> Adams</mhs:persRef> and <mhs:persRef ref="hellen-mary">Mary Hellen</mhs:persRef> at <mhs:persRef key="smith-catherine-johnson">M<hi rend="superscript"
+						>rs</hi> Smith’s</mhs:persRef>. She received as we went in a Note from <mhs:persRef ref="huntt-henry">D<hi rend="superscript"
+							>r</hi> Huntt</mhs:persRef> informing her that Smith would remain at <mhs:persRef ref="french-m">M<hi rend="superscript"
+								>rs</hi> French’s</mhs:persRef>; as <mhs:persRef ref="clark-charles">M<hi rend="superscript">r</hi> Clarke</mhs:persRef> would probably not
 				live over the Night.</p>
 		</div>
 	</div>
@@ -817,16 +817,16 @@
 
 		<div type="docbody">
 
-			<p><dateline>14. V:45.</dateline> Wrote to the <persRef key="monroe-james">President</persRef>; which occupied all the
+			<p><dateline>14. V:45.</dateline> Wrote to the <mhs:persRef key="monroe-james">President</mhs:persRef>; which occupied all the
 				Morning, and again broke in upon the execution of my Resolution to redeem the
 				arrears of my Journal. At the Office, I received a note requesting my attendance,
-				and that of my family to-morrow morning at eleven O’Clock, at the funeral of <persRef ref="clark-charles">T. C.
-					Clarke</persRef>, He died at eight, this Morning. <persRef ref="scott-alexander">M<hi rend="superscript">r</hi> Alexander
-				Scott</persRef> of Georgetown came and spent half an hour at the Office. I did not very
+				and that of my family to-morrow morning at eleven O’Clock, at the funeral of <mhs:persRef ref="clark-charles">T. C.
+					Clarke</mhs:persRef>, He died at eight, this Morning. <mhs:persRef ref="scott-alexander">M<hi rend="superscript">r</hi> Alexander
+				Scott</mhs:persRef> of Georgetown came and spent half an hour at the Office. I did not very
 				distinctly understand what he came for, and found his Conversation dull— He
-				certainly found mine very much so. <persRef key="bagot-charles">M<hi rend="superscript">r</hi> Bagot</persRef> the British
-				Minister came and took leave and presented <persRef ref="antrobus-gibbs">M<hi rend="superscript">r</hi> Crawford
-				Antrobus</persRef> as Chargé d’Affaires during his absence— Bagot goes the day after to-morrow
+				certainly found mine very much so. <mhs:persRef key="bagot-charles">M<hi rend="superscript">r</hi> Bagot</mhs:persRef> the British
+				Minister came and took leave and presented <mhs:persRef ref="antrobus-gibbs">M<hi rend="superscript">r</hi> Crawford
+				Antrobus</mhs:persRef> as Chargé d’Affaires during his absence— Bagot goes the day after to-morrow
 				to Annapolis, with his family; expecting there the Forth Frigate, in which they are
 				to embark for England. As this was in all probability the last time I shall ever see
 				him, and as he is returning immediately to his Government, I took the opportunity to
@@ -835,8 +835,8 @@
 				left us— There were two or three affairs of individuals upon which M<hi
 					rend="superscript">r</hi> Bagot has made representations, and upon which he has
 				not received definitive answers. The chief of them is upon a claim of a British
-				Subject named <persRef ref="clarke-george2">George Clarke</persRef>, for certain Lands in the State of Vermont; by virtue of
-				a grant from the <persRef ref="clarke-george">Governor of New-York</persRef> in the year 1739. The claim involves the old
+				Subject named <mhs:persRef ref="clarke-george2">George Clarke</mhs:persRef>, for certain Lands in the State of Vermont; by virtue of
+				a grant from the <mhs:persRef ref="clarke-george">Governor of New-York</mhs:persRef> in the year 1739. The claim involves the old
 				controversy between New-York, New-Hampshire and Vermont. Clarke’s grant was annulled
 				by the final compromise between the States of New-York and Vermont. He now claims
 				restitution or indemnity, under the 6<hi rend="superscript">th. </hi>Article of the
@@ -851,12 +851,12 @@
 				given— On affairs of more general interest I asked him if he had received
 				instructions to make any representations here on the piratical depredations of
 				privateers fitted out in our Ports, and sailing under South-American flags— He had
-				none; and no despatches from <persRef ref="castlereagh-robert">Lord Castlereagh</persRef>, since January. I then mentioned to
-				him the <persRef ref="desousaholstein-pedro">Portuguese Memorial</persRef> to the Congress at Aix-La-Chapelle; and the final entry
+				none; and no despatches from <mhs:persRef ref="castlereagh-robert">Lord Castlereagh</mhs:persRef>, since January. I then mentioned to
+				him the <mhs:persRef ref="desousaholstein-pedro">Portuguese Memorial</mhs:persRef> to the Congress at Aix-La-Chapelle; and the final entry
 				upon the Protocol; that representations should be made to this Government, by the
 				Ministers of the Powers having Ministers at Washington— I told him that these
-				Representations had been made by the <persRef key="hyde-de-neuville-jean">French Minister</persRef>; and were expected from the
-				<persRef ref="greuhm-frederick">Prussian Minister</persRef>; and from the <persRef ref="poletica-pierre">Russian Minister</persRef> when he arrives. As it was probable
+				Representations had been made by the <mhs:persRef key="hyde-de-neuville-jean">French Minister</mhs:persRef>; and were expected from the
+				<mhs:persRef ref="greuhm-frederick">Prussian Minister</mhs:persRef>; and from the <mhs:persRef ref="poletica-pierre">Russian Minister</mhs:persRef> when he arrives. As it was probable
 				instructions from England to him to the same effect were on the way, and might cross
 				him on his passage, I could advert to the facts, that the substance of the
 				neutrality Act of 3. March 1817. had been re-enacted and made permanent in 1818. and
@@ -870,7 +870,7 @@
 				naturally led to that of the contest between Spain and the South-Americans, which
 				was connected with it, and I recurred to the difference of Views between the United
 				States, and the European allied Powers with regard to the termination of that
-				conflict. From <persRef ref="rush-richard">M<hi rend="superscript">r</hi> Rush’s</persRef> report of a late interview,
+				conflict. From <mhs:persRef ref="rush-richard">M<hi rend="superscript">r</hi> Rush’s</mhs:persRef> report of a late interview,
 				between Lord Castlereagh and him, it appears that the British Government still
 				adhere to the expectation that the Spanish Sovereignty in South-America will be
 				restored. Our view of the subject is different. We believe the Spanish power there
@@ -914,7 +914,7 @@
 				had not been desired to urge, if the others should appear to be entirely
 				satisfactory to the British Government, perhaps he had not mentioned it at all to
 				Lord Castlereagh; to whom he had very fully disclosed the others. But by a late
-				despatch from him I had learnt that <persRef ref="wilberforce-william">M<hi rend="superscript">r</hi> Wilberforce</persRef> had
+				despatch from him I had learnt that <mhs:persRef ref="wilberforce-william">M<hi rend="superscript">r</hi> Wilberforce</mhs:persRef> had
 				been holding conferences with him, pressing the subject upon him with great
 				earnestness, and complaining that our resistance to the principle of admitting the
 				mutual right of search, by the armed vessels of either party, of the
@@ -952,7 +952,7 @@
 				Slaves. He then observed that he had received from Lord Castlereagh the Instruction
 				which he had read to M<hi rend="superscript">r</hi> Rush, in relation to the course
 				which the British Government had determined to pursue concerning the execution by
-				<persRef ref="jackson-andrew">General Jackson</persRef> of the two British Subjects <persRef ref="arbuthnot-alexander">Arbuthnott</persRef> and <persRef ref="ambrister-robert">Armbrister</persRef>— If I desired
+				<mhs:persRef ref="jackson-andrew">General Jackson</mhs:persRef> of the two British Subjects <mhs:persRef ref="arbuthnot-alexander">Arbuthnott</mhs:persRef> and <mhs:persRef ref="ambrister-robert">Armbrister</mhs:persRef>— If I desired
 				it, he would communicate that despatch to me; but the substance of it was precisely
 				the same as I had mentioned to him that it had been reported by M<hi
 					rend="superscript">r</hi> Rush, that it would add nothing to his communication;
@@ -992,10 +992,10 @@
 				gratifying to his own Government. He thanked me for the facilities which I had
 				always given him, in transacting business; and we parted with the most friendly
 				mutual expressions of personal cordiality, and mutual good wishes. M<hi
-					rend="superscript">r</hi> Bagot is a younger brother of <persRef ref="bagot-william">Lord Bagot</persRef>, a Peer of
-				Great-Britain—and his <persRef ref="bagot-mary">wife</persRef> a very discreet, amiable and lovely woman, is daughter of
-				<persRef ref="pole-william">M<hi rend="superscript">r</hi> William Wellesley Pole</persRef>, Master of the Mint, and
-				brother to the <persRef ref="wellington-arthur">Duke of Wellington</persRef>— Bagot is about thirty five; tall well
+					rend="superscript">r</hi> Bagot is a younger brother of <mhs:persRef ref="bagot-william">Lord Bagot</mhs:persRef>, a Peer of
+				Great-Britain—and his <mhs:persRef ref="bagot-mary">wife</mhs:persRef> a very discreet, amiable and lovely woman, is daughter of
+				<mhs:persRef ref="pole-william">M<hi rend="superscript">r</hi> William Wellesley Pole</mhs:persRef>, Master of the Mint, and
+				brother to the <mhs:persRef ref="wellington-arthur">Duke of Wellington</mhs:persRef>— Bagot is about thirty five; tall well
 				proportioned, and with a remarkably handsome face. Perfectly well-bred and of
 				dignified and gentlemanly deportment— The principal feature of his character is
 				discretion, one of the most indispensable qualities of a good negotiator, but
@@ -1016,12 +1016,12 @@
 				would not be competent; but to go through the ordinary routine of business; and the
 				common intercourse of Society to neutralize fretful passions, and sooth prejudices;
 				a man of good breeding, inoffensive manners and courteous deportment, is nearer to
-				the true diplomatic standard, than one with the Genius of <persRef ref="shakespeare-william">Shakespear</persRef>, the learning
-				of <persRef ref="bentley-william">Bentley</persRef>, the philosophical penetration of <persRef ref="berkeley-george">Berkley</persRef>, or the wit of <persRef ref="swift-jonathan">Swift</persRef>— Before I
-				came home from my Office, <persRef ref="bowie-unknown">M<hi rend="superscript">r</hi> Bowie</persRef> of Georgetown called,
+				the true diplomatic standard, than one with the Genius of <mhs:persRef ref="shakespeare-william">Shakespear</mhs:persRef>, the learning
+				of <mhs:persRef ref="bentley-william">Bentley</mhs:persRef>, the philosophical penetration of <mhs:persRef ref="berkeley-george">Berkley</mhs:persRef>, or the wit of <mhs:persRef ref="swift-jonathan">Swift</mhs:persRef>— Before I
+				came home from my Office, <mhs:persRef ref="bowie-unknown">M<hi rend="superscript">r</hi> Bowie</mhs:persRef> of Georgetown called,
 				and requested my attention to a claim of his upon the Government, which was before
 				Congress at their last Session, and concerning which he had then called upon me.—
-					<persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</persRef> spent the Evening at her <persRef key="smith-catherine-johnson">Sister Smith’s</persRef>.
+					<mhs:persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</mhs:persRef> spent the Evening at her <mhs:persRef key="smith-catherine-johnson">Sister Smith’s</mhs:persRef>.
 				The weather has been yesterday and this day at high Summer heat.</p>
 		</div>
 	</div>
@@ -1039,24 +1039,24 @@
 
 		<div type="docbody">
 
-			<p><dateline>15. VI:</dateline> I went with <persRef key="adams-louisa-catherine">M<hi rend="superscript">rs.</hi> Adams</persRef>, at
-				eleven O’Clock this morning and attended the funeral of <persRef ref="clark-charles">C. T. Clarke</persRef>, at his Cousin,
-				<persRef ref="french-m">M<hi rend="superscript">rs</hi> French’s</persRef> house. He was buried on the Estate,
-				about two hundred yards distant from the house— The funeral service was read by <persRef ref="addison-thomas">M<hi
-					rend="superscript">r</hi> Addison</persRef>—very few persons were there—chiefly family
-				relations— His <persRef ref="clark-unknown">brother</persRef>, and <persRef ref="clark-susanna">wife</persRef>. His <persRef ref="unknown11">Sister</persRef> <persRef ref="luffborough-unknown">M<hi rend="superscript">rs</hi>
-					Luffborough</persRef>, <persRef ref="weems-unknown3">M<hi rend="superscript">rs</hi> Weems</persRef>; and three or four other
-				persons—<persRef ref="finch-william">Lieutenant Finch</persRef>, and one other Officer of the Navy— After returning from
+			<p><dateline>15. VI:</dateline> I went with <mhs:persRef key="adams-louisa-catherine">M<hi rend="superscript">rs.</hi> Adams</mhs:persRef>, at
+				eleven O’Clock this morning and attended the funeral of <mhs:persRef ref="clark-charles">C. T. Clarke</mhs:persRef>, at his Cousin,
+				<mhs:persRef ref="french-m">M<hi rend="superscript">rs</hi> French’s</mhs:persRef> house. He was buried on the Estate,
+				about two hundred yards distant from the house— The funeral service was read by <mhs:persRef ref="addison-thomas">M<hi
+					rend="superscript">r</hi> Addison</mhs:persRef>—very few persons were there—chiefly family
+				relations— His <mhs:persRef ref="clark-unknown">brother</mhs:persRef>, and <mhs:persRef ref="clark-susanna">wife</mhs:persRef>. His <mhs:persRef ref="unknown11">Sister</mhs:persRef> <mhs:persRef ref="luffborough-unknown">M<hi rend="superscript">rs</hi>
+					Luffborough</mhs:persRef>, <mhs:persRef ref="weems-unknown3">M<hi rend="superscript">rs</hi> Weems</mhs:persRef>; and three or four other
+				persons—<mhs:persRef ref="finch-william">Lieutenant Finch</mhs:persRef>, and one other Officer of the Navy— After returning from
 				the grave, the Will was read to the family relations— It was made the day before he
 				died; and is in three or four lines, giving all his Estate, real, personal, and
 				mixed to his wife; constituting her sole executrix, and guardian, to their infant
 				daughter— We invited M<hi rend="superscript">rs</hi> Clarke to go home with us, and
-				take her <pb type="ms" n="88"/><persRef ref="clark-susan">child</persRef> with her; but she declined for the present. <persRef key="smith-william-steuben">W. S. Smith</persRef> returned to the City with us— I attended at my Office— <persRef ref="mckean-unknown2">M<hi rend="superscript">r</hi> M’Kean</persRef> came and requested me to obtain an order for
-				placing immediately in active service <persRef ref="buchanan-thomas">Thomas M’Kean Buchanan</persRef>, for whom a warrant as
-				Midshipman was made out the last Autumn— I made a draft of a Note to the <persRef key="hyde-de-neuville-jean">French
-				Minister Hyde de Neuville</persRef>, in answer to his notes complaining of the Pirates— M<hi
-					rend="superscript">rs.</hi> Adams spent the Evening at <persRef key="smith-catherine-johnson">M<hi rend="superscript"
-					>rs</hi> W. S. Smith’s</persRef>.</p>
+				take her <pb type="ms" n="88"/><mhs:persRef ref="clark-susan">child</mhs:persRef> with her; but she declined for the present. <mhs:persRef key="smith-william-steuben">W. S. Smith</mhs:persRef> returned to the City with us— I attended at my Office— <mhs:persRef ref="mckean-unknown2">M<hi rend="superscript">r</hi> M’Kean</mhs:persRef> came and requested me to obtain an order for
+				placing immediately in active service <mhs:persRef ref="buchanan-thomas">Thomas M’Kean Buchanan</mhs:persRef>, for whom a warrant as
+				Midshipman was made out the last Autumn— I made a draft of a Note to the <mhs:persRef key="hyde-de-neuville-jean">French
+				Minister Hyde de Neuville</mhs:persRef>, in answer to his notes complaining of the Pirates— M<hi
+					rend="superscript">rs.</hi> Adams spent the Evening at <mhs:persRef key="smith-catherine-johnson">M<hi rend="superscript"
+					>rs</hi> W. S. Smith’s</mhs:persRef>.</p>
 		</div>
 	</div>
 
@@ -1074,27 +1074,27 @@
 
 		<div type="docbody">
 
-			<p><dateline>16. V:30.</dateline> I called at the Navy Department on the <persRef ref="homans-benjamin">Chief Clerk
-				M<hi rend="superscript">r</hi> Homans</persRef>, to enquire for an order to place <persRef ref="buchanan-thomas">T. M.
-				Buchanan</persRef> in active service. He told me that as there were many more Midshipmen than
+			<p><dateline>16. V:30.</dateline> I called at the Navy Department on the <mhs:persRef ref="homans-benjamin">Chief Clerk
+				M<hi rend="superscript">r</hi> Homans</mhs:persRef>, to enquire for an order to place <mhs:persRef ref="buchanan-thomas">T. M.
+				Buchanan</mhs:persRef> in active service. He told me that as there were many more Midshipmen than
 				could be employed, the rule of the Department was when they were desirous of having
 				their turn for service to order them to one of the places of Depot. And as the order
 				is directed to them there, they must go to the place at their own expence to receive
 				it. That as there is no immediate opportunity for employing midshipmen in active
 				service, there being no vessel prepared for Sea, except the Congress Frigate, which
-				is to take <persRef ref="graham-john">M<hi rend="superscript">r</hi> Graham</persRef> to Rio de Janeiro, and thence
+				is to take <mhs:persRef ref="graham-john">M<hi rend="superscript">r</hi> Graham</mhs:persRef> to Rio de Janeiro, and thence
 				proceed to the Indian Ocean, and has already more than her compliment of Officers,
 				young M’Kean must either wait till the Constellation and the Peacock can be got
 				ready, at Norfolk, which will be in five or six weeks; or go the Boston and go on
 				board the Independence, where numbers of Midshipmen are stationed, and where a
-				school is kept; under the direction of <persRef ref="bainbridge-william">Commodore Bainbridge</persRef>. I spoke to Homans
-				concerning <persRef ref="clark-charles">Lieutenant Clarke’s</persRef> pay—of which <persRef ref="clark-susanna">M<hi rend="superscript">rs</hi> Clarke</persRef>
+				school is kept; under the direction of <mhs:persRef ref="bainbridge-william">Commodore Bainbridge</mhs:persRef>. I spoke to Homans
+				concerning <mhs:persRef ref="clark-charles">Lieutenant Clarke’s</mhs:persRef> pay—of which <mhs:persRef ref="clark-susanna">M<hi rend="superscript">rs</hi> Clarke</mhs:persRef>
 				says that two Quarters and half a month are due. He promised to enquire and let me
-				know. <persRef ref="appleton-john">M<hi rend="superscript">r</hi> J. J. Appleton</persRef>, Secretary of the Legation to
+				know. <mhs:persRef ref="appleton-john">M<hi rend="superscript">r</hi> J. J. Appleton</mhs:persRef>, Secretary of the Legation to
 				Rio de Janiero, came and took leave— He goes to morrow to Baltimore, to make
 				preparations for M<hi rend="superscript">r</hi> Graham and for himself. They are to
 				sail from Annapolis; but their necessary Sea-Stores and provisions must be procured
-				at Baltimore. I asked M<hi rend="superscript">r</hi> Appleton to see <persRef ref="glenn-elias">Glenn</persRef> the
+				at Baltimore. I asked M<hi rend="superscript">r</hi> Appleton to see <mhs:persRef ref="glenn-elias">Glenn</mhs:persRef> the
 				District Attorney and converse with him upon the subject of the Letter I wrote him
 				last week; and also to collect and report to me any other information concerning the
 				Piratical privateers from that place. I commenced preparing Instructions for M<hi
@@ -1115,7 +1115,7 @@
 				seeing how much more usefully I could discharge my duties to the public, with more
 				profound and extensive knowledge; a quicker and clearer conception, and a more
 				inventive imagination. Our relations with Portugal and Brazil, have not been well
-				cultivated— Their importance has not been duly estimated— <persRef ref="sumter-thomas">The Minister</persRef> who has been
+				cultivated— Their importance has not been duly estimated— <mhs:persRef ref="sumter-thomas">The Minister</mhs:persRef> who has been
 				there these ten years, was not a fortunate choice. His own temper is not happy— He
 				has been repeatedly involved in quarrels of personal punctilio, even with the
 				members of the Royal family. He is excessively argumentative, and spins out every
@@ -1152,18 +1152,18 @@
 			
 			<p><pb type="ms" n="89"/><dateline>17. V:45.</dateline> There was a heavy thunder-shower this morning about
 				an hour before day light— I had wasted the last Evening in reading newspapers, and
-				expected to have this day a long Morning to write; but by seven O’Clock, <persRef ref="cardelli-pietro">Cardelli</persRef>
+				expected to have this day a long Morning to write; but by seven O’Clock, <mhs:persRef ref="cardelli-pietro">Cardelli</mhs:persRef>
 				came in, and kept me two hours or more in talking of his Affairs. He brought with
-				him the Bust of the <persRef key="monroe-james">President</persRef> which he has just finished— It is a good likeness, and
+				him the Bust of the <mhs:persRef key="monroe-james">President</mhs:persRef> which he has just finished— It is a good likeness, and
 				a work of real merit. He is now anxious to take the Busts of the late Presidents
-				<persRef ref="jefferson-thomas">Jefferson</persRef>, and <persRef ref="madison-james">Madison</persRef>, and I promised to write to them and ask their consent to sit
+				<mhs:persRef ref="jefferson-thomas">Jefferson</mhs:persRef>, and <mhs:persRef ref="madison-james">Madison</mhs:persRef>, and I promised to write to them and ask their consent to sit
 				to him— His object is to have moulds of them made, and to take casts from them for
 				sale. He is so impatient under the mortification of having been compelled to work
 				for bread, upon the ornamental work, the friezes and cornices at the Capitol, that
 				he had resolved now to abandon it altogether and rely upon the income from the sale
 				of his Busts for his support. He had even drawn up in French an advertisement which
 				he proposed to have published in the Newspapers, mentioning his having executed the
-				Busts of the Secretary of State and the <persRef key="hyde-de-neuville-jean">French Minister</persRef>, and afterwards of the
+				Busts of the Secretary of State and the <mhs:persRef key="hyde-de-neuville-jean">French Minister</mhs:persRef>, and afterwards of the
 				President; and then adding in all the naïveté of his feelings that if M<hi
 					rend="superscript">r</hi> Cardelli had for sometime been sacrificed, and forced
 				to work upon ornaments at the Capitol, these Busts would at least prove that M<hi
@@ -1176,23 +1176,23 @@
 				to-morrow) In the second place I advised him to say nothing in his advertisement
 				about being sacrificed, and working upon ornaments. For it would make him dangerous
 				enemies of some who are now his friends and may be made useful friends— I advised
-				him to invite <persRef ref="lane-samuel">Col<hi rend="superscript">l.</hi> Lane</persRef> to see his Bust of the
-				President; and to invite the <persRef ref="gales-joseph">Editors of the National</persRef> <persRef ref="seaton-william">Intelligencer</persRef> and <persRef ref="elliot-jonathan">City Gazette</persRef>
+				him to invite <mhs:persRef ref="lane-samuel">Col<hi rend="superscript">l.</hi> Lane</mhs:persRef> to see his Bust of the
+				President; and to invite the <mhs:persRef ref="gales-joseph">Editors of the National</mhs:persRef> <mhs:persRef ref="seaton-william">Intelligencer</mhs:persRef> and <mhs:persRef ref="elliot-jonathan">City Gazette</mhs:persRef>
 				to look at it; and if they liked it, to mention it as an Editorial notice in their
 				Papers— He said he thought he would follow my advice— He is very anxious too about
 				the Property of his Busts; and very fearful they will be pirated from him by the
 				moulding workmen. I told him it would perhaps be best for him not to publish them,
 				until the next Session of Congress, when a Law may be proposed like the Act of
-				Parliament which was obtained for <persRef ref="nollekens-joseph">Nollekens</persRef> in England extending the principles of
+				Parliament which was obtained for <mhs:persRef ref="nollekens-joseph">Nollekens</mhs:persRef> in England extending the principles of
 				copy-right to works of Sculpture. I cannot but admire the sentiment of honour and
 				love of fame, displayed by this man, in his deep distress. The humiliation which he
 				feels at being degraded from an artist to a workman of ornaments, and the impatience
 				with which he longs to emerge from this condition so unworthy of his talents— At the
-				Office, I compared the proof sheet of <persRef ref="binns-john">Binns’s</persRef> Copper-Plate Declaration of
+				Office, I compared the proof sheet of <mhs:persRef ref="binns-john">Binns’s</mhs:persRef> Copper-Plate Declaration of
 				Independence; and wrote the Certificate which he has requested of the correctness of
 				the fac-simile signatures— The original itself has suffered by the handling of the
-				Engraver to take these fac-similes— <persRef key="smith-william-steuben">M<hi rend="superscript">r</hi></persRef> and <persRef key="smith-catherine-johnson">M<hi
-					rend="superscript">rs</hi> W. S. Smith</persRef> spent the Evening here; and <persRef ref="forbes-john">J. M. Forbes</persRef>—
+				Engraver to take these fac-similes— <mhs:persRef key="smith-william-steuben">M<hi rend="superscript">r</hi></mhs:persRef> and <mhs:persRef key="smith-catherine-johnson">M<hi
+					rend="superscript">rs</hi> W. S. Smith</mhs:persRef> spent the Evening here; and <mhs:persRef ref="forbes-john">J. M. Forbes</mhs:persRef>—
 				It was therefore another Evening lost to me for all purposes of writing.</p>
 		</div>
 	</div>
@@ -1216,10 +1216,10 @@
 				ship Columbus; returning by the way of Greenleaf’s point and over the Tiber. The
 				weather was sultry and I heard distant Thunder to the South. On returning from my
 				walk, after reading the Letters by the Mail which were few, I resumed writing till
-				the hour of dinner, and thus provided a substitute for the Evening task. <persRef key="smith-catherine-johnson">M<hi
-					rend="superscript">rs.</hi> W. S. Smith</persRef> dined with us; and <persRef key="smith-william-steuben">Smith</persRef> and <persRef ref="bailey-john">M<hi
-					rend="superscript">r</hi> Bailey</persRef> spent part of the Evening here. The President
-				of the Bank of the United States, <persRef ref="cheves-langdon">Langdon Cheves</persRef> arrived in the City the Evening
+				the hour of dinner, and thus provided a substitute for the Evening task. <mhs:persRef key="smith-catherine-johnson">M<hi
+					rend="superscript">rs.</hi> W. S. Smith</mhs:persRef> dined with us; and <mhs:persRef key="smith-william-steuben">Smith</mhs:persRef> and <mhs:persRef ref="bailey-john">M<hi
+					rend="superscript">r</hi> Bailey</mhs:persRef> spent part of the Evening here. The President
+				of the Bank of the United States, <mhs:persRef ref="cheves-langdon">Langdon Cheves</mhs:persRef> arrived in the City the Evening
 				before last, and this day left it upon his return to Philadelphia. His appearance
 				here has given rise to various rumours and surmizes. Its real cause is the tottering
 				situation of the Bank, which will very shortly be reduced to the alternative of
@@ -1242,22 +1242,22 @@
 
 		<div type="docbody">
 
-			<p><dateline>19. V:45.</dateline> <persRef ref="cardelli-pietro">Cardelli</persRef> came this morning, and took away the Busts of
-				the <persRef key="monroe-james">President </persRef>and the <persRef key="hyde-de-neuville-jean">French Minister</persRef>—and mine; with the intention of shewing them
-				to <persRef ref="lane-samuel">Col<hi rend="superscript">l.</hi> Lane</persRef>, the Commissioner of the Public Buildings.
-				At the Office I was collecting the materials for preparing Instructions for <persRef ref="graham-john">M<hi
-					rend="superscript">r</hi> John Graham</persRef>, when he came in himself, and <pb
+			<p><dateline>19. V:45.</dateline> <mhs:persRef ref="cardelli-pietro">Cardelli</mhs:persRef> came this morning, and took away the Busts of
+				the <mhs:persRef key="monroe-james">President </mhs:persRef>and the <mhs:persRef key="hyde-de-neuville-jean">French Minister</mhs:persRef>—and mine; with the intention of shewing them
+				to <mhs:persRef ref="lane-samuel">Col<hi rend="superscript">l.</hi> Lane</mhs:persRef>, the Commissioner of the Public Buildings.
+				At the Office I was collecting the materials for preparing Instructions for <mhs:persRef ref="graham-john">M<hi
+					rend="superscript">r</hi> John Graham</mhs:persRef>, when he came in himself, and <pb
 					type="ms" n="90"/>I had a conversation with him of two hours; partly upon the
 				public concerns of his mission, and partly upon his personal relations with it.
 				Graham is in many respects well qualified for this Mission— He is prudent and
 				industrious and having been chief Clerk in the Department of State, during the whole
-				of <persRef ref="madison-james">M<hi rend="superscript">r</hi> Madison’s</persRef> Administration has much experience of
+				of <mhs:persRef ref="madison-james">M<hi rend="superscript">r</hi> Madison’s</mhs:persRef> Administration has much experience of
 				our diplomatic affairs generally. He appears however to have formed an idea of
 				responsibility somewhat timid— He wished to have every thing prescribed to him in
 				his Instructions with a minuteness and precision hardly attainable, and is quite
 				alarmed, at the representation that I have made to him of the state of our relations
 				with the Brazilian Government— He says he has had a conversation upon the subject
-				with the <persRef ref="correa-joseph">Abbé Correa</persRef>, and he has apprehensions that Correa’s Reports to his own
+				with the <mhs:persRef ref="correa-joseph">Abbé Correa</mhs:persRef>, and he has apprehensions that Correa’s Reports to his own
 				Government have a tendency to inflame their animosity against this Country, though
 				he assured him of the contrary— I suppose that the Abbe does not intend they should,
 				but they may have that effect by the statements of facts which his duty requires him
@@ -1265,13 +1265,13 @@
 				to circumstances which may be remedied, and partly to causes originating with
 				themselves and which we cannot remove— With regard to the privateers illegally
 				fitted out in our Ports, we have taken and shall continue to take every measure in
-				our power to suppress them— I mentioned the Letter I had written to the <persRef ref="glenn-elias">District
-					Attorney at Baltimore</persRef>, and the request I had made to <persRef ref="appleton-john">M<hi rend="superscript">r</hi>
-				Appleton</persRef> to call upon him there and to collect and report information upon the
-				subject. I gave him for his perusal the copy of the Memoir presented by <persRef ref="desousaholstein-pedro">Count
-				Palmella</persRef> to the Congress at Aix La Chapelle; and the last Note of the Abbé Correa to
+				our power to suppress them— I mentioned the Letter I had written to the <mhs:persRef ref="glenn-elias">District
+					Attorney at Baltimore</mhs:persRef>, and the request I had made to <mhs:persRef ref="appleton-john">M<hi rend="superscript">r</hi>
+				Appleton</mhs:persRef> to call upon him there and to collect and report information upon the
+				subject. I gave him for his perusal the copy of the Memoir presented by <mhs:persRef ref="desousaholstein-pedro">Count
+				Palmella</mhs:persRef> to the Congress at Aix La Chapelle; and the last Note of the Abbé Correa to
 				me in both of which there is a demand that all armed vessels sailing under the flag
-				and Commissions from <persRef ref="artigas-jose">Artigas</persRef> should be declared Pirates— I observed that the
+				and Commissions from <mhs:persRef ref="artigas-jose">Artigas</mhs:persRef> should be declared Pirates— I observed that the
 				European allies had not complied with this request; neither could we; for reasons
 				which I gave him at large, and which will be set forth in his Instructions— He said
 				it was impossible he feared to give satisfaction to the Portuguese Government on
@@ -1286,20 +1286,20 @@
 				perpetual tendency to increase— The general rule for the commencement of Salaries is
 				from the time when the Minister leaves home to proceed upon his Mission. But the
 				exceptions which are in fact taking place of the rule, allow the Salary to commence
-				from the time of the Appointment— It has been so, in the cases of <persRef ref="rush-richard">Rush</persRef>, <persRef ref="campbell-george">Campbell</persRef> and
-				<persRef ref="forsyth-john">Forsyth</persRef>; and Graham now claims the same— He says that he kept his establishment
+				from the time of the Appointment— It has been so, in the cases of <mhs:persRef ref="rush-richard">Rush</mhs:persRef>, <mhs:persRef ref="campbell-george">Campbell</mhs:persRef> and
+				<mhs:persRef ref="forsyth-john">Forsyth</mhs:persRef>; and Graham now claims the same— He says that he kept his establishment
 				here, only from the expectation which had been given him of receiving this
 				appointment; which was offered him at the time when he went to South America, and
 				that he has scarcely ceased being in the public Service. He also claims an allowance
 				for Office Rent— This allowance was first made to me at London where an Office was
 				indispensable, and where I actually had one— It was consequently allowed to M<hi
-					rend="superscript">r</hi> Rush— It is now claimed by <persRef ref="gallatin-albert">M<hi rend="superscript"
-					>r</hi> Gallatin</persRef> at Paris, and M<hi rend="superscript">r</hi> Campbell at S<hi
+					rend="superscript">r</hi> Rush— It is now claimed by <mhs:persRef ref="gallatin-albert">M<hi rend="superscript"
+					>r</hi> Gallatin</mhs:persRef> at Paris, and M<hi rend="superscript">r</hi> Campbell at S<hi
 					rend="superscript">t.</hi> Petersburg, on the ground that they appropriate a
 				room in their houses for an Office, and that it makes them want a larger house, and
 				pay higher rent than would otherwise be necessary. Graham says that at Rio de
 				Janeiro, it is impossible to live in the City. There are no inhabitable houses
-				there; <persRef ref="sumter-thomas">M<hi rend="superscript">r</hi> Sumter</persRef> lives two or three miles out of it, and
+				there; <mhs:persRef ref="sumter-thomas">M<hi rend="superscript">r</hi> Sumter</mhs:persRef> lives two or three miles out of it, and
 				has not a glass window in his house. They dined with him one day; and a shower of
 				rain came and drove them from their Seats at the dinner table— Living in the
 				Country, it will be necessary to have an Office in the City, and the expence of
@@ -1312,14 +1312,14 @@
 				I believed not— He asked what the usual arrangement was, with respect to the
 				Ministers Stores, with the Captains of the Public Ships— I told him I had never been
 				in a public Ship since our Revolutionary War, but that when I went to Russia in
-				1809. the Essex Frigate had been ordered round to Boston to take me, and <persRef key="adams-louisa-catherine">my</persRef> <persRef ref="adams-charles2">family</persRef>,
+				1809. the Essex Frigate had been ordered round to Boston to take me, and <mhs:persRef key="adams-louisa-catherine">my</mhs:persRef> <mhs:persRef ref="adams-charles2">family</mhs:persRef>,
 				though she did not reach Boston till the day after I had sailed. And on that
 				occasion, he Graham himself had written to me that the usage was for the Captain of
 				the ship to provide all the Stores, and for the Minister to pay the Captain the
 				common price which a passage would cost in a merchant vessel— He said that if he had
 				written me such a Letter, it must have been under Instructions— That they had
 				endeavoured to introduce this as a usage, but it <pb type="ms" n="91"/>never had
-				been so established— He had been desirous that <persRef ref="henley-john">Captain Henley</persRef> should provide his
+				been so established— He had been desirous that <mhs:persRef ref="henley-john">Captain Henley</mhs:persRef> should provide his
 				Stores for him, and had written requesting him to that effect; but he had declined—
 				I asked him when he could be ready to go; as the frigate is now ready at Annapolis
 				and waiting for him— He said he could be ready on Thursday; but would be glad to
@@ -1329,7 +1329,7 @@
 				promised to come, and said he would be glad if the Instructions should then be ready
 				to read them over with me— He is but just recovering from the wound of the operation
 				upon his thigh, and looks indifferently. M<hi rend="superscript">rs</hi> Adams spent
-				this Evening with her <persRef key="smith-catherine-johnson">Sister Smith</persRef>.</p>
+				this Evening with her <mhs:persRef key="smith-catherine-johnson">Sister Smith</mhs:persRef>.</p>
 		</div>
 	</div>
 
@@ -1349,10 +1349,10 @@
 
 		<div type="docbody">
 
-			<p><dateline>20. VI:</dateline> I received a Message this Morning from <persRef key="crawford-william-harris">M<hi
-					rend="superscript">r</hi> Crawford</persRef>, requesting me to call at his Office as I
-				should be going to mine— I called accordingly, and he mentioned to me that <persRef ref="cheves-langdon">M<hi
-					rend="superscript">r</hi> Cheves</persRef> the President of the United States Bank had
+			<p><dateline>20. VI:</dateline> I received a Message this Morning from <mhs:persRef key="crawford-william-harris">M<hi
+					rend="superscript">r</hi> Crawford</mhs:persRef>, requesting me to call at his Office as I
+				should be going to mine— I called accordingly, and he mentioned to me that <mhs:persRef ref="cheves-langdon">M<hi
+					rend="superscript">r</hi> Cheves</mhs:persRef> the President of the United States Bank had
 				been here— He came on Friday Evening, and left the City on Sunday to return. He had
 				been here ostensibly to make some arrangement with the Bank of Columbia; but really
 				for a consultation with him, upon the Affairs of the Bank. He brought the Resolution
@@ -1360,13 +1360,13 @@
 				decline receiving even for public payments the Bills of their Branches except at the
 				places where they are made payable— But offering otherwise any facilities for making
 				the necessary remittances from the branch to branch— Crawford said they had taken
-				the legal opinions of <persRef ref="binny-horace">M<hi rend="superscript">r</hi> Binney</persRef> at Philadelphia, and
-				<persRef ref="pinkney-william">M<hi rend="superscript">r</hi> Pinkney</persRef> at Baltimore; on the question whether<hi
+				the legal opinions of <mhs:persRef ref="binny-horace">M<hi rend="superscript">r</hi> Binney</mhs:persRef> at Philadelphia, and
+				<mhs:persRef ref="pinkney-william">M<hi rend="superscript">r</hi> Pinkney</mhs:persRef> at Baltimore; on the question whether<hi
 					rend="italic">the</hi>
 				<hi rend="italic">Government</hi> was bound to receive the payment of duties, the
 				bills at one branch which are issued and on their face made payable at another— The
 				opinion was that they were. Crawford added that his own opinion, and that of the
-				<persRef ref="wirt-william">Attorney General, Wirt</persRef>, was the same— The question is upon the Act of Congress of
+				<mhs:persRef ref="wirt-william">Attorney General, Wirt</mhs:persRef>, was the same— The question is upon the Act of Congress of
 				10. April 1816. incorporating the Bank of the United States, the fourteenth Section.
 				I had given a different opinion at the last Conversation with Crawford; and although
 				very much staggered by that of four eminent lawyers to the contrary, I still cling
@@ -1380,7 +1380,7 @@
 				thought he could stop this, by the 80<hi rend="superscript">th. </hi>Section of the
 				Collection Law of 2 March 1799. which authorizes the payment of the debentures, out
 				of the proceeds of duties arising on the importation of the goods re-exported— He
-				said even this would raise a clamour, and <persRef ref="jones-edward">M<hi rend="superscript">r</hi> Jones</persRef> his
+				said even this would raise a clamour, and <mhs:persRef ref="jones-edward">M<hi rend="superscript">r</hi> Jones</mhs:persRef> his
 				chief Clerk, had advised him to say nothing about it, and leave it to be battled out
 				between the Collectors and the Merchants— But even in that case the question would
 				ultimately be referred to him by the Collector; and he should be obliged to decide
@@ -1390,7 +1390,7 @@
 				Crawford had been unwell, and could not come with him to introduce him to me— And
 				Cheves was obliged to go away on Sunday. The Bank were desirous of making a contract
 				with the Spanish Government, for transporting specie for them from Mexico to Spain.
-				They were disposed to appoint <persRef ref="forsyth-john">M<hi rend="superscript">r</hi> Forsyth</persRef> as their agent
+				They were disposed to appoint <mhs:persRef ref="forsyth-john">M<hi rend="superscript">r</hi> Forsyth</mhs:persRef> as their agent
 				to transact this business for them; and wished to know, whether, there would be any
 				objection to it, on the part of this Government— I told him, I did not know that
 				there could be any objection, if M<hi rend="superscript">r</hi> Forsyth would do the
@@ -1405,15 +1405,15 @@
 				here— There was also another object that they had in view— They wanted to make an
 				arrangement, for postponing the payment of the second half of the Louisiana
 				Stock—which if accomplished must be <pb type="ms" n="92"/>done in the form of a
-				loan— They had proposed to employ for that purpose, <persRef ref="sheldon-daniel">M<hi rend="superscript">r</hi>
-				Sheldon</persRef>, the Secretary of the Legation at Paris; and to request him to go to
+				loan— They had proposed to employ for that purpose, <mhs:persRef ref="sheldon-daniel">M<hi rend="superscript">r</hi>
+				Sheldon</mhs:persRef>, the Secretary of the Legation at Paris; and to request him to go to
 				Amsterdam and London, to make the agreement with the Bankers at those places who
 				hold or have the management of the Stock— But this of course implied that Sheldon
 				should be paid a liberal compensation— I told him that I should be very sorry to
 				deprive either Sheldon or Forsyth of any fair and honourable profit, but there
 				appeared to me the same objections though not to the same extent in this case as in
 				that of Forsyth. He said he thought I was right. That M<hi rend="superscript">r</hi>
-				Cheves had proposed to him that <persRef ref="lowndes-william">M<hi rend="superscript">r</hi> Lowndes</persRef> who is gone
+				Cheves had proposed to him that <mhs:persRef ref="lowndes-william">M<hi rend="superscript">r</hi> Lowndes</mhs:persRef> who is gone
 				to Europe, should be employed to negotiate this new Loan; but to that, he Crawford
 				had objected. Lowndes was the Atlas upon whom alone the support of the Bank rested
 				in Congress— He had been its only disinterested defender in the House of
@@ -1425,7 +1425,7 @@
 				correspondence with the Bankers?— he said because it was so late, they would
 				scarcely have time. I told him that I had acted myself on the principle of declining
 				any compensation for a private agency, while I was abroad in the public service; and
-				mentioned the case of <persRef ref="fulton-robert">M<hi rend="superscript">r</hi> Fulton’s</persRef> application for a
+				mentioned the case of <mhs:persRef ref="fulton-robert">M<hi rend="superscript">r</hi> Fulton’s</mhs:persRef> application for a
 				Steam-boat privilege in Russia— Crawford said he thought the principle correct;
 				though M<hi rend="superscript">r</hi> William Pinkney had been Agent for the State
 				of Maryland, when he was a Commissioner in England— I said I saw no impropriety in
@@ -1439,7 +1439,7 @@
 				obtained— So I had heard at the time of the Mission; I had then thought, and still
 				think it improper— He said he thought it very improper; and had thought so when
 				first informed of it— That the Mission to Naples was the first nomination rejected;
-				and soon afterwards he called one morning upon <persRef ref="madison-james">President Madison</persRef>, who told him he
+				and soon afterwards he called one morning upon <mhs:persRef ref="madison-james">President Madison</mhs:persRef>, who told him he
 				was going to do something, the propriety of which he himself doubted—to re-nominate
 				Pinkney for the mission to Naples— I suppose said Crawford you have some new and
 				additional information— No— But some of the Senators who voted against the
@@ -1450,9 +1450,9 @@
 				and Maryland had fallen upon them, and that if their interests were sacrificed by
 				the rejection of the Mission to Naples, they would no longer support that expence,
 				and the federal party in Maryland must sink— Crawford said that when the vote on the
-				second nomination of Pinkney was taken in Senate, <persRef ref="harper-robert-goodloe">Harper</persRef> then one of the Senators
-				from Maryland was absent; but the vote was turned by <persRef ref="goldsborough-robert">Goldsborough</persRef>, the other
-				Maryland Senator, and <persRef ref="fromentin-eligius">Fromentin</persRef> who though Senator from Louisiana, had long resided
+				second nomination of Pinkney was taken in Senate, <mhs:persRef ref="harper-robert-goodloe">Harper</mhs:persRef> then one of the Senators
+				from Maryland was absent; but the vote was turned by <mhs:persRef ref="goldsborough-robert">Goldsborough</mhs:persRef>, the other
+				Maryland Senator, and <mhs:persRef ref="fromentin-eligius">Fromentin</mhs:persRef> who though Senator from Louisiana, had long resided
 				at Baltimore, and might almost be considered as belonging there— And so the
 				appointment was made, which proved a worse than useless one in its result— From
 				Crawford’s Office, I went to my own, and consumed all the Office hours in examining
@@ -1473,25 +1473,25 @@
 
 		<div type="docbody">
 
-			<p><dateline>21. V:</dateline> <persRef ref="cardelli-pietro">Cardelli</persRef> came this morning to remind me of my promise to
-				write to <persRef ref="jefferson-thomas">M<hi rend="superscript">r</hi> Jefferson</persRef>, and <persRef ref="madison-james">M<hi rend="superscript"
-					>r</hi> Madison</persRef>, requesting them to sit to him for their Busts; and to tell me
+			<p><dateline>21. V:</dateline> <mhs:persRef ref="cardelli-pietro">Cardelli</mhs:persRef> came this morning to remind me of my promise to
+				write to <mhs:persRef ref="jefferson-thomas">M<hi rend="superscript">r</hi> Jefferson</mhs:persRef>, and <mhs:persRef ref="madison-james">M<hi rend="superscript"
+					>r</hi> Madison</mhs:persRef>, requesting them to sit to him for their Busts; and to tell me
 				that he had concluded to take my advice, and return to his work upon ornaments at
 				the Capitol, until he shall have a certainty of profit from his more noble
 				employment of taking Busts— But he said that after his death; nobody that should
 				ever look at the flowers in the Cornices of the Capitol would say—there!—that’s the
-				work of Cardelli. He said <persRef ref="lane-samuel">Col<hi rend="superscript">l.</hi> Lane</persRef> was much satisfied
-				with the Bust of the President and had taken it himself to <persRef ref="monroe-elizabeth">M<hi rend="superscript"
-					>rs</hi> Monroe</persRef>, who was also well pleased with it— And M<hi rend="superscript"
+				work of Cardelli. He said <mhs:persRef ref="lane-samuel">Col<hi rend="superscript">l.</hi> Lane</mhs:persRef> was much satisfied
+				with the Bust of the President and had taken it himself to <mhs:persRef ref="monroe-elizabeth">M<hi rend="superscript"
+					>rs</hi> Monroe</mhs:persRef>, who was also well pleased with it— And M<hi rend="superscript"
 					>r</hi> Hay had asked him his price for Casts from the Bust. He had fixed the
-				price at twelve dollars, which <persRef ref="hay-george">M<hi rend="superscript">r</hi> Hay</persRef> said was very
+				price at twelve dollars, which <mhs:persRef ref="hay-george">M<hi rend="superscript">r</hi> Hay</mhs:persRef> said was very
 				cheap, and had told him that he would have many subscribers for them at that price,
-				at Richmond— He complained that the <persRef key="hyde-de-neuville-jean">French Minister</persRef> had not treated him well, and
+				at Richmond— He complained that the <mhs:persRef key="hyde-de-neuville-jean">French Minister</mhs:persRef> had not treated him well, and
 				would not understand the price of a single Bust must be a very different thing from
 				that of the Casts taken from it.— I called and renewed one of my Notes at the
 				Metropolis Bank— The rest of the day till five at my Office without interruption,
-				and made some progress in drafting Instructions for <persRef ref="graham-john">J. Graham</persRef>— My <persRef key="adams-louisa-catherine">wife</persRef> received a
-				Letter which gives us both great uneasiness from our son <persRef ref="adams-george">George</persRef>, who was at Quincy, by leave of absence from College <pb type="ms" n="93"/>for a stricture at his
+				and made some progress in drafting Instructions for <mhs:persRef ref="graham-john">J. Graham</mhs:persRef>— My <mhs:persRef key="adams-louisa-catherine">wife</mhs:persRef> received a
+				Letter which gives us both great uneasiness from our son <mhs:persRef ref="adams-george">George</mhs:persRef>, who was at Quincy, by leave of absence from College <pb type="ms" n="93"/>for a stricture at his
 				breast—proceeding as he says from over-application. He was better, and intending to
 				return, as last Monday to Cambridge— My wife herself was this Evening very
 				unwell.</p>
@@ -1511,11 +1511,11 @@
 
 		<div type="docbody">
 
-			<p><dateline>22. V:30.</dateline> <persRef ref="hutchinson-israel">M<hi rend="superscript">r</hi> Israel Pemberton
-				Hutchinson</persRef> our Consul at Lisbon, was waiting at my Office to see me; when I went
+			<p><dateline>22. V:30.</dateline> <mhs:persRef ref="hutchinson-israel">M<hi rend="superscript">r</hi> Israel Pemberton
+				Hutchinson</mhs:persRef> our Consul at Lisbon, was waiting at my Office to see me; when I went
 				there this morning— He has a leave of absence from his Post for six Months, and
 				arrived a few days since, at Philadelphia. He brought me a Letter of Introduction
-				from <persRef ref="dallas-george">T. M. Dallas</persRef>; while he was with me <persRef ref="graham-john">M<hi rend="superscript">r</hi> J. Graham</persRef>
+				from <mhs:persRef ref="dallas-george">T. M. Dallas</mhs:persRef>; while he was with me <mhs:persRef ref="graham-john">M<hi rend="superscript">r</hi> J. Graham</mhs:persRef>
 				came in. Hutchinson gave me many particulars of information concerning the commerce
 				between the United States and Portugal; particularly Lisbon— He says that
 				Merchandize imported in Portuguese or in British Vessels pays duties of 15 per Cent
@@ -1544,16 +1544,16 @@
 				every Portuguese vessel they could catch— The situation of Portugal itself is very
 				distressing in consequence of the removal of the Royal Family to Brazil; by which
 				Portugal is now treated as a Colony; drained of her substance and resources for
-				remittances to the <persRef ref="john-vi">King</persRef>, and of the incomes from the Estates of all the nobility,
+				remittances to the <mhs:persRef ref="john-vi">King</mhs:persRef>, and of the incomes from the Estates of all the nobility,
 				who followed his Court to this Hemisphere. The aggravation of the tonnage duties
 				however which by the decree of 25. April last was to have commenced its operation
 				from the first of November, did not then take effect; and had not when Hutchinson
 				left Lisbon in February: being postponed in consequence of representations made by
-				him and by the <persRef ref="ward-edward">English Charge d’Affaires</persRef>— M<hi rend="superscript">r</hi> Graham
+				him and by the <mhs:persRef ref="ward-edward">English Charge d’Affaires</mhs:persRef>— M<hi rend="superscript">r</hi> Graham
 				remained with me after Hutchinson had withdrawn; and I read to him the Draft of
 				Instructions as far as I had prepared them. And enlarged upon them in some
 				particulars which it will be expedient to omit from them— I made the draft of a
-				Letter to the <persRef ref="correa-joseph">Abbe Correa</persRef>; and wasted the whole Evening in the perusal of
+				Letter to the <mhs:persRef ref="correa-joseph">Abbe Correa</mhs:persRef>; and wasted the whole Evening in the perusal of
 				Newspapers.</p>
 		</div>
 	</div>
@@ -1573,8 +1573,8 @@
 
 		<div type="docbody">
 
-			<p><dateline>23. V:30.</dateline> Paid a visit to <persRef ref="hutchinson-israel">M<hi rend="superscript">r</hi>
-				Hutchinson </persRef>who lodges at <persRef ref="gibson-unknown">Gibson’s</persRef>. He spoke to me of the Settlement of his Accounts;
+			<p><dateline>23. V:30.</dateline> Paid a visit to <mhs:persRef ref="hutchinson-israel">M<hi rend="superscript">r</hi>
+				Hutchinson </mhs:persRef>who lodges at <mhs:persRef ref="gibson-unknown">Gibson’s</mhs:persRef>. He spoke to me of the Settlement of his Accounts;
 				and of the inconvenience of our system of providing for the relief of distressed
 				American Seamen in foreign Ports; by exacting payment of three Months wages for
 				every Seamen discharged from a vessel— It operated very unjustly he said; sometimes
@@ -1587,22 +1587,22 @@
 				Church and a Clergyman— I requested him to throw these ideas upon paper, and address
 				them to me in a Letter, which he promised— It is one of the Subjects, susceptible of
 				much improvement for the public benefit, and to which my attention ought to be
-				given— At the Office, a <persRef ref="maury-ruston">son</persRef> of <persRef ref="maury-james">M<hi rend="superscript">r</hi> Maury</persRef> <pb type="ms"
-					n="94"/>the Consul at Liverpool, came and was introduced to me—not the same <persRef ref="maury-matthew">who
-				was here last Winter</persRef>; and who is now with <persRef ref="jefferson-thomas">M<hi rend="superscript">r</hi> Jefferson</persRef>
-				at Monticello; but a younger brother, just arrived from England. <persRef key="smith-william-steuben">M<hi
-					rend="superscript">r</hi> W. S. Smith</persRef> came upon business from <persRef ref="clark-susanna">M<hi
-						rend="superscript">rs</hi> Clark</persRef> whom he saw last Evening— <persRef ref="caldwell-elias">M<hi
-					rend="superscript">r</hi> E. B. Caldwell</persRef> came to make enquiry, whether the
+				given— At the Office, a <mhs:persRef ref="maury-ruston">son</mhs:persRef> of <mhs:persRef ref="maury-james">M<hi rend="superscript">r</hi> Maury</mhs:persRef> <pb type="ms"
+					n="94"/>the Consul at Liverpool, came and was introduced to me—not the same <mhs:persRef ref="maury-matthew">who
+				was here last Winter</mhs:persRef>; and who is now with <mhs:persRef ref="jefferson-thomas">M<hi rend="superscript">r</hi> Jefferson</mhs:persRef>
+				at Monticello; but a younger brother, just arrived from England. <mhs:persRef key="smith-william-steuben">M<hi
+					rend="superscript">r</hi> W. S. Smith</mhs:persRef> came upon business from <mhs:persRef ref="clark-susanna">M<hi
+						rend="superscript">rs</hi> Clark</mhs:persRef> whom he saw last Evening— <mhs:persRef ref="caldwell-elias">M<hi
+					rend="superscript">r</hi> E. B. Caldwell</mhs:persRef> came to make enquiry, whether the
 				President had left directions with me, concerning the employment of an Island
-				belonging to <persRef ref="custis-george">M<hi rend="superscript">r</hi> Custis</persRef>, near Norfolk, as a place of
+				belonging to <mhs:persRef ref="custis-george">M<hi rend="superscript">r</hi> Custis</mhs:persRef>, near Norfolk, as a place of
 				deposit for the coloured people, who under the act of Congress of the last Session
-				are to be sent to Africa— It had not been mentioned to me by the <persRef key="monroe-james">President</persRef> at-all—
-				Caldwell said the <persRef key="crawford-william-harris">Secretary of the Treasury</persRef> had referred him to me; and I referred
+				are to be sent to Africa— It had not been mentioned to me by the <mhs:persRef key="monroe-james">President</mhs:persRef> at-all—
+				Caldwell said the <mhs:persRef key="crawford-william-harris">Secretary of the Treasury</mhs:persRef> had referred him to me; and I referred
 				him to the Departments of War and the Navy. With these interruptions, I had a heavy
 				Mail of despatches and Letters; which consumed the time, so that I had scarcely an
-				hour left for continuing the draft of Instructions, to <persRef ref="graham-john">J. Graham</persRef>— My <persRef key="adams-louisa-catherine">wife</persRef> spent the
-				Evening abroad; at her sister <persRef ref="frye-carolina">Frye’s</persRef>. I wrote half a page; drowsily and with
+				hour left for continuing the draft of Instructions, to <mhs:persRef ref="graham-john">J. Graham</mhs:persRef>— My <mhs:persRef key="adams-louisa-catherine">wife</mhs:persRef> spent the
+				Evening abroad; at her sister <mhs:persRef ref="frye-carolina">Frye’s</mhs:persRef>. I wrote half a page; drowsily and with
 				pain.</p>
 		</div>
 	</div>
@@ -1634,10 +1634,10 @@
 				perceptible. It was of about 4 1/2 digits and terminated about half past six
 				O’Clock— I this morning completed the task of bringing up the arrears of Journal,
 				which on the 11<hi rend="superscript">th. </hi>of March were of a full Month— From
-				this moment I take a new start. Called on <persRef key="crawford-william-harris">M<hi rend="superscript">r</hi> Crawford</persRef> at
-				his Office. He had a Letter from <persRef ref="cheves-langdon">M<hi rend="superscript">r</hi> Cheves</persRef> the President
+				this moment I take a new start. Called on <mhs:persRef key="crawford-william-harris">M<hi rend="superscript">r</hi> Crawford</mhs:persRef> at
+				his Office. He had a Letter from <mhs:persRef ref="cheves-langdon">M<hi rend="superscript">r</hi> Cheves</mhs:persRef> the President
 				of the Bank since his return to Philadelphia. The Directors had resolved to employ
-				<persRef ref="sheldon-daniel">M<hi rend="superscript">r</hi> D. Sheldon</persRef> to negotiate the reloan of the
+				<mhs:persRef ref="sheldon-daniel">M<hi rend="superscript">r</hi> D. Sheldon</mhs:persRef> to negotiate the reloan of the
 				remaining Louisiana Stock— They passed the Resolution before receiving M<hi
 					rend="superscript">r</hi> Crawford’s Letter written in consequence of my last
 				Conversation with him, stating that the propriety of appointing him for that agency
@@ -1653,26 +1653,26 @@
 				the decisive consideration that the Government itself has an interest in the success
 				of the negotiation— But it must be with the understanding that it will take Sheldon
 				from his proper service only for a short time; and that he shall make an arrangement
-				satisfactory to <persRef ref="gallatin-albert">M<hi rend="superscript">r</hi> Gallatin</persRef>, for supplying his place
+				satisfactory to <mhs:persRef ref="gallatin-albert">M<hi rend="superscript">r</hi> Gallatin</mhs:persRef>, for supplying his place
 				during his absence. On these conditions, I thought he might go; and besides the
 				payment of his expences might receive a reasonable compensation from the Bank, for
 				the service— I then returned to M<hi rend="superscript">r</hi> Crawford the Letter
-				from the <persRef ref="mcculloch-james">Collector at Baltimore</persRef> to him, concerning the Spanish, king’s brig, brought
-				into Baltimore by <persRef ref="danel-john">Daniels</persRef>, and which he had sent me; and I read to him the Letter
-				from the <persRef ref="glenn-elias">District Attorney Glenn</persRef> to me, concerning the prosecution of these
+				from the <mhs:persRef ref="mcculloch-james">Collector at Baltimore</mhs:persRef> to him, concerning the Spanish, king’s brig, brought
+				into Baltimore by <mhs:persRef ref="danel-john">Daniels</mhs:persRef>, and which he had sent me; and I read to him the Letter
+				from the <mhs:persRef ref="glenn-elias">District Attorney Glenn</mhs:persRef> to me, concerning the prosecution of these
 				Baltimore Pirates. Glenn says that the vigilance and zeal of the subordinate
 				custom-house Officers, and of the Captains of the Revenue Cutters might be usefully
 				spirited and invigorated for the effectual suppression of this mischief. Crawford
 				promised to give Instructions accordingly— I told him I had received another Letter
-				from Baltimore, from <persRef ref="appleton-john">J. J. Appleton</persRef> with further information, upon the subject—and a
-				Note from <persRef ref="onis-luis">M<hi rend="superscript">r</hi> Onis</persRef>, the Spanish Minister; demanding the
+				from Baltimore, from <mhs:persRef ref="appleton-john">J. J. Appleton</mhs:persRef> with further information, upon the subject—and a
+				Note from <mhs:persRef ref="onis-luis">M<hi rend="superscript">r</hi> Onis</mhs:persRef>, the Spanish Minister; demanding the
 				restoration of the King’s Brig— I thought this was a regular and correct
 				application, but I had some difficulty as to the mode of proceeding proper for the
-				case— Whether the <persRef ref="barnabau-juan">Spanish Consul</persRef> could libel the vessel as belonging to the <persRef ref="ferdinand-vii">king of
-				Spain</persRef>— Or whether we could direct a seizure of her by the Government, for the
+				case— Whether the <mhs:persRef ref="barnabau-juan">Spanish Consul</mhs:persRef> could libel the vessel as belonging to the <mhs:persRef ref="ferdinand-vii">king of
+				Spain</mhs:persRef>— Or whether we could direct a seizure of her by the Government, for the
 				purpose of restoring her to Spain— we considered this question, and concluded that
 				the best course would be for the Spanish Consul to libel the vessel— Crawford
-				observed it was unfortunate that the <persRef ref="wirt-william">Attorney General</persRef> was now absent— I asked M<hi
+				observed it was unfortunate that the <mhs:persRef ref="wirt-william">Attorney General</mhs:persRef> was now absent— I asked M<hi
 					rend="superscript">r</hi> Crawford how the Treasury stood at this time; it being
 				a period of great pecuniary pressure; and embarrassment. He said there were in the
 				Months of February and March, great deficiency in the receipts from Norfolk in
@@ -1688,17 +1688,17 @@
 				approaching to a crisis which will <pb type="ms" n="95"/>shake the Union to its
 				centre— I see violent and threatening symptoms of the disease, without knowing where
 				to look for the remedy. I asked Crawford what foundation there was for certain
-				reports very unfavourable to the reputation of <persRef ref="johnson-richard">Col<hi rend="superscript">l.</hi> R.
-				M. Johnson</persRef>, the late Representative from Kentucky— He said he had a Letter from a
-				<persRef ref="benton-unknown">M<hi rend="superscript">r</hi> Benton</persRef>, who was a thorough-going Man, which
+				reports very unfavourable to the reputation of <mhs:persRef ref="johnson-richard">Col<hi rend="superscript">l.</hi> R.
+				M. Johnson</mhs:persRef>, the late Representative from Kentucky— He said he had a Letter from a
+				<mhs:persRef ref="benton-unknown">M<hi rend="superscript">r</hi> Benton</mhs:persRef>, who was a thorough-going Man, which
 				contained all the information that he had on the subject; and he gave it to me to
 				take with me to read— He said he fully believed that Johnson was an honest, and well
 				meaning man; but he was so excessively weak and credulous, that he suffered knaves
 				and swindlers to work upon him till they destroyed all his moral perceptions; all
 				capacity to discriminate between right and wrong; and made him do just what they
 				pleased. He had thus suffered himself to be drawn into unwarrantable Banking
-				Speculations by a man named <persRef ref="prentiss-unknown">Prentiss</persRef> from Boston or that neighbourhood; and one
-				<persRef ref="smith-unknown4">Smith</persRef>, a nephew of the <persRef ref="smith-samuel3">late President of Princeton College</persRef>.— I took the papers with
+				Speculations by a man named <mhs:persRef ref="prentiss-unknown">Prentiss</mhs:persRef> from Boston or that neighbourhood; and one
+				<mhs:persRef ref="smith-unknown4">Smith</mhs:persRef>, a nephew of the <mhs:persRef ref="smith-samuel3">late President of Princeton College</mhs:persRef>.— I took the papers with
 				me and read them in the course of the day. My opinion of Johnson after reading them,
 				is less charitable than that of Crawford— I neither think him so imbecil nor so
 				honest; under the guise of a generous, warmhearted, affectionate man, he is a mere
@@ -1708,35 +1708,35 @@
 				regret it, for from the part which he took in the House of Representatives the last
 				Session, and the relations which it introduced between him and me, I had formed a
 				more favourable opinion of him. As I was going to my office, I was overtaken by a
-				person named <persRef ref="heron-unknown">Heron</persRef>, who followed me, with a Letter from <persRef ref="foster-alexander">A. W. Foster</persRef> of Greensburgh;
+				person named <mhs:persRef ref="heron-unknown">Heron</mhs:persRef>, who followed me, with a Letter from <mhs:persRef ref="foster-alexander">A. W. Foster</mhs:persRef> of Greensburgh;
 				and a model in brass and steal of a machine, invented by him, being an improvement
 				on the mode of applying power to wheel machinery— M<hi rend="superscript">r</hi>
 				Foster has a high idea of the importance of his invention for which he wishes a
 				patent here, and information how to obtain a patent in various European Countries. I
 				advised M<hi rend="superscript">r</hi> Heron to deposit his model in the patent
-				office, and to get a drawing of it to be made, and also there deposited— A <persRef ref="haw-john">M<hi
-					rend="superscript">r</hi> Haw</persRef>, residing in the neighbourhood of Georgetown, came
-				with two Letters; one for his <persRef ref="haw-unknown">Son</persRef>, in South America, and the other for <persRef ref="forsyth-samuel">D<hi
-					rend="superscript">r</hi> Forsyth</persRef> an American, residing at Angostura— The son at
-				the age of 19. had followed the Fortunes of <persRef ref="macgregor-gregor">M’Gregor</persRef>, and accompanied him to
-				Amelia-Island— Left it soon after M’Gregor; went to Angostura; entered <persRef ref="bolivar-simon">Bolivar’s</persRef>
+				office, and to get a drawing of it to be made, and also there deposited— A <mhs:persRef ref="haw-john">M<hi
+					rend="superscript">r</hi> Haw</mhs:persRef>, residing in the neighbourhood of Georgetown, came
+				with two Letters; one for his <mhs:persRef ref="haw-unknown">Son</mhs:persRef>, in South America, and the other for <mhs:persRef ref="forsyth-samuel">D<hi
+					rend="superscript">r</hi> Forsyth</mhs:persRef> an American, residing at Angostura— The son at
+				the age of 19. had followed the Fortunes of <mhs:persRef ref="macgregor-gregor">M’Gregor</mhs:persRef>, and accompanied him to
+				Amelia-Island— Left it soon after M’Gregor; went to Angostura; entered <mhs:persRef ref="bolivar-simon">Bolivar’s</mhs:persRef>
 				army; and in January 1818. was appointed a Captain of Artillery. His father said he
 				had received a Letter from him written at that time; and with a tear glistening in
 				his eye, added he had never heard from him since; and feared he should never hear
 				from him again— I could not tell him my feelings at this statement; lest they should
 				aggravate his own—but I promised him to take care that the Letters should be
-				forwarded to D<hi rend="superscript">r.</hi> Forsyth— <persRef key="hyde-de-neuville-jean">M<hi rend="superscript">r</hi>
-				Hyde de Neuville</persRef>, the French Minister came to ask for an order to the Collector at
+				forwarded to D<hi rend="superscript">r.</hi> Forsyth— <mhs:persRef key="hyde-de-neuville-jean">M<hi rend="superscript">r</hi>
+				Hyde de Neuville</mhs:persRef>, the French Minister came to ask for an order to the Collector at
 				Baltimore, for the restoration of certain French property, piratically captured, and
-				libelled by the <persRef ref="angelucci-unknown">French Consul</persRef>— A parcel of the same property he said had been thus
-				restored to the <persRef ref="unknown12">French Consul at Alexandria</persRef>; and M<hi rend="superscript">r</hi>
+				libelled by the <mhs:persRef ref="angelucci-unknown">French Consul</mhs:persRef>— A parcel of the same property he said had been thus
+				restored to the <mhs:persRef ref="unknown12">French Consul at Alexandria</mhs:persRef>; and M<hi rend="superscript">r</hi>
 				Crawford thought it could be done in like manner at Baltimore—but de Neuville
 				thought it would require a short Letter from me to the District Attorney, or to the
 				Judge— I told him that according to our Institutions; it would be improper for any
 				Member of the Executive administration, to write to the Judge; but if he would write
 				me setting forth the facts, I would then, if there would be any propriety in the
 				measure write to the district attorney concerning it— I returned him the copy of
-				<persRef ref="desousaholstein-pedro">Count Palmella’s</persRef> Note which he had lent me, and of which he consented that I should
+				<mhs:persRef ref="desousaholstein-pedro">Count Palmella’s</mhs:persRef> Note which he had lent me, and of which he consented that I should
 				furnish M<hi rend="superscript">r</hi> J. Graham with a copy. He then referred to
 				the Answer I had sent him to his proposal for declaring some half a dozen Piracies,
 				additional to those already recognized by the Law of Nations— He was not altogether
@@ -1755,10 +1755,10 @@
 				United States in forty years from this time— There would be to be sure in Louisiana;
 				but then Louisiana would not form a part of the United States— I said that Civil War
 				would then be substituted, instead of the Union— We had a small party to dinner—
-				<persRef ref="smith-william-steuben;smith-catherine-johnson">M<hi rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> W. S. Smith</persRef>,
-				<persRef ref="hutchinson-israel">M<hi rend="superscript">r</hi> I. P. Hutchinson</persRef>, <persRef ref="maury-fontaine">M<hi rend="superscript">r.</hi>
-					Maury</persRef>, and his <persRef ref="maury-ruston">nephew from Liverpool</persRef>, <persRef ref="forbes-john">Forbes</persRef>, <persRef ref="bailey-john">Bailey</persRef> and <persRef ref="forrest-richard">R. Forrest</persRef>, also <persRef ref="hellen-thomas">Tom Hellen</persRef>
-				and <persRef ref="buchanan-robert">Robert Buchanan</persRef>, with whom <persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</persRef> went home after
+				<mhs:persRef ref="smith-william-steuben;smith-catherine-johnson">M<hi rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> W. S. Smith</mhs:persRef>,
+				<mhs:persRef ref="hutchinson-israel">M<hi rend="superscript">r</hi> I. P. Hutchinson</mhs:persRef>, <mhs:persRef ref="maury-fontaine">M<hi rend="superscript">r.</hi>
+					Maury</mhs:persRef>, and his <mhs:persRef ref="maury-ruston">nephew from Liverpool</mhs:persRef>, <mhs:persRef ref="forbes-john">Forbes</mhs:persRef>, <mhs:persRef ref="bailey-john">Bailey</mhs:persRef> and <mhs:persRef ref="forrest-richard">R. Forrest</mhs:persRef>, also <mhs:persRef ref="hellen-thomas">Tom Hellen</mhs:persRef>
+				and <mhs:persRef ref="buchanan-robert">Robert Buchanan</mhs:persRef>, with whom <mhs:persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</mhs:persRef> went home after
 				dinner.</p>
 		</div>
 	</div>
@@ -1777,16 +1777,16 @@
 			<p><dateline>25. V:30.</dateline> The day was not interrupted by Company, but its
 				intended occupations were discomposed by three sets of Newspapers. Those of
 				yesterday which were necessarily laid over to this Morning—two files of English
-				Newspapers, and those brought by this day’s Mail. Despatches from <persRef ref="rush-richard">R. Rush</persRef> were also
-				received; and two Letters from <persRef ref="smith-john">J. A. Smith</persRef>. The latest of 7. March— Rush’s despatch
+				Newspapers, and those brought by this day’s Mail. Despatches from <mhs:persRef ref="rush-richard">R. Rush</mhs:persRef> were also
+				received; and two Letters from <mhs:persRef ref="smith-john">J. A. Smith</mhs:persRef>. The latest of 7. March— Rush’s despatch
 				of 1. March acknowledges the receipt of my Letter to him of 1. February. This is an
 				answer received from London in 84 days— I think the shortest time of such a return
 				that has occurred within my experience— I walked Northward across the fields to the
 				wood on the borders of the City, and gathered the first wild flowers of the Spring
 				of which there were not more than half a dozen kinds— The Oaks and Elms of the
 				forest are just putting forth their leaves. The journal of yesterday employed part
-				of the morning; and all the Evening. <persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</persRef> spent it
-				at <persRef key="hyde-de-neuville-ann">Madame Hyde de Neuville’s.</persRef></p>
+				of the morning; and all the Evening. <mhs:persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</mhs:persRef> spent it
+				at <mhs:persRef key="hyde-de-neuville-ann">Madame Hyde de Neuville’s.</mhs:persRef></p>
 		</div>
 	</div>
 
@@ -1802,24 +1802,24 @@
 
 		<div type="docbody">
 
-			<p><dateline>26. V:30.</dateline> <persRef ref="tyler-benjamin">Benjamin Owen Tyler</persRef> was here this morning— He is a
+			<p><dateline>26. V:30.</dateline> <mhs:persRef ref="tyler-benjamin">Benjamin Owen Tyler</mhs:persRef> was here this morning— He is a
 				sort of itinerant writing Master, and consanguineous with me. He writes a good hand,
 				with the further talent of imitating very exactly the hand-writing of others. He has
 				published a copy of the Declaration of Independence engraved with fac similes of the
 				signatures. I propose to employ him to take an exact fac simile, of the whole
 				Declaration, including the signatures; to be kept separate from the original, and as
 				an accurate likeness of it, in case of any accident happening to it. I called at the
-				Patent Office to make enquiry of the principle of an invention for which <persRef ref="foster-alexander">A. W.
-					Foster</persRef> and a person named <persRef ref="hugus-unknown">Hugus</persRef> are taking a patent— Foster has written me a Letter
+				Patent Office to make enquiry of the principle of an invention for which <mhs:persRef ref="foster-alexander">A. W.
+					Foster</mhs:persRef> and a person named <mhs:persRef ref="hugus-unknown">Hugus</mhs:persRef> are taking a patent— Foster has written me a Letter
 				in which he speaks of it as a desideratum in mechanics; expects that within five
 				years it will be navigating the Wolga and the Caspian, and applies to me for
-				information how he is to obtain Patents for it, all over Europe. I found <persRef ref="thornton-william">D<hi
-					rend="superscript">r </hi>Thornton</persRef> making out a Patent for it, and describing it
+				information how he is to obtain Patents for it, all over Europe. I found <mhs:persRef ref="thornton-william">D<hi
+					rend="superscript">r </hi>Thornton</mhs:persRef> making out a Patent for it, and describing it
 				as a mode of obtaining rotary, by rectilinear motion— It is one of the innumerable
 				progeny of the Steam engine; a machine almost as pregnant of Power, as the element
-				by which it operates— <persRef ref="fulton-robert">Fulton’s</persRef> Steam-Boats have turned all the projecting heads in
+				by which it operates— <mhs:persRef ref="fulton-robert">Fulton’s</mhs:persRef> Steam-Boats have turned all the projecting heads in
 				that direction— Fulton himself invented little or nothing; but with the aid of
-				<persRef ref="livingston-robert">Chancellor Livingston’s</persRef> fortune, he made the inventions of others practically
+				<mhs:persRef ref="livingston-robert">Chancellor Livingston’s</mhs:persRef> fortune, he made the inventions of others practically
 				useful— Fulton’s patent privilege from Nature was enterprize, and Perseverance— He
 				was doubtless ingenious too, but I believe not more so than many ordinary mechanics.
 				This improvement of M<hi rend="superscript">r</hi> Fosters, is a simplification of
@@ -1854,15 +1854,15 @@
 				never solve— Every day starts new game to me, upon the field of my duties; but the
 				hurry of the hour leaves me no time for the pursuit of it, and at the close of my
 				Career I shall merely have gone helter skelter through the current business of the
-				Office, and leave no permanent trace of my ever having been in it behind— <persRef ref="graham-john">M<hi
-					rend="superscript">r</hi> John Graham</persRef> called upon me at the Office to enquire
+				Office, and leave no permanent trace of my ever having been in it behind— <mhs:persRef ref="graham-john">M<hi
+					rend="superscript">r</hi> John Graham</mhs:persRef> called upon me at the Office to enquire
 				again when I should be ready with his Instructions— I said to-morrow. He urged again
 				to have some part of the expences for his passage in the Frigate, paid by the
 				Department— It is very difficult to resist these personal applications face to face—
 				But great abuses have been creeping in to the pecuniary affairs of the Department;
 				which have produced disorders in its accounts, and a consequent dissatisfaction in
-				Congress. <persRef ref="monroe-james">M<hi rend="superscript">r</hi> Monroe</persRef> and <persRef ref="madison-james">M<hi rend="superscript">r</hi>
-				Madison</persRef> while in the Department, made it a principle to leave all these questions
+				Congress. <mhs:persRef ref="monroe-james">M<hi rend="superscript">r</hi> Monroe</mhs:persRef> and <mhs:persRef ref="madison-james">M<hi rend="superscript">r</hi>
+				Madison</mhs:persRef> while in the Department, made it a principle to leave all these questions
 				unsettled— In this way there arose irregular allowances for the expences of
 				Ministers having passages in Public Ships; and in the case of the Mission to
 				South-America they were enormous. I have no other principle to recur to than that of
@@ -1871,12 +1871,12 @@
 				hand, and come one day to ask if they cannot be allowed to use the Ship-bread, and
 				the next to enquire whether we will not pay for the extra cups and saucers for the
 				breakfast table, bring one into a state of ludicrous distress, for resources of
-				polite modification to the monosyllable <hi rend="italic">NO</hi>— The <persRef ref="goupydequabeck-alexander">Viscount de
-					Quaback</persRef> Chargé d’Affaires from the Netherlands came with his Cousin <persRef ref="goupydebeauvolers-unknown">M<hi
-					rend="superscript">r</hi> Goupil de Beauvolers</persRef>, who took leave; going
-				immediately home to Bruxelles, upon important private family concerns. <persRef ref="sasse-unknown">Sasse</persRef> the
+				polite modification to the monosyllable <hi rend="italic">NO</hi>— The <mhs:persRef ref="goupydequabeck-alexander">Viscount de
+					Quaback</mhs:persRef> Chargé d’Affaires from the Netherlands came with his Cousin <mhs:persRef ref="goupydebeauvolers-unknown">M<hi
+					rend="superscript">r</hi> Goupil de Beauvolers</mhs:persRef>, who took leave; going
+				immediately home to Bruxelles, upon important private family concerns. <mhs:persRef ref="sasse-unknown">Sasse</mhs:persRef> the
 				Prussian Secretary of Legation is likewise recalled, and going immediately home—
-				<persRef ref="smith-william-steuben;smith-catherine-johnson">M<hi rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> Smith</persRef> spent
+				<mhs:persRef ref="smith-william-steuben;smith-catherine-johnson">M<hi rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> Smith</mhs:persRef> spent
 				the Evening here—</p>
 		</div>
 	</div>
@@ -1893,45 +1893,45 @@
 
 		<div type="docbody">
 
-			<p><dateline>27. V:30.</dateline> <persRef ref="sasse-unknown">M<hi rend="superscript">r</hi> Sasse</persRef> called this
+			<p><dateline>27. V:30.</dateline> <mhs:persRef ref="sasse-unknown">M<hi rend="superscript">r</hi> Sasse</mhs:persRef> called this
 				morning to take leave. He goes to morrow Morning for New-York, to embark in the Ship
 				James Monroe, one of the new line of Liverpool Packets, to sail the 10<hi
-					rend="superscript">th. </hi>of May— <persRef ref="onis-luis">M<hi rend="superscript">r</hi> Onis</persRef> and his
-				family are to go in the same vessel. I finished the draft of Instructions to <persRef ref="graham-john">J.
-					Graham</persRef>, wrote a Letter of recall to <persRef ref="sumter-thomas">T. Sumter jun<hi rend="superscript">r.</hi></persRef> and
-				a Letter to <persRef ref="ray-joseph">Joseph Ray</persRef>, late Consul at Pernambuco to inform him that his Commission
+					rend="superscript">th. </hi>of May— <mhs:persRef ref="onis-luis">M<hi rend="superscript">r</hi> Onis</mhs:persRef> and his
+				family are to go in the same vessel. I finished the draft of Instructions to <mhs:persRef ref="graham-john">J.
+					Graham</mhs:persRef>, wrote a Letter of recall to <mhs:persRef ref="sumter-thomas">T. Sumter jun<hi rend="superscript">r.</hi></mhs:persRef> and
+				a Letter to <mhs:persRef ref="ray-joseph">Joseph Ray</mhs:persRef>, late Consul at Pernambuco to inform him that his Commission
 				has been revoked— After this last Letter had been copied, and was ready to be
 				despatched, I found that I had already written a Letter of the same purport on the
 					4<hi rend="superscript">th. </hi>of December last— This is not the first
 				instance in which I have after writing Letters on public business entirely forgotten
 				it; and this defect of Memory proceeds from a want of method sufficiently accurate
 				in the transaction of business— I no longer wonder at the forgetfulness of the same
-				kind which I so often remarked in <persRef ref="castlereagh-robert">Lord Castlereagh</persRef>, and which I sometimes suspected
+				kind which I so often remarked in <mhs:persRef ref="castlereagh-robert">Lord Castlereagh</mhs:persRef>, and which I sometimes suspected
 				was a remembrance to forget— I am now persuaded it was not— I observe the same thing
-				often in the <persRef key="monroe-james">President</persRef>— An ordinary mind, absorbed in objects of great importance
+				often in the <mhs:persRef key="monroe-james">President</mhs:persRef>— An ordinary mind, absorbed in objects of great importance
 				will not retain the recollection of others by which it has been transiently
-				occupied; and it is not always the most unimportant objects that are forgotten— <persRef ref="cushing-nathanael">M<hi
-					rend="superscript">r</hi> Nathanael Cushing</persRef>, and Anchor-maker of Pembroke,
-				Massachusetts came to the Office with a Letter of recommendation from <persRef ref="degrand-peter">Degrand</persRef>, who
+				occupied; and it is not always the most unimportant objects that are forgotten— <mhs:persRef ref="cushing-nathanael">M<hi
+					rend="superscript">r</hi> Nathanael Cushing</mhs:persRef>, and Anchor-maker of Pembroke,
+				Massachusetts came to the Office with a Letter of recommendation from <mhs:persRef ref="degrand-peter">Degrand</mhs:persRef>, who
 				introduced him to me last September at Boston— He has obtained a contract for making
-				three Anchors for the Columbus line of Battle ship, and says <persRef ref="rodgers-john">Commodore Rogers</persRef> told
+				three Anchors for the Columbus line of Battle ship, and says <mhs:persRef ref="rodgers-john">Commodore Rogers</mhs:persRef> told
 				him that more would probably be wanted— Cushing goes to morrow Morning for Boston.
-				<persRef ref="graham-john">John Graham</persRef> came to take leave, intending to leave the City to-morrow— I read to him
+				<mhs:persRef ref="graham-john">John Graham</mhs:persRef> came to take leave, intending to leave the City to-morrow— I read to him
 				the remainder of the draft of his Instructions, and had much conversation with him
 				on points, upon which written Instructions were not expedient. Graham is a safe,
 				intelligent and industrious man, acquainted with the French and Spanish Languages;
 				of mild and conciliatory manners; and of much experience in our public
-				affairs—having been Secretary of Legation to Spain when <persRef ref="pinckney-charles2">Charles Pinckney</persRef> was the <pb
+				affairs—having been Secretary of Legation to Spain when <mhs:persRef ref="pinckney-charles2">Charles Pinckney</mhs:persRef> was the <pb
 					type="ms" n="98"/>Minister, in 1801. afterwards Secretary to the Territory of
-				Orleans— During the whole period of <persRef ref="madison-james">M<hi rend="superscript">r</hi> Madison’s</persRef>
+				Orleans— During the whole period of <mhs:persRef ref="madison-james">M<hi rend="superscript">r</hi> Madison’s</mhs:persRef>
 				administration, he was chief Clerk in the Department of State; and has since been a
 				Commissioner to South-America. His talents are rather solid than brilliant, and I
 				have hopes that his amenity of deportment, and his Prudence, will restore the
 				good-understanding with the Portuguese Government which has of late been so deeply
-				affected. After he left me, I was reperusing the late Letters from <persRef ref="hill-henry">Henry Hill</persRef> the
-				Consul at Rio de Janeiro with a view to answer them; when <persRef ref="maury-fontaine">M<hi rend="superscript"
-					>r</hi> F. Maury</persRef> came in with a budget of despatches just delivered to him by
-				<persRef ref="biddle-james">Captain Biddle</persRef> of the Sloop of War Ontario— She arrived at Annapolis yesterday; last
+				affected. After he left me, I was reperusing the late Letters from <mhs:persRef ref="hill-henry">Henry Hill</mhs:persRef> the
+				Consul at Rio de Janeiro with a view to answer them; when <mhs:persRef ref="maury-fontaine">M<hi rend="superscript"
+					>r</hi> F. Maury</mhs:persRef> came in with a budget of despatches just delivered to him by
+				<mhs:persRef ref="biddle-james">Captain Biddle</mhs:persRef> of the Sloop of War Ontario— She arrived at Annapolis yesterday; last
 				from Pernambuco, and Rio de Janeiro. There were despatches from M<hi
 					rend="superscript">r</hi> Sumter of 3. March, and a Letter from Joseph Ray,
 				still acting as Consul at Pernambuco, of 23. March. Letters also, of 3. December
@@ -1941,9 +1941,9 @@
 				papers make it necessary that I should give further Instructions to John Graham, and
 				will delay for a day or two longer the despatching of him— He and D. Brent were both
 				at my house an hour or two this Evening. I came home so late that before we could
-				sit down to dinner, <persRef key="hyde-de-neuville-ann">Madame de Neuville</persRef> called for <persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi>
-					Adams</persRef>, who went with her and took tea at <persRef ref="middleton-mary">M<hi rend="superscript">rs</hi>
-				Middleton’s</persRef>; and then returned and spent the remainder of the Evening, with M<hi
+				sit down to dinner, <mhs:persRef key="hyde-de-neuville-ann">Madame de Neuville</mhs:persRef> called for <mhs:persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi>
+					Adams</mhs:persRef>, who went with her and took tea at <mhs:persRef ref="middleton-mary">M<hi rend="superscript">rs</hi>
+				Middleton’s</mhs:persRef>; and then returned and spent the remainder of the Evening, with M<hi
 					rend="superscript">rs.</hi> De Neuville herself.</p>
 		</div>
 	</div>
@@ -1965,9 +1965,9 @@
 		<div type="docbody">
 
 			<p><dateline>28. V:30.</dateline> With a view to have a longer day at the Office, to
-				draft the additional Instructions necessary for <persRef ref="graham-john">M<hi rend="superscript">r.</hi>
-				Graham</persRef>, I went to my Office this morning at eleven O’Clock, nearly two hours earlier
-				than usual. I had been there scarcely five minutes when <persRef ref="biddle-james">Captain Biddle</persRef> of the
+				draft the additional Instructions necessary for <mhs:persRef ref="graham-john">M<hi rend="superscript">r.</hi>
+				Graham</mhs:persRef>, I went to my Office this morning at eleven O’Clock, nearly two hours earlier
+				than usual. I had been there scarcely five minutes when <mhs:persRef ref="biddle-james">Captain Biddle</mhs:persRef> of the
 				Ontario came in, and I had a conversation of two hours with him, in which he gave me
 				a general account of his tour of service which has been of more than a year and a
 				half. The main object of his expedition was to take possession of the Mouth of
@@ -1976,36 +1976,36 @@
 				at Pernambuco last; from which his passage to Annapolis was of 28 days— His report
 				embraced a great variety of objects, relating to the establishment at the mouth of
 				Columbia river; to the Condition of Peru, and Chili; and the state and prospects of
-				our Commerce there. To his relations with the <persRef ref="lapezuela-joaquin">Vice-roy of Peru at Lima</persRef>, and with the
-				revolutionary Government of Chili at Valparaiso; and particularly with <persRef ref="cochrane-thomas">Lord
-				Cochrane</persRef>, whom he found acting there as their admiral; He found him troublesome, and
+				our Commerce there. To his relations with the <mhs:persRef ref="lapezuela-joaquin">Vice-roy of Peru at Lima</mhs:persRef>, and with the
+				revolutionary Government of Chili at Valparaiso; and particularly with <mhs:persRef ref="cochrane-thomas">Lord
+				Cochrane</mhs:persRef>, whom he found acting there as their admiral; He found him troublesome, and
 				thinks he will do the revolutionary party which has employed him more harm than
 				good— To the ships Beaver and Canton, of New-York and Salem, seized by the Spanish
 				Government at Talcahuana, and released by the Viceroy through the interposition of
-				Captain Biddle, and <persRef ref="prevost-john">M<hi rend="superscript">r</hi> Provost</persRef>— To the situation of <persRef ref="sumter-thomas">M<hi
-					rend="superscript">r</hi> Sumter</persRef> at Rio de Janeiro; his fruitless applications
+				Captain Biddle, and <mhs:persRef ref="prevost-john">M<hi rend="superscript">r</hi> Provost</mhs:persRef>— To the situation of <mhs:persRef ref="sumter-thomas">M<hi
+					rend="superscript">r</hi> Sumter</mhs:persRef> at Rio de Janeiro; his fruitless applications
 				to the Government; and the state of the Consulate there; and to the ineffectual call
 				of the Ontario, at Pernambuco to obtain the release of the American Seamen
 				imprisoned there— Biddle has some apprehensions for the safety of M<hi
 					rend="superscript">r</hi> Provost; who went with the British Sloop of War
-				Blossom, <persRef ref="hickey-frederick">Captain Hickey</persRef> to receive a formal surrender of the Post there— Biddle
+				Blossom, <mhs:persRef ref="hickey-frederick">Captain Hickey</mhs:persRef> to receive a formal surrender of the Post there— Biddle
 				himself was 112 days from Lima to Columbia river and returning. And when he last
 				left Lima, the Blossom had already been gone 130 days for the same expedition.
 				Captain Hickey intended to enter Columbia river, but there is a Bar at the mouth of
 				it with only three fathoms and a half of water. Biddle did not attempt to pass it
 				with his ship, and he thinks if Hickey did, some accident has happened to his
-				vessel. <persRef ref="homans-benjamin">M<hi rend="superscript">r</hi> Homans</persRef> brought me Captain Biddle’s detailed
+				vessel. <mhs:persRef ref="homans-benjamin">M<hi rend="superscript">r</hi> Homans</mhs:persRef> brought me Captain Biddle’s detailed
 				report to the Navy Department, which I had however no time to read this day. Biddle
 				wishes to return with his Ship to discharge his Company at New York; but Homans says
 				he must send her to Baltimore; because the Navy Department already spend so much
 				money at New-York, and Boston; that they must distribute some portion of their
 				employment and purchases, further South— Captain Biddle left me at half past one,
-				and immediately afterwards came in <persRef ref="adams-unknown">M<hi rend="superscript">r</hi> Adams</persRef>, late
+				and immediately afterwards came in <mhs:persRef ref="adams-unknown">M<hi rend="superscript">r</hi> Adams</mhs:persRef>, late
 				Astronomer to the Commission under the 6<hi rend="superscript">th. </hi>and 7<hi
-					rend="superscript">th. </hi>Articles of the Treaty of Ghent. <persRef ref="hawkins-samuel">Col<hi
-					rend="superscript">l.</hi> Hawkins</persRef> the Agent of the United States under that
+					rend="superscript">th. </hi>Articles of the Treaty of Ghent. <mhs:persRef ref="hawkins-samuel">Col<hi
+					rend="superscript">l.</hi> Hawkins</mhs:persRef> the Agent of the United States under that
 				Commission was here the greatest part of last Winter; intriguing against the
-				Commissioner, <persRef ref="porter-peter">Peter Buel Porter</persRef>, he addressed a Letter of complaint against him
+				Commissioner, <mhs:persRef ref="porter-peter">Peter Buel Porter</mhs:persRef>, he addressed a Letter of complaint against him
 				directly to the President, who deposited it at the Department of State, and referred
 				Hawkins to me— He came and had several conversations with me at the Department, and
 				made a Statement against Porter, which he afterwards took back, and presented
@@ -2019,14 +2019,14 @@
 				substance of them; and he bitterly complained that they were partly false; greatly
 				misrepresented, and made with deep dissimulation of friendship for him by Porter
 				immediately before he came on. Hawkins’s second charge against Porter amounted to
-				nothing less than that he in collusion with <persRef ref="ogilvy-john">Col<hi rend="superscript">l.</hi> Ogilvy</persRef>
+				nothing less than that he in collusion with <mhs:persRef ref="ogilvy-john">Col<hi rend="superscript">l.</hi> Ogilvy</mhs:persRef>
 				the British Commissioner, was betraying the rights of the United States— That he had
 				agreed to accept the observed Latitude of 45. on the Spherical Hypothesis, instead
 				of insisting upon the reduced Latitude, allowing for the oblate spheroidical form of
 				the Earth— That Ogilvy the British Commissioner had attempted to corrupt Adams the
-				Astronomer; and that <persRef ref="thompson-david">Thompson</persRef> the British Astronomer, had attempted to falsify
+				Astronomer; and that <mhs:persRef ref="thompson-david">Thompson</mhs:persRef> the British Astronomer, had attempted to falsify
 				Adams’s observations, by clandestinely removing one of his Posts— Of these last
-				facts Hawkins produced a hearsay certificate from a <persRef ref="delafield-joseph">Major Delafield</persRef>, that they had
+				facts Hawkins produced a hearsay certificate from a <mhs:persRef ref="delafield-joseph">Major Delafield</mhs:persRef>, that they had
 				been told him by Adams— The facts stated in the certificate were however so
 				excessively weak as buttresses to a charge of attempted corruption and foul play,
 				that I told Hawkins there must be an explanation of them by Adams himself. They were
@@ -2041,8 +2041,8 @@
 				solemn manner, all suspicion either that Ogilvy ever attempted to corrupt him; or
 				that Thompson removed his post with a bad intention. He says he may perhaps have
 				mentioned to Delafield in conversation the two incidents of Ogilvy’s advising him to
-				communicate confidentially concerning the Latitude, with <persRef ref="chipman-ward">M<hi rend="superscript"
-					>r</hi> Chipman</persRef> the British Agent; and the removal of his post by Thompson, as
+				communicate confidentially concerning the Latitude, with <mhs:persRef ref="chipman-ward">M<hi rend="superscript"
+					>r</hi> Chipman</mhs:persRef> the British Agent; and the removal of his post by Thompson, as
 				proofs of the unceasing vigilance, and continual caution that it was his duty to
 				observe— But that he was perfectly convinced that M<hi rend="superscript">r</hi>
 				Ogilvy’s motive had been merely to promote harmony between the co-operators in the
@@ -2064,11 +2064,11 @@
 				the shape of charges against Ogilvy and Thompson; and even against Porter, to rest
 				upon no better foundation than his evening talk, and his mysterious and pompous
 				suspicions— Before he left me, the Mail was brought in, with three despatches from
-				<persRef ref="rush-richard">R. Rush</persRef>—two from <persRef ref="hughes-christopher">Ch<hi rend="superscript">r.</hi> Hughes</persRef> at Stockholm; a multitude
+				<mhs:persRef ref="rush-richard">R. Rush</mhs:persRef>—two from <mhs:persRef ref="hughes-christopher">Ch<hi rend="superscript">r.</hi> Hughes</mhs:persRef> at Stockholm; a multitude
 				of Letters and London Newspapers down to the 26<hi rend="superscript">th. </hi>of
 				March— Reading these till half past five, I found that I had not written one line of
 				the additional Instructions to J. Graham, and I was obliged to come home to dinner—
-					<persRef key="smith-catherine-johnson">M<hi rend="superscript">rs.</hi> W. S. Smith</persRef> dined with us. <persRef key="smith-william-steuben">He</persRef> came for her in
+					<mhs:persRef key="smith-catherine-johnson">M<hi rend="superscript">rs.</hi> W. S. Smith</mhs:persRef> dined with us. <mhs:persRef key="smith-william-steuben">He</mhs:persRef> came for her in
 				the Evening.</p>
 			
 		</div>
@@ -2093,18 +2093,18 @@
 		
 		<div type="docbody">
 			
-			<p><pb type="ms" n="100"/><dateline>29. V:</dateline> <persRef ref="eliot-samuel3">M<hi rend="superscript">r</hi> S. A. Eliot,</persRef> a son of
-				<persRef ref="eliot-samuel2">M<hi rend="superscript">r</hi> Samuel Eliot</persRef> of Boston came yesterday and left a
-				Letter of recommendation from <persRef ref="quincy-josiah2">M<hi rend="superscript">r</hi> Quincy</persRef>. I called this
-				morning at his lodgings at <persRef ref="strother-john">Strother’s</persRef> to see him, but he was gone out. At the Office
-				I found <persRef ref="hay-george">M<hi rend="superscript">r</hi> George Hay</persRef>, who borrowed a parliamentary
+			<p><pb type="ms" n="100"/><dateline>29. V:</dateline> <mhs:persRef ref="eliot-samuel3">M<hi rend="superscript">r</hi> S. A. Eliot,</mhs:persRef> a son of
+				<mhs:persRef ref="eliot-samuel2">M<hi rend="superscript">r</hi> Samuel Eliot</mhs:persRef> of Boston came yesterday and left a
+				Letter of recommendation from <mhs:persRef ref="quincy-josiah2">M<hi rend="superscript">r</hi> Quincy</mhs:persRef>. I called this
+				morning at his lodgings at <mhs:persRef ref="strother-john">Strother’s</mhs:persRef> to see him, but he was gone out. At the Office
+				I found <mhs:persRef ref="hay-george">M<hi rend="superscript">r</hi> George Hay</mhs:persRef>, who borrowed a parliamentary
 				pamphlet containing papers relating to the Slave-trade, received with the last
-				despatches from <persRef ref="rush-richard">R. Rush</persRef>. Hay said he had a great avidity for all papers concerning
+				despatches from <mhs:persRef ref="rush-richard">R. Rush</mhs:persRef>. Hay said he had a great avidity for all papers concerning
 				the project for abolishing the Slave-trade; a project which he believed would
 				ultimately fail; which had already produced incomparably more mischief than good,
 				and which he had no doubt would continue to be pernicious. For he had no doubt that
 				the Insurrection in Saint Domingo, and the total destruction of the white powers
-				there were the legitimate offspring of <persRef ref="wilberforce-william">M<hi rend="superscript">r</hi> Wilberforce’s</persRef>
+				there were the legitimate offspring of <mhs:persRef ref="wilberforce-william">M<hi rend="superscript">r</hi> Wilberforce’s</mhs:persRef>
 				first abolition plans, and our colonization Society here, whatever pretences they
 				may put forth, and whatever some enthusiastic people among them might believe and
 				intend, could have no other ultimate object than a general emancipation— I said that
@@ -2122,12 +2122,12 @@
 				Legislature had taken in their favour— He said the Virginia Legislature had been
 				tricked into that Resolution. That there was no such weak and absurd Reasoner in the
 				world as humanity. It never looked but at one side of a question. That the
-				resolution of the Virginia Legislature had been obtained by <persRef ref="mercer-charles">M<hi rend="superscript"
-					>r</hi> Mercer</persRef>; who was the father of the Colonization Society and of all their
+				resolution of the Virginia Legislature had been obtained by <mhs:persRef ref="mercer-charles">M<hi rend="superscript"
+					>r</hi> Mercer</mhs:persRef>; who was the father of the Colonization Society and of all their
 				projects. That he himself had inconsiderately voted for it under the impulse of
 				humanity; and three hours after, and ever since had bitterly repented his vote— The
-				subject had afterwards been brought up again upon some correspondence between <persRef ref="jefferson-thomas">M<hi
-					rend="superscript">r</hi> Jefferson</persRef> and <persRef ref="monroe-james">M<hi rend="superscript">r</hi> Monroe</persRef>,
+				subject had afterwards been brought up again upon some correspondence between <mhs:persRef ref="jefferson-thomas">M<hi
+					rend="superscript">r</hi> Jefferson</mhs:persRef> and <mhs:persRef ref="monroe-james">M<hi rend="superscript">r</hi> Monroe</mhs:persRef>,
 				which had been discussed in both Houses of the Legislature with closed doors.
 				Afterwards the House had removed the injunction of secrecy; and the Correspondence
 				to have been published, but Mercer lost the copies which had been before the house—
@@ -2143,7 +2143,7 @@
 				he was desirous of finding another remedy for it. But the friends of emancipation
 				had a memorable example before them, of which it was surprizing that they would not
 				avail themselves as an admonition— The Negro Slave-trade itself was the child of
-				Humanity— The contrivance of <persRef ref="lascasas-bartolome">Las Casas</persRef> to mitigate the condition of the American
+				Humanity— The contrivance of <mhs:persRef ref="lascasas-bartolome">Las Casas</mhs:persRef> to mitigate the condition of the American
 				Indians— M<hi rend="superscript">r</hi> Hay’s opinions upon the Colonization
 				Society, and its projects were unexpected to me— There are so many considerations of
 				difficulty and of delicacy mingling with this subject, that I would gladly keep
@@ -2152,10 +2152,10 @@
 				obliged to take a stand, and appear publicly among their opponents. Their project of
 				expurgating the United States, from the free people of Colour, at the public
 				expence, by colonizing them in Africa, is so far as it is sincere and honest, upon a
-				par with <persRef ref="symmes-john">John Cleves Symmes’s</persRef> project of going to the North Pole, and travelling
+				par with <mhs:persRef ref="symmes-john">John Cleves Symmes’s</mhs:persRef> project of going to the North Pole, and travelling
 				within the Nut shell of the Earth— I finished the draught of General Instructions to
-				<persRef ref="graham-john">J. Graham</persRef>. <persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</persRef> spent the Evening at her <persRef key="smith-catherine-johnson">Sister
-				Smith’s</persRef>— Evening without fire in my cabinet.</p>
+				<mhs:persRef ref="graham-john">J. Graham</mhs:persRef>. <mhs:persRef key="adams-louisa-catherine">M<hi rend="superscript">rs</hi> Adams</mhs:persRef> spent the Evening at her <mhs:persRef key="smith-catherine-johnson">Sister
+				Smith’s</mhs:persRef>— Evening without fire in my cabinet.</p>
 		</div>
 	</div>
 
@@ -2176,8 +2176,8 @@
 
 			<p><dateline>30. V:</dateline> I had not a thought when writing my Journal of yesterday
 				that I should so soon be brought into direct collision with the Colonization
-				Society— But this morning, <persRef ref="laurie-james">M<hi rend="superscript">r</hi> Laurie</persRef> the Presbyterian,
-				and <persRef ref="hawley-william">M<hi rend="superscript">r</hi> Hawley</persRef> the <pb type="ms" n="101"/>Episcopalian
+				Society— But this morning, <mhs:persRef ref="laurie-james">M<hi rend="superscript">r</hi> Laurie</mhs:persRef> the Presbyterian,
+				and <mhs:persRef ref="hawley-william">M<hi rend="superscript">r</hi> Hawley</mhs:persRef> the <pb type="ms" n="101"/>Episcopalian
 				Clergymen, came to my Office, as deputies from the Society, with a Subscription
 				paper, to raise money to send to Africa the Slaves which have been advertised for
 				sale for the benefit of the State of Georgia. The Legislature of Georgia, authorized
@@ -2187,8 +2187,8 @@
 				smuggling in of these Negroes. The Society have accepted this offer, and are now
 				soliciting subscriptions to collect the money— They have been for some days
 				addressing the public, and soliciting, in the Newspapers; and now these Clergymen
-				are going round as their deputies, with the subscription paper— <persRef key="crawford-william-harris">M<hi
-					rend="superscript">r</hi> Crawford’s</persRef> name was down for 50 dollars. I declined
+				are going round as their deputies, with the subscription paper— <mhs:persRef key="crawford-william-harris">M<hi
+					rend="superscript">r</hi> Crawford’s</mhs:persRef> name was down for 50 dollars. I declined
 				subscribing, and told Mess<hi rend="superscript">rs: </hi>Laurie and Hawley, that on
 				full deliberation I had with regret made up my opinion; that the object of the
 				Society was impracticable to any considerable extent; and that as far as it would be
@@ -2213,16 +2213,16 @@
 				Society, I should wish what had passed between us might not be made known—but so far
 				as it concerned only myself, I had no wish that it should be kept private— Their
 				deportment was entirely proper; and Hawley, looked assent to almost all that I said—
-				This was a day of exceptionable subscription papers— <persRef ref="kerr-alexander">M<hi rend="superscript">r</hi>
-					Kerr</persRef> brought me one for a Ball to be given to <persRef ref="hyde-de-neuville-jean;hyde-de-neuville-ann">M<hi rend="superscript">r</hi> and
-				Madame Hyde de Neuville</persRef>, which I also declined; not from any disregard for them; but
-				disapproving it as a precedent and example. In the case of the Ball given to <persRef ref="bagot-charles;bagot-mary">M<hi
-					rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> Bagot</persRef>, I had not
+				This was a day of exceptionable subscription papers— <mhs:persRef ref="kerr-alexander">M<hi rend="superscript">r</hi>
+					Kerr</mhs:persRef> brought me one for a Ball to be given to <mhs:persRef ref="hyde-de-neuville-jean;hyde-de-neuville-ann">M<hi rend="superscript">r</hi> and
+				Madame Hyde de Neuville</mhs:persRef>, which I also declined; not from any disregard for them; but
+				disapproving it as a precedent and example. In the case of the Ball given to <mhs:persRef ref="bagot-charles;bagot-mary">M<hi
+					rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> Bagot</mhs:persRef>, I had not
 				been consulted; it was got up principally by members of Congress, and although I was
 				invited to it, I had accepted not without hesitation— At that Ball unpleasant
 				circumstances had occurred, and would have convinced me independent of any preceding
 				objections, that the example ought not to be repeated. There was an attempt made
-				before <persRef ref="onis-luis">M<hi rend="superscript">r</hi> Onis</persRef> went away to raise a subscription first
+				before <mhs:persRef ref="onis-luis">M<hi rend="superscript">r</hi> Onis</mhs:persRef> went away to raise a subscription first
 				to give him a dinner; and then a Ball; both of which failed— One of the great
 				mischiefs of all these subscription entertainments is that it levies upon perhaps
 				half the subscribers a tax, which they have neither ability to pay, nor strength of
@@ -2233,18 +2233,18 @@
 				times were so hard, and people were so distressed for money, that they could not
 				otherwise make up their subscription— I requested him if it should be made up not to
 				send me an invitation; as I could not accept it, especially after having declined to
-				subscribe— <persRef ref="brent-daniel">M<hi rend="superscript">r</hi> Brent</persRef> took the Instructions prepared for
-					<persRef ref="graham-john">M<hi rend="superscript">r</hi> Graham</persRef> to him, at a place on the way to
-				Annapolis, to which he is gone. I made the draft of a Letter to <persRef ref="hill-henry">Henry Hill</persRef>, Consul
+				subscribe— <mhs:persRef ref="brent-daniel">M<hi rend="superscript">r</hi> Brent</mhs:persRef> took the Instructions prepared for
+					<mhs:persRef ref="graham-john">M<hi rend="superscript">r</hi> Graham</mhs:persRef> to him, at a place on the way to
+				Annapolis, to which he is gone. I made the draft of a Letter to <mhs:persRef ref="hill-henry">Henry Hill</mhs:persRef>, Consul
 				at Rio de Janeiro; and it was all that I could accomplish at the Office this day—
-				Dined with <persRef key="adams-louisa-catherine">my wife</persRef> and <persRef ref="hellen-mary">Mary Hellen</persRef> at <persRef ref="frye-nathaniel">M<hi rend="superscript">r</hi> Frye’s</persRef>. <persRef ref="smith-william-steuben;smith-catherine-johnson">M<hi rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> W. S. Smith</persRef> were
+				Dined with <mhs:persRef key="adams-louisa-catherine">my wife</mhs:persRef> and <mhs:persRef ref="hellen-mary">Mary Hellen</mhs:persRef> at <mhs:persRef ref="frye-nathaniel">M<hi rend="superscript">r</hi> Frye’s</mhs:persRef>. <mhs:persRef ref="smith-william-steuben;smith-catherine-johnson">M<hi rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> W. S. Smith</mhs:persRef> were
 				also there— They came in the Carriage and took me up at the Office— Stopping at the
 				six buildings to take in Mary Hellen, who goes to School there, I left the Carriage
 				to walk— The stubborn horse <hi rend="italic">balked</hi>, and broke the Pole <pb
 					type="ms" n="102"/>of the Carriage. We were then all obliged to walk: and so in
 				the Evening to come home; till opposite the President’s house where we met an empty
 				Hack in which we came home; leaving M<hi rend="superscript">rs</hi> Smith at
-				<persRef ref="fletcher-noah">Fletchers</persRef>— Smith continued his walk home.— There has already been much warm weather;
+				<mhs:persRef ref="fletcher-noah">Fletchers</mhs:persRef>— Smith continued his walk home.— There has already been much warm weather;
 				but this is the first day that I have had no fire in my writing room.</p>
 			
 			

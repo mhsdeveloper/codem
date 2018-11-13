@@ -777,21 +777,21 @@
 
                     <div type="docbody">
                         <p><dateline>[17.] V:45.</dateline> Capitol.</p>
-                        <p><persRef ref="brent-daniel">Brent. D.</persRef>— M Lean— <persRef
-                                ref="good-william">W. Good</persRef>— Instr<hi rend="superscript"
-                                >ns</hi> to <persRef ref="anderson-richard">Anderson</persRef>.</p>
+                        <p><mhs:persRef ref="brent-daniel">Brent. D.</mhs:persRef>— M Lean— <mhs:persRef
+                                ref="good-william">W. Good</mhs:persRef>— Instr<hi rend="superscript"
+                                >ns</hi> to <mhs:persRef ref="anderson-richard">Anderson</mhs:persRef>.</p>
                         <list>
-                            <item><persRef ref="dorsey-clement">Dorsey. C</persRef></item>
+                            <item><mhs:persRef ref="dorsey-clement">Dorsey. C</mhs:persRef></item>
                             <item>[Jo]hnson</item>
                             <item>Barney— Navy-Yard— and Colonial Trade</item>
                             <item>Watkins.</item>
-                            <item>King. C.— N.Y. Ins. Co<hi rend="superscript">s</hi> and <persRef
-                                    ref="thomson-edward">E. Thompson</persRef>— <persRef
-                                    ref="tillotson-robert">Tillotson</persRef> &amp;c</item>
-                            <item><persRef ref="barbour-james">Barbour</persRef></item>
-                            <item><persRef key="rush-richard">Rush</persRef>—</item>
-                            <item><persRef ref="hughes-christopher">[Hu]ghes. Ch<hi
-                                        rend="superscript">r</hi></persRef></item>
+                            <item>King. C.— N.Y. Ins. Co<hi rend="superscript">s</hi> and <mhs:persRef
+                                    ref="thomson-edward">E. Thompson</mhs:persRef>— <mhs:persRef
+                                    ref="tillotson-robert">Tillotson</mhs:persRef> &amp;c</item>
+                            <item><mhs:persRef ref="barbour-james">Barbour</mhs:persRef></item>
+                            <item><mhs:persRef key="rush-richard">Rush</mhs:persRef>—</item>
+                            <item><mhs:persRef ref="hughes-christopher">[Hu]ghes. Ch<hi
+                                        rend="superscript">r</hi></mhs:persRef></item>
                             <cb/>
                             <item>Message to S.U.S. N. 28.</item>
                             <item>Message to both Houses. N. 2.</item>
@@ -811,22 +811,22 @@
                     </bibl>
 
                     <div type="docbody">
-                        <p><dateline>[18] V:45.</dateline> Capitol. Call at <persRef
+                        <p><dateline>[18] V:45.</dateline> Capitol. Call at <mhs:persRef
                                 ref="southard-samuel">M<hi rend="superscript">r</hi>
-                                Southard’s</persRef>— <persRef ref="taliaferro-john"
-                                >Taliaferro</persRef></p>
+                                Southard’s</mhs:persRef>— <mhs:persRef ref="taliaferro-john"
+                                >Taliaferro</mhs:persRef></p>
                         <list>
-                            <item><persRef ref="symmes-c">[Sy]mmes— C. J.</persRef> His Lecture.</item>
-                            <item><persRef key="rush-richard">[Ru]sh</persRef>— S.T.</item>
-                            <item><persRef ref="lowrie-walter">[Lo]wry. W</persRef>— Res<hi
+                            <item><mhs:persRef ref="symmes-c">[Sy]mmes— C. J.</mhs:persRef> His Lecture.</item>
+                            <item><mhs:persRef key="rush-richard">[Ru]sh</mhs:persRef>— S.T.</item>
+                            <item><mhs:persRef ref="lowrie-walter">[Lo]wry. W</mhs:persRef>— Res<hi
                                 rend="superscript">n.</hi>
-                                <persRef ref="u">Pottinger</persRef>.</item>
-                            <item><persRef ref="mclane-allen">M’Lane— Allen</persRef></item>
-                            <item><persRef ref="lee-william">[Le]e— W.</persRef></item>
-                            <item><persRef ref="duane-william">[Du]ane— W. J.</persRef></item>
+                                <mhs:persRef ref="u">Pottinger</mhs:persRef>.</item>
+                            <item><mhs:persRef ref="mclane-allen">M’Lane— Allen</mhs:persRef></item>
+                            <item><mhs:persRef ref="lee-william">[Le]e— W.</mhs:persRef></item>
+                            <item><mhs:persRef ref="duane-william">[Du]ane— W. J.</mhs:persRef></item>
                             <item>Rush— S.T</item>
-                            <item><persRef key="clay-henry">[Cl]ay</persRef> S.S.</item>
-                            <item><persRef ref="cook-daniel">Cook D. P.</persRef> West Point Academy.</item>
+                            <item><mhs:persRef key="clay-henry">[Cl]ay</mhs:persRef> S.S.</item>
+                            <item><mhs:persRef ref="cook-daniel">Cook D. P.</mhs:persRef> West Point Academy.</item>
                         </list>
                     </div>
                 </div>
@@ -842,21 +842,21 @@
                     <div type="docbody">
                         <pb type="ms" n="958"/>
                         <p><dateline>19. VI.</dateline> No morning walk.</p>
-                        <p>Heard <persRef ref="little-robert">Little</persRef> 2 Cor: 5.17—</p>
-                        <p>Call on <persRef ref="burges-tristam">Burges</persRef>—too ill to be
-                            seen. <persRef ref="woodbury-levi">Woodbury</persRef>. <persRef
-                                ref="bartlett-ichabod">Bartlett</persRef>.</p>
-                        <p>Call on <persRef ref="southard-samuel">Southard</persRef>—ill in bed.</p>
-                        <p>Heard a Stranger at <persRef ref="baker-daniel">Baker’s</persRef>.
+                        <p>Heard <mhs:persRef ref="little-robert">Little</mhs:persRef> 2 Cor: 5.17—</p>
+                        <p>Call on <mhs:persRef ref="burges-tristam">Burges</mhs:persRef>—too ill to be
+                            seen. <mhs:persRef ref="woodbury-levi">Woodbury</mhs:persRef>. <mhs:persRef
+                                ref="bartlett-ichabod">Bartlett</mhs:persRef>.</p>
+                        <p>Call on <mhs:persRef ref="southard-samuel">Southard</mhs:persRef>—ill in bed.</p>
+                        <p>Heard a Stranger at <mhs:persRef ref="baker-daniel">Baker’s</mhs:persRef>.
                             Ephesians 2.8.</p>
                         <list rendition="#bracket-left">
-                            <item><persRef ref="dwight-henry">Dwight</persRef>.</item>
-                            <item><persRef ref="gallatin-albert">Gallatin</persRef></item>
-                            <item><persRef ref="huntt-henry">Huntt</persRef></item>
-                            <item><persRef ref="king-william">King</persRef></item>
-                            <item><persRef ref="u">Quincy</persRef></item>
-                            <item><persRef ref="wheatland-george">Wheatland</persRef> to
-                                dine— <persRef ref="lee-carter">Carter Lee</persRef> at
+                            <item><mhs:persRef ref="dwight-henry">Dwight</mhs:persRef>.</item>
+                            <item><mhs:persRef ref="gallatin-albert">Gallatin</mhs:persRef></item>
+                            <item><mhs:persRef ref="huntt-henry">Huntt</mhs:persRef></item>
+                            <item><mhs:persRef ref="king-william">King</mhs:persRef></item>
+                            <item><mhs:persRef ref="u">Quincy</mhs:persRef></item>
+                            <item><mhs:persRef ref="wheatland-george">Wheatland</mhs:persRef> to
+                                dine— <mhs:persRef ref="lee-carter">Carter Lee</mhs:persRef> at
                                 Eve.</item>
                         </list>
                     </div>
@@ -875,21 +875,21 @@
                         <p><dateline>20. VI.</dateline> Rain no walk.</p>
                         <list>
                             <item>
-                                <persRef ref="king-charles">King. Charles</persRef>— for Answer to Ins. Companies.</item>
+                                <mhs:persRef ref="king-charles">King. Charles</mhs:persRef>— for Answer to Ins. Companies.</item>
                             <item>
                                 <list>
                                     <head rendition="bracket-left">for Consulate La
                                         Guayra</head>
-                                    <item><persRef ref="smith-samuel2">Smith— Sam<hi
-                                            rend="superscript">l</hi></persRef></item>
-                                    <item><persRef ref="carr-dabney">Carr— Dabney.</persRef></item>
+                                    <item><mhs:persRef ref="smith-samuel2">Smith— Sam<hi
+                                            rend="superscript">l</hi></mhs:persRef></item>
+                                    <item><mhs:persRef ref="carr-dabney">Carr— Dabney.</mhs:persRef></item>
                                 </list>                   
                             </item>
                                
-                            <item><persRef ref="purviance-robert">Purviance— Rob<hi rend="superscript"
-                                >t.</hi></persRef> d<hi rend="superscript">o.</hi></item>
-                            <item><persRef ref="brent-daniel">Brent— Daniel</persRef></item>
-                            <item><persRef ref="ingersoll-charles">Ingersoll. C. J.</persRef></item>
+                            <item><mhs:persRef ref="purviance-robert">Purviance— Rob<hi rend="superscript"
+                                >t.</hi></mhs:persRef> d<hi rend="superscript">o.</hi></item>
+                            <item><mhs:persRef ref="brent-daniel">Brent— Daniel</mhs:persRef></item>
+                            <item><mhs:persRef ref="ingersoll-charles">Ingersoll. C. J.</mhs:persRef></item>
                         </list>
                     </div>
                 </div>
@@ -907,25 +907,25 @@
 
                         <p><dateline>21. V:15.</dateline> Capitol— Rain</p>
                         <list>
-                        <item><persRef ref="johnson-richard">Johnson R. M</persRef>— Judge S.C.
-                                <persRef ref="trimble-david">Trimble</persRef>, <persRef ref="u"
-                                >Boyle</persRef>, <persRef ref="pope-john">J. Pope</persRef>
-                            <persRef ref="bibb-george">Bibb</persRef>—</item>
-                        <item><persRef ref="ironside-george">Ironside</persRef></item>
-                        <item><persRef ref="u">Saunders</persRef></item>
-                        <item><persRef ref="u">Williamson</persRef>—</item>
-                        <item><persRef ref="johnson-francis">Johnson— F.</persRef> Senate Res<hi
+                        <item><mhs:persRef ref="johnson-richard">Johnson R. M</mhs:persRef>— Judge S.C.
+                                <mhs:persRef ref="trimble-david">Trimble</mhs:persRef>, <mhs:persRef ref="u"
+                                >Boyle</mhs:persRef>, <mhs:persRef ref="pope-john">J. Pope</mhs:persRef>
+                            <mhs:persRef ref="bibb-george">Bibb</mhs:persRef>—</item>
+                        <item><mhs:persRef ref="ironside-george">Ironside</mhs:persRef></item>
+                        <item><mhs:persRef ref="u">Saunders</mhs:persRef></item>
+                        <item><mhs:persRef ref="u">Williamson</mhs:persRef>—</item>
+                        <item><mhs:persRef ref="johnson-francis">Johnson— F.</mhs:persRef> Senate Res<hi
                                 rend="superscript">ns</hi>— Judge Ohio and K<hi rend="superscript"
                                 >y</hi></item>
-                        <item><persRef ref="barbour-james">Barbour</persRef>— S.W. Transfer of
+                        <item><mhs:persRef ref="barbour-james">Barbour</mhs:persRef>— S.W. Transfer of
                             Artillery Reg<hi rend="superscript">ts.</hi></item>
-                        <item><persRef ref="watkins-tobias">Watkins. T</persRef></item>
-                        <item><persRef ref="smith-samuel">Smith. Sam<hi rend="superscript"
-                                >l.</hi></persRef> H—</item>
-                        <item><persRef key="clay-henry">Clay</persRef>. S.S.</item>
-                        <item><persRef ref="everett-edward">Everett. Edward</persRef></item>
-                        <item><persRef ref="webster-daniel">Webster— D.</persRef></item>
-                        <item><persRef ref="blake-george">Blake— G.</persRef></item>
+                        <item><mhs:persRef ref="watkins-tobias">Watkins. T</mhs:persRef></item>
+                        <item><mhs:persRef ref="smith-samuel">Smith. Sam<hi rend="superscript"
+                                >l.</hi></mhs:persRef> H—</item>
+                        <item><mhs:persRef key="clay-henry">Clay</mhs:persRef>. S.S.</item>
+                        <item><mhs:persRef ref="everett-edward">Everett. Edward</mhs:persRef></item>
+                        <item><mhs:persRef ref="webster-daniel">Webster— D.</mhs:persRef></item>
+                        <item><mhs:persRef ref="blake-george">Blake— G.</mhs:persRef></item>
                         </list>
                     </div>
                 </div>
@@ -947,30 +947,30 @@
                         <list>
                             <item>
                                 <list rendition="#bracket-left" >
-                                   <item> <persRef ref="edwards-weldon">Edwards— W.
-                                        N.</persRef></item>
-                                    <item><persRef ref="u">Sneed</persRef>.</item>
+                                   <item> <mhs:persRef ref="edwards-weldon">Edwards— W.
+                                        N.</mhs:persRef></item>
+                                    <item><mhs:persRef ref="u">Sneed</mhs:persRef>.</item>
                                 </list>
                             </item>
-                            <item><persRef key="rush-richard">Rush</persRef>— <persRef ref="u">Lieut<hi
-                                        rend="superscript">t.</hi> Easton</persRef>— <persRef
-                                    ref="king-charles">C. King’s</persRef> 2<hi rend="superscript"
+                            <item><mhs:persRef key="rush-richard">Rush</mhs:persRef>— <mhs:persRef ref="u">Lieut<hi
+                                        rend="superscript">t.</hi> Easton</mhs:persRef>— <mhs:persRef
+                                    ref="king-charles">C. King’s</mhs:persRef> 2<hi rend="superscript"
                                     >d.</hi> Offer. Draft of Message— Meeting</item>
                             <item>
                                 <list rendition="#bracket-left">
-                                        <item><persRef ref="u">Buchanan</persRef></item>
-                                        <item><persRef ref="u">Meyer</persRef></item>
-                                        <item><persRef ref="u">Boyd</persRef></item>
+                                        <item><mhs:persRef ref="u">Buchanan</mhs:persRef></item>
+                                        <item><mhs:persRef ref="u">Meyer</mhs:persRef></item>
+                                        <item><mhs:persRef ref="u">Boyd</mhs:persRef></item>
                                 </list>
                             </item>
                             <item>
                                 <list rendition="#bracket-left">
-                                    <item><persRef ref="smith-samuel">Smith— S.</persRef></item>
-                                    <item><persRef ref="chambers-ezekiel">Chambers—</persRef>
+                                    <item><mhs:persRef ref="smith-samuel">Smith— S.</mhs:persRef></item>
+                                    <item><mhs:persRef ref="chambers-ezekiel">Chambers—</mhs:persRef>
                                         S.U.S.</item>
                                 </list>
                             </item>
-                            <item><persRef ref="u">Scott</persRef> of V<hi rend="superscript">a</hi>
+                            <item><mhs:persRef ref="u">Scott</mhs:persRef> of V<hi rend="superscript">a</hi>
                                 place.</item>
                             <item>Militia Salutes.</item>
                             <item>Birth-night Ball.</item>
@@ -999,15 +999,15 @@
 				    <item>
 				        <list>
         					<head rendition="#bracket-left">Panama Message to H.R—</head>
-        					<item><persRef key="clay-henry">Clay</persRef> S.S.</item>
-        					<item><persRef key="rush-richard">Rush</persRef> S.T</item>
-        					<item><persRef ref="barbour-james">Barbour</persRef> S.W.</item>
-        					<item><persRef ref="wirt-william">Wirt.</persRef> A.G.</item>
+        					<item><mhs:persRef key="clay-henry">Clay</mhs:persRef> S.S.</item>
+        					<item><mhs:persRef key="rush-richard">Rush</mhs:persRef> S.T</item>
+        					<item><mhs:persRef ref="barbour-james">Barbour</mhs:persRef> S.W.</item>
+        					<item><mhs:persRef ref="wirt-william">Wirt.</mhs:persRef> A.G.</item>
 					   </list>
 				    </item>
-					<item><persRef ref="ingersoll-charles">Ingersoll. C. J.</persRef> going home—
+					<item><mhs:persRef ref="ingersoll-charles">Ingersoll. C. J.</mhs:persRef> going home—
 						Com<hi rend="superscript">ee</hi> case of G.C.R</item>
-					<item><persRef ref="mills-elijah">Mills</persRef></item>
+					<item><mhs:persRef ref="mills-elijah">Mills</mhs:persRef></item>
 				</list>
 			</div>
 		</div>
@@ -1060,16 +1060,16 @@
 			    
 			    
 				<list>
-					<item><persRef ref="seymour-horatio">Seymour</persRef></item>
-					<item><persRef ref="pearce-dutee">Pearce</persRef> of Con.</item>
-					<item><persRef ref="dorsey-clement">Dorsey</persRef></item>
-					<item><persRef ref="u">Gough</persRef></item>
-					<item><persRef ref="u">Payson</persRef></item>
+					<item><mhs:persRef ref="seymour-horatio">Seymour</mhs:persRef></item>
+					<item><mhs:persRef ref="pearce-dutee">Pearce</mhs:persRef> of Con.</item>
+					<item><mhs:persRef ref="dorsey-clement">Dorsey</mhs:persRef></item>
+					<item><mhs:persRef ref="u">Gough</mhs:persRef></item>
+					<item><mhs:persRef ref="u">Payson</mhs:persRef></item>
 					<item>Trimble</item>
 					<item>Reed</item>
-					<item><persRef ref="bailey-john">Bailey</persRef></item>
+					<item><mhs:persRef ref="bailey-john">Bailey</mhs:persRef></item>
 					<item>Clarke. Gov<hi rend="superscript">r</hi></item>
-					<item><persRef ref="hayden-moses">Hayden</persRef></item>
+					<item><mhs:persRef ref="hayden-moses">Hayden</mhs:persRef></item>
 				</list>
 			</div>
 		</div>
@@ -1087,15 +1087,15 @@
 				<pb type="ms" n="960"/>
 				<p><dateline>25. V.</dateline> Capitol.</p>
 				<list>
-					<item><persRef ref="mclean-willaim">M’Lean</persRef>— W. Ohio</item>
-					<item><persRef ref="mclean-john">His brother</persRef></item>
-					<item><persRef ref="miller-john">Miller</persRef></item>
-					<item><persRef ref="ward-aaron">Ward</persRef>.</item>
-					<item><persRef ref="turberville-george">Turberville. G.
-						Lee</persRef>.</item>
-					<item><persRef ref="bell-samuel">Bell</persRef></item>
-					<item><persRef ref="barney-john2">Barney</persRef></item>
-					<item><persRef ref="u">Etting</persRef></item>
+					<item><mhs:persRef ref="mclean-willaim">M’Lean</mhs:persRef>— W. Ohio</item>
+					<item><mhs:persRef ref="mclean-john">His brother</mhs:persRef></item>
+					<item><mhs:persRef ref="miller-john">Miller</mhs:persRef></item>
+					<item><mhs:persRef ref="ward-aaron">Ward</mhs:persRef>.</item>
+					<item><mhs:persRef ref="turberville-george">Turberville. G.
+						Lee</mhs:persRef>.</item>
+					<item><mhs:persRef ref="bell-samuel">Bell</mhs:persRef></item>
+					<item><mhs:persRef ref="barney-john2">Barney</mhs:persRef></item>
+					<item><mhs:persRef ref="u">Etting</mhs:persRef></item>
 					<item>Barney</item>
 					<item>Lawrence</item>
 					<item rendition="#dotted-below">Officer</item>
@@ -1105,36 +1105,36 @@
 					    <list>
     						<head rendition="#bracket-left">Land Office
     							Tiffin</head>
-    						<item><persRef ref="ruggles-benjamin"
-    							>Ruggles</persRef></item>
-    						<item> <persRef ref="bartley-mordecai"
-    							>Bartley</persRef></item>
+    						<item><mhs:persRef ref="ruggles-benjamin"
+    							>Ruggles</mhs:persRef></item>
+    						<item> <mhs:persRef ref="bartley-mordecai"
+    							>Bartley</mhs:persRef></item>
     					</list>
 					</item>
-					<item><persRef ref="wood-silas">Wood</persRef>— Letter from <persRef
-						ref="hoffman-josiah">Hoffman</persRef> N.Y. Dist. Att<hi
+					<item><mhs:persRef ref="wood-silas">Wood</mhs:persRef>— Letter from <mhs:persRef
+						ref="hoffman-josiah">Hoffman</mhs:persRef> N.Y. Dist. Att<hi
 							rend="superscript">y</hi></item>
-					<item><persRef ref="tomlinson-gideon">Tomlinson</persRef>— Dist<hi
+					<item><mhs:persRef ref="tomlinson-gideon">Tomlinson</mhs:persRef>— Dist<hi
 						rend="superscript">t.</hi> judge. Con<hi rend="superscript"
 							>t</hi></item>
-					<item><persRef ref="bradley-unknown">Bradley</persRef>— of <persRef
-						ref="fisk-james">Fisk</persRef>— Indian Treaties</item>
+					<item><mhs:persRef ref="bradley-unknown">Bradley</mhs:persRef>— of <mhs:persRef
+						ref="fisk-james">Fisk</mhs:persRef>— Indian Treaties</item>
 					<item>
 					    <list>
     						<head rendition="#bracket-left">Panama Message to
     							H.R.U.S. postponable.</head>
-    						<item><persRef key="clay-henry">Clay</persRef></item>
-    						<item><persRef key="rush-richard">Rush</persRef></item>
-    						<item><persRef ref="barbour-james">Barbour</persRef></item>
-    						<item><persRef ref="wirt-william">Wirt.</persRef></item>
+    						<item><mhs:persRef key="clay-henry">Clay</mhs:persRef></item>
+    						<item><mhs:persRef key="rush-richard">Rush</mhs:persRef></item>
+    						<item><mhs:persRef ref="barbour-james">Barbour</mhs:persRef></item>
+    						<item><mhs:persRef ref="wirt-william">Wirt.</mhs:persRef></item>
     					</list>
 					</item>
 			    </list>
 				<list rendition="#float-right">
-					<item><persRef ref="adams-john2">John</persRef> &amp; <persRef
-						ref="adams-charles2">Charles</persRef> dined at
+					<item><mhs:persRef ref="adams-john2">John</mhs:persRef> &amp; <mhs:persRef
+						ref="adams-charles2">Charles</mhs:persRef> dined at
 						Vaughan’s.</item>
-					<item><persRef ref="hellen-johnson">Johnson Hellen</persRef>
+					<item><mhs:persRef ref="hellen-johnson">Johnson Hellen</mhs:persRef>
 						here.</item>
 				</list>
 			</div>
@@ -1153,25 +1153,25 @@
 				
 				<p><dateline>26. V.</dateline> Sun-rose 6:28. In line over S. Corner of F.
 					Street— same 14 Oct<hi rend="superscript">r.</hi></p>
-				<p>Heard <persRef ref="hawley-william">Hawley</persRef>. Luke
+				<p>Heard <mhs:persRef ref="hawley-william">Hawley</mhs:persRef>. Luke
 					15.18.19.20.</p>
-				<p>Call at <persRef ref="southard-samuel">Southard’s</persRef>— <persRef
-					ref="lovell-joseph">D<hi rend="superscript">r</hi> Lovell</persRef>
-					there Met <persRef ref="lloyd-james">Ja<hi rend="superscript">s.</hi>
-						Lloyd</persRef>.</p>
-				<p>At <persRef ref="cook-thomas">T. Cook’s</persRef> Georgetown— In bed—
+				<p>Call at <mhs:persRef ref="southard-samuel">Southard’s</mhs:persRef>— <mhs:persRef
+					ref="lovell-joseph">D<hi rend="superscript">r</hi> Lovell</mhs:persRef>
+					there Met <mhs:persRef ref="lloyd-james">Ja<hi rend="superscript">s.</hi>
+						Lloyd</mhs:persRef>.</p>
+				<p>At <mhs:persRef ref="cook-thomas">T. Cook’s</mhs:persRef> Georgetown— In bed—
 					last Stage of Consumption</p>
-				<p>Heard Mines at <persRef ref="baker-daniel">Baker’s</persRef>— John 1.1.
-					Met <persRef ref="lloyd-hannah">M<hi rend="superscript">rs</hi>
-						Lloyd</persRef> &amp; <persRef ref="lovell-margaret">M<hi
-							rend="superscript">rs</hi> Lovell</persRef></p>
-				<p><persRef ref="king-charles">King. Charles</persRef> dined with us—</p>
-				<p><persRef ref="pope-nathaniel">Pope— Nath<hi rend="superscript"
-					>l</hi></persRef></p>
-				<p><persRef ref="cook-daniel">Cook— Dan<hi rend="superscript">l</hi>
-					P.</persRef></p>
-				<p><persRef ref="webster-daniel">Webster— D</persRef> in the Evening.</p>
-				<p><persRef ref="gaillard-john">J. Gaillard</persRef> died at 3. P.M.</p>
+				<p>Heard Mines at <mhs:persRef ref="baker-daniel">Baker’s</mhs:persRef>— John 1.1.
+					Met <mhs:persRef ref="lloyd-hannah">M<hi rend="superscript">rs</hi>
+						Lloyd</mhs:persRef> &amp; <mhs:persRef ref="lovell-margaret">M<hi
+							rend="superscript">rs</hi> Lovell</mhs:persRef></p>
+				<p><mhs:persRef ref="king-charles">King. Charles</mhs:persRef> dined with us—</p>
+				<p><mhs:persRef ref="pope-nathaniel">Pope— Nath<hi rend="superscript"
+					>l</hi></mhs:persRef></p>
+				<p><mhs:persRef ref="cook-daniel">Cook— Dan<hi rend="superscript">l</hi>
+					P.</mhs:persRef></p>
+				<p><mhs:persRef ref="webster-daniel">Webster— D</mhs:persRef> in the Evening.</p>
+				<p><mhs:persRef ref="gaillard-john">J. Gaillard</mhs:persRef> died at 3. P.M.</p>
 			</div>
 		</div>
 		
@@ -1187,7 +1187,7 @@
 			<div type="docbody">
 				<pb type="ms" n="961"/>
 				<p><dateline>27. V.</dateline> Capitol Square. Walk down Avenue with
-					<persRef ref="marshall-john">C.J. Marshall</persRef>.</p>
+					<mhs:persRef ref="marshall-john">C.J. Marshall</mhs:persRef>.</p>
 
 			    <table rendition="#float-right">
 			        <head rendition="#float-left">Land-grants</head>
@@ -1202,25 +1202,25 @@
 			    </table>
 			    
 				<list>
-					<item><persRef ref="schee-unknown">Schee. James—</persRef> for Consulate
+					<item><mhs:persRef ref="schee-unknown">Schee. James—</mhs:persRef> for Consulate
 						at La Guayra</item>
-					<item><persRef ref="williams-john">Williams John</persRef></item>
-					<item><persRef ref="smith-thomas3">Smith Gen<hi rend="superscript"
-						>l</hi></persRef> of Missouri</item>
-					<item><persRef key="clay-henry">Clay</persRef> S.S.</item>
-					<item><persRef ref="dorsey-clement">Dorsey— C.</persRef> of <persRef
-						ref="u">Gough.</persRef>
-						<persRef ref="u">Johnson</persRef> &amp; S<hi rend="superscript"
+					<item><mhs:persRef ref="williams-john">Williams John</mhs:persRef></item>
+					<item><mhs:persRef ref="smith-thomas3">Smith Gen<hi rend="superscript"
+						>l</hi></mhs:persRef> of Missouri</item>
+					<item><mhs:persRef key="clay-henry">Clay</mhs:persRef> S.S.</item>
+					<item><mhs:persRef ref="dorsey-clement">Dorsey— C.</mhs:persRef> of <mhs:persRef
+						ref="u">Gough.</mhs:persRef>
+						<mhs:persRef ref="u">Johnson</mhs:persRef> &amp; S<hi rend="superscript"
 							>t.</hi> Mary’s.</item>
-					<item><persRef ref="watkins-tobias">Watkins D<hi rend="superscript"
-						>r.</hi></persRef></item>
-					<item><persRef ref="marks-william">Marks.</persRef></item>
-					<item><persRef ref="markley-philip">Markley</persRef></item>
-					<item><persRef ref="u">Richer—</persRef> Consulate La Guayra.</item>
-					<item><persRef ref="lee-william">Lee— W.</persRef></item>
-					<item><persRef ref="lawrence-samuel">Lawrence—</persRef> N.Y.</item>
-					<item><persRef ref="taylor-john">Taylor J. W.</persRef></item>
-					<item><persRef ref="everett-edward">Everett E.</persRef></item>
+					<item><mhs:persRef ref="watkins-tobias">Watkins D<hi rend="superscript"
+						>r.</hi></mhs:persRef></item>
+					<item><mhs:persRef ref="marks-william">Marks.</mhs:persRef></item>
+					<item><mhs:persRef ref="markley-philip">Markley</mhs:persRef></item>
+					<item><mhs:persRef ref="u">Richer—</mhs:persRef> Consulate La Guayra.</item>
+					<item><mhs:persRef ref="lee-william">Lee— W.</mhs:persRef></item>
+					<item><mhs:persRef ref="lawrence-samuel">Lawrence—</mhs:persRef> N.Y.</item>
+					<item><mhs:persRef ref="taylor-john">Taylor J. W.</mhs:persRef></item>
+					<item><mhs:persRef ref="everett-edward">Everett E.</mhs:persRef></item>
 				</list>
 				
 			</div>
@@ -1240,14 +1240,14 @@
 				<p><dateline>28. V.</dateline> Capitol— Rain— 22 [symbols] [P<hi
 					rend="superscript">a.</hi>] Avenue. 8 [symbols] from end of Avenue
 					to [symbols]</p>
-				<p><persRef ref="gaillard-john">J. Gaillard’s</persRef> funeral— from Senate
+				<p><mhs:persRef ref="gaillard-john">J. Gaillard’s</mhs:persRef> funeral— from Senate
 					Chamber 10­1.</p>
-				<p><persRef ref="foster-silas">Silas Foster</persRef>, to be appointed
+				<p><mhs:persRef ref="foster-silas">Silas Foster</mhs:persRef>, to be appointed
 					keeper of floating light—upper middle Shoal, Delaware Bay</p>
-				<p>Vice <persRef ref="price-w">W. Price</persRef> resigned.</p>
-				<p><persRef key="rush-richard">Rush</persRef>. S.T— <persRef
-					ref="king-charles">C. King’s</persRef> offers— <persRef ref="u"
-						>Captain Webster’s</persRef> charges ag<hi rend="superscript"
+				<p>Vice <mhs:persRef ref="price-w">W. Price</mhs:persRef> resigned.</p>
+				<p><mhs:persRef key="rush-richard">Rush</mhs:persRef>. S.T— <mhs:persRef
+					ref="king-charles">C. King’s</mhs:persRef> offers— <mhs:persRef ref="u"
+						>Captain Webster’s</mhs:persRef> charges ag<hi rend="superscript"
 							>t.</hi> Easton</p>
 				<p>Drowsy Eve</p>
 			</div>
