@@ -1,25 +1,27 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader><fileDesc>
-<titleStmt>
-<title/><author>Patricia Kalayjian</author></titleStmt>
-<editionStmt>
-<edition><date>2018-08-15</date></edition></editionStmt>
-<publicationStmt>
-<p>unknown</p>
-</publicationStmt>
-<sourceDesc>
-<p>Converted from a Word document</p>
-</sourceDesc>
+  <titleStmt>
+    <title/><author>Patricia Kalayjian</author>
+  </titleStmt>
+  <editionStmt>
+    <edition><date>2018-08-15</date></edition>
+  </editionStmt>
+  <publicationStmt>
+    <p>unknown</p>
+  </publicationStmt>
+  <sourceDesc>
+    <p>Converted from a Word document</p>
+  </sourceDesc>
 </fileDesc>
 <encodingDesc>
-<appInfo>
-<application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0"><label>DOCX to TEI</label></application>
-<application ident="MHS-WETVAC" version="0.1b"><label>MHS-WETVAC</label></application></appInfo>
+  <appInfo>
+    <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0"><label>DOCX to TEI</label></application>
+  <application ident="MHS-WETVAC" version="0.1b"><label>MHS-WETVAC</label></application></appInfo>
 </encodingDesc>
 <revisionDesc>
-<listChange>
-<change><date>2018-09-24T16:33:36Z</date><name>Patricia Kalayjian</name></change></listChange>
+  <change><date>2018-09-24T16:33:36Z</date><name>Patricia Kalayjian</name></change>
 </revisionDesc>
-</teiHeader><text>
+</teiHeader>
+<text>
 <body>
 <div type="doc" xml:id="CMS1804-12-29">
 <bibl>
