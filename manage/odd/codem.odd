@@ -126,7 +126,7 @@
 	<specGrpRef target="#personReferenceElement"/>
 	<!-- verse module -->
 	<!-- transcr module -->
-	<moduleRef key="transcr" include="supplied"/>
+	<moduleRef key="transcr" include="space supplied"/>
 	<!-- linking module -->
 	<!-- analysis module -->
 	<!-- textstructure module -->

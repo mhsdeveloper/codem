@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-11-13T00:44:30Z. .
+# Schema generated from ODD source 2018-11-13T01:49:36Z. .
 # TEI Edition: Version 3.5.0a. Last updated on
 #	12th October 2018, revision ae63ddc
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0a./
@@ -785,7 +785,7 @@ codem_model.stageLike_sequence = empty
 codem_model.stageLike_sequenceOptional = empty
 codem_model.stageLike_sequenceOptionalRepeatable = empty
 codem_model.stageLike_sequenceRepeatable = notAllowed
-codem_model.global.edit = notAllowed
+codem_model.global.edit = codem_space
 codem_model.divPart = codem_model.lLike | codem_model.pLike
 codem_model.placeNamePart = notAllowed
 codem_model.placeNamePart_alternation = notAllowed
@@ -807,6 +807,8 @@ codem_model.publicationStmtPart.agency = notAllowed
 codem_model.publicationStmtPart.detail =
   codem_model.ptrLike | codem_date | codem_availability
 codem_model.availabilityPart = notAllowed
+codem_model.certLike = notAllowed
+codem_model.descLike = notAllowed
 codem_model.quoteLike = notAllowed
 codem_model.quoteLike_alternation = notAllowed
 codem_model.quoteLike_sequence = empty
@@ -1472,6 +1474,37 @@ codem_att.global.change.attribute.change =
   attribute change {
     list { xsd:anyURI+ }
   }?
+
+codem_space =
+  ## indicates the location of a significant space in the text. [11.5.1. Space]
+  element space {
+    (codem_model.descLike | codem_model.certLike)*,
+    codem_att.global.attribute.xmlid,
+    codem_att.global.attribute.n,
+    codem_att.global.attribute.xmllang,
+    codem_att.global.attribute.xmlbase,
+    codem_att.global.attribute.xmlspace,
+    codem_att.global.rendition.attribute.rend,
+    codem_att.global.rendition.attribute.style,
+    codem_att.global.rendition.attribute.rendition,
+    codem_att.global.facs.attribute.facs,
+    codem_att.global.change.attribute.change,
+    codem_att.global.responsibility.attribute.cert,
+    codem_att.global.source.attribute.source,
+    codem_att.typed.attributes,
+    codem_att.dimensions.attributes,
+    ## (responsible party) (responsible party) indicates the individual responsible for identifying and measuring the space
+    attribute resp {
+      list { xsd:anyURI+ }
+    }?,
+    ## (dimension) indicates whether the space is horizontal or vertical.
+    attribute dim {
+      ## the space is horizontal.
+      "horizontal" | ## the space is vertical.
+        "vertical"
+    }?,
+    empty
+  }
 
 codem_supplied =
   ## signifies text supplied by the transcriber or editor for any reason; for example because the original cannot be read due to physical damage, or because of an obvious omission by the author or scribe. [11.3.3.1. Damage, Illegibility, and Supplied Text]
