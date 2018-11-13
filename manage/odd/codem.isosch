@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
    <title>ISO Schematron rules</title>
-   <!-- This file generated 2018-10-02T22:24:12Z by 'extract-isosch.xsl'. -->
+   <!-- This file generated 2018-11-13T00:44:32Z by 'extract-isosch.xsl'. -->
 
    <!-- ********************* -->
    <!-- namespaces, declared: -->
@@ -13,7 +13,7 @@
    <!-- ********************* -->
    <!-- namespaces, implicit: -->
    <!-- ********************* -->
-   <ns prefix="mhs" uri="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE"/>
+   <ns prefix="mhs" uri="http://www.masshist.org/ns/1.0"/>
 
    <!-- ************ -->
    <!-- constraints: -->

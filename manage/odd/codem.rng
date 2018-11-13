@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:teix="http://www.tei-c.org/ns/Examples" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
   <!--
-Schema generated from ODD source 2018-10-02T22:24:10Z. .
+Schema generated from ODD source 2018-11-13T00:44:30Z. .
 TEI Edition: Version 3.5.0a. Last updated on
-	1st October 2018, revision 7cfe7dc
+	12th October 2018, revision ae63ddc
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0a./
  Scehema intended to support at least jqa/ & correspondence/ 
 -->
@@ -362,17 +362,17 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
     </optional>
   </define>
   <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
-    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" context="tei:*[@when]">
+    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" context="tei:*[@when]">
       <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
     </sch:rule>
   </pattern>
   <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
-    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" context="tei:*[@from]">
+    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" context="tei:*[@from]">
       <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
     </sch:rule>
   </pattern>
   <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
-    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" context="tei:*[@to]">
+    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" context="tei:*[@to]">
       <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
     </sch:rule>
   </pattern>
@@ -390,7 +390,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
     </optional>
   </define>
   <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-att.datable-calendar-calendar-constraint-rule-4">
-    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" context="tei:*[@calendar]">
+    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" context="tei:*[@calendar]">
       <sch:assert test="string-length(.) gt 0">
 @calendar indicates the system or calendar to which the date represented by the content of this element
 belongs, but this <sch:name/> element has no textual content.</sch:assert>
@@ -817,7 +817,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
     </optional>
   </define>
   <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-att.typed-subtypeTyped-constraint-rule-5">
-    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" context="tei:*[@subtype]">
+    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" context="tei:*[@subtype]">
       <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
     </sch:rule>
   </pattern>
@@ -841,7 +841,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
     </optional>
   </define>
   <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-att.pointing-targetLang-targetLang-constraint-rule-6">
-    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
+    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
       <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
     </sch:rule>
   </pattern>
@@ -927,7 +927,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
     </optional>
   </define>
   <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-att.spanning-spanTo-spanTo-2-constraint-rule-7">
-    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" context="tei:*[@spanTo]">
+    <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" context="tei:*[@spanTo]">
       <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
 The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
                   </sch:assert>
@@ -1871,14 +1871,14 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       <ref name="codem_macro.paraContent"/>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-p-abstractModel-structure-p-constraint-report-5">
         <rule context="tei:p">
-          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </report>
         </rule>
       </pattern>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-p-abstractModel-structure-l-constraint-report-6">
         <rule context="tei:p">
-          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" test="ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]">
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" test="ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.
       </report>
         </rule>
@@ -2003,7 +2003,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <empty/>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-ptr-ptrAtts-constraint-report-7">
         <rule context="tei:ptr">
-          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" test="@target and @cRef">Only one of the
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" test="@target and @cRef">Only one of the
 attributes @target and @cRef may be supplied on <name/>.</report>
         </rule>
       </pattern>
@@ -2022,7 +2022,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
       <ref name="codem_macro.paraContent"/>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-ref-refAtts-constraint-report-8">
         <rule context="tei:ref">
-          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" test="@target and @cRef">Only one of the
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" test="@target and @cRef">Only one of the
 	attributes @target' and @cRef' may be supplied on <name/>
                </report>
         </rule>
@@ -2080,7 +2080,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
         </zeroOrMore>
       </group>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-list-gloss-list-must-have-labels-constraint-rule-9">
-        <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" context="tei:list[@type='gloss']">
+        <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" context="tei:list[@type='gloss']">
           <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
         </sch:rule>
       </pattern>
@@ -2798,14 +2798,14 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
       </group>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-div-abstractModel-structure-l-constraint-report-9">
         <rule context="tei:div">
-          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" test="ancestor::tei:l">
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" test="ancestor::tei:l">
         Abstract model violation: Lines may not contain higher-level structural elements such as div.
       </report>
         </rule>
       </pattern>
       <pattern xmlns="http://purl.oclc.org/dsdl/schematron" id="codem-div-abstractModel-structure-p-constraint-report-10">
         <rule context="tei:div">
-          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE" test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
+          <report xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0" test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
         Abstract model violation: p and ab may not contain higher-level structural elements such as div.
       </report>
         </rule>
@@ -2835,13 +2835,13 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
         </attribute>
       </optional>
       <optional>
-        <attribute name="startingOnPage" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+        <attribute name="startingOnPage" ns="http://www.masshist.org/ns/1.0">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
           <data type="nonNegativeInteger"/>
         </attribute>
       </optional>
       <optional>
-        <attribute name="volume" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+        <attribute name="volume" ns="http://www.masshist.org/ns/1.0">
           <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
           <data type="nonNegativeInteger"/>
         </attribute>
@@ -3100,7 +3100,7 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
     </element>
   </define>
   <define name="codem_persRef">
-    <element name="persRef" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+    <element name="persRef" ns="http://www.masshist.org/ns/1.0">
       <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(person reference) contains a reference (typically a non-name reference) to a person or person group</a:documentation>
       <ref name="codem_macro.phraseSeq"/>
       <ref name="codem_att.global.attributes"/>

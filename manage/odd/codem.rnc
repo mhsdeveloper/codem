@@ -1,14 +1,14 @@
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
-namespace mhs = "http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE"
+namespace mhs = "http://www.masshist.org/ns/1.0"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-10-02T22:24:10Z. .
+# Schema generated from ODD source 2018-11-13T00:44:30Z. .
 # TEI Edition: Version 3.5.0a. Last updated on
-#	1st October 2018, revision 7cfe7dc
+#	12th October 2018, revision ae63ddc
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0a./
 #  Scehema intended to support at least jqa/ & correspondence/ 
 

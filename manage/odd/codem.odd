@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:mhs="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE"
+     xmlns:mhs="http://www.masshist.org/ns/1.0"
      xml:lang="en">
   <teiHeader>
     <fileDesc>
@@ -50,7 +50,7 @@
 	<p>We use a highly constrained TEI customization with a few
 	extensions.</p>
 	<specGrp xml:id="personReferenceElement">
-	  <elementSpec ident="persRef" mode="add" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+	  <elementSpec ident="persRef" mode="add" ns="http://www.masshist.org/ns/1.0">
 	    <equiv filter="./codem2tei.xslt"/>
 	    <gloss>person reference</gloss>
 	    <desc>contains a reference (typically a non-name reference) to a person or person group</desc>
@@ -153,10 +153,10 @@
 		<valItem ident="month"/>
 	      </valList>
 	    </attDef>
-	    <attDef ident="startingOnPage" mode="add" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+	    <attDef ident="startingOnPage" mode="add" ns="http://www.masshist.org/ns/1.0">
 	      <datatype><dataRef key="teidata.count"/></datatype>
 	    </attDef>
-	    <attDef ident="volume" mode="add" ns="http://www.mhs.org/PUT/BETTER/NAMESPACE/HERE">
+	    <attDef ident="volume" mode="add" ns="http://www.masshist.org/ns/1.0">
 	      <datatype><dataRef key="teidata.count"/></datatype>
 	    </attDef>
 	  </attList>
