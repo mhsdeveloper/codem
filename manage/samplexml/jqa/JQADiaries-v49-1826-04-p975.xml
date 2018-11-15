@@ -1,1340 +1,1431 @@
-<div type="month" mhs:volume="49" mhs:startingOnPage="975" xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0">
-	<bibl n="metadata">
-		<date from="1826-04-01" to="1826-04-30"/>
-	</bibl>
-	<!-- D/JQA/49 Diary drafts -->
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-01">
-		<head>1 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-01"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<dateline type="heading">1826. April</dateline>
-			<p><dateline>1 IV:45.</dateline> Tyber Square— Sun rose 5:45 behind 2<hi
-					rend="superscript">d.</hi> Tree S. Treas<hi rend="superscript">y.</hi> Same as 12. Sept<hi rend="superscript">r.</hi></p>
-			<p>Storrs M<hi rend="superscript">rs</hi> and her Son— soliciting Cadet’s place or
-				Midshipman</p>
-		    <list>
-		        <head rendition="#bracket-left">Visits</head>
-		        <item>Hunter W. H.</item>
-		        <item>Harrison— Major</item>
-		    </list>
-			<p>Thomas— Jesse B— His opinion of Lincoln of Maine— Gales &amp; Seaton</p>
-			<list>
-			    <head rendition="#bracket-left">Visits</head>
-			    <item>Powell— A. H.</item>
-				<item>Lee—</item>
-			</list>
-			<p>Smith Joseph L.— About Macon— Complaints and grievances.</p>
-			<p>Mills— Elijah H— Proceedings of Senate— Precedents— Principles</p>
-			<p>Clay— H. Reply to Poinsett of 22. Sept<hi rend="superscript">r.</hi> [symbols]
-				Jesup.</p>
-			<p>Barber. Noyes. With Mem<hi rend="superscript">l</hi> &amp; Papers— Naval Academy New-London</p>
-			<p>Wilson of Louisiana— Settlement of his Accounts.</p>
-			<p>Williston— Subscription for 5. Volumes of American Eloquence</p>
-			<list>
-				<item><label rendition="#bracket-left">Res<hi rend="superscript">n.</hi> on Amendment to Const<hi
-					rend="superscript">n.</hi> Question taken H.R.</label>
-				Pearce D. J.</item>
-				<item>
-					<label rendition="#bracket-left">Collector of Champlain district— reccom: A Parsons</label>
-					Miller. John.</item>
-			</list>
-			<p>Miss Mease left us— Goes to M<hi rend="superscript">rs</hi> Lee’s— Georgetown</p>
-			<p>Hellen, Johnson. To Rockville— Comes to reside at Washington</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-02">
-		<head>2 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-02"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<pb type="ms" n="976"/>
-			<p><dateline>2 IV:30.</dateline> To the River.</p>
-
-			<table rendition="#float-right">
-				<head>Land-grants</head>
-				<row>
-					<cell role="name">U.S. Military District</cell>
-					<cell role="num">1.</cell>
-					<cell></cell>
-				</row>
-				<row>
-					<cell role="name">Chilicothe, Ohio</cell>
-					<cell role="num">1</cell>
-					<cell></cell>
-				</row>
-				<row>
-					<cell role="name">Michichigan S.D.</cell>
-					<cell role="num" rendition="#line-below">1</cell>
-					<cell></cell>
-				</row>
-				<row>
-					<cell></cell>
-					<cell></cell>
-					<cell>3</cell>
-				</row>
-			</table>
-			
-			<list>
-				<item>Little. Acts 3.18.</item>
-				<item>Addison. John 14.15</item>
-				<item>Johnson— Francis.</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-03">
-		<head>3 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-03"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>3. IV:30.</dateline> Capitol</p>
-			<p>Wirt. W. A.G. Sent for Draft reply to Senate on Bissell’s case</p>
-			<p>Rush S.T— Discussion upon the Draft of reply— to be altered</p>
-			<p>Brent. Daniel— Answers to Forsyth’s Call</p>
-			<p>Barbour S.W. Case of Cadet Swift— And Bissell’s. Joness [double R<hi rend="superscript">n</hi>]</p>
-			<p>Hay— George— About Giles and Randolph. Dines here to-morrow.</p>
-			<p>Niles. H— Visit— Left Randolph invectiving</p>
-			<p>Geddes. John— T.t.l— going to-morrow— His own dispositions</p>
-			<p>Webster— of M’Lane’s and Forsyth’s Amendments. Panama Mission</p>
-			<p>Hellen Johnson, from Rockville— to reside here.</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-04">
-		<head>4 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-04"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>4. V.</dateline> Capitol.</p>
-			<p>Test.— about 2 Letters of his relating to Reg<hi rend="superscript">r.</hi>
-				Indianapolis </p>
-			<list>
-				<head rendition="#bracket-left">Visits—</head>
-				<item>Hendricks</item>
-				<item>S</item>
-			</list>
-			<p>Rush. S.T— Letter from E. Thompson of R. Cutters</p>
-			<p>Brent. Daniel— Offley— and Creighton’s claims</p>
-			<p>Clay S.S.— Rep<hi rend="superscript">t.</hi> on Res<hi rend="superscript">n.</hi>
-				H.R— for Middleton’s Note of 2 July &amp;c</p>
-			<p>White Jos. M— Boundary between Georgia and Florida— Macon</p>
-			<p>Bates— Visitor from Charlestown</p>
-			<p>Everett. E.— Upon Buchanan’s proposed Resolution</p>
-			<p>Hay— George— to dine</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-05">
-		<head>5 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-05"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>5. IV:15.</dateline> Capitol.</p>
-			<list>
-				<item>Lowrie— Sec<hi rend="superscript">y</hi> Sen—</item>
-				<item>Cook D. P.</item>
-				<item>Peck.</item>
-				<item>
-					<list rendition="#bracket-right">
-						<item>Trimble. D</item>
-						<item>His brother</item>
-					</list>
-				</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left">Com<hi rend="superscript">ee</hi></head>
-						<item>Chase</item>
-						<item>Isacks</item>
-					</list>
-				</item>
-				<item>Bulfinch—</item>
-				<item>Dewey.</item>
-				<pb type="ms" n="977"/>
-				<item>Caldwell. D<hi rend="superscript">r</hi>—</item>
-				<item>Southard S.N.</item>
-				<item>Drawing Room— Miss Mease</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-06">
-		<head>6 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-06"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>6 VI—</dateline> Capitol— Rain</p>
-			<list>
-				<item>[Sa]nford</item>
-				<item>Rush S.T.</item>
-				<item>Garnsey</item>
-				<item>Rochester.</item>
-				<item>Metcalfe.</item>
-				<item>Ward Dewey.</item>
-				
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-07">
-		<head>7 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-07"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>7 IV:15.</dateline> Capitol</p>
-			<list>
-				<item>Wirt. A.G— Final draft of Message to Senate on Bissell</item>
-				<item>[Th]omas— Jesse B</item>
-				<item>
-					<list rendition="#bracket-left">
-						<item>Everett— E.</item>
-						<item>[Gr]iswold— Lieut<hi rend="superscript">t.</hi></item>
-					</list>
-				</item>
-				<item rendition="#bracket-left">
-					<list>
-						<item>Miner.</item>
-						<item>[Gri]er Chaplain</item>
-					</list>
-				</item>
-				<item>[Sc]ott— John</item>
-				<item>Rush— S.T.</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left">Visits</head>
-						<item>Stevenson A</item>
-						<item>[Cr]ump of V<hi rend="superscript">a</hi></item>
-					</list>
-				</item>
-				<item>Clay S.S— despatches from A. H. Everett and R. King.</item>
-				<item>[symbols] Southard S.N. For Taliaferro as Indian Agent to be transferred.</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-08">
-		<head>8 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-08"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>8. IV:15.</dateline> Capitol</p>
-			<list>
-				<item>[Be]ll— Case of Hamtramck</item>
-				<item>[Slo]ane— With recommendations of J. C. Wright— M’Lane’s Panama Res<hi
-						rend="superscript">n.</hi></item>
-				<item>Barbour S.W. With pro[ceeds] of Court Martial vs Col<hi rend="superscript">l.</hi>
-					Chambers. Ind<hi rend="superscript">n.</hi> Agency</item>
-				<item>[To]mlinson— Concerning M’Lane’s Res<hi rend="superscript">ns.</hi> and Surveyor
-					Middletown.</item>
-				<item>[Ta]liaferro— for his namesake— Indian Agency</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left">Visits from Baltimore. Indian Vocabulary</head>
-						<item>[Ga]llatin</item>
-						<item>[His] Son</item>
-				</list>
-				</item>
-				<item>
-					<list>
-						<item>
-							<label rendition="#bracket-left">—Unwell— Branchs Res<hi rend="superscript">n</hi>— Gore’s in 1814. March</label>
-							Mills</item>
-						<item>
-							<label rendition="#bracket-left">from the School at Northampton.</label>
-							[Bo]rdy</item>
-					</list>
-				</item>
-				<item>[Cob]b— Creek Indians— Project of a New Treaty.</item>
-				<item>[Sey]mour— Collector at Champlain— Sailly. Palmer— Woodbury’s Letters</item>
-				<item>[Bre]nt— D.</item>
-				<item>Rush S.T.</item>
-				<item>[So]uthard S.N.</item>
-				<pb type="ms" n="978"/>
-				<item>Gales of Raleigh</item>
-				<item>Seaton</item>
-				<item>
-					<list>
-						<head  rendition="#bracket-left">[symbols] Clay and [symbols]</head>
-						<item>Southard</item>
-						<item>Brent— D.</item>
-				</list></item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-09">
-		<head>9 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-09"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>9. IV.</dateline> Capitol.</p>
-			<p>Heard Little. Acts 17.27.</p>
-			<p>Dorsey.</p>
-			<p>Brawner</p>
-			<p>Thomas Jesse B. [symbols] Macon, Lowrie, Randolph, Benton Noble Ruggles—</p>
-			<p>Rush— R.</p>
-			<p>Heard Hawley— Revelations 22.17.</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-10">
-		<head>10 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-10"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>10. IV:45.</dateline> Capitol— Rain— Snow.</p>
-			<p>Barbour. S.W— Cobb’s proposals— declined. Col<hi rend="superscript">l.</hi> Chambers
-				to resign</p>
-			<p>Brearley— Col<hi rend="superscript">l</hi>— Creek Indians— reconcil<hi
-					rend="superscript">n.</hi>— Berrien—</p>
-			<p>Clay. S.S— Note to Salazar— Med<hi rend="superscript">n</hi>— The meeting.</p>
-			<p>Hitchcock— Pickens arrived— District Judge Alabama. Crawford. D[ille]t</p>
-			<p>Barbour. S.W— Answer to Cobb— Hamtramck. Indian Agent. Taliaferro</p>
-			<p>Southard S.N— Boston Sloop of War to Sail— C. Smith &amp; Bourne</p>
-			<p>Cook. D. P— Private War at Sea— Secret Laws. Florida. Cuba— Chambers</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-11">
-		<head>11 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-11"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>11. V:35.</dateline> Sun rose V:32— Clear— Ice.</p>
-			<list>
-				<item>Sanford— N— Publication by Senate of Executive Communications. Bissell.</item>
-				<item>Rush. S.T. claim of Judge Scott of Arkansas</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left">Visits</head>
-						<item>Mangum.</item>
-						<item>Cameron— Major J. A.</item>
-					</list>
-				</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left">Visits— Tallmadge Cousin of L<hi rend="superscript">t.</hi> Gov<hi
-							rend="superscript">r</hi></head>
-						<item>Brown— Gen<hi rend="superscript">l.</hi> J.</item>
-						<item>Tallmadge— Major</item>
-					</list>
-				</item>
-				<item>Barbour S.W.— Hamtramck recom<hi rend="superscript">d.</hi> Agent to Osage’s—
-					Objections.</item>
-				<item>Bode— with Dissert<hi rend="superscript">n.</hi> on Poems of Orpheus.</item>
-				<item>Merwin— Dist<hi rend="superscript">t.</hi> Judge Conn<hi rend="superscript">t.</hi>
-					Tomlinson. Bristol. Edwards.</item>
-				<item>Southard— about C. Smith. Stuart’s Sand[wich] I<hi rend="superscript">d.</hi> Journal.
-					Pettis.</item>
-				<item>
-					<table>
-					<row>
-						<cell role="name">Virginia Military Patents</cell>
-						<cell role="num">2</cell>
-						<cell></cell>
-					</row>
-					<row>
-						<cell role="name">Franklin Missouri</cell>
-						<cell role="num">1</cell>
-						<cell></cell>
-					</row>
-					<row>
-						<cell role="name">Military Patent</cell>
-						<cell role="num">1</cell>
-						<cell role="num">4</cell>
-					</row>
-					<row>
-						<cell role="name"></cell>
-						<cell rendition="#lineabove"></cell>
-						<cell></cell>
-					</row>
-				</table>
-				</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-12">
-		<head>12 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-12"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<pb type="ms" n="979"/>
-			<p><dateline>12. V.</dateline> Capitol— Sun rose 5:31.— George 25. Frost.</p>
-			<list>
-				<item>
-					<list>
-						<head rendition="#bracket-left">Senators from Alabama.<lb/>Visits.</head>
-						<item>Pickens</item>
-						<item>King</item>
-					</list>
-				</item>	
-				<item>Sherburne— Going to-morrow for Portsmouth— Naval Office.</item>
-				<item>Rush. S.T— Claims for Services in Florida.</item>
-				<item>Wirt. A.G.— Morning call</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left"><lb/>Marshall Alabama— Crawford for Dist<hi rend="superscript">t.</hi> judge</head>
-						<item>M’Kee</item>
-						<item>Armstrong</item>
-					</list>
-				</item>
-				<item>Armstrong. Andrew— Treaty of Hayti with France.</item>
-				<item>Hebb.— for Place— Reference to Dorsey.</item>
-				<item>Brent. D.— Report on Executive. App<hi rend="superscript">ts.</hi> during the
-					recess.</item>
-				<item>[Pe]dersen— from Philadelphia— Inst<hi rend="superscript">ns.</hi> for Treaty from
-					his Gov<hi rend="superscript">t.</hi></item>
-				<item>Clay S.S. Vaughan’s Dec<hi rend="superscript">rn</hi> ag<hi rend="superscript"
-						>t.</hi> Int<hi rend="superscript">n.</hi> on Slave Convention. Extra
-					Mission.</item>
-				<item>[symbols]</item>
-			
-			</list>
-		</div>
-	</div>
-	
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-13">
-		<head>13 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-13"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-		
-		<div type="docbody">
-			<p><dateline>[13.] IV:15.</dateline> Capitol Bridge— Sun rose 5:30. S. of S.E edge State Dep<hi
-				rend="superscript">t.</hi> high tree Same as 31. Aug<hi rend="superscript">t.</hi></p>
-			<list>
-				<item>[Ar]mstrong. Andrew— Treaty between France and Hayti</item>
-				<item>Dinsmoor of Alabama— District judge— W. Crawford</item>
-				<item>Mallary— About C. K. Williams. Bradley— C. P. Van Ness— Panama Mission</item>
-				<item>
-					<list rendition="#bracket-left">
-						<item>Williams— Lewis</item>
-						<item>[Ca]meron—with Letter from H. G. Burton— Wants to be Comm<hi rend="superscript"
-							>r</hi> Bank<hi rend="superscript">y.</hi></item>
-						<item>Bryan</item>
-					</list>
-				</item>
-				<item>Pleasonton. S— Light-house keepers— Flaherty to be sent by Rev. Cutter.</item>
-				<item>Adams— Young man, asks for employment in Patent Office.</item>
-				<item>[So]uthard. S.N— Sloop of War to cruize on the fishery Coast. Eastport 2 July.</item>
-				<item>
-					<list rendition="#bracket-left">
-						<item>Amory— R. G—Visits</item>
-						<item>[Co]dman—from Boston— going tomorrow for S<hi rend="superscript">t.</hi> Louis
-							Missouri</item>
-					</list></item>
-				<item>Brent. D.</item>
-				<item>
-					<list>
-						<head rows="2" rendition="#bracket-both">Visits<lb/>
-							White declines going to the Florida Indians</head>
-						<item>[Wh]ite. Jos: M</item>
-						<item>[De]lavan D<hi rend="superscript">r</hi></item>
-					</list></item>
-				<item>Party at Gen<hi rend="superscript">l</hi> Brown’s—</item>
-				<item>
-					<table>
-						<row>
-							<cell role="name">St Louis Missouri</cell>
-							<cell role="num">8</cell>
-							<cell></cell>
-						</row>
-						<row>
-							<cell role="name">Chillicothe Ohio</cell>
-							<cell role="num">3</cell>
-							<cell></cell>
-						</row>
-						<row>
-							<cell role="name">Franklin Missouri</cell>
-							<cell role="num">6</cell>
-							<cell></cell>
-						</row>
-						<row>
-							<cell role="name">Sparta</cell>
-							<cell role="num">13</cell>
-							<cell></cell>
-						</row>
-						<row>
-							<cell role="name">Choctaw</cell>
-							<cell role="num">32</cell>
-							<cell></cell>
-						</row>
-						<cb/>
-						<row>
-							<cell role="name">Huntsville Alabama</cell>
-							<cell role="num">30</cell>
-							<cell></cell>
-						</row>
-						<row>
-							<cell role="name">Indianapolis Indiana</cell>
-							<cell role="num">35</cell>
-							<cell></cell>
-						</row>
-						<row>
-							<cell role="name">Crawfordville</cell>
-							<cell role="num">143</cell>
-							<cell></cell>
-						</row>
-						<row>
-							<cell role="name">Cincinnati Ohio</cell>
-							<cell role="num">69.</cell>
-							<cell></cell>
-						</row>
-						<row>
-							<cell role="name">Virginia Military</cell>
-							<cell role="num">1</cell>
-							<cell role="num">= 340</cell>
-						</row>
-					</table>
-				</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-14">
-		<head>14 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-14"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<pb type="ms" n="980"/>
-			<p><dateline>14. IV:15.</dateline> Capitol— Rain</p>
-			<list>
-				<item>Lowrie W.— Res<hi rend="superscript">n.</hi> S. advising app<hi rend="superscript"
-						>t.</hi> of Paymasters</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left">Com<hi rend="superscript">ee</hi> with 1. Enrolled Bill.</head>
-						<item>Chase</item>
-						<item>Garnsey</item>
-					</list>
-				</item>
-				<item>Rush S.T. Accounts of Claims in Florida Neg<hi rend="superscript">n.</hi> of Land
-					Office</item>
-				<item>Thomas J. B. Recomm<hi rend="superscript">g</hi> of Hamtramck— Benton’s</item>
-				<item>Trulock— M<hi rend="superscript">rs</hi> Lydia, from Baltimore.</item>
-				<item>Clay. S.S.— Pedersen’s proposals— Note from Vaughan of Slaves.</item>
-				<item>Pearce— D. J.— Eve<hi rend="superscript">g</hi>— Webster’s Speech this day.</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-15">
-		<head>15 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-15"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>15. V:</dateline> Capitol— Cloudy</p>
-			<list>
-				<item>Thompson. Alex<hi rend="superscript">r</hi>— for restoration of Col<hi
-						rend="superscript">l</hi> Chambers—</item>
-				<item>Brent. D.— Heap’s App<hi rend="superscript">t.</hi> of Consul at Tunis— Salary from
-						Nov<hi rend="superscript">r</hi> 1825.</item>
-				<item>Hunter John— With recommend<hi rend="superscript">ns.</hi> H.R.U.S. Sup<hi
-						rend="superscript">t.</hi> Ind<hi rend="superscript">n.</hi> Affairs</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left">from Princeton, in Vacation<lb/>
-							his Son in law recently from the Havana</head>
-						<item>Bainbridge</item>
-						<item>His Son</item>
-						<item>Hays Captain</item>
-					</list>
-				</item>
-				<item>Blake— G.— Visit— Elections in Mass<hi rend="superscript">tts.</hi> Panama. Webster’s
-					speech</item>
-				<item>Clay SS— Note from Vaughan— Slave indemnity. Draft of Answer</item>
-				<item>
-					<list>
-						<head rendition="#bracket-left">Appointment of District Judge, in Connecticut<lb/>
-						Daggett, Bristol, [Lanman], Edwards, Tomlinson.</head>
-						<item>Ingersoll, R. I.</item>
-						<item>Barber. N.</item>
-					</list>
-				</item>
-				<item>Williams, from Florida— For place. Register of Land-Office</item>
-				<item>Bradish— Enquires if Letter from him Const. Dec<hi rend="superscript">r</hi> 1820 was
-						rec<hi rend="superscript">d.</hi></item>
-				<item>Everett. E— Returned. Yates, Convention of 1787— Slavery</item>
-				<item>Pope— N— Debates in S. and H.R. App<hi rend="superscript">t.</hi> of Com<hi
-						rend="superscript">ees.</hi> in Senate restored</item>
-				<item>Dorsey— Clem<hi rend="superscript">t</hi>— did not see him— Wanted Explan<hi
-						rend="superscript">n</hi> of Message </item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-16">
-		<head>16 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-16"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>16. V:30.</dateline> [symbols]</p>
-			<p>Heard Little Proverbs 5.22–23. Sarcastic.</p>
-			<p>Baker— Nahum 1.7.</p>
-			<table>
-				<row>
-					<cell role="name">Cahaba— Alabama</cell>
-					<cell role="num">300</cell>
-					<cell></cell>
-				</row>
-				<row>
-					<cell role="name">New-Orleans. Louisiana</cell>
-					<cell role="num">58</cell>
-					<cell></cell>
-				</row>
-				<row>
-					<cell role="name">Cahaba</cell>
-					<cell role="num">1</cell>
-					<cell></cell>
-				</row>
-				<row>
-					<cell role="name">Tallahassee Florida</cell>
-					<cell role="num" rendition="#line-below">1</cell>
-					<cell role="num">360.</cell>
-				</row>
-			</table>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-17">
-		<head>17 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-17"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<pb type="ms" n="981"/>
-			<p><dateline>17. V:15.</dateline> Sun rose Georgetown</p>
-			<list>
-				<item>
-					<list rendition="#bracket-left">
-						<head rendition="#bracket-left">Visitors.</head>
-						<item>Robbins— A.</item>
-						<item>His Son</item>
-						<item>[Ver]non— his nephew</item>
-					</list>
-				</item>
-				<item>Russell G. C— To plead for restoration of Col<hi rend="superscript">l.</hi>
-					Chambers.</item>
-				<item>Brent. D— Note of P.U.S. 6. Oct<hi rend="superscript">r.</hi> 1804. Temporary Comm<hi
-						rend="superscript">n.</hi></item>
-				<item>M’Arthur— Gen<hi rend="superscript">l.</hi>— About Judge S.C. from Ohio.</item>
-				<item>Letcher. Judge of District Court in Kentucky— Boyle.</item>
-				<item>
-					<list rendition="#bracket-right">
-						<item>Lynch— D.</item>
-						<item>Rogers— Lloyd</item>
-					</list>
-				</item>
-				<item>Van Rensselaer. S. M<hi rend="superscript">rs</hi> and Miss.</item>
-				<item>Roberdeau— Col<hi rend="superscript">l</hi>. and Misses Mary, Susan and Selina</item>
-				<item>Mease Miss— Lee. Carter.</item>
-				<item>Lynch D.— Ouseley M<hi rend="superscript">r</hi>— Bradish. Luther— Evening</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-18">
-		<head>18 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-18"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>18. V:30.—</dateline> After Sun rise— College 1. hour 20 minutes</p>
-			<p>Lowrie. Res<hi rend="superscript">n.</hi> Senate— A. Binney rejected.</p>
-			<p>Bell— Sam<hi rend="superscript">l</hi>— Bissell’s case— Harrison.</p>
-			<p>Gurley— Recom<hi rend="superscript">n:</hi> T. B. Robertson Judge S.C. Col<hi
-					rend="superscript">l.</hi> Chambers</p>
-			<p>Brent. W. L. Recom<hi rend="superscript">n.</hi> Porter and Robertson— Col<hi
-					rend="superscript">l.</hi> Chambers</p>
-			<p>Williams— of Maryland going to Florida— Reg<hi rend="superscript">r.</hi>
-				Land-Office</p>
-			<p>Armstrong. Andrew— Hayti Newspapers— Recognition</p>
-			<p>Brent D.— Answer to Letter Chairman Com<hi rend="superscript">ee.</hi> For. Rel<hi
-					rend="superscript">ns.</hi> H.R.</p>
-			<p>[D]enson Jesse— Application for Appointment as Naval Chaplain</p>
-			<p>Clay S.S. Treaty Negotiating with Pedersen—</p>
-			<table rendition="#bracket-left">
-				<head rendition="#bracket-left">Visits—</head>
-				<row>
-					<cell>Southard S.N.</cell>
-				</row>
-				<row>
-					<cell>[Wa]ll— Gen<hi rend="superscript">l.</hi></cell>
-					<cell>of N. Jersey</cell>
-				</row>
-				<row>
-					<cell>Van Bibber</cell>
-					<cell>of Virginia.</cell>
-				</row>
-			</table>
-			<p>Barbour S.W.— Court-Martial on Col<hi rend="superscript">l.</hi> Chambers— and
-				Cadle</p>
-			<p>Rush. S.T. Florida Land-Offices— W. H. Allen and Love</p>
-			<list rendition="#bracket-left">
-				<head rendition="#bracket-left">With M’Lane’s and Buchanan’s Amendments to the Res<hi rend="superscript">n.</hi> of expediency for appropriations,
-					for the Panama Mission.</head>
-				<item>Everett</item>
-				<item>Sloane</item>
-				<item>Tomlinson</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-19">
-		<head>19 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-19"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<pb type="ms" n="982"/>
-			<p><dateline>19. VI—</dateline> Met Wood. Walk to Georgetown Bridge</p>
-			<p>Conner— Benjamin— for papers concerning bridges.</p>
-			<p>Southard S.N. Nomination of Navy Agent. Boston— [R. D. Harris] for his Son, a Midshipman’s warrant.</p>
-			<p>Lowry— Rev<hi rend="superscript">d</hi></p>
-			<p>Thomas. Jesse B.— The judiciary Bill— arrangem<hi rend="superscript">t</hi> of
-				Circuits.</p>
-			<p>Brent— Daniel— for Draft of Conv<hi rend="superscript">n</hi> with Denmark &amp;
-				Heaps Ins<hi rend="superscript">ns.</hi></p>
-			<p>Barbour S.W. Memorial from Col<hi rend="superscript">l.</hi> Chambers. Cadle’s C<hi
-					rend="superscript">t.</hi> Martial</p>
-			<p>Clay S.S. Project of Treaty with Denmark. Res<hi rend="superscript">ns.</hi> H.R.
-				Panama</p>
-			<p>Drawing-room—</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-20">
-		<head>20 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-20"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>20. VI:15.</dateline> Over Tyber Bridges— Met Wirt.</p>
-			<p>Mills. E. H.— Upon Branch’s Res<hi rend="superscript">n.</hi> J. Randolph 7 hours
-				raving.</p>
-			<p>Brent. D.— M<hi rend="superscript">r</hi> Clay’s Answer to M<hi rend="superscript"
-					>r</hi> Vaughan. Slave-indemnity.</p>
-			<list rendition="#bracket-left">
-				<head rendition="#bracket-left">With 2 Enrolled Bills— signed</head>
-				<item>Chase</item>
-				<item>Garnsey</item>
-			</list>
-			<p>Hunter J. W. with bill for Superintendency of Indian Affairs</p>
-			<p>Barbour S.W— with Letter from Tattnall about M’Intosh Indians</p>
-			<p>Warner— from N.Y. for Claimants upon France</p>
-			<p>Rush. S.T. Thomson’s teas— Jos<hi rend="superscript">h.</hi> Randall assistant
-				Counsel.</p>
-			<p>Bailey— J— proceedings. H.R. M’Lane &amp; Buchanan 99.95</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-21">
-		<head>21 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-21"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>21: VI:15.</dateline> Towards Capitol. Met and walked with Bell</p>
-			<p>Wright. R— Approves Adm<hi rend="superscript">n.</hi> His Son gone Consul to Rio
-				Janyro</p>
-			<p>Southard S.N— Brandywine arrived at N.Y.</p>
-			<p>Brent— D— M<hi rend="superscript">r</hi> Clay’s Ans<hi rend="superscript">r.</hi> to
-				Vaughan W. Pinckney &amp; Monroe’s Com<hi rend="superscript">n</hi></p>
-			<p>Gallatin. A— from Baltimore. Will go to England Ind<hi rend="superscript">n.</hi>
-				Vocabulary</p>
-			<p>Frye— N<hi rend="superscript">l</hi>— To ask Mills not to go home</p>
-			<p>Brown— Gen<hi rend="superscript">l</hi>— Of P.M.G. M’lean’s uneasiness— J. A. Dix</p>
-			<p>Clay S.S— Convention with Denmark, agreed upon.</p>
-			<p>[symbols]</p>
-			<table cols="3">
-					<row>
-						<cell role="name">Cahaba Alabama</cell>
-						<cell role="num">19.</cell>
-						<cell/>
-					</row>
-					<row>
-						<cell role="name">S<hi rend="superscript">t.</hi> Stephens</cell>
-						<cell role="num" rendition="#line-below">159</cell>
-						<cell role="num">178</cell>
-					</row>
-					<row>
-						<cell role="name">Cincinnati. Ohio</cell>
-						<cell role="num">138</cell>
-						<cell/>
-					</row>
-					<row>
-						<cell role="name">Tallahassee</cell>
-						<cell role="num">1</cell>
-						<cell/>
-					</row>
-					<row>
-						<cell role="name">Choctaw Mississippi</cell>
-						<cell role="num" rendition="#line-below">58</cell>
-						<cell role="num">197</cell>
-					</row>
-					<cb/>
-					<row>
-						<cell role="name">Crawfordsville Ind</cell>
-						<cell role="num">48.</cell>
-						<cell/>
-					</row>
-					<row>
-						<cell/>
-						<cell>=</cell>
-						<cell role="num">423</cell>
-					</row>
-				</table>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-22">
-		<head>22 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-22"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<pb type="ms" n="983"/>
-			<p><dateline>22. VI.</dateline> Tyber Square.</p>
-			<p>Lowrie— W— Creek Treaty, advised &amp; Res<hi rend="superscript">n:</hi> Missouri
-				next Session.</p>
-			<table>
-				<row>
-					<cell rendition="#bracket-right-allrows">Marks</cell>
-					<cell>Visits— Knight Member of Senate P<hi rend="superscript">a.</hi> and
-						Surveyor</cell>
-				</row>
-				<row>
-					<cell>Lawrence</cell>
-					<cell>Sill Member H.R.U.S. in place of Farrelly.</cell>
-				</row>
-				<row>
-					<cell>[Kn]ight.</cell>
-					<cell>Panama Mission. approp<hi rend="superscript">n.</hi> Bill H.R.
-						yesterday</cell>
-				</row>
-				<row>
-					<cell>Sill.</cell>
-					<cell>Creek Treaty—</cell>
-				</row>
-			</table>
-			<p>Clary— from New-York— Visitor by curiosity.</p>
-			<list>
-				<head rendition="#bracket-left">H.R.U.S. Kentucky— to recommend Tompkins as District judge in place of R. Trimble</head>
-				<item>[F.] Johnson</item>
-				<item>Buckner</item>
-			</list>
-			<p>Rush S.T.— Draft of Answer to Jon<hi rend="superscript">n.</hi> Jennings. copies of
-				his Letters</p>
-			<p>Barbour S.W. To send away the Creek Indians.</p>
-			<table>
-				<row>
-					<cell>Knight</cell>
-					<cell>Com<hi rend="superscript">ee.</hi> Enrolled Bills— with two Bills—</cell>
-				</row>
-				<row>
-					<cell>Garnsey</cell>
-					<cell>Lands in Florida— Mississippi and Alabama</cell>
-				</row>
-			</table>
-			<list>
-				<head rendition="#bracket-left">To obtain discharge of Joseph Douglas,
-					a coloured boy, from the Brandywine</head>
-				<item>[Hol]zman M<hi rend="superscript">rs </hi></item>
-				<item>[and] a boy</item>
-			</list>
-			<table>
-				<row>
-					<cell rendition="#bracket-right-allrows">[Va]n Rensselaer S.</cell>
-					<cell>Visits— Appropr<hi rend="superscript">n.</hi> Panama— passed
-						H.R.U.S.</cell>
-				</row>
-				<row>
-					<cell>Morris— from NY.</cell>
-					<cell>Son of L. Morris signer of Dec<hi rend="superscript">n.</hi> of
-						Independence</cell>
-				</row>
-			</table>
-			<list>
-				<head rendition="#bracket-left">Visits— Angry debate in H.R. upon a Bill
-					to pay for a Negro killed in War. Gen<hi rend="superscript">l.</hi>
-					Jackson</head>
-				<item>[Do]rsey— Clem<hi rend="superscript">t </hi></item>
-				<item>[Sco]tt of Mar<hi rend="superscript">d</hi></item>
-			</list>
-			<p>[To]mlinson— Dist<hi rend="superscript">t.</hi> Judge, Connecticut Recomm<hi
-					rend="superscript">s</hi> for him</p>
-			<p>[Br]adish— L— Distressed about assertions of L<hi rend="superscript">d.</hi>
-				Strangford’s letters</p>
-			<list>
-				<head rendition="#bracket-left">Evening visits.</head>
-				<item>[Cl]ay. H.</item>
-				<item>[Jo]hnston. Josiah S</item>
-			</list>
-		</div>
-	</div>
-	
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-23">
-		<head>23 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-23"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-		
-		<div type="docbody">
-			<p><dateline>[23] V:</dateline> Sun rose 5:16. Behind tallest chimney State Dep<hi rend="superscript"
-				>t.</hi></p>
-			<p>[He]ard Stapler and Wetherall— of the Friends, at the Capitol</p>
-			<p>[Pos]t at Baker’s. Luke 14.22— And yet there is room</p>
-			<p>[We]bster here— did not see him— Walk with Wilson.</p>
-			<list>
-				<head rendition="#bracket-left">Evening visits.</head>
-				<item>[Cr]owninshield. B. W.</item>
-				<item>[Bar]ney. J</item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-24">
-		<head>24 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-24"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<pb type="ms" n="984"/>
-			<p><dateline>24. V.</dateline> Sun rose 5.15. Behind Middle Chimney State Dep<hi
-					rend="superscript">t.</hi></p>
-			<p>Same 17. Aug<hi rend="superscript">t.</hi>— Tyber Bridge Square walk.</p>
-			<list>
-				<head rendition="#bracket-left">Visits— Hughes returns tomorrow to Baltimore, and is to sail next week for Rotterdam</head>
-				<item>Chambers</item>
-				<item>Hughes.</item>
-			</list>
-			<p>Barbour S.W. About the new Creek Treaty</p>
-			<list>
-				<head rendition="#bracket-left">Visits— Skinner gave me an invitation to the Cattle Show in June</head>
-				<item>Skinner J. S.</item>
-				<item>Mays</item>
-				<item>Hatch.</item>
-			</list>
-			<p>Clay S.S. Recommends W. Duane, as Agent to the Havanna</p>
-			<p>Tutt. C. P with Letter from L— Lee, for an Appointment</p>
-			<list>
-				<head rendition="#bracket-left">Visits— Dupont came here on account of his Son’s promotion from Midshipman to Lieutenant—</head>
-				<item>Dupont. V</item>
-				<item>Van Dyke j<hi rend="superscript">r</hi></item>
-				<item>Van Dyke’s father ill—</item>
-			</list>
-			<p>Brent D.— For W. Pinkney’s Commission 12 May 1806</p>
-			<list>
-				<head rendition="#bracket-left">Visitors— The Woodruffs are from New-Jersey</head>
-				<item>Southard S.N.</item>
-				<item>Woodruff. Abner</item>
-				<item>Woodruff. D<hi rend="superscript">r</hi></item>
-			</list>
-			<p>Caldwell. Charles— giving Lectures here on phrenology</p>
-			<p>Brown Gen<hi rend="superscript">l</hi>— Clintonian Caucus Address—</p>
-			<p>Biddle— Capt<hi rend="superscript">n</hi>— Mentioned death of king of Portugal 9.
-				March</p>
-			<p>Rush. S.T.— Answer to Jonathan Jennings’s enquiries— Land-Office</p>
-			<p>At M<hi rend="superscript">r</hi> T. B. Johnson’s— Party at [Barr]ells</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-25">
-		<head>25 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-25"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>25. VI.</dateline> Tyber Square</p>
-			<p>Francis— From Connecticut— Visitor Self-introduced</p>
-			<p>Mills— Returned Jenkinson’s Treaties— Going after to-morrow.</p>
-			<p>Booth— for appointment in Brearley’s place. Navy-Yard.</p>
-			<p>Mower. Post-Office at New-York— Carrier-boy thief.</p>
-			<p>Rush. S.T— The Answer to Jennings— Register at Indianapolis</p>
-			<list>
-				<head rendition="#bracket-left">Visitors</head>
-				<item>Southard</item>
-				<item>[Reckler]</item>
-				<item>Barber. N</item>
-			</list>
-			<p>Cobb— Talk about Indian Treaty. Crowell— Cobb going home</p>
-			<p>Thomas. Judiciary bill, likely to fail N. Pope dissatisfied</p>
-			<list>
-				<head rendition="#bracket-left">Visits Donaldson from S<hi rend="superscript">t.</hi> Johns
-					New-Brunswickabout to return there </head>
-				<item>Roberdeau</item>
-				<item>Donaldson</item>
-			</list>
-			<p>White. Jos. M— Reg<hi rend="superscript">r.</hi> &amp; Receiver E. Florida, Comm<hi
-					rend="superscript">n</hi> discontinued</p>
-			<pb type="ms" n="985"/>
-			<p>Message to S.U.S.— N. 39— Nominations</p>
-			<p>Message to H.R.U.S. N. 26.</p>
-			<p>Land-grants Cincinnati, Ohio 5.</p>
-			<list>
-				<head rendition="#bracket-left">Speaking with him of the judiciary bill—interrupted—</head>
-				<item>[Ev]erett</item>
-				<item>[Pe]arce</item>
-				<item>Visitors.</item>
-			</list>
-		</div>
-	</div>
-	
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-26">
-		<head>26 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-26"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-		
-		<div type="docbody">
-			<p><dateline>[26]. V.</dateline> Rain</p>
-			<p>Brent. D— for draft to Middleton and Letter to [Nicholas] [symbols]</p>
-			<p>Hunter J. W.— for place of Naval Store-keeper</p>
-			<p>Rochester— Going to-morrow— Fears summer trip to Panama</p>
-			<list>
-				<head rendition="#bracket-left">Announced as Pennsylvania delegation— recommended J. W. Hunter as Naval Store-keeper at Navy Yard</head>
-				<item>[La]wrence</item>
-				<item>[Si]ll.</item>
-				<item>Orr</item>
-				<item>[Mi]tchell. J</item>
-			</list>
-			<p>Barbour S.W. Creek Indian distribution— Crowell not well disposed</p>
-			<list>
-				<head rendition="#bracket-left">Visitors.</head>
-				<item>Southard</item>
-				<item>[Profe]sion</item>
-				<item>[M’]lean John</item>
-			</list>
-			<p>[Gre]en Jacob</p>
-			<p>Webster</p>
-			<p>[Cl]arke H.R— Res<hi rend="superscript">n.</hi> for A.G’s opinion upon outfit. </p>
-			
-			
-		</div>
-	</div>
-	
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-27">
-		<head>27 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-27"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-		
-		<div type="docbody">
-			<p><dateline>[27.] VI.</dateline> Central Square.</p>
-			<list>
-				<head rendition="#bracket-left">Visits— L. M. Powell a Midshipman, returned from the Mediterranean in the Brandywine</head>
-				<item>Powell</item>
-				<item>[Hi]s Son</item>
-			</list>
-			<list>
-				<head rendition="#bracket-left">Visits— The General and his family to leave the City next Monday.</head>
-				<item>[Va]n Rensselaer</item>
-				<item>[His] Son and boy</item>
-			</list>
-			<p>[Ch]ambers. Case of Bissell’s Nomination. Branch’s Res<hi rend="superscript">n.</hi>
-				Tazewell</p>
-			<p>[Cl]ay S.S.— Treaty with Denmark. Dix to go special Messenger.</p>
-			<p>[Opo]thle-Yoholo and deputation of Creek Indians T.T.L.</p>
-			<list>
-				<head rendition="#bracket-left">Visitors with Clay— Brady Speaker of the
-					House ofRepresentatives Tennessee— Cochran of
-					Virginia </head>
-				<item>Brady— Gen<hi rend="superscript">l</hi></item>
-				<item>[Co]chran D<hi rend="superscript">r</hi></item>
-			</list>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-28">
-		<head>28 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-28"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-			<pb type="ms" n="986"/>
-			<p><dateline>28. VI—</dateline> Market Square</p>
-			<p>M’Clain John— Revolutionary Sailor— For Pension</p>
-			<p>Hunter J. W. with Letter from L. Williams</p>
-			<list>
-				<head rendition="#bracket-both">Gamble a Major in the Marine Corps applies for brevet promotion.</head>
-				<item>Van Rensselaer</item>
-					<item>Gamble</item>
-					<item>Lang</item>
-			</list>
-			<list>
-				<head rendition="#bracket-left">For subscription to a Masonic Edifice<lb/>I promised to contribute $50</head>
-				<item>Waitman</item>
-				<item>Seaton W. W</item>
-			</list>
-			<p>Scott. Alexander— Conc<hi rend="superscript">g</hi> his Son &amp; judge Brackenridge</p>
-			<p>Rose    To recommend C. Selden Navy Store-keeper</p>
-			<list>
-				<head rendition="#bracket-left">Visitors—</head>
-				<item>Stewart of P<hi rend="superscript">a.</hi></item>
-				<item>Crepps. Col<hi rend="superscript">l</hi></item>
-			</list>
-			<p>Hitchcock— of Alabama— For Crawford as District Judge</p>
-			<list>
-				<head rendition="#bracket-left">Visits— Carter recommends Barkley for Marshal Western Dist<hi rend="superscript">t</hi>
-					S.C— N.C. Gold mines.</head>
-				<item>Carter of S.C.</item>
-				<item>Conner— Col<hi rend="superscript">l</hi></item>
-			</list>
-			<p>Answer to Emperor of Russia, notifying death of Alexander</p>
-			<p>Commission to [Le]vy Court Washington C<hi rend="superscript">o.</hi> to 1<hi
-					rend="superscript">st.</hi> Monday May [1827]</p>
-			<p>Credential Letter H. Middleton to Nicholas 1—</p>
-			<p>Message to S.U.S— N. 40. Convention with Denmark.</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-29">
-		<head>29 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-29"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>29. V.—</dateline> Georgetown.</p>
-			<p>Miller John— Enquiries concerning nomination of Sailly </p>
-			<p>Sanford— For Wright’s Letter to Seymour. N.Y. &amp; int<hi rend="superscript">l.</hi>
-				improve[ment]</p>
-			<p>Bell— For C. Cutts— Navy Agency Portsmouth— Branch’s Res<hi rend="superscript"
-					>n.</hi></p>
-			<list>
-				<head rendition="#bracket-left">To recommend D<hi rend="superscript">r.</hi> Bates as Navy Agent. Boston.
-					Told them Harris was already nominated</head>
-				<item>Reed</item>
-				<item>Locke</item>
-			</list>
-			<p>Rush. S.T. Letter from judge Van Ness— Assistant Counsel N.Y.</p>
-			<list>
-				<head rendition="#bracket-left">Visits</head>
-				<item>Williams— L</item>
-				<item>Bradford. Major</item>
-				<item>from Tennessee.</item>
-			</list>
-			<p>Lowrie W— 2. Res<hi rend="superscript">ns.</hi> S.U.S. Navy Nominations. Chambers
-				Court [Martial]</p>
-			<p>Taylor. G.— For Appointment of Navy Agent vice Brearley</p>
-			<p>Pedersen— Going to Philadelphia. Monday.</p>
-			<list>
-				<head rendition="#bracket-left">Visits— Hiester is Surveyor General of
-					the State of Pennsylvania.</head>
-				<item>Markley.</item>
-				<item>Hiester Gen<hi rend="superscript">l</hi></item>
-				<item>His Son</item>
-			</list>
-			<pb type="ms" n="987"/>
-			<list>
-				<head rendition="#bracket-left">Visits— M’Kee is from Wheeling Virginia.<lb/>Ruggles resides in Ohio— across the river.</head>
-				<item>Ruggles</item>
-				<item>M’Kee</item>
-			</list>
-			<p>Wyer— Going tomorrow for S<hi rend="superscript">t.</hi> Petersburg [symbols]</p>
-			<p>Miller. Thomas— Applicant for Navy Agency— vice Brearley</p>
-			<list>
-				<head rendition="#bracket-left">Cabinet Meeting— Instructions to Panama Mission— Payment for Independence— Recognition of Hayti— Canal from Sea to Sea— discussed.</head>
-				<item>Clay— S.S.</item>
-				<item>Rush S.T.</item>
-				<item>Barbour S.W.</item>
-				<item>Southard S.N.</item>
-			</list>
-			<p>[Eve]rett E. in the Evening— Judiciary Bill in jeopardy—</p>
-			<p>[M<hi rend="superscript">rs</hi>] A. and girls— Evening party at M<hi
-					rend="superscript">r</hi> Rush’s.</p>
-			<p>Message to H.R. N. 27— Attorney General’s opinion.</p>
-		</div>
-	</div>
-
-	<div type="entry" xml:id="jqadiaries-v49-1826-04-30">
-		<head>30 April 1826</head>
-		<bibl>
-			<author>JQA</author>
-			<date type="creation" when="1826-04-30"/>
-			<editor role="transcription">Neal Millikan</editor>
-		</bibl>
-
-		<div type="docbody">
-
-			<p><dateline>[30.] IV:45.</dateline> Sun rose 5.8. between the two S.W. Chimnies State
-					Dep<hi rend="superscript">t.</hi> Same 13. August.</p>
-			<p>[Hea]rd Little. Proverbs 3.16. Length of days is in her right hand; and in her left
-				hand riches and honour.</p>
-			<p>No Church at Baker’s. Met Campbell of Ohio, and Harris of P<hi rend="superscript"
-				>a</hi></p>
-			<p>[Hea]rd Gray at Hawley’s. Matthew 22.42. What think ye of Christ?</p>
-			<p>B. Bassett. young V. Rensselaer &amp; his Sister there.</p>
-			<p>[Lee]— W— at Eve— Baron Tuyll died two days after sailing from New York.</p>
-			<p>[Ta]ylor J. W. fiduciary Bill— Might it not be dispensed with? [dis]agreement between the two Houses.</p>
-			<table>
-					<head>[Lan]d-grants</head>
-					<row>
-						<cell role="name">[Spar]ta</cell>
-						<cell role="num">71</cell>
-					</row>
-					<row>
-						<cell role="name">[Sha]wneetown Illinois</cell>
-						<cell role="num">17</cell>
-					</row>
-					<row>
-						<cell role="name">[Edw]ardsville. d<hi rend="superscript">o</hi></cell>
-						<cell role="num">50</cell>
-					</row>
-					<row>
-						<cell role="name">[Jeffers]onville Indiana</cell>
-						<cell role="num">1</cell>
-					</row>
-					<row>
-						<cell role="name">[Kas]kaskia Illinois</cell>
-						<cell role="num">1</cell>
-					</row>
-					<row>
-						<cell></cell>
-						<cell rendition="#lineabove">140.</cell>
-					</row>
-					<row>
-						<cell role="name">[Virgi]nia Military</cell>
-						<cell role="num">3</cell>
-					</row>
-					<row>
-						<cell role="name">[Arkansas] Military</cell>
-						<cell role="num">4</cell>
-					</row>
-					<row>
-						<cell role="name">[Choc]taw. Mississippi</cell>
-						<cell role="num">1</cell>
-					</row>
-					<row>
-						<cell role="name">[Virg]inia Military</cell>
-						<cell role="num">4</cell>
-					</row>
-				<cb/>
-					<row>
-						<cell>Military Bounty</cell>
-						<cell>7</cell>
-					</row>
-					<row>
-						<cell role="name">Military District</cell>
-						<cell role="num">1</cell>
-					</row>
-				</table>
-		</div>
-	</div>
-</div>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.masshist.org/publications/pub/schema/codem.0.1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mhs="http://www.masshist.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<p/>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="month" mhs:volume="49" mhs:startingOnPage="975">
+				<bibl n="metadata">
+					<date from="1826-04-01" to="1826-04-30"/>
+				</bibl>
+				<!-- D/JQA/49 Diary drafts -->
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-01">
+					<head>1 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-01"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<head>1826. April</head>
+						<p><label type="timestamp">1 IV:45.</label> Tyber Square— Sun rose 5:45
+							behind 2<hi rend="superscript">d.</hi> Tree S. Treas<hi
+								rend="superscript">y.</hi> Same as 12. Sept<hi rend="superscript"
+								>r.</hi></p>
+						<p>Storrs M<hi rend="superscript">rs</hi> and her Son— soliciting Cadet’s
+							place or Midshipman</p>
+						<list>
+							<head rendition="#bracket-left">Visits</head>
+							<item>Hunter W. H.</item>
+							<item>Harrison— Major</item>
+						</list>
+						<p>Thomas— Jesse B— His opinion of Lincoln of Maine— Gales &amp; Seaton</p>
+						<list>
+							<head rendition="#bracket-left">Visits</head>
+							<item>Powell— A. H.</item>
+							<item>Lee—</item>
+						</list>
+						<p>Smith Joseph L.— About Macon— Complaints and grievances.</p>
+						<p>Mills— Elijah H— Proceedings of Senate— Precedents— Principles</p>
+						<p>Clay— H. Reply to Poinsett of 22. Sept<hi rend="superscript">r.</hi>
+							[symbols] Jesup.</p>
+						<p>Barber. Noyes. With Mem<hi rend="superscript">l</hi> &amp; Papers— Naval
+							Academy New-London</p>
+						<p>Wilson of Louisiana— Settlement of his Accounts.</p>
+						<p>Williston— Subscription for 5. Volumes of American Eloquence</p>
+						<list>
+							<item><label rendition="#bracket-left">Res<hi rend="superscript">n.</hi>
+									on Amendment to Const<hi rend="superscript">n.</hi> Question
+									taken H.R.</label> Pearce D. J.</item>
+							<item>
+								<label rendition="#bracket-left">Collector of Champlain district—
+									reccom: A Parsons</label> Miller. John.</item>
+						</list>
+						<p>Miss Mease left us— Goes to M<hi rend="superscript">rs</hi> Lee’s—
+							Georgetown</p>
+						<p>Hellen, Johnson. To Rockville— Comes to reside at Washington</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-02">
+					<head>2 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-02"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<pb type="ms" n="976"/>
+						<p><label type="timestamp">2 IV:30.</label> To the River.</p>
+
+						<table rendition="#float-right">
+							<head>Land-grants</head>
+							<row>
+								<cell role="name">U.S. Military District</cell>
+								<cell role="num">1.</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell role="name">Chilicothe, Ohio</cell>
+								<cell role="num">1</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell role="name">Michichigan S.D.</cell>
+								<cell role="num" rendition="#line-below">1</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell/>
+								<cell/>
+								<cell>3</cell>
+							</row>
+						</table>
+
+						<list>
+							<item>Little. Acts 3.18.</item>
+							<item>Addison. John 14.15</item>
+							<item>Johnson— Francis.</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-03">
+					<head>3 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-03"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">3. IV:30.</label> Capitol</p>
+						<p>Wirt. W. A.G. Sent for Draft reply to Senate on Bissell’s case</p>
+						<p>Rush S.T— Discussion upon the Draft of reply— to be altered</p>
+						<p>Brent. Daniel— Answers to Forsyth’s Call</p>
+						<p>Barbour S.W. Case of Cadet Swift— And Bissell’s. Joness [double R<hi
+								rend="superscript">n</hi>]</p>
+						<p>Hay— George— About Giles and Randolph. Dines here to-morrow.</p>
+						<p>Niles. H— Visit— Left Randolph invectiving</p>
+						<p>Geddes. John— T.t.l— going to-morrow— His own dispositions</p>
+						<p>Webster— of M’Lane’s and Forsyth’s Amendments. Panama Mission</p>
+						<p>Hellen Johnson, from Rockville— to reside here.</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-04">
+					<head>4 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-04"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">4. V.</label> Capitol.</p>
+						<p>Test.— about 2 Letters of his relating to Reg<hi rend="superscript"
+								>r.</hi> Indianapolis </p>
+						<list>
+							<head rendition="#bracket-left">Visits—</head>
+							<item>Hendricks</item>
+							<item>S</item>
+						</list>
+						<p>Rush. S.T— Letter from E. Thompson of R. Cutters</p>
+						<p>Brent. Daniel— Offley— and Creighton’s claims</p>
+						<p>Clay S.S.— Rep<hi rend="superscript">t.</hi> on Res<hi rend="superscript"
+								>n.</hi> H.R— for Middleton’s Note of 2 July &amp;c</p>
+						<p>White Jos. M— Boundary between Georgia and Florida— Macon</p>
+						<p>Bates— Visitor from Charlestown</p>
+						<p>Everett. E.— Upon Buchanan’s proposed Resolution</p>
+						<p>Hay— George— to dine</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-05">
+					<head>5 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-05"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">5. IV:15.</label> Capitol.</p>
+						<list>
+							<item>Lowrie— Sec<hi rend="superscript">y</hi> Sen—</item>
+							<item>Cook D. P.</item>
+							<item>Peck.</item>
+							<item>
+								<list rendition="#bracket-right">
+									<item>Trimble. D</item>
+									<item>His brother</item>
+								</list>
+							</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">Com<hi rend="superscript"
+											>ee</hi></head>
+									<item>Chase</item>
+									<item>Isacks</item>
+								</list>
+							</item>
+							<item>Bulfinch—</item>
+							<item>Dewey.</item>
+							<pb type="ms" n="977"/>
+							<item>Caldwell. D<hi rend="superscript">r</hi>—</item>
+							<item>Southard S.N.</item>
+							<item>Drawing Room— Miss Mease</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-06">
+					<head>6 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-06"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">6 VI—</label> Capitol— Rain</p>
+						<list>
+							<item>[Sa]nford</item>
+							<item>Rush S.T.</item>
+							<item>Garnsey</item>
+							<item>Rochester.</item>
+							<item>Metcalfe.</item>
+							<item>Ward Dewey.</item>
+
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-07">
+					<head>7 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-07"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">7 IV:15.</label> Capitol</p>
+						<list>
+							<item>Wirt. A.G— Final draft of Message to Senate on Bissell</item>
+							<item>[Th]omas— Jesse B</item>
+							<item>
+								<list rendition="#bracket-left">
+									<item>Everett— E.</item>
+									<item>[Gr]iswold— Lieut<hi rend="superscript">t.</hi></item>
+								</list>
+							</item>
+							<item rendition="#bracket-left">
+								<list>
+									<item>Miner.</item>
+									<item>[Gri]er Chaplain</item>
+								</list>
+							</item>
+							<item>[Sc]ott— John</item>
+							<item>Rush— S.T.</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">Visits</head>
+									<item>Stevenson A</item>
+									<item>[Cr]ump of V<hi rend="superscript">a</hi></item>
+								</list>
+							</item>
+							<item>Clay S.S— despatches from A. H. Everett and R. King.</item>
+							<item>[symbols] Southard S.N. For Taliaferro as Indian Agent to be
+								transferred.</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-08">
+					<head>8 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-08"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">8. IV:15.</label> Capitol</p>
+						<list>
+							<item>[Be]ll— Case of Hamtramck</item>
+							<item>[Slo]ane— With recommendations of J. C. Wright— M’Lane’s Panama
+									Res<hi rend="superscript">n.</hi></item>
+							<item>Barbour S.W. With pro[ceeds] of Court Martial vs Col<hi
+									rend="superscript">l.</hi> Chambers. Ind<hi rend="superscript"
+									>n.</hi> Agency</item>
+							<item>[To]mlinson— Concerning M’Lane’s Res<hi rend="superscript"
+									>ns.</hi> and Surveyor Middletown.</item>
+							<item>[Ta]liaferro— for his namesake— Indian Agency</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">Visits from Baltimore. Indian
+										Vocabulary</head>
+									<item>[Ga]llatin</item>
+									<item>[His] Son</item>
+								</list>
+							</item>
+							<item>
+								<list>
+									<item>
+										<label rendition="#bracket-left">—Unwell— Branchs Res<hi
+												rend="superscript">n</hi>— Gore’s in 1814.
+											March</label> Mills</item>
+									<item>
+										<label rendition="#bracket-left">from the School at
+											Northampton.</label> [Bo]rdy</item>
+								</list>
+							</item>
+							<item>[Cob]b— Creek Indians— Project of a New Treaty.</item>
+							<item>[Sey]mour— Collector at Champlain— Sailly. Palmer— Woodbury’s
+								Letters</item>
+							<item>[Bre]nt— D.</item>
+							<item>Rush S.T.</item>
+							<item>[So]uthard S.N.</item>
+							<pb type="ms" n="978"/>
+							<item>Gales of Raleigh</item>
+							<item>Seaton</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">[symbols] Clay and
+										[symbols]</head>
+									<item>Southard</item>
+									<item>Brent— D.</item>
+								</list></item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-09">
+					<head>9 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-09"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">9. IV.</label> Capitol.</p>
+						<p>Heard Little. Acts 17.27.</p>
+						<p>Dorsey.</p>
+						<p>Brawner</p>
+						<p>Thomas Jesse B. [symbols] Macon, Lowrie, Randolph, Benton Noble
+							Ruggles—</p>
+						<p>Rush— R.</p>
+						<p>Heard Hawley— Revelations 22.17.</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-10">
+					<head>10 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-10"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">10. IV:45.</label> Capitol— Rain— Snow.</p>
+						<p>Barbour. S.W— Cobb’s proposals— declined. Col<hi rend="superscript"
+								>l.</hi> Chambers to resign</p>
+						<p>Brearley— Col<hi rend="superscript">l</hi>— Creek Indians— reconcil<hi
+								rend="superscript">n.</hi>— Berrien—</p>
+						<p>Clay. S.S— Note to Salazar— Med<hi rend="superscript">n</hi>— The
+							meeting.</p>
+						<p>Hitchcock— Pickens arrived— District Judge Alabama. Crawford.
+							D[ille]t</p>
+						<p>Barbour. S.W— Answer to Cobb— Hamtramck. Indian Agent. Taliaferro</p>
+						<p>Southard S.N— Boston Sloop of War to Sail— C. Smith &amp; Bourne</p>
+						<p>Cook. D. P— Private War at Sea— Secret Laws. Florida. Cuba— Chambers</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-11">
+					<head>11 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-11"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">11. V:35.</label> Sun rose V:32— Clear— Ice.</p>
+						<list>
+							<item>Sanford— N— Publication by Senate of Executive Communications.
+								Bissell.</item>
+							<item>Rush. S.T. claim of Judge Scott of Arkansas</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">Visits</head>
+									<item>Mangum.</item>
+									<item>Cameron— Major J. A.</item>
+								</list>
+							</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">Visits— Tallmadge Cousin of L<hi
+											rend="superscript">t.</hi> Gov<hi rend="superscript"
+											>r</hi></head>
+									<item>Brown— Gen<hi rend="superscript">l.</hi> J.</item>
+									<item>Tallmadge— Major</item>
+								</list>
+							</item>
+							<item>Barbour S.W.— Hamtramck recom<hi rend="superscript">d.</hi> Agent
+								to Osage’s— Objections.</item>
+							<item>Bode— with Dissert<hi rend="superscript">n.</hi> on Poems of
+								Orpheus.</item>
+							<item>Merwin— Dist<hi rend="superscript">t.</hi> Judge Conn<hi
+									rend="superscript">t.</hi> Tomlinson. Bristol. Edwards.</item>
+							<item>Southard— about C. Smith. Stuart’s Sand[wich] I<hi
+									rend="superscript">d.</hi> Journal. Pettis.</item>
+							<item>
+								<table>
+									<row>
+										<cell role="name">Virginia Military Patents</cell>
+										<cell role="num">2</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Franklin Missouri</cell>
+										<cell role="num">1</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Military Patent</cell>
+										<cell role="num">1</cell>
+										<cell role="num">4</cell>
+									</row>
+									<row>
+										<cell role="name"/>
+										<cell rendition="#lineabove"/>
+										<cell/>
+									</row>
+								</table>
+							</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-12">
+					<head>12 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-12"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<pb type="ms" n="979"/>
+						<p><label type="timestamp">12. V.</label> Capitol— Sun rose 5:31.— George 25.
+							Frost.</p>
+						<list>
+							<item>
+								<list>
+									<head rendition="#bracket-left">Senators from
+										Alabama.<lb/>Visits.</head>
+									<item>Pickens</item>
+									<item>King</item>
+								</list>
+							</item>
+							<item>Sherburne— Going to-morrow for Portsmouth— Naval Office.</item>
+							<item>Rush. S.T— Claims for Services in Florida.</item>
+							<item>Wirt. A.G.— Morning call</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left"><lb/>Marshall Alabama— Crawford
+										for Dist<hi rend="superscript">t.</hi> judge</head>
+									<item>M’Kee</item>
+									<item>Armstrong</item>
+								</list>
+							</item>
+							<item>Armstrong. Andrew— Treaty of Hayti with France.</item>
+							<item>Hebb.— for Place— Reference to Dorsey.</item>
+							<item>Brent. D.— Report on Executive. App<hi rend="superscript">ts.</hi>
+								during the recess.</item>
+							<item>[Pe]dersen— from Philadelphia— Inst<hi rend="superscript">ns.</hi>
+								for Treaty from his Gov<hi rend="superscript">t.</hi></item>
+							<item>Clay S.S. Vaughan’s Dec<hi rend="superscript">rn</hi> ag<hi
+									rend="superscript">t.</hi> Int<hi rend="superscript">n.</hi> on
+								Slave Convention. Extra Mission.</item>
+							<item>[symbols]</item>
+
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-13">
+					<head>13 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-13"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<p><label type="timestamp">[13.] IV:15.</label> Capitol Bridge— Sun rose 5:30. S. of
+							S.E edge State Dep<hi rend="superscript">t.</hi> high tree Same as 31.
+								Aug<hi rend="superscript">t.</hi></p>
+						<list>
+							<item>[Ar]mstrong. Andrew— Treaty between France and Hayti</item>
+							<item>Dinsmoor of Alabama— District judge— W. Crawford</item>
+							<item>Mallary— About C. K. Williams. Bradley— C. P. Van Ness— Panama
+								Mission</item>
+							<item>
+								<list rendition="#bracket-left">
+									<item>Williams— Lewis</item>
+									<item>[Ca]meron—with Letter from H. G. Burton— Wants to be
+											Comm<hi rend="superscript">r</hi> Bank<hi
+											rend="superscript">y.</hi></item>
+									<item>Bryan</item>
+								</list>
+							</item>
+							<item>Pleasonton. S— Light-house keepers— Flaherty to be sent by Rev.
+								Cutter.</item>
+							<item>Adams— Young man, asks for employment in Patent Office.</item>
+							<item>[So]uthard. S.N— Sloop of War to cruize on the fishery Coast.
+								Eastport 2 July.</item>
+							<item>
+								<list rendition="#bracket-left">
+									<item>Amory— R. G—Visits</item>
+									<item>[Co]dman—from Boston— going tomorrow for S<hi
+											rend="superscript">t.</hi> Louis Missouri</item>
+								</list></item>
+							<item>Brent. D.</item>
+							<item>
+								<list>
+									<head rendition="#bracket-both">Visits<lb/> White
+										declines going to the Florida Indians</head>
+									<item>[Wh]ite. Jos: M</item>
+									<item>[De]lavan D<hi rend="superscript">r</hi></item>
+								</list></item>
+							<item>Party at Gen<hi rend="superscript">l</hi> Brown’s—</item>
+							<item>
+								<table>
+									<row>
+										<cell role="name">St Louis Missouri</cell>
+										<cell role="num">8</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Chillicothe Ohio</cell>
+										<cell role="num">3</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Franklin Missouri</cell>
+										<cell role="num">6</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Sparta</cell>
+										<cell role="num">13</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Choctaw</cell>
+										<cell role="num">32</cell>
+										<cell/>
+									</row>
+									<cb/>
+									<row>
+										<cell role="name">Huntsville Alabama</cell>
+										<cell role="num">30</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Indianapolis Indiana</cell>
+										<cell role="num">35</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Crawfordville</cell>
+										<cell role="num">143</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Cincinnati Ohio</cell>
+										<cell role="num">69.</cell>
+										<cell/>
+									</row>
+									<row>
+										<cell role="name">Virginia Military</cell>
+										<cell role="num">1</cell>
+										<cell role="num">= 340</cell>
+									</row>
+								</table>
+							</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-14">
+					<head>14 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-14"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<pb type="ms" n="980"/>
+						<p><label type="timestamp">14. IV:15.</label> Capitol— Rain</p>
+						<list>
+							<item>Lowrie W.— Res<hi rend="superscript">n.</hi> S. advising app<hi
+									rend="superscript">t.</hi> of Paymasters</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">Com<hi rend="superscript"
+											>ee</hi> with 1. Enrolled Bill.</head>
+									<item>Chase</item>
+									<item>Garnsey</item>
+								</list>
+							</item>
+							<item>Rush S.T. Accounts of Claims in Florida Neg<hi rend="superscript"
+									>n.</hi> of Land Office</item>
+							<item>Thomas J. B. Recomm<hi rend="superscript">g</hi> of Hamtramck—
+								Benton’s</item>
+							<item>Trulock— M<hi rend="superscript">rs</hi> Lydia, from
+								Baltimore.</item>
+							<item>Clay. S.S.— Pedersen’s proposals— Note from Vaughan of
+								Slaves.</item>
+							<item>Pearce— D. J.— Eve<hi rend="superscript">g</hi>— Webster’s Speech
+								this day.</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-15">
+					<head>15 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-15"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">15. V:</label> Capitol— Cloudy</p>
+						<list>
+							<item>Thompson. Alex<hi rend="superscript">r</hi>— for restoration of
+									Col<hi rend="superscript">l</hi> Chambers—</item>
+							<item>Brent. D.— Heap’s App<hi rend="superscript">t.</hi> of Consul at
+								Tunis— Salary from Nov<hi rend="superscript">r</hi> 1825.</item>
+							<item>Hunter John— With recommend<hi rend="superscript">ns.</hi>
+								H.R.U.S. Sup<hi rend="superscript">t.</hi> Ind<hi rend="superscript"
+									>n.</hi> Affairs</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">from Princeton, in Vacation<lb/>
+										his Son in law recently from the Havana</head>
+									<item>Bainbridge</item>
+									<item>His Son</item>
+									<item>Hays Captain</item>
+								</list>
+							</item>
+							<item>Blake— G.— Visit— Elections in Mass<hi rend="superscript"
+									>tts.</hi> Panama. Webster’s speech</item>
+							<item>Clay SS— Note from Vaughan— Slave indemnity. Draft of
+								Answer</item>
+							<item>
+								<list>
+									<head rendition="#bracket-left">Appointment of District Judge,
+										in Connecticut<lb/> Daggett, Bristol, [Lanman], Edwards,
+										Tomlinson.</head>
+									<item>Ingersoll, R. I.</item>
+									<item>Barber. N.</item>
+								</list>
+							</item>
+							<item>Williams, from Florida— For place. Register of Land-Office</item>
+							<item>Bradish— Enquires if Letter from him Const. Dec<hi
+									rend="superscript">r</hi> 1820 was rec<hi rend="superscript"
+									>d.</hi></item>
+							<item>Everett. E— Returned. Yates, Convention of 1787— Slavery</item>
+							<item>Pope— N— Debates in S. and H.R. App<hi rend="superscript">t.</hi>
+								of Com<hi rend="superscript">ees.</hi> in Senate restored</item>
+							<item>Dorsey— Clem<hi rend="superscript">t</hi>— did not see him— Wanted
+									Explan<hi rend="superscript">n</hi> of Message </item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-16">
+					<head>16 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-16"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">16. V:30.</label> [symbols]</p>
+						<p>Heard Little Proverbs 5.22–23. Sarcastic.</p>
+						<p>Baker— Nahum 1.7.</p>
+						<table>
+							<row>
+								<cell role="name">Cahaba— Alabama</cell>
+								<cell role="num">300</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell role="name">New-Orleans. Louisiana</cell>
+								<cell role="num">58</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell role="name">Cahaba</cell>
+								<cell role="num">1</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell role="name">Tallahassee Florida</cell>
+								<cell role="num" rendition="#line-below">1</cell>
+								<cell role="num">360.</cell>
+							</row>
+						</table>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-17">
+					<head>17 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-17"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<pb type="ms" n="981"/>
+						<p><label type="timestamp">17. V:15.</label> Sun rose Georgetown</p>
+						<list>
+							<item>
+								<list rendition="#bracket-left">
+									<head rendition="#bracket-left">Visitors.</head>
+									<item>Robbins— A.</item>
+									<item>His Son</item>
+									<item>[Ver]non— his nephew</item>
+								</list>
+							</item>
+							<item>Russell G. C— To plead for restoration of Col<hi
+									rend="superscript">l.</hi> Chambers.</item>
+							<item>Brent. D— Note of P.U.S. 6. Oct<hi rend="superscript">r.</hi>
+								1804. Temporary Comm<hi rend="superscript">n.</hi></item>
+							<item>M’Arthur— Gen<hi rend="superscript">l.</hi>— About Judge S.C. from
+								Ohio.</item>
+							<item>Letcher. Judge of District Court in Kentucky— Boyle.</item>
+							<item>
+								<list rendition="#bracket-right">
+									<item>Lynch— D.</item>
+									<item>Rogers— Lloyd</item>
+								</list>
+							</item>
+							<item>Van Rensselaer. S. M<hi rend="superscript">rs</hi> and
+								Miss.</item>
+							<item>Roberdeau— Col<hi rend="superscript">l</hi>. and Misses Mary,
+								Susan and Selina</item>
+							<item>Mease Miss— Lee. Carter.</item>
+							<item>Lynch D.— Ouseley M<hi rend="superscript">r</hi>— Bradish. Luther—
+								Evening</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-18">
+					<head>18 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-18"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">18. V:30.—</label> After Sun rise— College 1. hour 20
+							minutes</p>
+						<p>Lowrie. Res<hi rend="superscript">n.</hi> Senate— A. Binney rejected.</p>
+						<p>Bell— Sam<hi rend="superscript">l</hi>— Bissell’s case— Harrison.</p>
+						<p>Gurley— Recom<hi rend="superscript">n:</hi> T. B. Robertson Judge S.C.
+								Col<hi rend="superscript">l.</hi> Chambers</p>
+						<p>Brent. W. L. Recom<hi rend="superscript">n.</hi> Porter and Robertson—
+								Col<hi rend="superscript">l.</hi> Chambers</p>
+						<p>Williams— of Maryland going to Florida— Reg<hi rend="superscript">r.</hi>
+							Land-Office</p>
+						<p>Armstrong. Andrew— Hayti Newspapers— Recognition</p>
+						<p>Brent D.— Answer to Letter Chairman Com<hi rend="superscript">ee.</hi>
+							For. Rel<hi rend="superscript">ns.</hi> H.R.</p>
+						<p>[D]enson Jesse— Application for Appointment as Naval Chaplain</p>
+						<p>Clay S.S. Treaty Negotiating with Pedersen—</p>
+						<table rendition="#bracket-left">
+							<head rendition="#bracket-left">Visits—</head>
+							<row>
+								<cell>Southard S.N.</cell>
+							</row>
+							<row>
+								<cell>[Wa]ll— Gen<hi rend="superscript">l.</hi></cell>
+								<cell>of N. Jersey</cell>
+							</row>
+							<row>
+								<cell>Van Bibber</cell>
+								<cell>of Virginia.</cell>
+							</row>
+						</table>
+						<p>Barbour S.W.— Court-Martial on Col<hi rend="superscript">l.</hi>
+							Chambers— and Cadle</p>
+						<p>Rush. S.T. Florida Land-Offices— W. H. Allen and Love</p>
+						<list rendition="#bracket-left">
+							<head rendition="#bracket-left">With M’Lane’s and Buchanan’s Amendments
+								to the Res<hi rend="superscript">n.</hi> of expediency for
+								appropriations, for the Panama Mission.</head>
+							<item>Everett</item>
+							<item>Sloane</item>
+							<item>Tomlinson</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-19">
+					<head>19 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-19"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<pb type="ms" n="982"/>
+						<p><label type="timestamp">19. VI—</label> Met Wood. Walk to Georgetown Bridge</p>
+						<p>Conner— Benjamin— for papers concerning bridges.</p>
+						<p>Southard S.N. Nomination of Navy Agent. Boston— [R. D. Harris] for his
+							Son, a Midshipman’s warrant.</p>
+						<p>Lowry— Rev<hi rend="superscript">d</hi></p>
+						<p>Thomas. Jesse B.— The judiciary Bill— arrangem<hi rend="superscript"
+								>t</hi> of Circuits.</p>
+						<p>Brent— Daniel— for Draft of Conv<hi rend="superscript">n</hi> with
+							Denmark &amp; Heaps Ins<hi rend="superscript">ns.</hi></p>
+						<p>Barbour S.W. Memorial from Col<hi rend="superscript">l.</hi> Chambers.
+							Cadle’s C<hi rend="superscript">t.</hi> Martial</p>
+						<p>Clay S.S. Project of Treaty with Denmark. Res<hi rend="superscript"
+								>ns.</hi> H.R. Panama</p>
+						<p>Drawing-room—</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-20">
+					<head>20 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-20"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">20. VI:15.</label> Over Tyber Bridges— Met Wirt.</p>
+						<p>Mills. E. H.— Upon Branch’s Res<hi rend="superscript">n.</hi> J. Randolph
+							7 hours raving.</p>
+						<p>Brent. D.— M<hi rend="superscript">r</hi> Clay’s Answer to M<hi
+								rend="superscript">r</hi> Vaughan. Slave-indemnity.</p>
+						<list rendition="#bracket-left">
+							<head rendition="#bracket-left">With 2 Enrolled Bills— signed</head>
+							<item>Chase</item>
+							<item>Garnsey</item>
+						</list>
+						<p>Hunter J. W. with bill for Superintendency of Indian Affairs</p>
+						<p>Barbour S.W— with Letter from Tattnall about M’Intosh Indians</p>
+						<p>Warner— from N.Y. for Claimants upon France</p>
+						<p>Rush. S.T. Thomson’s teas— Jos<hi rend="superscript">h.</hi> Randall
+							assistant Counsel.</p>
+						<p>Bailey— J— proceedings. H.R. M’Lane &amp; Buchanan 99.95</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-21">
+					<head>21 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-21"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">21: VI:15.</label> Towards Capitol. Met and walked with
+							Bell</p>
+						<p>Wright. R— Approves Adm<hi rend="superscript">n.</hi> His Son gone Consul
+							to Rio Janyro</p>
+						<p>Southard S.N— Brandywine arrived at N.Y.</p>
+						<p>Brent— D— M<hi rend="superscript">r</hi> Clay’s Ans<hi rend="superscript"
+								>r.</hi> to Vaughan W. Pinckney &amp; Monroe’s Com<hi
+								rend="superscript">n</hi></p>
+						<p>Gallatin. A— from Baltimore. Will go to England Ind<hi rend="superscript"
+								>n.</hi> Vocabulary</p>
+						<p>Frye— N<hi rend="superscript">l</hi>— To ask Mills not to go home</p>
+						<p>Brown— Gen<hi rend="superscript">l</hi>— Of P.M.G. M’lean’s uneasiness—
+							J. A. Dix</p>
+						<p>Clay S.S— Convention with Denmark, agreed upon.</p>
+						<p>[symbols]</p>
+						<table cols="3">
+							<row>
+								<cell role="name">Cahaba Alabama</cell>
+								<cell role="num">19.</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell role="name">S<hi rend="superscript">t.</hi> Stephens</cell>
+								<cell role="num" rendition="#line-below">159</cell>
+								<cell role="num">178</cell>
+							</row>
+							<row>
+								<cell role="name">Cincinnati. Ohio</cell>
+								<cell role="num">138</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell role="name">Tallahassee</cell>
+								<cell role="num">1</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell role="name">Choctaw Mississippi</cell>
+								<cell role="num" rendition="#line-below">58</cell>
+								<cell role="num">197</cell>
+							</row>
+							<cb/>
+							<row>
+								<cell role="name">Crawfordsville Ind</cell>
+								<cell role="num">48.</cell>
+								<cell/>
+							</row>
+							<row>
+								<cell/>
+								<cell>=</cell>
+								<cell role="num">423</cell>
+							</row>
+						</table>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-22">
+					<head>22 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-22"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<pb type="ms" n="983"/>
+						<p><label type="timestamp">22. VI.</label> Tyber Square.</p>
+						<p>Lowrie— W— Creek Treaty, advised &amp; Res<hi rend="superscript">n:</hi>
+							Missouri next Session.</p>
+						<table>
+							<row>
+								<cell rendition="#bracket-right-allrows">Marks</cell>
+								<cell>Visits— Knight Member of Senate P<hi rend="superscript"
+										>a.</hi> and Surveyor</cell>
+							</row>
+							<row>
+								<cell>Lawrence</cell>
+								<cell>Sill Member H.R.U.S. in place of Farrelly.</cell>
+							</row>
+							<row>
+								<cell>[Kn]ight.</cell>
+								<cell>Panama Mission. approp<hi rend="superscript">n.</hi> Bill H.R.
+									yesterday</cell>
+							</row>
+							<row>
+								<cell>Sill.</cell>
+								<cell>Creek Treaty—</cell>
+							</row>
+						</table>
+						<p>Clary— from New-York— Visitor by curiosity.</p>
+						<list>
+							<head rendition="#bracket-left">H.R.U.S. Kentucky— to recommend Tompkins
+								as District judge in place of R. Trimble</head>
+							<item>[F.] Johnson</item>
+							<item>Buckner</item>
+						</list>
+						<p>Rush S.T.— Draft of Answer to Jon<hi rend="superscript">n.</hi> Jennings.
+							copies of his Letters</p>
+						<p>Barbour S.W. To send away the Creek Indians.</p>
+						<table>
+							<row>
+								<cell>Knight</cell>
+								<cell>Com<hi rend="superscript">ee.</hi> Enrolled Bills— with two
+									Bills—</cell>
+							</row>
+							<row>
+								<cell>Garnsey</cell>
+								<cell>Lands in Florida— Mississippi and Alabama</cell>
+							</row>
+						</table>
+						<list>
+							<head rendition="#bracket-left">To obtain discharge of Joseph Douglas, a
+								coloured boy, from the Brandywine</head>
+							<item>[Hol]zman M<hi rend="superscript">rs </hi></item>
+							<item>[and] a boy</item>
+						</list>
+						<table>
+							<row>
+								<cell rendition="#bracket-right-allrows">[Va]n Rensselaer S.</cell>
+								<cell>Visits— Appropr<hi rend="superscript">n.</hi> Panama— passed
+									H.R.U.S.</cell>
+							</row>
+							<row>
+								<cell>Morris— from NY.</cell>
+								<cell>Son of L. Morris signer of Dec<hi rend="superscript">n.</hi>
+									of Independence</cell>
+							</row>
+						</table>
+						<list>
+							<head rendition="#bracket-left">Visits— Angry debate in H.R. upon a Bill
+								to pay for a Negro killed in War. Gen<hi rend="superscript">l.</hi>
+								Jackson</head>
+							<item>[Do]rsey— Clem<hi rend="superscript">t </hi></item>
+							<item>[Sco]tt of Mar<hi rend="superscript">d</hi></item>
+						</list>
+						<p>[To]mlinson— Dist<hi rend="superscript">t.</hi> Judge, Connecticut
+								Recomm<hi rend="superscript">s</hi> for him</p>
+						<p>[Br]adish— L— Distressed about assertions of L<hi rend="superscript"
+								>d.</hi> Strangford’s letters</p>
+						<list>
+							<head rendition="#bracket-left">Evening visits.</head>
+							<item>[Cl]ay. H.</item>
+							<item>[Jo]hnston. Josiah S</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-23">
+					<head>23 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-23"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<p><label type="timestamp">[23] V:</label> Sun rose 5:16. Behind tallest chimney State
+								Dep<hi rend="superscript">t.</hi></p>
+						<p>[He]ard Stapler and Wetherall— of the Friends, at the Capitol</p>
+						<p>[Pos]t at Baker’s. Luke 14.22— And yet there is room</p>
+						<p>[We]bster here— did not see him— Walk with Wilson.</p>
+						<list>
+							<head rendition="#bracket-left">Evening visits.</head>
+							<item>[Cr]owninshield. B. W.</item>
+							<item>[Bar]ney. J</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-24">
+					<head>24 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-24"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<pb type="ms" n="984"/>
+						<p><label type="timestamp">24. V.</label> Sun rose 5.15. Behind Middle Chimney State
+								Dep<hi rend="superscript">t.</hi></p>
+						<p>Same 17. Aug<hi rend="superscript">t.</hi>— Tyber Bridge Square walk.</p>
+						<list>
+							<head rendition="#bracket-left">Visits— Hughes returns tomorrow to
+								Baltimore, and is to sail next week for Rotterdam</head>
+							<item>Chambers</item>
+							<item>Hughes.</item>
+						</list>
+						<p>Barbour S.W. About the new Creek Treaty</p>
+						<list>
+							<head rendition="#bracket-left">Visits— Skinner gave me an invitation to
+								the Cattle Show in June</head>
+							<item>Skinner J. S.</item>
+							<item>Mays</item>
+							<item>Hatch.</item>
+						</list>
+						<p>Clay S.S. Recommends W. Duane, as Agent to the Havanna</p>
+						<p>Tutt. C. P with Letter from L— Lee, for an Appointment</p>
+						<list>
+							<head rendition="#bracket-left">Visits— Dupont came here on account of
+								his Son’s promotion from Midshipman to Lieutenant—</head>
+							<item>Dupont. V</item>
+							<item>Van Dyke j<hi rend="superscript">r</hi></item>
+							<item>Van Dyke’s father ill—</item>
+						</list>
+						<p>Brent D.— For W. Pinkney’s Commission 12 May 1806</p>
+						<list>
+							<head rendition="#bracket-left">Visitors— The Woodruffs are from
+								New-Jersey</head>
+							<item>Southard S.N.</item>
+							<item>Woodruff. Abner</item>
+							<item>Woodruff. D<hi rend="superscript">r</hi></item>
+						</list>
+						<p>Caldwell. Charles— giving Lectures here on phrenology</p>
+						<p>Brown Gen<hi rend="superscript">l</hi>— Clintonian Caucus Address—</p>
+						<p>Biddle— Capt<hi rend="superscript">n</hi>— Mentioned death of king of
+							Portugal 9. March</p>
+						<p>Rush. S.T.— Answer to Jonathan Jennings’s enquiries— Land-Office</p>
+						<p>At M<hi rend="superscript">r</hi> T. B. Johnson’s— Party at
+							[Barr]ells</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-25">
+					<head>25 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-25"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">25. VI.</label> Tyber Square</p>
+						<p>Francis— From Connecticut— Visitor Self-introduced</p>
+						<p>Mills— Returned Jenkinson’s Treaties— Going after to-morrow.</p>
+						<p>Booth— for appointment in Brearley’s place. Navy-Yard.</p>
+						<p>Mower. Post-Office at New-York— Carrier-boy thief.</p>
+						<p>Rush. S.T— The Answer to Jennings— Register at Indianapolis</p>
+						<list>
+							<head rendition="#bracket-left">Visitors</head>
+							<item>Southard</item>
+							<item>[Reckler]</item>
+							<item>Barber. N</item>
+						</list>
+						<p>Cobb— Talk about Indian Treaty. Crowell— Cobb going home</p>
+						<p>Thomas. Judiciary bill, likely to fail N. Pope dissatisfied</p>
+						<list>
+							<head rendition="#bracket-left">Visits Donaldson from S<hi
+									rend="superscript">t.</hi> Johns New-Brunswickabout to return
+								there </head>
+							<item>Roberdeau</item>
+							<item>Donaldson</item>
+						</list>
+						<p>White. Jos. M— Reg<hi rend="superscript">r.</hi> &amp; Receiver E.
+							Florida, Comm<hi rend="superscript">n</hi> discontinued</p>
+						<pb type="ms" n="985"/>
+						<p>Message to S.U.S.— N. 39— Nominations</p>
+						<p>Message to H.R.U.S. N. 26.</p>
+						<p>Land-grants Cincinnati, Ohio 5.</p>
+						<list>
+							<head rendition="#bracket-left">Speaking with him of the judiciary
+								bill—interrupted—</head>
+							<item>[Ev]erett</item>
+							<item>[Pe]arce</item>
+							<item>Visitors.</item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-26">
+					<head>26 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-26"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<p><label type="timestamp">[26]. V.</label> Rain</p>
+						<p>Brent. D— for draft to Middleton and Letter to [Nicholas] [symbols]</p>
+						<p>Hunter J. W.— for place of Naval Store-keeper</p>
+						<p>Rochester— Going to-morrow— Fears summer trip to Panama</p>
+						<list>
+							<head rendition="#bracket-left">Announced as Pennsylvania delegation—
+								recommended J. W. Hunter as Naval Store-keeper at Navy Yard</head>
+							<item>[La]wrence</item>
+							<item>[Si]ll.</item>
+							<item>Orr</item>
+							<item>[Mi]tchell. J</item>
+						</list>
+						<p>Barbour S.W. Creek Indian distribution— Crowell not well disposed</p>
+						<list>
+							<head rendition="#bracket-left">Visitors.</head>
+							<item>Southard</item>
+							<item>[Profe]sion</item>
+							<item>[M’]lean John</item>
+						</list>
+						<p>[Gre]en Jacob</p>
+						<p>Webster</p>
+						<p>[Cl]arke H.R— Res<hi rend="superscript">n.</hi> for A.G’s opinion upon
+							outfit. </p>
+
+
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-27">
+					<head>27 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-27"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<p><label type="timestamp">[27.] VI.</label> Central Square.</p>
+						<list>
+							<head rendition="#bracket-left">Visits— L. M. Powell a Midshipman,
+								returned from the Mediterranean in the Brandywine</head>
+							<item>Powell</item>
+							<item>[Hi]s Son</item>
+						</list>
+						<list>
+							<head rendition="#bracket-left">Visits— The General and his family to
+								leave the City next Monday.</head>
+							<item>[Va]n Rensselaer</item>
+							<item>[His] Son and boy</item>
+						</list>
+						<p>[Ch]ambers. Case of Bissell’s Nomination. Branch’s Res<hi
+								rend="superscript">n.</hi> Tazewell</p>
+						<p>[Cl]ay S.S.— Treaty with Denmark. Dix to go special Messenger.</p>
+						<p>[Opo]thle-Yoholo and deputation of Creek Indians T.T.L.</p>
+						<list>
+							<head rendition="#bracket-left">Visitors with Clay— Brady Speaker of the
+								House ofRepresentatives Tennessee— Cochran of Virginia </head>
+							<item>Brady— Gen<hi rend="superscript">l</hi></item>
+							<item>[Co]chran D<hi rend="superscript">r</hi></item>
+						</list>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-28">
+					<head>28 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-28"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+						<pb type="ms" n="986"/>
+						<p><label type="timestamp">28. VI—</label> Market Square</p>
+						<p>M’Clain John— Revolutionary Sailor— For Pension</p>
+						<p>Hunter J. W. with Letter from L. Williams</p>
+						<list>
+							<head rendition="#bracket-both">Gamble a Major in the Marine Corps
+								applies for brevet promotion.</head>
+							<item>Van Rensselaer</item>
+							<item>Gamble</item>
+							<item>Lang</item>
+						</list>
+						<list>
+							<head rendition="#bracket-left">For subscription to a Masonic
+								Edifice<lb/>I promised to contribute $50</head>
+							<item>Waitman</item>
+							<item>Seaton W. W</item>
+						</list>
+						<p>Scott. Alexander— Conc<hi rend="superscript">g</hi> his Son &amp; judge
+							Brackenridge</p>
+						<p>Rose    To recommend C. Selden Navy Store-keeper</p>
+						<list>
+							<head rendition="#bracket-left">Visitors—</head>
+							<item>Stewart of P<hi rend="superscript">a.</hi></item>
+							<item>Crepps. Col<hi rend="superscript">l</hi></item>
+						</list>
+						<p>Hitchcock— of Alabama— For Crawford as District Judge</p>
+						<list>
+							<head rendition="#bracket-left">Visits— Carter recommends Barkley for
+								Marshal Western Dist<hi rend="superscript">t</hi> S.C— N.C. Gold
+								mines.</head>
+							<item>Carter of S.C.</item>
+							<item>Conner— Col<hi rend="superscript">l</hi></item>
+						</list>
+						<p>Answer to Emperor of Russia, notifying death of Alexander</p>
+						<p>Commission to [Le]vy Court Washington C<hi rend="superscript">o.</hi> to
+								1<hi rend="superscript">st.</hi> Monday May [1827]</p>
+						<p>Credential Letter H. Middleton to Nicholas 1—</p>
+						<p>Message to S.U.S— N. 40. Convention with Denmark.</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-29">
+					<head>29 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-29"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">29. V.—</label> Georgetown.</p>
+						<p>Miller John— Enquiries concerning nomination of Sailly </p>
+						<p>Sanford— For Wright’s Letter to Seymour. N.Y. &amp; int<hi
+								rend="superscript">l.</hi> improve[ment]</p>
+						<p>Bell— For C. Cutts— Navy Agency Portsmouth— Branch’s Res<hi
+								rend="superscript">n.</hi></p>
+						<list>
+							<head rendition="#bracket-left">To recommend D<hi rend="superscript"
+									>r.</hi> Bates as Navy Agent. Boston. Told them Harris was
+								already nominated</head>
+							<item>Reed</item>
+							<item>Locke</item>
+						</list>
+						<p>Rush. S.T. Letter from judge Van Ness— Assistant Counsel N.Y.</p>
+						<list>
+							<head rendition="#bracket-left">Visits</head>
+							<item>Williams— L</item>
+							<item>Bradford. Major</item>
+							<item>from Tennessee.</item>
+						</list>
+						<p>Lowrie W— 2. Res<hi rend="superscript">ns.</hi> S.U.S. Navy Nominations.
+							Chambers Court [Martial]</p>
+						<p>Taylor. G.— For Appointment of Navy Agent vice Brearley</p>
+						<p>Pedersen— Going to Philadelphia. Monday.</p>
+						<list>
+							<head rendition="#bracket-left">Visits— Hiester is Surveyor General of
+								the State of Pennsylvania.</head>
+							<item>Markley.</item>
+							<item>Hiester Gen<hi rend="superscript">l</hi></item>
+							<item>His Son</item>
+						</list>
+						<pb type="ms" n="987"/>
+						<list>
+							<head rendition="#bracket-left">Visits— M’Kee is from Wheeling
+								Virginia.<lb/>Ruggles resides in Ohio— across the river.</head>
+							<item>Ruggles</item>
+							<item>M’Kee</item>
+						</list>
+						<p>Wyer— Going tomorrow for S<hi rend="superscript">t.</hi> Petersburg
+							[symbols]</p>
+						<p>Miller. Thomas— Applicant for Navy Agency— vice Brearley</p>
+						<list>
+							<head rendition="#bracket-left">Cabinet Meeting— Instructions to Panama
+								Mission— Payment for Independence— Recognition of Hayti— Canal from
+								Sea to Sea— discussed.</head>
+							<item>Clay— S.S.</item>
+							<item>Rush S.T.</item>
+							<item>Barbour S.W.</item>
+							<item>Southard S.N.</item>
+						</list>
+						<p>[Eve]rett E. in the Evening— Judiciary Bill in jeopardy—</p>
+						<p>[M<hi rend="superscript">rs</hi>] A. and girls— Evening party at M<hi
+								rend="superscript">r</hi> Rush’s.</p>
+						<p>Message to H.R. N. 27— Attorney General’s opinion.</p>
+					</div>
+				</div>
+
+				<div type="entry" xml:id="jqadiaries-v49-1826-04-30">
+					<head>30 April 1826</head>
+					<bibl>
+						<author>JQA</author>
+						<date type="creation" when="1826-04-30"/>
+						<editor role="transcription">Neal Millikan</editor>
+					</bibl>
+
+					<div type="docbody">
+
+						<p><label type="timestamp">[30.] IV:45.</label> Sun rose 5.8. between the two S.W.
+							Chimnies State Dep<hi rend="superscript">t.</hi> Same 13. August.</p>
+						<p>[Hea]rd Little. Proverbs 3.16. Length of days is in her right hand; and
+							in her left hand riches and honour.</p>
+						<p>No Church at Baker’s. Met Campbell of Ohio, and Harris of P<hi
+								rend="superscript">a</hi></p>
+						<p>[Hea]rd Gray at Hawley’s. Matthew 22.42. What think ye of Christ?</p>
+						<p>B. Bassett. young V. Rensselaer &amp; his Sister there.</p>
+						<p>[Lee]— W— at Eve— Baron Tuyll died two days after sailing from New
+							York.</p>
+						<p>[Ta]ylor J. W. fiduciary Bill— Might it not be dispensed with?
+							[dis]agreement between the two Houses.</p>
+						<table>
+							<head>[Lan]d-grants</head>
+							<row>
+								<cell role="name">[Spar]ta</cell>
+								<cell role="num">71</cell>
+							</row>
+							<row>
+								<cell role="name">[Sha]wneetown Illinois</cell>
+								<cell role="num">17</cell>
+							</row>
+							<row>
+								<cell role="name">[Edw]ardsville. d<hi rend="superscript"
+									>o</hi></cell>
+								<cell role="num">50</cell>
+							</row>
+							<row>
+								<cell role="name">[Jeffers]onville Indiana</cell>
+								<cell role="num">1</cell>
+							</row>
+							<row>
+								<cell role="name">[Kas]kaskia Illinois</cell>
+								<cell role="num">1</cell>
+							</row>
+							<row>
+								<cell/>
+								<cell rendition="#lineabove">140.</cell>
+							</row>
+							<row>
+								<cell role="name">[Virgi]nia Military</cell>
+								<cell role="num">3</cell>
+							</row>
+							<row>
+								<cell role="name">[Arkansas] Military</cell>
+								<cell role="num">4</cell>
+							</row>
+							<row>
+								<cell role="name">[Choc]taw. Mississippi</cell>
+								<cell role="num">1</cell>
+							</row>
+							<row>
+								<cell role="name">[Virg]inia Military</cell>
+								<cell role="num">4</cell>
+							</row>
+							<cb/>
+							<row>
+								<cell>Military Bounty</cell>
+								<cell>7</cell>
+							</row>
+							<row>
+								<cell role="name">Military District</cell>
+								<cell role="num">1</cell>
+							</row>
+						</table>
+					</div>
+				</div>
+			</div>
+
+		</body>
+	</text>
+</TEI>
