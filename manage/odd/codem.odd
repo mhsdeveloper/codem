@@ -74,7 +74,7 @@
 	<moduleRef key="tei"/>
 
 	<!-- core module -->
-	<moduleRef key="core" include="label ptr ref note add unclear lb pb p hi date list item head pb cb name author editor bibl title"/>
+	<moduleRef key="core" include="label ptr ref note add del unclear lb pb p hi date list item head pb cb name author editor bibl title"/>
 	<elementSpec ident="date" mode="change">
 	  <attList>
 	    <attDef ident="type" mode="change">
