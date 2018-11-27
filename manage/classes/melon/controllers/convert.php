@@ -60,11 +60,11 @@
 			$idRoot = $Ox->getIdRoot();
 			$this->text = file_get_contents($fullpath);
 
-file_put_contents($fullpath . "-ox.xml", $this->text);
+//file_put_contents($fullpath . "-ox.xml", $this->text);
 
 			$this->runPreWETxslt();
-			
-file_put_contents($fullpath . "-ox-prewet.xml", $this->text);
+		
+//file_put_contents($fullpath . "-ox-prewet.xml", $this->text);
 			
 			$T = new \Melon\Models\OxToTei();
 			$T->setIdRoot($idRoot);
@@ -87,7 +87,7 @@ file_put_contents($fullpath . "-ox-prewet.xml", $this->text);
 
 			$this->text = $T->text();
 
-file_put_contents($fullpath . "-ox-postwet.xml", $this->text);
+//file_put_contents($fullpath . "-ox-postwet.xml", $this->text);
 			
 			$this->runPostWETxslt();
 
