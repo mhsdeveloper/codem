@@ -6,9 +6,9 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-11-13T01:49:36Z. .
+# Schema generated from ODD source 2018-11-28T23:05:48Z. .
 # TEI Edition: Version 3.5.0a. Last updated on
-#	12th October 2018, revision ae63ddc
+#	21st November 2018, revision ad7572a
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0a./
 #  Scehema intended to support at least jqa/ & correspondence/ 
 
@@ -715,17 +715,17 @@ codem_model.pPart.editorial_sequenceOptional = empty
 codem_model.pPart.editorial_sequenceOptionalRepeatable = empty
 codem_model.pPart.editorial_sequenceRepeatable = notAllowed
 codem_model.pPart.transcriptional =
-  codem_add | codem_unclear | codem_supplied
+  codem_add | codem_del | codem_unclear | codem_supplied
 codem_model.pPart.transcriptional_alternation =
-  codem_add | codem_unclear | codem_supplied
+  codem_add | codem_del | codem_unclear | codem_supplied
 codem_model.pPart.transcriptional_sequence =
-  codem_add, codem_unclear, codem_supplied
+  codem_add, codem_del, codem_unclear, codem_supplied
 codem_model.pPart.transcriptional_sequenceOptional =
-  codem_add?, codem_unclear?, codem_supplied?
+  codem_add?, codem_del?, codem_unclear?, codem_supplied?
 codem_model.pPart.transcriptional_sequenceOptionalRepeatable =
-  codem_add*, codem_unclear*, codem_supplied*
+  codem_add*, codem_del*, codem_unclear*, codem_supplied*
 codem_model.pPart.transcriptional_sequenceRepeatable =
-  codem_add+, codem_unclear+, codem_supplied+
+  codem_add+, codem_del+, codem_unclear+, codem_supplied+
 codem_model.pPart.edit =
   codem_model.pPart.editorial | codem_model.pPart.transcriptional
 codem_model.ptrLike = codem_ptr | codem_ref
@@ -1007,6 +1007,17 @@ codem_add =
     empty
   }
 
+codem_del =
+  ## (deletion) contains a letter, word, or passage deleted, marked as deleted, or otherwise indicated as superfluous or spurious in the copy text by an author, scribe, or a previous annotator or corrector. [3.4.3. Additions, Deletions, and Omissions]
+  element del {
+    codem_macro.paraContent,
+    codem_att.global.attributes,
+    codem_att.transcriptional.attributes,
+    codem_att.typed.attributes,
+    codem_att.dimensions.attributes,
+    empty
+  }
+
 codem_unclear =
   ## contains a word, phrase, or passage which cannot be transcribed with certainty because it is illegible or inaudible in the source. [11.3.3.1. Damage, Illegibility, and Supplied Text 3.4.3. Additions, Deletions, and Omissions]
   element unclear {
@@ -1044,13 +1055,14 @@ codem_name =
   }
 
 codem_date =
-  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
+  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.7. Dates and Times]
   element date {
     (text
      | codem_model.gLike
      | codem_model.phrase
      | codem_model.global)*,
     codem_att.global.attributes,
+    codem_att.canonical.attributes,
     codem_att.datable.attributes,
     codem_att.editLike.attributes,
     codem_att.dimensions.attributes,
