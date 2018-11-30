@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-11-28T23:05:48Z. .
+# Schema generated from ODD source 2018-11-30T15:39:39Z. .
 # TEI Edition: Version 3.5.0a. Last updated on
 #	21st November 2018, revision ad7572a
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0a./
@@ -708,24 +708,56 @@ codem_model.offsetLike_sequenceOptional = empty
 codem_model.offsetLike_sequenceOptionalRepeatable = empty
 codem_model.offsetLike_sequenceRepeatable = notAllowed
 codem_model.pPart.msdesc = notAllowed
-codem_model.pPart.editorial = notAllowed
-codem_model.pPart.editorial_alternation = notAllowed
-codem_model.pPart.editorial_sequence = empty
-codem_model.pPart.editorial_sequenceOptional = empty
-codem_model.pPart.editorial_sequenceOptionalRepeatable = empty
-codem_model.pPart.editorial_sequenceRepeatable = notAllowed
+codem_model.pPart.editorial = codem_abbr | codem_expan
+codem_model.pPart.editorial_alternation = codem_abbr | codem_expan
+codem_model.pPart.editorial_sequence = codem_abbr, codem_expan
+codem_model.pPart.editorial_sequenceOptional = codem_abbr?, codem_expan?
+codem_model.pPart.editorial_sequenceOptionalRepeatable =
+  codem_abbr*, codem_expan*
+codem_model.pPart.editorial_sequenceRepeatable =
+  codem_abbr+, codem_expan+
 codem_model.pPart.transcriptional =
-  codem_add | codem_del | codem_unclear | codem_supplied
+  codem_reg
+  | codem_orig
+  | codem_add
+  | codem_del
+  | codem_unclear
+  | codem_supplied
 codem_model.pPart.transcriptional_alternation =
-  codem_add | codem_del | codem_unclear | codem_supplied
+  codem_reg
+  | codem_orig
+  | codem_add
+  | codem_del
+  | codem_unclear
+  | codem_supplied
 codem_model.pPart.transcriptional_sequence =
-  codem_add, codem_del, codem_unclear, codem_supplied
+  codem_reg,
+  codem_orig,
+  codem_add,
+  codem_del,
+  codem_unclear,
+  codem_supplied
 codem_model.pPart.transcriptional_sequenceOptional =
-  codem_add?, codem_del?, codem_unclear?, codem_supplied?
+  codem_reg?,
+  codem_orig?,
+  codem_add?,
+  codem_del?,
+  codem_unclear?,
+  codem_supplied?
 codem_model.pPart.transcriptional_sequenceOptionalRepeatable =
-  codem_add*, codem_del*, codem_unclear*, codem_supplied*
+  codem_reg*,
+  codem_orig*,
+  codem_add*,
+  codem_del*,
+  codem_unclear*,
+  codem_supplied*
 codem_model.pPart.transcriptional_sequenceRepeatable =
-  codem_add+, codem_del+, codem_unclear+, codem_supplied+
+  codem_reg+,
+  codem_orig+,
+  codem_add+,
+  codem_del+,
+  codem_unclear+,
+  codem_supplied+
 codem_model.pPart.edit =
   codem_model.pPart.editorial | codem_model.pPart.transcriptional
 codem_model.ptrLike = codem_ptr | codem_ref
@@ -831,7 +863,8 @@ codem_model.divTopPart =
 codem_model.divTop = codem_model.divWrapper | codem_model.divTopPart
 codem_model.frontPart.drama = notAllowed
 codem_model.pLike.front = codem_head
-codem_model.divBottomPart = codem_closer | codem_signed
+codem_model.divBottomPart =
+  codem_closer | codem_signed | codem_postscript
 codem_model.divBottom =
   codem_model.divWrapper | codem_model.divBottomPart
 codem_model.imprintPart = notAllowed
@@ -995,6 +1028,24 @@ codem_hi =
     empty
   }
 
+codem_reg =
+  ## (regularization) contains a reading which has been regularized or normalized in some sense. [3.4.2. Regularization and
+  ## Normalization 12. Critical Apparatus]
+  element reg {
+    codem_macro.paraContent,
+    codem_att.global.attributes,
+    codem_att.editLike.attributes,
+    codem_att.typed.attributes,
+    empty
+  }
+
+codem_orig =
+  ## (original form) contains a reading which is marked as following the original, rather than being normalized or corrected. [3.4.2. Regularization and
+  ## Normalization 12. Critical Apparatus]
+  element orig {
+    codem_macro.paraContent, codem_att.global.attributes, empty
+  }
+
 codem_add =
   ## (addition) contains letters, words, or phrases inserted in the source text by an author, scribe, or a previous annotator or corrector. [3.4.3. Additions, Deletions, and Omissions]
   element add {
@@ -1071,6 +1122,29 @@ codem_date =
     attribute type {
       "creation" | "transcription"
     }?,
+    empty
+  }
+
+codem_abbr =
+  ## (abbreviation) contains an abbreviation of any sort. [3.5.5. Abbreviations and Their Expansions]
+  element abbr {
+    codem_macro.phraseSeq,
+    codem_att.global.attributes,
+    codem_att.typed.attribute.subtype,
+    ## allows the encoder to classify the abbreviation according to some convenient typology.
+    ## Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic
+    attribute type {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    }?,
+    empty
+  }
+
+codem_expan =
+  ## (expansion) contains the expansion of an abbreviation. [3.5.5. Abbreviations and Their Expansions]
+  element expan {
+    codem_macro.phraseSeq,
+    codem_att.global.attributes,
+    codem_att.editLike.attributes,
     empty
   }
 
@@ -1709,6 +1783,18 @@ codem_signed =
   ## (signature) contains the closing salutation, etc., appended to a foreword, dedicatory epistle, or other division of a text. [4.2.2. Openers and Closers]
   element signed {
     codem_macro.paraContent,
+    codem_att.global.attributes,
+    codem_att.written.attributes,
+    empty
+  }
+
+codem_postscript =
+  ## contains a postscript, e.g. to a letter. [4.2. Elements Common to All Divisions]
+  element postscript {
+    ((codem_model.global | codem_model.divTopPart)*,
+     codem_model.common,
+     (codem_model.global | codem_model.common)*,
+     (codem_model.divBottomPart, codem_model.global*)*),
     codem_att.global.attributes,
     codem_att.written.attributes,
     empty
