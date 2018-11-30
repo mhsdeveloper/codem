@@ -83,7 +83,7 @@
         <moduleRef key="tei"/>
 
         <!-- core module -->
-        <moduleRef key="core" include="label ptr ref note add del unclear lb pb p hi date list item head pb cb name author editor bibl title"/>
+        <moduleRef key="core" include="label ptr ref note add del unclear abbr expan orig reg lb pb p hi date list item head pb cb name author editor bibl title"/>
         <elementSpec ident="date" mode="change">
           <attList>
             <attDef ident="type" mode="change">
@@ -139,7 +139,7 @@
         <!-- linking module -->
         <!-- analysis module -->
         <!-- textstructure module -->
-        <moduleRef key="textstructure" include="TEI text front body back div salute signed dateline opener closer"/>
+        <moduleRef key="textstructure" include="TEI text front body back div salute signed dateline opener closer postscript"/>
         <elementSpec ident="TEI" mode="change">
           <attList>
             <attDef ident="version" mode="delete"/>

@@ -1,3 +1,4 @@
+<?xml-model href="http://www.masshist.org/publications/pub/schema/codem.0.1alt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
