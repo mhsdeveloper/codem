@@ -4,6 +4,9 @@
 ### Cooperative for Digital Editions at the MHS
 
 
+## This repo is pre-grant and should be considered obsolete.
+
+
 ## Overview
 
 As part of a grant from the NHPRC and Melon to explore building an online publishing cooperative, the MHS is beginning to refactor its existing TEI document publishing platform software. The goal is for the application to be a complete web-based environment for publishing TEI XML documents of historical scholarly texts. It will feature:
